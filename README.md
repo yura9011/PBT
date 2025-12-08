@@ -67,3 +67,32 @@ This Streamlit application is a powerful multi-agent system designed to help you
 
 ### 4. Library
 *   Go to the **"📚 Library"** tab to browse and manage your saved prompts.
+
+## 💻 Developer Reference
+
+### `run_agentic_workflow.py`
+*   `run_workflow`: The main orchestrator that runs the multi-agent workflow, yielding status updates at each step.
+
+### `api_handler.py` (Core Agents)
+*   `agent_analyze_market`: Fetches and analyzes content from a URL to identify market trends.
+*   `agent_generate_concepts`: Generates creative prompt concepts based on a theme and market analysis.
+*   `agent_generate_initial_prompt`: Generates the initial prompt template package based on user input.
+*   `agent_analyze_template`: Reverse engineers a prompt package from a raw template string.
+*   `agent_reverse_engineer_from_image`: Reverse engineers a prompt template from an image using a Vision model.
+*   `agent_evaluate_compliance`: Evaluates a prompt against PromptBase guidelines and scoring criteria.
+*   `agent_refine_prompt`: Refines a prompt template based on evaluation feedback.
+*   `agent_generate_examples`: Generates diverse examples for a given prompt template.
+*   `agent_generate_test_guidance`: Creates a testing guide with quality checklists and troubleshooting tips.
+*   `agent_generate_description`: Generates a commercially optimized marketplace description.
+*   `agent_categorize_prompt`: Assigns a relevant category to the prompt package.
+*   `agent_analyze_trends`: Analyzes aggregated market data to predict future trends.
+*   `agent_normalize_data`: Normalizes unstructured text into structured JSON for the Knowledge Base.
+*   `validate_prompt_title`: Validates the prompt title against patterns of success.
+
+### `utils.py` (Data & Config)
+*   `load_config`: Loads configuration from YAML files.
+*   `initialize_database`: Sets up the SQLite database schema.
+*   `save_prompt_to_db`: Saves a generated prompt package to the local database.
+*   `get_all_prompts_from_db`: Retrieves all saved prompts from the database.
+*   `save_market_data`: Saves market trend data to the Knowledge Base.
+*   `get_all_market_data`: Fetches all market data entries.
