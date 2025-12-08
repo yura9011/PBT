@@ -1,0 +1,2 @@
+database_name: "prompt_library.db"
+default_model: "models/gemini-flash-latest"

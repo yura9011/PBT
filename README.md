@@ -1,72 +1,69 @@
-# PromptBase Template Generator
+# Agentic PromptBase Generator
 
 **Generate high-quality, market-ready prompt templates aligned with PromptBase submission guidelines using Gemini AI.**
 
-This Streamlit application is designed to help you create professional prompt templates for various AI platforms like Midjourney, DALL-E, Stable Diffusion, and more. It leverages the power of the Gemini AI model to generate structured prompt templates tailored for different content types (image, text, video), styles, and use cases.  The application also includes a local prompt library to save and manage your generated templates.
+This Streamlit application is a powerful multi-agent system designed to help you research, ideate, and create professional prompt templates for top AI platforms. It leverages Google's Gemini models to automate the entire workflow, from trend analysis to final prompt generation.
 
-## Features
+## ✨ Key Features
 
-*   **Prompt Template Generation:** Create specialized prompt templates for images, text, and videos using the Gemini AI API.
-*   **Platform Specificity:** Generate templates optimized for different AI platforms (Midjourney, DALL-E, Stable Diffusion, etc.).
-*   **Style and Use Case Customization:** Tailor prompts by specifying content style and intended use case.
-*   **Prompt Validation:**  Includes a built-in quality check to validate generated prompts against PromptBase submission guidelines.
-*   **Example Generation:**  Provides diverse example prompts based on the generated template.
-*   **Usage Tips & Testing Guidance:** Offers helpful tips and testing instructions to ensure high-quality outputs from your prompts.
-*   **Local Prompt Library:** Save and manage your generated prompt templates in a local SQLite database. Browse, view, and organize your prompts within the application.
-*   **Downloadable Prompt Packages:** Export your generated prompts as JSON files to easily share or submit to platforms like PromptBase.
-*   **PromptBase Guidelines:**  Integrated tab to view PromptBase submission guidelines directly within the application.
+*   **📈 Trend Engine:**
+    *   **Market Analysis:** Paste text from articles, blogs, or competitor lists to analyze current market trends.
+    *   **Automated Ideation:** The AI identifies "underserved niches" and suggests high-potential prompt concepts (Topic, Style, Use Case).
+    *   **One-Click Creation:** Instantly turn a trend suggestion into a full prompt package with a single click.
 
-## Installation
+*   **🚀 Advanced Template Generation:**
+    *   **Multi-Platform Support:** Optimized for **Midjourney, DALL-E 3, Imagen 3 (Gemini), Gemini Nano, Sora, Stable Diffusion**, and more.
+    *   **User-Friendly Variables:** Automatically enforces simple, high-level variables (e.g., `[Subject]`, `[Mood]`) while hiding technical complexity, ensuring a great end-user experience.
+    *   **Dynamic Descriptions:** Generates unique, persuasive, and SEO-friendly product descriptions for your marketplace listings.
 
-1.  **Clone the repository (if applicable) or download the `script.py` file.**
-2.  **Install Python Dependencies:**
-    Ensure you have Python 3.7 or higher installed. Then, install the required Python libraries using pip:
+*   **📦 Comprehensive Output:**
+    *   **Prompt Anatomy:** Produces a structured template with fixed technical specs and flexible user variables.
+    *   **Diverse Examples:** Generates 4 distinct, "pleasant," and client-friendly examples to showcase the template's versatility.
+    *   **Quality Evaluation:** Built-in "Reviewer Agent" scores your prompt against PromptBase guidelines and suggests improvements.
 
+*   **📚 Local Library:**
+    *   Save, organize, and manage your generated prompts in a local database.
+    *   Export to JSON or Markdown for easy submission.
+
+## 🛠️ Installation
+
+1.  **Clone the repository.**
+2.  **Install Dependencies:**
     ```bash
-    pip install streamlit google-generativeai
+    pip install -r requirements.txt
     ```
-    You might also need to install `pysqlite3` explicitly if `sqlite3` is not readily available in your Python environment:
-    ```bash
-    pip install pysqlite3
-    ```
+    *(Note: Requires `streamlit`, `google-generativeai`, and standard libraries)*
 
 3.  **Get a Gemini API Key:**
-    *   You need an API key to use the Gemini AI model. 
+    *   Get your key from [Google AI Studio](https://aistudio.google.com/).
 
+## ▶️ How to Run
 
-4.  **Set the Gemini API Key:**
-    *   **Option 1: Streamlit Sidebar Input (For local testing ):**
-        You can enter your Gemini API key in the sidebar input field within the Streamlit application itself when you run it. 
-
-## How to Run the Application
-
-1.  **Navigate to the project directory** in your terminal where you saved `script.py`.
-2.  **Run the Streamlit application** using the command:
-
+1.  Navigate to the project directory.
+2.  Run the application:
     ```bash
-    streamlit run script.py
+    streamlit run main.py
     ```
+3.  Enter your **Gemini API Key** in the sidebar.
 
-## Usage
+## 💡 Usage Guide
 
-The application has three main tabs:
+### 1. The Trend Engine (Recommended Start)
+*   Go to the **"📈 Trend Engine"** tab.
+*   Paste market data (e.g., "Top design trends for 2025") or upload a text file.
+*   Click **"Analyze & Predict Trends"**.
+*   Review the "Predicted Best-Sellers" and click **"✨ Create This"** on any idea you like.
 
-*   **Create Template:**
-    *   **Configuration Sidebar:** Enter your Gemini API key in the sidebar.
-    *   **Prompt Parameters:**  Fill in the input fields for:
-        *   **Prompt Topic:**  The subject of your prompt template (e.g., "Cyberpunk Cityscapes").
-        *   **Content Type:** Select the type of content (Image, Text, Video).
-        *   **AI Platform:** Choose the target AI platform (Midjourney, DALL-E, etc.).
-        *   **Style:** Select a style preference (e.g., "Photorealistic", "Minimalist", "Academic").
-        *   **Primary Use Case:**  Choose the intended application (e.g., "Marketing Materials", "Social Media Content").
-    *   **Generate Button:** Click "Generate Professional Prompt Template" to generate the prompt template.
-    *   **Results Display:** The generated prompt template, variables, examples, tips, validation results, and testing guidance will be displayed in expandable sections.
-    *   **Download Button:** "📥 Download Prompt Package" to download the prompt data as a JSON file.
-    *   **Save to Library Button:** "💾 Save to Library" to save the generated prompt to your local prompt library.
+### 2. The Idea Lab (Manual Creation)
+*   Go to the **"🚀 Create"** tab.
+*   Manually enter your **Topic**, **Content Type**, **Platform**, **Style**, and **Use Case**.
+*   Click **"🚀 Generate Full Prompt Package"**.
 
-*   **Prompt Library:**
-    *   **Browse Saved Prompts:** View a list of your saved prompt templates. Each prompt is initially collapsed for easy browsing.
-    *   **Expand Prompts:** Click on a prompt header to expand and view its full details, including the template, variables, examples, tips, validation, and testing guidance.
+### 3. Review & Export
+*   Go to the **"📦 Results"** tab to see the generated content.
+*   Check the **Compliance Score** and read the **Usage Tips**.
+*   **Export:** Download as JSON/Markdown or copy the template to your clipboard.
+*   **Save:** Click "💾 Save to Library" to store it locally.
 
-*   **Guidelines:**
-    *   **PromptBase Submission Guidelines:** Displays key guidelines for creating successful prompt templates for platforms like PromptBase. Review these guidelines to optimize your prompt templates for marketability.
+### 4. Library
+*   Go to the **"📚 Library"** tab to browse and manage your saved prompts.

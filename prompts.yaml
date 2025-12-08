@@ -1,0 +1,532 @@
+image_meta_prompt: |
+  You are an expert prompt engineer specializing in image generation prompts for {model_platform}, with deep knowledge of visual arts, photography, and design.
+
+  TASK: Create a professional-quality prompt template for generating images of {topic} in {style} style for {use_case}.
+
+  {reference_examples}
+
+  CRITICAL: USER-FRIENDLY VARIABLES ONLY
+  - The end-user is NOT a prompt engineer. They do not know about lighting, lenses, or render engines.
+  - You MUST use simple, high-level variables like [Subject], [Color], [Mood], [Time of Day], [Location].
+  - DO NOT use technical variables like [Camera Lens], [Lighting Technique], [Render Engine], [Aspect Ratio].
+  - HARDCODE the technical excellence into the template. You are responsible for the "magic". The user just provides the "idea".
+
+  PROMPT ANATOMY (Structure your template like this):
+  1. SUBJECT VARIABLE [20%]: Flexible insertion point for the user's subject (Simple variable!).
+  2. CORE STYLE [40%]: Fixed descriptors defining the unique aesthetic. This is the prompt's signature.
+  3. TECHNICAL SPECS [25%]: Medium, composition, rendering style, camera parameters (HARDCODED).
+  4. QUALITY MARKERS [15%]: Resolution, detail level, and finishing touches (HARDCODED).
+
+  EXAMPLE OF A WELL-STRUCTURED TEMPLATE:
+  "[YOUR SUBJECT], watercolor illustration on solid white background, soft painterly edges with delicate color washes, individual elements separated by negative space, artisan quality with subtle gradients, high detail, isolated composition --ar 1:1 --stylize 200"
+
+  OUTPUT REQUIREMENTS:
+  1.  Follow the Prompt Anatomy structure precisely.
+  2.  Use technical, artistic, and photographic terminology in the FIXED parts of the prompt.
+  3.  Use [VARIABLES] for elements that truly impact the image content, but keep them SIMPLE (Exactly 4).
+  4.  Generate 8-10 diverse examples, mixing specific, abstract, and categorical subjects.
+  4.  "technical_tips": A list of strings. Include specific advice on how to use the prompt effectively. Also include 2-3 items from the completeness checklist below as tips (e.g., "Ensure you define the lightning for better results").
+  
+  TECHNICAL COMPLETENESS CHECKLIST (Use these to generate tips, do not copy the list title):
+  - Background treatment specified?
+  - Edge/border handling defined?
+  - Color palette guidance included?
+  - Composition rules stated?
+  - Detail level calibrated?
+  - Output format compatible with stated use cases?
+
+  FORMAT YOUR RESPONSE AS A SINGLE, VALID JSON OBJECT enclosed in ```json ... ```.
+  The JSON object must have the following keys: "template", "description", "variables_explanation", "example_prompts", "technical_tips", "instructions".
+
+
+product_description_prompt: |
+  You are a persuasive copywriter for a premium design marketplace.
+  Your task is to write a compelling product description for a new AI prompt template.
+
+  PROMPT TOPIC: {topic}
+  PROMPT TYPE: {content_type}
+  USE CASES: {use_cases}
+
+  GOAL:
+  - Convince the user that this prompt is the EASIEST way to get professional results.
+  - Highlight that they don't need technical skills.
+  - Focus on the "magic" of the results.
+
+  STRUCTURE (4 Parts):
+  1.  **The Hook**: A captivating opening sentence that promises a specific transformation or result.
+  2.  **The "Magic" Features**: 3 bullet points explaining why this prompt is special (e.g., "Consistent style", "One-click professional lighting", "Versatile for any subject").
+  3.  **Perfect For**: A sentence listing the best use cases.
+  4.  **The Promise**: A final reassuring statement about ease of use.
+
+  TONE:
+  - Professional but accessible.
+  - Encouraging and exciting.
+  - "Premium" feel.
+
+  OUTPUT FORMAT:
+  Return ONLY the description text. Do not include any JSON or markdown formatting blocks around it. Just the raw text.
+
+
+text_meta_prompt: |
+  You are a professional prompt engineer creating premium-quality prompt templates for {model_platform}.
+  Your task is to create a highly sophisticated prompt template for {topic} in {style} style for {use_case}.
+
+  CORE REQUIREMENTS:
+  1. The prompt must be comprehensive enough to justify being sold as a premium template
+  2. Variables must control critical elements that significantly impact output
+  3. Must include specific formatting, structural elements, and technical considerations
+  4. Must generate consistent, high-value outputs that would satisfy paying customers
+  
+  PROMPT STRUCTURE MUST INCLUDE:
+  1. Content Strategy Definition
+     - Target outcome and measurable goals
+     - Content pillars and themes
+     - Brand voice and personality markers
+  
+  2. Technical Specifications
+     - Structural requirements (sections, length, formatting)
+     - Platform-specific optimizations
+     - SEO and engagement elements
+  
+  3. Quality Control Parameters
+     - Success criteria for the output
+     - Required elements checklist
+     - Compliance and brand safety guidelines
+  
+  4. Implementation Guidelines
+     - Specific instructions for each section
+     - Do's and Don'ts for optimal results
+     - Performance optimization tips
+
+  VARIABLES MUST:
+  - Control strategic elements (not just surface-level changes)
+  - Enable significant customization while maintaining quality
+  - Allow for different use cases within the same template
+  - Maximum 4-5 variables for optimal usability
+  - Dont repeat the variables multiple times in the template, need to use 1 time each one.
+
+  FORMAT YOUR RESPONSE AS:
+  
+  ## Prompt Template:
+  [The actual template with strategic variables, use 1 time each variable only]
+
+  ## Variables Explanation:
+  - Detailed explanation of each variable's impact and usage
+
+  ## Example Prompts:
+  [9 diverse examples showing different strategic applications]
+
+  ## Writing Strategy:
+  - Implementation tips for best results
+  - Common pitfalls to avoid
+  - Optimization techniques
+
+  ## Instructions:
+  - Step-by-step usage guidelines
+  - Quality control checklist
+     - Must be specific enough to generate high-quality videos
+     - Must include temporal elements (movement, transitions, etc.)
+
+  2. **VARIABLE LIMITS (CRITICAL)**:
+     - You MUST include between 3 and 5 variables MAX.
+     - PromptBase does NOT accept more than 5 variables.
+     - Variables must be in [SQUARE_BRACKETS].
+
+  3. **EXAMPLE COUNT (CRITICAL)**:
+     - IF PLATFORM IS "Veo 3.1": Provide EXACTLY 4 unique examples. (PromptBase requires exactly 4 for video).
+     - OTHER PLATFORMS: Provide 9 diverse examples.
+
+  4. Include technical specifications (camera movement, lighting, pacing)
+
+  5. **VEO 3.1 SPECIFIC REQUIREMENTS (ONLY IF PLATFORM IS "Veo 3.1"):**
+     - **MANDATORY AUDIO**: The template AND the examples MUST include audio descriptions.
+     - **COUNT**: REMEMBER, EXACTLY 4 EXAMPLES.
+     - **METADATA**: You MUST add a "prompt_metadata" key to the JSON with these exact fields:
+       - "Generation type": "Text to video"
+       - "Veo version": "Veo 3.1"
+       - "Duration": "8 seconds"
+       - "Enhance prompt": "Yes"
+       - "Aspect ratio": "16:9 or 9:16"
+       - "Generate audio": "Yes"
+
+  FORMAT YOUR RESPONSE AS A SINGLE, VALID JSON OBJECT enclosed in ```json ... ```.
+  
+  The JSON object should have the following keys: 
+  - "template": The actual prompt template string with [VARIABLES].
+  - "description": Marketing description for the prompt.
+  - "variables_explanation": Object explaining each variable.
+  - "example_prompts": LIST of 4 strings. EACH string must look like: "Visual description... Audio: [Audio description]..."
+  - "technical_tips": List of tips for best results.
+  - "instructions": Detailed guide for the buyer (Required).
+  - "prompt_metadata": (ONLY FOR Veo 3.1) Object with required metadata.
+
+  IMPORTANT: For Veo 3.1, the "example_prompts" MUST include audio details. Do not generate generic video descriptions.
+
+
+midjourney_image_examples: |
+  REFERENCE EXAMPLES:
+
+  Good Example 1: "Ancient Egyptian temple, low angle view, sandstone architecture, hieroglyphics on pillars, [TIME_OF_DAY] light filtering through columns, [MOOD] atmosphere, detailed carved reliefs, desert landscape visible through entrance, architectural photography, 32mm lens"
+
+
+  Good Example 2: "Retrofuturistic control room, [ERA] technology aesthetic, curved console displays, analog meters and switches, [COLOR_SCHEME] color palette, atmospheric lighting, mid-century modern furniture details, wide-angle composition, technical illustration style"
+  
+
+  Bad Example: "Beautiful hyperrealistic 8K image of a stunning portrait, high quality, best quality, masterpiece, trending on artstation" (Generic terms that don't guide generation)
+
+dalle_image_examples: |
+  REFERENCE EXAMPLES:
+
+  Good Example 1: "Botanical illustration of [PLANT_SPECIES] in the style of 19th century scientific journals, detailed pen and ink technique, labeled anatomical features, delicate watercolor wash in [COLOR_SCHEME], composition on aged parchment, scientifically accurate"
+
+  Good Example 2: "Isometric cityscape of [CITY_TYPE] with distinct architectural styles, 45-degree viewing angle, selective focus on [FOCAL_POINT], morning mist effect, modular building arrangement, detailed infrastructure elements, muted palette with [ACCENT_COLOR] highlights"
+
+  Bad Example: "Stunning 4K ultra detailed cityscape, photorealistic, breathtaking view, high quality, trending" (Lacks specific visual direction)
+
+generic_image_examples: |
+  REFERENCE EXAMPLES:
+
+  Good Example 1: "Stylized character design of [CHARACTER_TYPE], three-quarter view, [ART_STYLE] influence, distinctive silhouette, [COLOR_PALETTE] scheme, subtle texturing on clothing, dynamic pose suggesting personality, clean linework, neutral background with rim lighting"
+
+  Good Example 2: "Atmospheric landscape featuring [LANDSCAPE_ELEMENT], [WEATHER_CONDITION] effects, foreground detail of [FOREGROUND_ELEMENT], receding planes of depth, complimentary color harmony based around [PRIMARY_COLOR], photographic composition with rule of thirds, diffused lighting"
+
+  Bad Example: "Amazing 8K artwork, extremely detailed, beautiful masterpiece, award-winning, trending on artstation" (Generic superlatives without specific direction)
+
+text_examples: |
+  REFERENCE EXAMPLES:
+
+  Good Example 1: "Create a comprehensive guide about [TOPIC] that includes: historical context, key principles, practical applications for [USER_TYPE], common misconceptions, and future developments. Use [TONE] language suitable for [AUDIENCE_EXPERTISE] level readers, with clear subheadings, practical examples, and actionable takeaways."
+
+  Good Example 2: "Write a persuasive [DOCUMENT_TYPE] about [SUBJECT] targeting [SPECIFIC_AUDIENCE]. Structure it with: an attention-grabbing opening using [HOOK_TYPE], three compelling arguments supported by [EVIDENCE_TYPE], anticipation and refutation of [COUNTERARGUMENT], and a call to action that emphasizes [BENEFIT]. Maintain a [TONE] voice throughout."
+
+  Bad Example: "Write a good article about business that is interesting and informative" (Too vague, lacks specific structure and style guidance)
+
+sora_video_examples: |
+  REFERENCE EXAMPLES:
+
+  Good Example 1: "A [DURATION] video of [SUBJECT] with [CAMERA_MOVEMENT] revealing the [SETTING]. [LIGHTING_CONDITION] creates dynamic shadows as the camera [TRANSITION_TYPE] to show [SECONDARY_ELEMENT]. The atmosphere is [MOOD] with [COLOR_GRADE] color treatment. [WEATHER_ELEMENT] adds environmental depth. Camera uses [LENS_TYPE] perspective."
+
+  Good Example 2: "A [TIME_PERIOD] inspired sequence beginning with [OPENING_SHOT] of [LOCATION], transitioning through [TRANSITION_TECHNIQUE] to reveal [SUBJECT] engaged in [ACTION]. Camera [MOVEMENT_TYPE] at [SPEED] while [LIGHTING_CHANGE] occurs. [ATMOSPHERIC_ELEMENT] provides depth as the scene develops toward [CLIMAX_ELEMENT]."
+
+  Bad Example: "Beautiful cinematic video of a city with amazing details and perfect lighting, 8K, hyperrealistic" (Lacks temporal elements and specific visual direction)
+
+generic_video_examples: |
+  REFERENCE EXAMPLES:
+
+  Good Example 1: "A [DURATION] video showing [SUBJECT] with [CAMERA_TECHNIQUE] from [STARTING_PERSPECTIVE] to [ENDING_PERSPECTIVE]. Scene transitions from [OPENING_CONDITION] to [CLOSING_CONDITION] with [LIGHTING_STYLE] creating mood. [MOVEMENT_TYPE] of the subject contrasts with [BACKGROUND_ELEMENT]."
+
+  Good Example 2: "A sequence depicting [EVENT] in [SETTING], beginning with [ESTABLISHING_SHOT] and progressing through [SHOT_SEQUENCE]. [TECHNICAL_EFFECT] emphasizes the [FOCAL_POINT] while [ENVIRONMENTAL_CONDITION] evolves throughout. Camera uses [LENS_CHARACTERISTIC] to achieve [VISUAL_GOAL]."
+
+  Bad Example: "Amazing 4K video with beautiful cinematic quality showing stunning scenery" (Generic terms without specific visual direction or temporal elements)
+
+generic_examples: |
+  REFERENCE EXAMPLES:
+
+  Good Example 1: "Create a specialized template with clear variables controlling specific elements, demonstrated through diverse examples showing substantially different outputs."
+
+  Good Example 2: "Design a versatile template that uses technical terminology specific to the field, with variables that modify meaningful aspects of the output."
+
+  Bad Example: "Make a good template that creates amazing high-quality outputs" (Too vague and uses generic terms)
+
+midjourney_guidelines: |
+  For Midjourney:
+  - Place subject descriptions at the beginning, followed by style, then technical parameters
+  - Use "--ar 16:9" for cinema, "--ar 1:1" for square compositions, "--ar 3:4" for portrait
+  - Specific styles work better with specific values: "--stylize 100" for photorealism, "--stylize 750" for artistic
+  - Use "--chaos 25" for more variability in compositions
+  - Implement "--no" for negative prompts: "--no text, watermarks, blurry elements, distortion"
+  - For lighting, specify: "rim lighting," "golden hour," "split lighting," or "Rembrandt lighting"
+  - Use real photography/art terminology like "shallow depth of field," "Dutch angle," or "impasto technique"
+
+dalle_guidelines: |
+  For DALL-E:
+  - Be specific about artistic style and medium
+  - Describe the subject and composition clearly
+  - Include details about lighting, colors, and mood
+  - Keep prompts concise but descriptive (under 400 characters works best)
+  - Include a time period or art movement for stylistic clarity
+
+stable_diffusion_guidelines: |
+  For Stable Diffusion:
+  - Use weights like (term:1.5) to emphasize certain elements
+  - Include negative prompts with --no parameter
+  - Specify camera details: lens type, distance, angle
+  - Include lighting details and specific render styles
+  - Reference specific artists or art styles for better results
+
+flux_guidelines: |
+  For FLUX:
+  - Specify resolution or aspect ratio in the prompt
+  - Use detailed composition description
+  - Include specific art styles or artist references
+  - Specify camera angle, focal length, and lighting setup
+  - Include mood descriptors for consistent results
+
+sora_guidelines: |
+  For Sora:
+  - Include camera movement descriptions (pan, zoom, tracking)
+  - Specify the duration and pacing of the video
+  - Include scene transitions if applicable
+  - Describe lighting changes and environmental effects
+  - Specify sound/audio elements if they affect visual components
+
+imagen_guidelines: |
+  For Imagen 3 (Gemini):
+  - Focus on natural language descriptions; it understands nuance well.
+  - Excellent at text rendering: specify "text 'YOUR TEXT' written on..." clearly.
+  - Use "photorealistic" or "hyper-realistic" for photo styles.
+  - Specify lighting and texture details (e.g., "soft volumetric lighting", "coarse fabric texture").
+  - Avoid "weird" negative prompts; just describe what you want clearly.
+
+gemini_nano_guidelines: |
+  For Gemini Nano (On-Device):
+  - Keep prompts concise and efficient.
+  - Focus on the main subject and key style descriptors.
+  - Avoid overly complex or multi-step instructions.
+  - Best for quick, specific tasks or simpler image generation requests.
+
+language_model_guidelines: |
+  For Language Models:
+  - Provide clear context and background information
+  - Specify the desired tone, style, and format
+  - Define the target audience clearly
+  - Include structural elements (headings, sections, etc.)
+  - Specify the desired level of detail and technical complexity
+
+general_guidelines: |
+  General Guidelines:
+  - Be specific about artistic style and medium
+  - Include detailed descriptions of the subject matter
+  - Specify composition, lighting, and color palette
+  - Include references to specific techniques or artists if needed
+  - Balance between detail and brevity
+
+agent_quality_evaluation: |
+  You are a strict but fair prompt marketplace reviewer. Evaluate the prompt package against these weighted criteria.
+
+  1. TITLE QUALITY [20 points]
+     - Follows [Descriptor] + [Subject] + [Type] pattern (5 pts)
+     - Includes emotional/visual descriptor (5 pts)
+     - 3-6 words in length (5 pts)
+     - Clearly conveys output type (5 pts)
+  
+  2. TEMPLATE STRUCTURE [30 points]
+     - Subject variable clearly marked (8 pts)
+     - Core style descriptors (40% of prompt) (10 pts)
+     - Technical specifications complete (8 pts)
+     - Consistent with title promise (4 pts)
+  
+  3. VARIABLE EXAMPLES [20 points]
+     - 8-10 diverse examples provided (8 pts)
+     - Mix of specific, abstract, categorical (6 pts)
+     - Examples demonstrate range (6 pts)
+  
+  4. COMMERCIAL VIABILITY [15 points]
+     - Clear use cases identified (5 pts)
+     - Appropriate price tier suggested (5 pts)
+     - Unique value proposition (5 pts)
+  
+  5. DESCRIPTION QUALITY [15 points]
+     - Compelling hook (5 pts)
+     - Technical features listed (5 pts)
+     - Use cases specified (5 pts)
+
+  SCORING:
+  - 90-100: Excellent, marketplace-ready
+  - 75-89: Good, minor refinements needed
+  - 60-74: Needs improvement
+  - <60: Major revision required
+
+  Provide detailed feedback for each criterion and a final total score.
+
+  OUTPUT FORMAT:
+  Your entire response must be a single, valid JSON object enclosed in ```json ... ```.
+  The JSON object must have the following keys:
+  - "scores": An object with a score for each of the 5 criteria.
+  - "total_score": The sum of all scores.
+  - "feedback": A dictionary with detailed text feedback for each criterion.
+  - "priority_improvements": A list of the most critical improvements needed.
+
+idea_generation_meta_prompt: |
+  You are a creative strategist and prompt engineer, expert in identifying underserved niches in crowded marketplaces.
+  Your task is to generate novel prompt ideas based on a market analysis and a user-provided theme.
+
+  MARKET ANALYSIS:
+  {market_analysis}
+
+  USER THEME: {theme}
+
+  INSTRUCTIONS:
+  1.  Review the "popular_categories" and "trending_styles" from the market analysis.
+  2.  Brainstorm how the USER THEME can be applied to these popular categories in a unique way.
+  3.  Create 5 distinct and commercially viable prompt concepts using the structure below.
+
+  CONCEPT STRUCTURE:
+  - "topic": A specific, catchy title following the format: [Emotion/Style Descriptor] + [Subject] + [Format/Type]. (e.g., "Whimsical Watercolor Sets", "Epic Cinematic Scenes").
+  - "description": A brief, compelling description of the prompt idea.
+  - "content_type": The suggested content type ("Image", "Text", or "Video").
+  - "style_descriptors": A list of 2-3 emotional and visual keywords (e.g., ["whimsical", "ethereal", "soft"]).
+  - "use_cases": A list of 3-5 specific, real-world applications (e.g., ["wedding invitations", "product packaging", "social media posts"]).
+  - "unique_angle": A short explanation of what makes this idea stand out from the competition.
+
+  OUTPUT FORMAT:
+  Your entire response must be a single, valid JSON object enclosed in ```json ... ```.
+  The JSON object must have a single key "concepts", which is a list of 5 concept objects, each following the structure defined above.
+
+market_analysis_prompt: |
+  You are a market analyst for a prompt marketplace like PromptBase.
+  Your task is to analyze the provided HTML content from the marketplace's homepage and extract actionable insights.
+  Focus on identifying trends, popular categories, and recurring themes.
+
+  HTML CONTENT:
+  {html_content}
+
+  INSTRUCTIONS:
+  1.  Scan the HTML for text that indicates prompt titles, categories, or tags.
+  2.  Identify the most frequently appearing categories (e.g., "Logo Design", "Stickers", "T-shirt Design", "Photography").
+  3.  Identify recurring themes or styles within the prompt titles (e.g., "Vintage", "Minimalist", "Cyberpunk", "Watercolor").
+  4.  Identify the AI models mentioned most often (e.g., "Midjourney", "DALL-E 3", "Stable Diffusion").
+  5.  Synthesize your findings into a concise market report.
+
+  OUTPUT FORMAT:
+  Your entire response must be a single, valid JSON object enclosed in ```json ... ```.
+  The JSON object must have the following keys:
+  - "popular_categories": A list of the top 5-7 most popular categories you identified.
+  - "trending_styles": A list of 5-7 recurring styles or themes.
+  - "dominant_models": A list of the AI models that appear to be most popular.
+  - "summary": A brief, 2-3 sentence summary of the current market landscape based on the data.
+
+prompt_categories: [
+  "Art & Illustration",
+  "Logos & Icons",
+  "Graphics & Design",
+  "Photography & Cinematics",
+  "3D & Sculpting",
+  "Patterns & Textures",
+  "Coloring Pages & KDP",
+  "Productivity & Writing",
+  "Marketing & Business",
+  "Gaming & Assets",
+  "Fashion & Apparel",
+  "Architecture & Interior Design"
+]
+
+agent_categorize_prompt: |
+  You are an expert librarian for an AI prompt marketplace.
+  Your task is to assign a single, most appropriate category to the given prompt package.
+
+  PROMPT TITLE: {prompt_title}
+  PROMPT DESCRIPTION: {prompt_description}
+  PROMPT TEMPLATE: {prompt_template}
+
+  AVAILABLE CATEGORIES:
+  {category_list}
+
+  INSTRUCTIONS:
+  1. Read the title, description, and template to understand the prompt's core purpose.
+  2. Compare its purpose against the list of available categories.
+  3. Select the ONE category that best fits the prompt.
+  4. Your response MUST be only the name of the category you chose, and nothing else.
+
+  Example Response:
+  Photography & Cinematics
+
+
+trend_analysis_prompt: |
+  You are a Market Trend Analyst for an AI Prompt Marketplace.
+  Your task is to analyze raw market data (text, articles, or lists of popular items) and predict the next best-selling prompt concepts.
+
+  MARKET DATA:
+  {market_data}
+
+  INSTRUCTIONS:
+  1.  Identify recurring themes, styles, and subjects in the data.
+  2.  Look for "gaps" or "underserved niches" where demand is high but supply might be low.
+  3.  Synthesize this into 5 specific, high-potential prompt concepts.
+  4.  Each concept must include a Topic, a Style, and a Primary Use Case.
+
+  OUTPUT FORMAT:
+  Return a JSON object with a single key "trends".
+  The value of "trends" must be a list of 5 objects, each with:
+  - "topic": A catchy, descriptive title (e.g., "Neon Noir Street Food").
+  - "style": Key visual descriptors (e.g., "Cyberpunk, High Contrast").
+  - "use_case": The best commercial application (e.g., "T-Shirt Design").
+  - "reasoning": Why this will sell (1 sentence).
+
+  Ensure the output is valid JSON.
+
+
+reverse_engineer_image_prompt: |
+  You are an expert Prompt Engineer and Visual Stylist.
+  Your task is to REVERSE-ENGINEER the uploaded image into a high-quality text-to-image prompt template.
+
+  GOAL: Create a reusable template that would generate images with the same STYLE and COMPOSITION, but allows the user to change the SUBJECT.
+
+  INSTRUCTIONS:
+  1.  **Analyze the Image:** Identify the core subject, art style (e.g., watercolor, 3D render, photo), lighting, color palette, and composition.
+  2.  **Create a Template:** Write a prompt where the SUBJECT is a variable like [SUBJECT].
+  3.  **Identify Variables:** You MUST identify EXACTLY 4 distinct variables (e.g., [SUBJECT], [COLOR], [LOCATION], [MOOD]). NOT 3, NOT 5. EXACTLY 4.
+  4.  **Extract Style:** HARDCODE the style descriptors. The user shouldn't have to guess the style.
+  5.  **Use Case:** Suggest a commercial use case for this style (e.g., "Podcast Cover", "T-Shirt Design").
+
+  OUTPUT FORMAT:
+  Return a single Valid JSON object with these keys:
+  - "topic": A creative title for this style (e.g., "Neon Noir Portraits").
+  - "style": A list of 3-4 style keywords.
+  - "use_case": A specific commercial application.
+  - "template": The prompt template string with [VARIABLES].
+  - "variables_explanation": A dictionary explaining what each variable controls.
+  - "description": A short marketing description.
+  - "technical_tips": A list of 2-3 tips for using this template.
+  - "example_prompts": A list of 4 example prompts (strings) derived from your template (filling in variables).
+
+  Ensure your response is ONLY the JSON object.
+
+reverse_engineer_meta_prompt: |
+  You are an expert Prompt Engineer.
+  Your task is to REVERSE-ENGINEER the provided prompt template into a standardized prompt package.
+
+  INPUT TEMPLATE:
+  {template}
+
+  GOAL:
+  Analyze the structure, variables, and style of the input template and organize it into a clean JSON structure.
+
+  INSTRUCTIONS:
+  1.  **Analyze**: Identify the variables (e.g., [SUBJECT]), the fixed style descriptors, and the intended use case.
+  2.  **Extract Variables**: List all variables found in the template.
+  3.  **Variable Explanations**: Provide a short 1-sentence explanation for what each variable controls.
+  4.  **Style & Tone**: Summarize the artistic style and tone of the prompt.
+  5.  **Use Case**: Define the primary commercial application.
+  6.  **Examples**: Generate 4 diverse examples using the template.
+
+  OUTPUT FORMAT:
+  Return a single Valid JSON object with these keys:
+  - "topic": A creative title for this prompt concept.
+  - "content_type": Infer from template ("Image", "Text", "Video").
+  - "platform": Infer target platform (e.g., "Midjourney", "ChatGPT") or "General".
+  - "style": A list of style keywords.
+  - "use_case": The primary commercial application.
+  - "variables_explanation": Dictionary of variable explanations.
+  - "description": A short marketing description.
+  - "technical_tips": A list of 2-3 tips for success with this prompt.
+  - "example_prompts": A list of 4 example strings.
+
+  Ensure your response is ONLY the JSON object.
+
+data_normalization_prompt: |
+  You are a Data Structuring Expert.
+  Your task is to convert the following unstructured text into clean, structured JSON.
+
+  RAW TEXT:
+  {raw_text}
+
+  INSTRUCTIONS:
+  1. Analyze the text to identify distinct items (products, articles, entries).
+  2. Extract key details for each item. Common fields might include: "Title", "Price", "Description", "Source", "Date", "Author".
+  3. If a field is not present, omit it or use null.
+  4. Ensure the output is a valid JSON object.
+
+  OUTPUT FORMAT:
+  Return ONLY a valid JSON object with a single key "items".
+  "items": A list of objects, where each object represents one item found in the text.
