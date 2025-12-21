@@ -1,0 +1,26 @@
+{
+    "popular_categories": [
+        "Art & Illustration",
+        "Photography & Portraits",
+        "Holiday/Seasonal Content (Christmas/Winter)",
+        "Design & Graphics (Posters, Logos, Mockups)",
+        "Printable/Digital Assets (Coloring Books, Junk Journals)",
+        "Games & 3D"
+    ],
+    "trending_styles": [
+        "Midjourney-Specific Art Styles",
+        "Retro / Vintage Aesthetics",
+        "Surrealism / Psychedelic Art",
+        "Line Art / Ink Illustrations",
+        "Junk Journal / Collage Art",
+        "Kawaii / Cute Animals"
+    ],
+    "dominant_models": [
+        "Midjourney (Overwhelmingly dominant for visual prompts)",
+        "ChatGPT Image (Strong second place)",
+        "Gemini Image",
+        "Google Imagen",
+        "Veo (Emerging video model)"
+    ],
+    "summary": "The PromptBase marketplace is highly active, boasting 220,000+ prompts and a large user base focused predominantly on high-quality image generation via Midjourney. Current trending content highlights a strong commercial interest in creating niche digital products, such as holiday-themed coloring books, stylized portraits, and printable junk journal assets, often utilizing specific artistic styles like retro surrealism and detailed line art."
+}

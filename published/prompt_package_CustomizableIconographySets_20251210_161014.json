@@ -1,0 +1,163 @@
+{
+    "topic": "Customizable Iconography Sets",
+    "content_type": "Image",
+    "platform": "Gemini Nano",
+    "style": "3D Claymation Style, Soft Lighting, Pastel Palette, Isometric View",
+    "use_case": "Web UI/UX Design Assets",
+    "template": "A set of [Subject] icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious [Palette Emphasis] pastel color palette, radiating an [Overall Mood] aesthetic, designed as UI/UX assets for a [Context/Application], with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality.",
+    "variables": [
+        "Context/Application",
+        "Subject",
+        "Overall Mood",
+        "Palette Emphasis"
+    ],
+    "variable_explanations": {
+        "Subject": "Define the core theme or category of the icons (e.g., 'social media', 'weather forecasting', 'productivity tools', 'fantasy creatures'). Be specific to guide the AI effectively.",
+        "Palette Emphasis": "Guide the pastel color scheme to match a desired aesthetic (e.g., 'warm pastels', 'cool pastels', 'earthy pastels', 'vibrant pastels', 'muted pastels'). This refines the overall color feel of the set.",
+        "Overall Mood": "Set the emotional tone or feeling for the icon set (e.g., 'playful', 'professional', 'calm', 'energetic', 'futuristic', 'whimsical'). This influences the shapes, expressions, and overall character.",
+        "Context/Application": "Specify where these icons might be used or their thematic domain (e.g., 'for a mobile app dashboard', 'for a website footer', 'representing data analytics', 'for an educational platform', 'for a gaming interface'). This helps contextualize the icon design for its intended purpose."
+    },
+    "examples": [
+        {
+            "variables": {
+                "Context/Application": "Educational Kids App",
+                "Subject": "Friendly Zoo Animals",
+                "Overall Mood": "Whimsical and Playful",
+                "Palette Emphasis": "Sweet Candy Colors"
+            },
+            "prompt": "A set of Friendly Zoo Animals icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious Sweet Candy Colors pastel color palette, radiating an Whimsical and Playful aesthetic, designed as UI/UX assets for a Educational Kids App, with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality."
+        },
+        {
+            "variables": {
+                "Context/Application": "Mindfulness Meditation Guide",
+                "Subject": "Zen Garden Elements",
+                "Overall Mood": "Calm and Serene",
+                "Palette Emphasis": "Dreamy Lavender and Mint"
+            },
+            "prompt": "A set of Zen Garden Elements icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious Dreamy Lavender and Mint pastel color palette, radiating an Calm and Serene aesthetic, designed as UI/UX assets for a Mindfulness Meditation Guide, with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality."
+        },
+        {
+            "variables": {
+                "Context/Application": "Healthy Eating Blog",
+                "Subject": "Delicious Garden Vegetables",
+                "Overall Mood": "Cozy and Inviting",
+                "Palette Emphasis": "Fresh Spring Greens"
+            },
+            "prompt": "A set of Delicious Garden Vegetables icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious Fresh Spring Greens pastel color palette, radiating an Cozy and Inviting aesthetic, designed as UI/UX assets for a Healthy Eating Blog, with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality."
+        },
+        {
+            "variables": {
+                "Context/Application": "Adventure Travel Planning App",
+                "Subject": "Iconic World Landmarks",
+                "Overall Mood": "Energetic and Joyful",
+                "Palette Emphasis": "Vibrant Tropical Shades"
+            },
+            "prompt": "A set of Iconic World Landmarks icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious Vibrant Tropical Shades pastel color palette, radiating an Energetic and Joyful aesthetic, designed as UI/UX assets for a Adventure Travel Planning App, with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality."
+        },
+        {
+            "variables": {
+                "Context/Application": "Pet Care Service Website",
+                "Subject": "Adorable Domestic Pets",
+                "Overall Mood": "Charming and Sweet",
+                "Palette Emphasis": "Warm Earth Tones"
+            },
+            "prompt": "A set of Adorable Domestic Pets icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious Warm Earth Tones pastel color palette, radiating an Charming and Sweet aesthetic, designed as UI/UX assets for a Pet Care Service Website, with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality."
+        },
+        {
+            "variables": {
+                "Context/Application": "Home Decor E-commerce",
+                "Subject": "Abstract Geometric Shapes",
+                "Overall Mood": "Dreamy and Ethereal",
+                "Palette Emphasis": "Muted Desert Colors"
+            },
+            "prompt": "A set of Abstract Geometric Shapes icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious Muted Desert Colors pastel color palette, radiating an Dreamy and Ethereal aesthetic, designed as UI/UX assets for a Home Decor E-commerce, with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality."
+        },
+        {
+            "variables": {
+                "Context/Application": "Creative Hobby Platform",
+                "Subject": "Art and Craft Supplies",
+                "Overall Mood": "Curious and Exploratory",
+                "Palette Emphasis": "Sunny Citrus Brights"
+            },
+            "prompt": "A set of Art and Craft Supplies icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious Sunny Citrus Brights pastel color palette, radiating an Curious and Exploratory aesthetic, designed as UI/UX assets for a Creative Hobby Platform, with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality."
+        },
+        {
+            "variables": {
+                "Context/Application": "Sustainable Living Website",
+                "Subject": "Eco-Friendly Symbols",
+                "Overall Mood": "Fresh and Clean",
+                "Palette Emphasis": "Cool Ocean Hues"
+            },
+            "prompt": "A set of Eco-Friendly Symbols icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious Cool Ocean Hues pastel color palette, radiating an Fresh and Clean aesthetic, designed as UI/UX assets for a Sustainable Living Website, with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality."
+        },
+        {
+            "variables": {
+                "Context/Application": "Interactive Storytelling App",
+                "Subject": "Classic Fairy Tale Characters",
+                "Overall Mood": "Warm and Nostalgic",
+                "Palette Emphasis": "Autumn Harvest Golds"
+            },
+            "prompt": "A set of Classic Fairy Tale Characters icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious Autumn Harvest Golds pastel color palette, radiating an Warm and Nostalgic aesthetic, designed as UI/UX assets for a Interactive Storytelling App, with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality."
+        }
+    ],
+    "tips": [
+        "**Refine your 'Subject':** Be as specific as possible with the `[Subject]` variable. Instead of 'food', try 'healthy food icons' or 'dessert icons' for more precise results. This helps the AI understand the distinct elements you expect in the icon set.",
+        "**Leverage 'Palette Emphasis':** The `[Palette Emphasis]` variable is your primary tool for tailoring the pastel hues. Experiment with descriptors like 'earthy pastels', 'vibrant pastels', or 'muted pastels' to achieve different color moods and align with your brand's aesthetic.",
+        "**Context is King:** Use the `[Context/Application]` variable to provide additional thematic guidance. For instance, specifying 'for a dark mode app' might subtly influence the AI to generate icons that inherently suggest better contrast, even though the default background is white. This helps the AI understand the *purpose* and *environment* for the icons.",
+        "**Background Consistency:** The template is optimized for UI/UX assets with a clean white background isolation. This ensures maximum versatility and easy integration into various design systems without requiring manual background removal or complex masking.",
+        "**Icon Set vs. Scene:** Remember you are generating a *set of icons*. The AI will create individual, thematically related elements suitable for iconography, rather than a single complex illustrative scene. Focus on the distinct items you want to be represented as separate icons."
+    ],
+    "description": "This template generates high-quality, customizable iconography sets in a delightful 3D claymation style, perfectly suited for modern Web UI/UX design. It leverages soft, diffuse lighting, a gentle pastel palette, and a consistent isometric view to create assets that are both visually appealing and highly functional. The core aesthetic is meticulously hardcoded to ensure consistent excellence, allowing the user to focus solely on their creative vision.",
+    "instructions": "To generate your custom iconography set, simply fill in the four bracketed variables: `[Subject]`, `[Palette Emphasis]`, `[Overall Mood]`, and `[Context/Application]`. Be clear and concise in your descriptions. The rest of the prompt is pre-optimized for a professional, 3D claymation style with soft lighting and pastel colors, perfect for high-quality UI/UX assets.",
+    "raw_response": "```json\n{\n  \"template\": \"A set of [Subject] icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious [Palette Emphasis] pastel color palette, radiating an [Overall Mood] aesthetic, designed as UI/UX assets for a [Context/Application], with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality.\",\n  \"description\": \"This template generates high-quality, customizable iconography sets in a delightful 3D claymation style, perfectly suited for modern Web UI/UX design. It leverages soft, diffuse lighting, a gentle pastel palette, and a consistent isometric view to create assets that are both visually appealing and highly functional. The core aesthetic is meticulously hardcoded to ensure consistent excellence, allowing the user to focus solely on their creative vision.\",\n  \"variables_explanation\": {\n    \"Subject\": \"Define the core theme or category of the icons (e.g., 'social media', 'weather forecasting', 'productivity tools', 'fantasy creatures'). Be specific to guide the AI effectively.\",\n    \"Palette Emphasis\": \"Guide the pastel color scheme to match a desired aesthetic (e.g., 'warm pastels', 'cool pastels', 'earthy pastels', 'vibrant pastels', 'muted pastels'). This refines the overall color feel of the set.\",\n    \"Overall Mood\": \"Set the emotional tone or feeling for the icon set (e.g., 'playful', 'professional', 'calm', 'energetic', 'futuristic', 'whimsical'). This influences the shapes, expressions, and overall character.\",\n    \"Context/Application\": \"Specify where these icons might be used or their thematic domain (e.g., 'for a mobile app dashboard', 'for a website footer', 'representing data analytics', 'for an educational platform', 'for a gaming interface'). This helps contextualize the icon design for its intended purpose.\"\n  },\n  \"example_prompts\": [\n    \"A set of social media icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious warm pastels pastel color palette, radiating an playful aesthetic, designed as UI/UX assets for a mobile app dashboard, with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality.\",\n    \"A set of financial services icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious cool pastels pastel color palette, radiating an professional aesthetic, designed as UI/UX assets for a corporate website, with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality.\",\n    \"A set of nature and ecology icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious earthy pastels pastel color palette, radiating an calm aesthetic, designed as UI/UX assets for an environmental awareness campaign, with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality.\",\n    \"A set of smart home device icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious muted pastels pastel color palette, radiating an modern aesthetic, designed as UI/UX assets for a smart home control panel, with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality.\",\n    \"A set of abstract data analytics icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious vibrant pastels pastel color palette, radiating an energetic aesthetic, designed as UI/UX assets for a business intelligence dashboard, with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality.\",\n    \"A set of cooking and recipe icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious warm pastels pastel color palette, radiating an cozy aesthetic, designed as UI/UX assets for a culinary blog, with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality.\",\n    \"A set of space exploration icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious cool pastels pastel color palette, radiating an wondrous aesthetic, designed as UI/UX assets for a science education app, with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality.\",\n    \"A set of retro gaming icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious vibrant pastels pastel color palette, radiating an nostalgic aesthetic, designed as UI/UX assets for a gaming platform, with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality.\",\n    \"A set of health and wellness icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious soft pastels pastel color palette, radiating an serene aesthetic, designed as UI/UX assets for a meditation app, with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality.\",\n    \"A set of travel and tourism icons, in charming 3D claymation style, each icon meticulously sculpted with soft, rounded edges and a matte finish, presented in an isometric perspective with a subtle 30-degree tilt, bathed in gentle, diffuse ambient lighting, utilizing a harmonious bright pastels pastel color palette, radiating an adventurous aesthetic, designed as UI/UX assets for a travel booking website, with clean white background isolation, precise shadow casting for depth, smooth volumetric forms, and a slightly exaggerated, friendly cartoonish quality, ultra-high resolution, studio photography grade detail, pristine rendering, vector-like clarity, professional graphic design asset quality.\"\n  ],\n  \"technical_tips\": [\n    \"**Refine your 'Subject':** Be as specific as possible with the `[Subject]` variable. Instead of 'food', try 'healthy food icons' or 'dessert icons' for more precise results. This helps the AI understand the distinct elements you expect in the icon set.\",\n    \"**Leverage 'Palette Emphasis':** The `[Palette Emphasis]` variable is your primary tool for tailoring the pastel hues. Experiment with descriptors like 'earthy pastels', 'vibrant pastels', or 'muted pastels' to achieve different color moods and align with your brand's aesthetic.\",\n    \"**Context is King:** Use the `[Context/Application]` variable to provide additional thematic guidance. For instance, specifying 'for a dark mode app' might subtly influence the AI to generate icons that inherently suggest better contrast, even though the default background is white. This helps the AI understand the *purpose* and *environment* for the icons.\",\n    \"**Background Consistency:** The template is optimized for UI/UX assets with a clean white background isolation. This ensures maximum versatility and easy integration into various design systems without requiring manual background removal or complex masking.\",\n    \"**Icon Set vs. Scene:** Remember you are generating a *set of icons*. The AI will create individual, thematically related elements suitable for iconography, rather than a single complex illustrative scene. Focus on the distinct items you want to be represented as separate icons.\"\n  ],\n  \"instructions\": \"To generate your custom iconography set, simply fill in the four bracketed variables: `[Subject]`, `[Palette Emphasis]`, `[Overall Mood]`, and `[Context/Application]`. Be clear and concise in your descriptions. The rest of the prompt is pre-optimized for a professional, 3D claymation style with soft lighting and pastel colors, perfect for high-quality UI/UX assets.\"\n}\n```",
+    "title_validation": {
+        "score": 0.5,
+        "issues": [
+            "Missing emotional/visual descriptor",
+            "Missing format/type specification"
+        ],
+        "suggestions": [
+            "Consider: vibrant, dreamy, cozy, cinematic, ethereal",
+            "Add: photo, cover, poster, design, landscape"
+        ]
+    },
+    "evaluation": {
+        "scores": {
+            "TITLE QUALITY": 20,
+            "TEMPLATE STRUCTURE": 30,
+            "VARIABLE EXAMPLES": 20,
+            "COMMERCIAL VIABILITY": 15,
+            "DESCRIPTION QUALITY": 15
+        },
+        "total_score": 100,
+        "feedback": {
+            "TITLE QUALITY": "Excellent. The title 'Vibrant Watercolor Illustrations' perfectly adheres to the [Descriptor] + [Subject] + [Type] pattern. 'Vibrant' serves as a strong emotional and visual descriptor, and the title is concise at 3 words. It clearly communicates the output type as 'Illustrations'. This title is highly effective and marketplace-ready.",
+            "TEMPLATE STRUCTURE": "Outstanding. The subject variable '{subject}' is unequivocally marked. The prompt dedicates a substantial portion (well over 40%) to core style descriptors, ensuring strong artistic control and consistency with the 'vibrant watercolor' aesthetic, detailing brushstrokes, layering, washes, and a 'children's book art' quality. Technical specifications (`--ar 16:9 --style raw --v 5.2`) are complete and correctly formatted for Midjourney. The template is in perfect alignment with the title's promise.",
+            "VARIABLE EXAMPLES": "Exceptional. Ten diverse examples are provided, meeting the quantity requirement. The mix includes specific subjects ('A whimsical forest fairy', 'A cozy reading nook with a cat'), categorical types ('An ancient dragon', 'A bustling city market'), and even an abstract element ('Abstract geometric patterns'), demonstrating a wide range of potential applications. These examples effectively showcase the prompt's versatility while maintaining the core watercolor style.",
+            "COMMERCIAL VIABILITY": "Strong. The identified use cases – children's book illustrations, greeting cards, wall art, digital stickers, game assets – are clear, appropriate, and well-targeted for the prompt's aesthetic. The suggested mid-tier price range ($4.99 - $9.99) is justified given the high quality and specific niche. The unique value proposition, emphasizing consistent, high-quality whimsical watercolor art with specific control over brushwork and dreamlike quality, is compelling and clearly differentiates the offering.",
+            "DESCRIPTION QUALITY": "Excellent. The description opens with a compelling hook: 'Unleash the magic of watercolors with this exquisite prompt package, designed to transform your ideas into stunning, vibrant illustrations!' This immediately engages the user. Key technical features are clearly listed, including resolution, artistic elements (dynamic brushstrokes, pigment layering), and optimization details (Midjourney v5.2, aspect ratio). The use cases are comprehensively specified, targeting a broad yet relevant audience (authors, illustrators, designers, educators) and their specific needs."
+        },
+        "priority_improvements": [
+            "No critical improvements are needed. This prompt package is exemplary and ready for immediate marketplace listing."
+        ]
+    },
+    "test_guidance": {
+        "test_instructions": [
+            "Fill in each variable with different values to test versatility.",
+            "Try using the first example prompt exactly as written as your baseline.",
+            "Test at least 3-5 different variations to ensure consistent style."
+        ],
+        "quality_checklist": [
+            "Style Consistency: Does the style remain consistent?",
+            "Composition: Does the output match your compositional expectations?",
+            "Visual Quality: Is the output high-quality?",
+            "Variable Impact: Does changing variables produce meaningful differences?"
+        ],
+        "common_issues": [
+            "Subject distortion or anatomical problems.",
+            "Style 'bleeding' or inconsistency."
+        ]
+    },
+    "commercial_description": "Imagine effortlessly crafting unique, professional iconography sets that perfectly reflect your brand's vision, without ever opening a design tool.\n\n*   **Achieve Pixel-Perfect Consistency:** Every icon is generated with a unified style, scale, and visual language, ensuring a cohesive aesthetic across all your designs.\n*   **Limitless Customization at Your Fingertips:** Effortlessly adapt themes, colors, and even specific elements to perfectly align with your brand's unique identity and project requirements.\n*   **Instant Professional Polish:** Generate high-resolution, production-ready icons that look like they were crafted by a senior designer, all with minimal input and zero technical hassle.\n\nIdeal for web designers, app developers, marketers, content creators, and entrepreneurs seeking to elevate their visual branding with distinctive, high-quality icons.\n\nUnlock the power of custom design without the learning curve. This prompt is your secret weapon for creating stunning iconography sets, no design experience required.",
+    "category": "Logos & Icons"
+}

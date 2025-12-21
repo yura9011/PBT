@@ -1,0 +1,166 @@
+{
+    "topic": "The Elegant Dark Manga Triptych Art",
+    "content_type": "Image",
+    "platform": "Midjourney/DALL-E",
+    "style": "traditional pen and ink sketch, heavy cross-hatching, monochromatic triptych, elegant dark manga style",
+    "use_case": "Graphic Novel or Comic Book Chapter Headers / Literary Magazine Illustration",
+    "template": "A vertical three-panel triptych illustration, depicting a close-up of [SUBJECT], shown in three distinct dramatic poses highlighting [MOOD_AND_ACTION]. The composition uses heavy black frames like a dark manga storyboard. Focus on elegant details like [SETTING_DETAIL]. Traditional high-contrast pen and ink sketch, heavy cross-hatching and deep shadows, on a textured [PAPER_COLOR] background. Moody, delicate line art.",
+    "variables": [
+        "PAPER_COLOR",
+        "SETTING_DETAIL",
+        "MOOD_AND_ACTION",
+        "SUBJECT"
+    ],
+    "variable_explanations": {
+        "SUBJECT": "The main focus of the panels (e.g., A stoic samurai, A medieval vampire, A cyborg assassin).",
+        "MOOD_AND_ACTION": "The emotional core and movement depicted across the panels (e.g., intense scrutiny and slow-motion fear, melancholic gaze and adjusting a glove, quiet determination and deep exhaustion).",
+        "SETTING_DETAIL": "Specific visual details to enrich the subject's appearance or context (e.g., a ruffled collar and antique jewelry, torn fabric and mechanical components, ancient runes and a serpent motif).",
+        "PAPER_COLOR": "Controls the background and ink color tone (e.g., aged parchment, crisp white, light sepia, vintage cream)."
+    },
+    "examples": [
+        {
+            "variables": {
+                "PAPER_COLOR": "Aged Vellum",
+                "SETTING_DETAIL": "Moisture beading on forest leaves",
+                "MOOD_AND_ACTION": "Tense alertness and sudden retreat",
+                "SUBJECT": "A lone wolf"
+            },
+            "prompt": "A vertical three-panel triptych illustration, depicting a close-up of A lone wolf, shown in three distinct dramatic poses highlighting Tense alertness and sudden retreat. The composition uses heavy black frames like a dark manga storyboard. Focus on elegant details like Moisture beading on forest leaves. Traditional high-contrast pen and ink sketch, heavy cross-hatching and deep shadows, on a textured Aged Vellum background. Moody, delicate line art."
+        },
+        {
+            "variables": {
+                "PAPER_COLOR": "Light Sepia",
+                "SETTING_DETAIL": "Frayed silk cuff of a costume",
+                "MOOD_AND_ACTION": "Graceful extension and powerful grip",
+                "SUBJECT": "A dancer's hand"
+            },
+            "prompt": "A vertical three-panel triptych illustration, depicting a close-up of A dancer's hand, shown in three distinct dramatic poses highlighting Graceful extension and powerful grip. The composition uses heavy black frames like a dark manga storyboard. Focus on elegant details like Frayed silk cuff of a costume. Traditional high-contrast pen and ink sketch, heavy cross-hatching and deep shadows, on a textured Light Sepia background. Moody, delicate line art."
+        },
+        {
+            "variables": {
+                "PAPER_COLOR": "Charcoal Gray",
+                "SETTING_DETAIL": "Fine dust motes caught in the light",
+                "MOOD_AND_ACTION": "The moment of unfurling and fading",
+                "SUBJECT": "A blooming rose"
+            },
+            "prompt": "A vertical three-panel triptych illustration, depicting a close-up of A blooming rose, shown in three distinct dramatic poses highlighting The moment of unfurling and fading. The composition uses heavy black frames like a dark manga storyboard. Focus on elegant details like Fine dust motes caught in the light. Traditional high-contrast pen and ink sketch, heavy cross-hatching and deep shadows, on a textured Charcoal Gray background. Moody, delicate line art."
+        },
+        {
+            "variables": {
+                "PAPER_COLOR": "Cream",
+                "SETTING_DETAIL": "Scratches etched onto the brass casing",
+                "MOOD_AND_ACTION": "Silent determination and spinning confusion",
+                "SUBJECT": "An antique compass"
+            },
+            "prompt": "A vertical three-panel triptych illustration, depicting a close-up of An antique compass, shown in three distinct dramatic poses highlighting Silent determination and spinning confusion. The composition uses heavy black frames like a dark manga storyboard. Focus on elegant details like Scratches etched onto the brass casing. Traditional high-contrast pen and ink sketch, heavy cross-hatching and deep shadows, on a textured Cream background. Moody, delicate line art."
+        },
+        {
+            "variables": {
+                "PAPER_COLOR": "Dusty Beige",
+                "SETTING_DETAIL": "Rivets on worn leather armor",
+                "MOOD_AND_ACTION": "Stoic contemplation and fierce battle cry",
+                "SUBJECT": "A warrior's face"
+            },
+            "prompt": "A vertical three-panel triptych illustration, depicting a close-up of A warrior's face, shown in three distinct dramatic poses highlighting Stoic contemplation and fierce battle cry. The composition uses heavy black frames like a dark manga storyboard. Focus on elegant details like Rivets on worn leather armor. Traditional high-contrast pen and ink sketch, heavy cross-hatching and deep shadows, on a textured Dusty Beige background. Moody, delicate line art."
+        },
+        {
+            "variables": {
+                "PAPER_COLOR": "Pale Blue",
+                "SETTING_DETAIL": "Intricate carvings on a stone perch",
+                "MOOD_AND_ACTION": "Cunning observation and swift flight",
+                "SUBJECT": "A mythological raven"
+            },
+            "prompt": "A vertical three-panel triptych illustration, depicting a close-up of A mythological raven, shown in three distinct dramatic poses highlighting Cunning observation and swift flight. The composition uses heavy black frames like a dark manga storyboard. Focus on elegant details like Intricate carvings on a stone perch. Traditional high-contrast pen and ink sketch, heavy cross-hatching and deep shadows, on a textured Pale Blue background. Moody, delicate line art."
+        },
+        {
+            "variables": {
+                "PAPER_COLOR": "Warm Off-White",
+                "SETTING_DETAIL": "Salt spray catching the moonlight",
+                "MOOD_AND_ACTION": "Crashing through waves and resting in calm",
+                "SUBJECT": "A sailing ship's bow"
+            },
+            "prompt": "A vertical three-panel triptych illustration, depicting a close-up of A sailing ship's bow, shown in three distinct dramatic poses highlighting Crashing through waves and resting in calm. The composition uses heavy black frames like a dark manga storyboard. Focus on elegant details like Salt spray catching the moonlight. Traditional high-contrast pen and ink sketch, heavy cross-hatching and deep shadows, on a textured Warm Off-White background. Moody, delicate line art."
+        },
+        {
+            "variables": {
+                "PAPER_COLOR": "Soft Yellow",
+                "SETTING_DETAIL": "Shadows cast by Venetian blinds",
+                "MOOD_AND_ACTION": "Deep relaxation and sudden stretching",
+                "SUBJECT": "A sleeping feline"
+            },
+            "prompt": "A vertical three-panel triptych illustration, depicting a close-up of A sleeping feline, shown in three distinct dramatic poses highlighting Deep relaxation and sudden stretching. The composition uses heavy black frames like a dark manga storyboard. Focus on elegant details like Shadows cast by Venetian blinds. Traditional high-contrast pen and ink sketch, heavy cross-hatching and deep shadows, on a textured Soft Yellow background. Moody, delicate line art."
+        },
+        {
+            "variables": {
+                "PAPER_COLOR": "Bright White",
+                "SETTING_DETAIL": "Ink stains spreading across the desktop",
+                "MOOD_AND_ACTION": "Intense focus and frustrated crumpling of paper",
+                "SUBJECT": "A poet writing"
+            },
+            "prompt": "A vertical three-panel triptych illustration, depicting a close-up of A poet writing, shown in three distinct dramatic poses highlighting Intense focus and frustrated crumpling of paper. The composition uses heavy black frames like a dark manga storyboard. Focus on elegant details like Ink stains spreading across the desktop. Traditional high-contrast pen and ink sketch, heavy cross-hatching and deep shadows, on a textured Bright White background. Moody, delicate line art."
+        }
+    ],
+    "tips": [
+        "Use a high aspect ratio (e.g., 2:3 or 9:16) to ensure the vertical triptych composition is rendered correctly.",
+        "For maximum contrast, use 'crisp white' or 'light sepia' for the PAPER_COLOR. Avoid strong colors.",
+        "Be specific with the MOOD_AND_ACTION variable to guide the facial expressions and hand positions in each panel."
+    ],
+    "description": "Capture intricate drama and intense mood using this template inspired by classic, high-contrast gothic sketching and Japanese horror manga. Perfect for creating sequential art headers or highly stylized character studies.",
+    "instructions": "Use this template to generate similar images.",
+    "input_source": "image_upload",
+    "title_validation": {
+        "score": 0.75,
+        "issues": [
+            "Missing format/type specification"
+        ],
+        "suggestions": [
+            "Add: wallpaper, design, art, pattern, texture"
+        ]
+    },
+    "evaluation": {
+        "scores": {
+            "title_quality": 5,
+            "template_structure": 20,
+            "variable_examples": 0,
+            "commercial_viability": 10,
+            "description_quality": 15
+        },
+        "total_score": 50,
+        "feedback": {
+            "title_quality": "The prompt fails to adhere to the specified title format. The current opening sentence ('You are a strict but fair prompt marketplace reviewer. Evaluate the prompt package against these weighted criteria.') is 13 words long, exceeding the 3-6 word limit. While 'strict but fair' provides an emotional descriptor, the title does not follow the [Descriptor] + [Subject] + [Type] pattern, nor does it clearly state the output type (JSON evaluation) in the title itself.",
+            "template_structure": "The template structure is robust in terms of defining the evaluation criteria and output format. The 'OUTPUT FORMAT' section provides clear, complete technical specifications (8/8 points). The criteria list itself acts as the core style descriptor for the evaluation process (8/10 points). However, the prompt lacks a subject variable (0/8 points), which is a critical component of a marketplace-ready template designed for user input.",
+            "variable_examples": "This prompt template completely lacks variable examples. This is a significant omission for a marketplace listing. Without examples demonstrating the range and functionality of the prompt's output, potential buyers cannot assess its quality or versatility. This criterion receives zero points across all sub-categories (0/20 points).",
+            "commercial_viability": "The use case (prompt package evaluation) and unique value proposition (structured, objective review process) are clearly identified (5/5 and 5/5 points, respectively). However, the prompt fails to suggest an appropriate price tier for this service, which is necessary for commercial readiness (0/5 points).",
+            "description_quality": "The description quality is high. The opening sentence serves as an effective hook (5/5 points). The technical features (scoring system and JSON structure) are meticulously detailed (5/5 points), and the use case is clearly specified (5/5 points). This section meets all requirements."
+        },
+        "priority_improvements": [
+            "Refine the prompt's title to fit the [Descriptor] + [Subject] + [Type] pattern and adhere to the 3-6 word length requirement.",
+            "Add a section with 8-10 diverse examples demonstrating the prompt's functionality by showing sample inputs and corresponding outputs for different prompt packages.",
+            "Include a suggested price tier for this specific prompt package."
+        ]
+    },
+    "test_guidance": {
+        "test_instructions": [
+            "Fill in each variable with different values to test versatility.",
+            "Try using the first example prompt exactly as written as your baseline.",
+            "Test at least 3-5 different variations to ensure consistent style.",
+            "Experiment with Midjourney parameters like `--ar` or `--stylize`."
+        ],
+        "quality_checklist": [
+            "Style Consistency: Does the style remain consistent?",
+            "Composition: Does the output match your compositional expectations?",
+            "Visual Quality: Is the output high-quality?",
+            "Variable Impact: Does changing variables produce meaningful differences?"
+        ],
+        "common_issues": [
+            "Subject distortion or anatomical problems.",
+            "Style 'bleeding' or inconsistency."
+        ]
+    },
+    "commercial_description": "Professional AI Prompt Template. Easy to use and high quality.",
+    "category": "Uncategorized",
+    "_original_topic": "The Elegant Dark Manga Triptych",
+    "enhancement_log": [
+        "Title fixed: The Elegant Dark Manga Triptych -> The Elegant Dark Manga Triptych Art"
+    ]
+}

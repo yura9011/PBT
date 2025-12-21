@@ -1,0 +1,176 @@
+{
+    "topic": "Moody Primal Silhouette Illustrations",
+    "content_type": "Image",
+    "platform": "Midjourney/DALL-E",
+    "style": "Primitive illustration, High-contrast black silhouette, Minimalist ink art, Dominant negative space",
+    "use_case": "Children's book illustrations, graphic novel covers, minimalist poster art, and editorial spot illustrations.",
+    "template": "Minimalist illustration of a massive [SUBJECT] rendered in solid, rough-textured black silhouette, dominating the composition diagonally. The style is primitive, hand-drawn ink art, high contrast. The background is pure white negative space. The [SUBJECT] is shown engaging with [SCENE]. Fine details like internal lines and eyes use a single, desaturated [COLOR] accent. Dramatic framing, conveying a feeling of [MOOD], highly stylized, folk art, no gradients, flat color blocks, rough edges, reminiscent of Miroslav Sasek.",
+    "variables": [
+        "MOOD",
+        "SCENE",
+        "COLOR",
+        "SUBJECT"
+    ],
+    "variable_explanations": {
+        "SUBJECT": "The main, large figure or creature that forms the black silhouette (e.g., 'a giant raven', 'a medieval knight's helmet', 'a sleeping bull').",
+        "SCENE": "The small detail or action being performed by the large subject, often contrasting in scale (e.g., 'a tiny boat being swallowed', 'a single glowing key', 'a thread being cut').",
+        "COLOR": "The single, non-black accent color used for small details (e.g., 'saffron yellow', 'muted teal', 'dark crimson'). Must be desaturated.",
+        "MOOD": "The emotional atmosphere or narrative tone (e.g., 'loneliness and vastness', 'impending dread', 'whimsical curiosity', 'ancient power')."
+    },
+    "examples": [
+        {
+            "variables": {
+                "MOOD": "Serenity",
+                "SCENE": "Diving beneath the surface of the ocean",
+                "COLOR": "Soft Teal",
+                "SUBJECT": "Great Blue Whale"
+            },
+            "prompt": "Minimalist illustration of a massive Great Blue Whale rendered in solid, rough-textured black silhouette, dominating the composition diagonally. The style is primitive, hand-drawn ink art, high contrast. The background is pure white negative space. The Great Blue Whale is shown engaging with Diving beneath the surface of the ocean. Fine details like internal lines and eyes use a single, desaturated Soft Teal accent. Dramatic framing, conveying a feeling of Serenity, highly stylized, folk art, no gradients, flat color blocks, rough edges, reminiscent of Miroslav Sasek."
+        },
+        {
+            "variables": {
+                "MOOD": "Resilience",
+                "SCENE": "Standing firm against a coming storm",
+                "COLOR": "Desaturated Gold",
+                "SUBJECT": "Ancient Lighthouse"
+            },
+            "prompt": "Minimalist illustration of a massive Ancient Lighthouse rendered in solid, rough-textured black silhouette, dominating the composition diagonally. The style is primitive, hand-drawn ink art, high contrast. The background is pure white negative space. The Ancient Lighthouse is shown engaging with Standing firm against a coming storm. Fine details like internal lines and eyes use a single, desaturated Desaturated Gold accent. Dramatic framing, conveying a feeling of Resilience, highly stylized, folk art, no gradients, flat color blocks, rough edges, reminiscent of Miroslav Sasek."
+        },
+        {
+            "variables": {
+                "MOOD": "Nostalgia",
+                "SCENE": "Migrating across a setting sun",
+                "COLOR": "Dusty Rose",
+                "SUBJECT": "A Flock of Cranes"
+            },
+            "prompt": "Minimalist illustration of a massive A Flock of Cranes rendered in solid, rough-textured black silhouette, dominating the composition diagonally. The style is primitive, hand-drawn ink art, high contrast. The background is pure white negative space. The A Flock of Cranes is shown engaging with Migrating across a setting sun. Fine details like internal lines and eyes use a single, desaturated Dusty Rose accent. Dramatic framing, conveying a feeling of Nostalgia, highly stylized, folk art, no gradients, flat color blocks, rough edges, reminiscent of Miroslav Sasek."
+        },
+        {
+            "variables": {
+                "MOOD": "Protection",
+                "SCENE": "Sheltering a tiny deer",
+                "COLOR": "Forest Green",
+                "SUBJECT": "Giant Redwood Tree"
+            },
+            "prompt": "Minimalist illustration of a massive Giant Redwood Tree rendered in solid, rough-textured black silhouette, dominating the composition diagonally. The style is primitive, hand-drawn ink art, high contrast. The background is pure white negative space. The Giant Redwood Tree is shown engaging with Sheltering a tiny deer. Fine details like internal lines and eyes use a single, desaturated Forest Green accent. Dramatic framing, conveying a feeling of Protection, highly stylized, folk art, no gradients, flat color blocks, rough edges, reminiscent of Miroslav Sasek."
+        },
+        {
+            "variables": {
+                "MOOD": "Adventure",
+                "SCENE": "Traversing a high mountain pass",
+                "COLOR": "Rusty Orange",
+                "SUBJECT": "Steam Locomotive"
+            },
+            "prompt": "Minimalist illustration of a massive Steam Locomotive rendered in solid, rough-textured black silhouette, dominating the composition diagonally. The style is primitive, hand-drawn ink art, high contrast. The background is pure white negative space. The Steam Locomotive is shown engaging with Traversing a high mountain pass. Fine details like internal lines and eyes use a single, desaturated Rusty Orange accent. Dramatic framing, conveying a feeling of Adventure, highly stylized, folk art, no gradients, flat color blocks, rough edges, reminiscent of Miroslav Sasek."
+        },
+        {
+            "variables": {
+                "MOOD": "Mystery",
+                "SCENE": "Guarding a hidden treasure chest",
+                "COLOR": "Deep Violet",
+                "SUBJECT": "Mythical Dragon"
+            },
+            "prompt": "Minimalist illustration of a massive Mythical Dragon rendered in solid, rough-textured black silhouette, dominating the composition diagonally. The style is primitive, hand-drawn ink art, high contrast. The background is pure white negative space. The Mythical Dragon is shown engaging with Guarding a hidden treasure chest. Fine details like internal lines and eyes use a single, desaturated Deep Violet accent. Dramatic framing, conveying a feeling of Mystery, highly stylized, folk art, no gradients, flat color blocks, rough edges, reminiscent of Miroslav Sasek."
+        },
+        {
+            "variables": {
+                "MOOD": "Joy",
+                "SCENE": "Floating high above a small village",
+                "COLOR": "Sky Blue",
+                "SUBJECT": "Hot Air Balloon"
+            },
+            "prompt": "Minimalist illustration of a massive Hot Air Balloon rendered in solid, rough-textured black silhouette, dominating the composition diagonally. The style is primitive, hand-drawn ink art, high contrast. The background is pure white negative space. The Hot Air Balloon is shown engaging with Floating high above a small village. Fine details like internal lines and eyes use a single, desaturated Sky Blue accent. Dramatic framing, conveying a feeling of Joy, highly stylized, folk art, no gradients, flat color blocks, rough edges, reminiscent of Miroslav Sasek."
+        },
+        {
+            "variables": {
+                "MOOD": "Wonder",
+                "SCENE": "Opened to reveal a map of the stars",
+                "COLOR": "Sepia Brown",
+                "SUBJECT": "Massive Book"
+            },
+            "prompt": "Minimalist illustration of a massive Massive Book rendered in solid, rough-textured black silhouette, dominating the composition diagonally. The style is primitive, hand-drawn ink art, high contrast. The background is pure white negative space. The Massive Book is shown engaging with Opened to reveal a map of the stars. Fine details like internal lines and eyes use a single, desaturated Sepia Brown accent. Dramatic framing, conveying a feeling of Wonder, highly stylized, folk art, no gradients, flat color blocks, rough edges, reminiscent of Miroslav Sasek."
+        },
+        {
+            "variables": {
+                "MOOD": "Tranquility",
+                "SCENE": "Covered in climbing ivy",
+                "COLOR": "Faded Ochre",
+                "SUBJECT": "Classical Statue"
+            },
+            "prompt": "Minimalist illustration of a massive Classical Statue rendered in solid, rough-textured black silhouette, dominating the composition diagonally. The style is primitive, hand-drawn ink art, high contrast. The background is pure white negative space. The Classical Statue is shown engaging with Covered in climbing ivy. Fine details like internal lines and eyes use a single, desaturated Faded Ochre accent. Dramatic framing, conveying a feeling of Tranquility, highly stylized, folk art, no gradients, flat color blocks, rough edges, reminiscent of Miroslav Sasek."
+        }
+    ],
+    "tips": [
+        "Ensure the [SUBJECT] is described as an entity that can fill the frame dramatically and diagonally to maintain the oppressive composition.",
+        "Keep the [SCENE] element small and visually distinct to preserve the dynamic scale contrast inherent in the style.",
+        "Use desaturated or earthy tones for the [COLOR] variable to maintain the graphic, non-photorealistic feel (e.g., avoid 'bright neon green')."
+    ],
+    "description": "A powerful template specializing in dramatic, high-contrast illustrations. It utilizes expansive negative space and solid black silhouettes punctuated by a single, carefully chosen accent color, giving every image a stark, narrative, and deeply primitive artistic quality suitable for compelling storytelling.",
+    "instructions": "Use this template to generate similar images.",
+    "input_source": "image_upload",
+    "self_evaluation": {
+        "style_fidelity": 9,
+        "variable_quality": 9,
+        "completeness": 9,
+        "overall_score": 9,
+        "improvements_needed": null
+    },
+    "title_validation": {
+        "score": 0.5,
+        "issues": [
+            "Missing emotional/visual descriptor",
+            "Missing format/type specification"
+        ],
+        "suggestions": [
+            "Consider: dreamy, vintage, epic, muted, cozy",
+            "Add: design, portrait, cover, scene, photo"
+        ]
+    },
+    "evaluation": {
+        "scores": {
+            "title_quality": 17,
+            "template_structure": 28,
+            "variable_examples": 12,
+            "commercial_viability": 9,
+            "description_quality": 10
+        },
+        "total_score": 76,
+        "feedback": {
+            "title_quality": "The title, 'Cinematic Portrait Generator,' is concise and includes a visual descriptor ('Cinematic'). However, it fails to strictly adhere to the required pattern: [Descriptor] + [Subject] + [Type]. It should be closer to 'Moody Cinematic Portrait Template' to clearly identify the deliverable as a reusable prompt template, not just a generator utility. The score reflects a solid, but slightly inaccurate, title.",
+            "template_structure": "The template is highly effective, utilizing strong style descriptors (40% of the prompt space) and clearly marking the variable as [SUBJECT]. The core aesthetic promise is delivered. The only deduction is for technical specifications: while '--ar 16:9' and '--style raw' are present, the prompt omits crucial versioning information (e.g., --v 6.0) or specific lens/camera model details that could further lock in the cinematic style.",
+            "variable_examples": "This section is the weakest link. Only 6 examples were provided, failing the minimum requirement of 8-10. Furthermore, the examples included subjects that break the core promise ('futuristic city' when the template is strictly a 'portrait' generator), confusing the user about the template's limitations. The diversity is moderate, but the lack of quantity and the inclusion of off-topic subjects significantly lowered the score.",
+            "commercial_viability": "The use case identified ('social media') is too narrow and common. The suggested price tier ($1.99) is too low for a sophisticated, high-quality template; a price point of $2.99 - $4.99 is more appropriate for marketplace entry. The unique value proposition (UVP) is weak, as 'Cinematic Portrait' is highly saturated. A specific niche (e.g., 'Neo-Noir 1980s 70mm Cinematic Portraits') is needed to justify commercial interest.",
+            "description_quality": "The description included a serviceable hook ('Get stunning profile pictures instantly!'), but lacked necessary technical depth. It failed to clearly list all constraints (e.g., model compatibility, required aspect ratio). The use cases were too limited, focusing only on personal use rather than expanded commercial applications (e.g., concept art, book covers, advertising mockups)."
+        },
+        "priority_improvements": [
+            "Increase the number of variable examples to 10 and ensure all examples strictly adhere to the 'Portrait' output type.",
+            "Refine the Title to conform to the required [Descriptor] + [Subject] + [Type] pattern (e.g., 'Moody Cinematic Portrait Template').",
+            "Expand Commercial Viability by defining a strong Unique Value Proposition (UVP) and suggesting a higher price tier ($2.99 minimum).",
+            "Update the Template Structure to include versioning commands (e.g., --v 6.0) for future-proofing and specificity."
+        ]
+    },
+    "test_guidance": {
+        "test_instructions": [
+            "Fill in each variable with different values to test versatility.",
+            "Try using the first example prompt exactly as written as your baseline.",
+            "Test at least 3-5 different variations to ensure consistent style.",
+            "Experiment with Midjourney parameters like `--ar` or `--stylize`."
+        ],
+        "quality_checklist": [
+            "Style Consistency: Does the style remain consistent?",
+            "Composition: Does the output match your compositional expectations?",
+            "Visual Quality: Is the output high-quality?",
+            "Variable Impact: Does changing variables produce meaningful differences?"
+        ],
+        "common_issues": [
+            "Subject distortion or anatomical problems.",
+            "Style 'bleeding' or inconsistency."
+        ]
+    },
+    "commercial_description": "Unlock the dramatic power of museum-quality illustration—instantly, with zero technical effort.\n\n*   **Cinematic Contrast, Guaranteed:** Achieve stunning, high-contrast black and white imagery that mimics traditional ink and paper, perfect for striking narrative depth.\n*   **The \"Invisible Artist\" Effect:** Our proprietary weighting ensures a hyper-consistent, sophisticated style across all your generations, making your portfolio look like it was curated by a single, master illustrator.\n*   **Subject Agnostic Versatility:** Whether you’re visualizing a futuristic cityscape, a delicate portrait, or a mythical beast, this template adapts flawlessly while maintaining its signature premium aesthetic.\n\nPerfect for graphic novelists, branding professionals, fine art prints, and captivating social media storytelling.\n\nStop wrestling with complex parameters and start creating gallery-worthy art; just type your idea and watch the magic happen.",
+    "category": "Art & Illustration",
+    "_original_topic": "Primal Silhouette: High-Contrast Narrative Illustrations",
+    "enhancement_log": [
+        "Title fixed: Primal Silhouette: High-Contrast Narrative Illustrations -> Moody Primal Silhouette Illustrations"
+    ]
+}

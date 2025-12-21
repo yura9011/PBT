@@ -1,0 +1,172 @@
+{
+    "topic": "Minimalist High-Contrast Narrative Art",
+    "content_type": "Image",
+    "platform": "Midjourney/DALL-E",
+    "style": "Primitive illustration, High-contrast duotone graphic design, Conceptual editorial art, Stark texture woodblock print",
+    "use_case": "Book Covers (Fiction/Non-Fiction), Podcast Art, Art Prints",
+    "template": "A highly contrasting, minimalist primitive illustration. An extreme close-up of a massive, black-silhouetted [SUBJECT] filling the upper diagonal frame, its gaze focused on a tiny [CAPTIVE] held precariously by its appendage in the bottom corner. Dynamic scale contrast, vast white negative space. The illustration uses rough, expressive lines and texture achieved in the style of a [TEXTURE_MEDIUM]. Limited color palette of black, white, and a single accent color of [ACCENT_COLOR].",
+    "variables": [
+        "ACCENT_COLOR",
+        "TEXTURE_MEDIUM",
+        "SUBJECT",
+        "CAPTIVE"
+    ],
+    "variable_explanations": {
+        "SUBJECT": "The dominant, large entity that fills the top half of the frame (e.g., ancient whale, snarling gorilla, shadowy mountain, stylized abstract god).",
+        "CAPTIVE": "The small, vulnerable element providing the scale contrast (e.g., a tiny person clinging to a boat, a single glowing key, a miniature floating city).",
+        "ACCENT_COLOR": "The single hue used for internal details or highlights, providing the only non-black/white color (e.g., bright magenta, deep turquoise, gold leaf).",
+        "TEXTURE_MEDIUM": "Controls the specific feel of the black shapes and lines (e.g., distressed lithograph, rough charcoal sketch, crude woodcut print, ink wash). "
+    },
+    "examples": [
+        {
+            "variables": {
+                "ACCENT_COLOR": "Deep Ochre",
+                "TEXTURE_MEDIUM": "Woodcut Print",
+                "SUBJECT": "Majestic Eagle",
+                "CAPTIVE": "Single Seed"
+            },
+            "prompt": "A highly contrasting, minimalist primitive illustration. An extreme close-up of a massive, black-silhouetted Majestic Eagle filling the upper diagonal frame, its gaze focused on a tiny Single Seed held precariously by its appendage in the bottom corner. Dynamic scale contrast, vast white negative space. The illustration uses rough, expressive lines and texture achieved in the style of a Woodcut Print. Limited color palette of black, white, and a single accent color of Deep Ochre."
+        },
+        {
+            "variables": {
+                "ACCENT_COLOR": "Forest Green",
+                "TEXTURE_MEDIUM": "Charcoal Sketch",
+                "SUBJECT": "Towering Redwood",
+                "CAPTIVE": "Whispering Breeze"
+            },
+            "prompt": "A highly contrasting, minimalist primitive illustration. An extreme close-up of a massive, black-silhouetted Towering Redwood filling the upper diagonal frame, its gaze focused on a tiny Whispering Breeze held precariously by its appendage in the bottom corner. Dynamic scale contrast, vast white negative space. The illustration uses rough, expressive lines and texture achieved in the style of a Charcoal Sketch. Limited color palette of black, white, and a single accent color of Forest Green."
+        },
+        {
+            "variables": {
+                "ACCENT_COLOR": "Rust Red",
+                "TEXTURE_MEDIUM": "Etching on Copper",
+                "SUBJECT": "Ancient Lighthouse",
+                "CAPTIVE": "Distant Ship"
+            },
+            "prompt": "A highly contrasting, minimalist primitive illustration. An extreme close-up of a massive, black-silhouetted Ancient Lighthouse filling the upper diagonal frame, its gaze focused on a tiny Distant Ship held precariously by its appendage in the bottom corner. Dynamic scale contrast, vast white negative space. The illustration uses rough, expressive lines and texture achieved in the style of a Etching on Copper. Limited color palette of black, white, and a single accent color of Rust Red."
+        },
+        {
+            "variables": {
+                "ACCENT_COLOR": "Subtle Gold",
+                "TEXTURE_MEDIUM": "Dry Brush Ink",
+                "SUBJECT": "Mythological Kraken",
+                "CAPTIVE": "Sunken Chest"
+            },
+            "prompt": "A highly contrasting, minimalist primitive illustration. An extreme close-up of a massive, black-silhouetted Mythological Kraken filling the upper diagonal frame, its gaze focused on a tiny Sunken Chest held precariously by its appendage in the bottom corner. Dynamic scale contrast, vast white negative space. The illustration uses rough, expressive lines and texture achieved in the style of a Dry Brush Ink. Limited color palette of black, white, and a single accent color of Subtle Gold."
+        },
+        {
+            "variables": {
+                "ACCENT_COLOR": "Soft Lavender",
+                "TEXTURE_MEDIUM": "Wax Crayon",
+                "SUBJECT": "Sleeping Whale",
+                "CAPTIVE": "Tiny Dream"
+            },
+            "prompt": "A highly contrasting, minimalist primitive illustration. An extreme close-up of a massive, black-silhouetted Sleeping Whale filling the upper diagonal frame, its gaze focused on a tiny Tiny Dream held precariously by its appendage in the bottom corner. Dynamic scale contrast, vast white negative space. The illustration uses rough, expressive lines and texture achieved in the style of a Wax Crayon. Limited color palette of black, white, and a single accent color of Soft Lavender."
+        },
+        {
+            "variables": {
+                "ACCENT_COLOR": "Electric Blue",
+                "TEXTURE_MEDIUM": "Sumi-e Brushwork",
+                "SUBJECT": "Abstract Pyramid",
+                "CAPTIVE": "Illuminated Orb"
+            },
+            "prompt": "A highly contrasting, minimalist primitive illustration. An extreme close-up of a massive, black-silhouetted Abstract Pyramid filling the upper diagonal frame, its gaze focused on a tiny Illuminated Orb held precariously by its appendage in the bottom corner. Dynamic scale contrast, vast white negative space. The illustration uses rough, expressive lines and texture achieved in the style of a Sumi-e Brushwork. Limited color palette of black, white, and a single accent color of Electric Blue."
+        },
+        {
+            "variables": {
+                "ACCENT_COLOR": "Warm Coral",
+                "TEXTURE_MEDIUM": "Sandpaper Rubbing",
+                "SUBJECT": "Desert Nomad",
+                "CAPTIVE": "Droplet of Water"
+            },
+            "prompt": "A highly contrasting, minimalist primitive illustration. An extreme close-up of a massive, black-silhouetted Desert Nomad filling the upper diagonal frame, its gaze focused on a tiny Droplet of Water held precariously by its appendage in the bottom corner. Dynamic scale contrast, vast white negative space. The illustration uses rough, expressive lines and texture achieved in the style of a Sandpaper Rubbing. Limited color palette of black, white, and a single accent color of Warm Coral."
+        },
+        {
+            "variables": {
+                "ACCENT_COLOR": "Cosmic Violet",
+                "TEXTURE_MEDIUM": "Fine Liner Pen Hatching",
+                "SUBJECT": "Expanding Nebula",
+                "CAPTIVE": "Fragile Asteroid"
+            },
+            "prompt": "A highly contrasting, minimalist primitive illustration. An extreme close-up of a massive, black-silhouetted Expanding Nebula filling the upper diagonal frame, its gaze focused on a tiny Fragile Asteroid held precariously by its appendage in the bottom corner. Dynamic scale contrast, vast white negative space. The illustration uses rough, expressive lines and texture achieved in the style of a Fine Liner Pen Hatching. Limited color palette of black, white, and a single accent color of Cosmic Violet."
+        },
+        {
+            "variables": {
+                "ACCENT_COLOR": "Mint Green",
+                "TEXTURE_MEDIUM": "Stone Lithography",
+                "SUBJECT": "Grandfather Clock",
+                "CAPTIVE": "Fleeting Moment"
+            },
+            "prompt": "A highly contrasting, minimalist primitive illustration. An extreme close-up of a massive, black-silhouetted Grandfather Clock filling the upper diagonal frame, its gaze focused on a tiny Fleeting Moment held precariously by its appendage in the bottom corner. Dynamic scale contrast, vast white negative space. The illustration uses rough, expressive lines and texture achieved in the style of a Stone Lithography. Limited color palette of black, white, and a single accent color of Mint Green."
+        },
+        "A highly contrasting, minimalist primitive illustration. An extreme close-up of a massive, black-silhouetted The Suffocating Inevitability of Impending Sorrow filling the upper diagonal frame, its gaze focused on a tiny A Fleeting Instance of Hope held precariously by its appendage in the bottom corner. Dynamic scale contrast, vast white negative space. The illustration uses rough, expressive lines and texture achieved in the style of a Charcoal Rubbings on Cardboard. Limited color palette of black, white, and a single accent color of Blood Orange.",
+        "A highly contrasting, minimalist primitive illustration. An extreme close-up of a massive, black-silhouetted The Silent Weight of Cosmic Indifference filling the upper diagonal frame, its gaze focused on a tiny A Shiver of Self-Awareness held precariously by its appendage in the bottom corner. Dynamic scale contrast, vast white negative space. The illustration uses rough, expressive lines and texture achieved in the style of a Crude Woodcut Print. Limited color palette of black, white, and a single accent color of Veridian Green."
+    ],
+    "tips": [
+        "Use 'Vivid' or 'Graphic' style settings if your model supports them to ensure crisp separation between black, white, and the accent color.",
+        "Keep the [SUBJECT] description visually simple and focused on silhouette/shape to maintain the minimalist feel.",
+        "The composition relies heavily on the 'extreme close-up' and 'negative space' descriptors for vertical appeal."
+    ],
+    "description": "This template delivers powerful, narrative-driven visuals characterized by extreme scale contrast and a limited, punchy color palette. Perfect for conveying themes of power, isolation, or overwhelming presence with a raw, primal aesthetic.",
+    "instructions": "Use this template to generate similar images.",
+    "input_source": "image_upload",
+    "title_validation": {
+        "score": 0.5,
+        "issues": [
+            "Missing emotional/visual descriptor",
+            "Missing format/type specification"
+        ],
+        "suggestions": [
+            "Consider: muted, surreal, vintage, ethereal, mysterious",
+            "Add: wallpaper, design, art, pattern, texture"
+        ]
+    },
+    "evaluation": {
+        "scores": {
+            "title_quality": 19,
+            "template_structure": 30,
+            "variable_examples": 12,
+            "commercial_viability": 15,
+            "description_quality": 11
+        },
+        "total_score": 87,
+        "feedback": {
+            "title_quality": "The title 'Cinematic Noir Portrait' is strong, concise (3 words), and effectively uses 'Cinematic Noir' as a powerful visual descriptor. The use of 'Portrait' clearly defines the output type. The only minor point deduction (1 point) is for the slightly ambiguous subject-type combination where 'portrait' could be interpreted as the subject rather than the output type for a variable subject. A title like 'Cinematic Noir {Subject} Portrait' would be more explicit, but the current format is highly functional.",
+            "template_structure": "The template structure is excellent. The variable `{subject}` is clearly marked and positioned correctly. The core style descriptors ('dramatic, high-contrast, deep shadows, stark highlights, cinematic lighting') make up a significant portion of the prompt and perfectly align with the 'Cinematic Noir' promise. Technical specifications like 'prime lens' and '8k' are included, providing clear instructions for quality and style. The prompt delivers exactly what the title promises.",
+            "variable_examples": "This section requires significant revision. Only 5 examples were provided ('A detective, a lone wolf, a vintage car, a city skyline, a broken heart'), falling short of the required 8-10. While the examples demonstrate good diversity across categories (person, object, animal/metaphor, location, abstract concept), the lack of quantity limits the user's understanding of the prompt's full potential range. The examples provided are high quality, but quantity is a strict requirement for a high-scoring prompt package.",
+            "commercial_viability": "The commercial viability is high. The use cases provided ('film posters or graphic novels') are specific and appropriate for the aesthetic generated. The suggested price tier ($1.99) is standard for a quality, style-specific prompt. The unique value proposition of combining 'Cinematic Noir' with high-contrast rendering creates a distinct product in a competitive marketplace, avoiding generic output.",
+            "description_quality": "The description quality is adequate but could be improved for marketplace readiness. The hook 'Generate stunning noir portraits' is functional but lacks a compelling emotional draw. The description accurately specifies use cases ('perfect for film posters or graphic novels'). However, it fails to explicitly list the technical features included in the prompt itself (e.g., 'high-contrast, moody images' is good, but mentioning '8k resolution' or 'prime lens' would be more persuasive and informative for the buyer).",
+            "priority_improvements": [
+                "Expand variable examples from 5 to 8-10, ensuring a broad mix of subjects to demonstrate maximum range.",
+                "Enhance the description to include a more compelling hook and explicitly list the technical features (e.g., 8k resolution, cinematic lighting) present in the prompt template.",
+                "Refine the title to explicitly include the variable in a placeholder format (e.g., 'Cinematic Noir {Subject} Portrait') for maximum clarity, though this is a minor adjustment."
+            ]
+        }
+    },
+    "test_guidance": {
+        "test_instructions": [
+            "Fill in each variable with different values to test versatility.",
+            "Try using the first example prompt exactly as written as your baseline.",
+            "Test at least 3-5 different variations to ensure consistent style.",
+            "Experiment with Midjourney parameters like `--ar` or `--stylize`."
+        ],
+        "quality_checklist": [
+            "Style Consistency: Does the style remain consistent?",
+            "Composition: Does the output match your compositional expectations?",
+            "Visual Quality: Is the output high-quality?",
+            "Variable Impact: Does changing variables produce meaningful differences?"
+        ],
+        "common_issues": [
+            "Subject distortion or anatomical problems.",
+            "Style 'bleeding' or inconsistency."
+        ]
+    },
+    "commercial_description": "Unlock the raw power of storytelling with a single click, instantly transforming your ideas into breathtaking, high-contrast narrative illustrations.\n\n*   **Signature Style Consistency:** Generate an entire series of images that look like they were created by a single, world-class artist, maintaining the dramatic \"Primal Minimalism\" aesthetic across every output.\n*   **Invisible Expertise:** The complex parameters for dynamic lighting, deep shadows, and stark composition are built-in, meaning you get gallery-quality results without ever touching a technical setting.\n*   **Subject Agnostic Versatility:** Whether you're illustrating epic fantasy, modern concepts, or abstract ideas, this template flawlessly applies its premium, compelling visual style to any subject matter you input.\n\nPerfect for graphic designers, writers needing visual concepts, marketers developing campaigns, or anyone looking to inject drama and sophistication into their personal projects.\n\nStop struggling with complex settings and start creating masterpieces—if you can type a sentence, you can achieve professional illustration results today.",
+    "category": "Art & Illustration",
+    "_original_topic": "Primal Minimalism: High-Contrast Narrative Illustrations",
+    "_abstract_injected": 2,
+    "enhancement_log": [
+        "Title fixed: Primal Minimalism: High-Contrast Narrative Illustrations -> Minimalist High-Contrast Narrative Art",
+        "Injected 2 abstract examples"
+    ]
+}

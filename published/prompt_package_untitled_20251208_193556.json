@@ -1,0 +1,163 @@
+{
+    "topic": "Monochromatic Hyper-Detail Commercial Photography",
+    "content_type": "Image",
+    "platform": "Midjourney/DALL-E",
+    "style": "Commercial Food Photography, High-Contrast Studio Setup, Zero Gravity Composition, Hyper-Detailed Macro Shot",
+    "use_case": "Fast Food Advertising Campaigns (Digital Billboards, Social Media Ads)",
+    "template": "[SUBJECT] floating composition, [PRESENTATION_STYLE], featuring dynamic [DYNAMIC_ELEMENT]. High-detail commercial photography, sharp focus, vibrant color saturation, captured against a pure, seamless monochromatic [BACKGROUND_COLOR] backdrop. Studio lighting, dramatic highlights, 8k, ultra-realistic.",
+    "variables": [
+        "DYNAMIC_ELEMENT",
+        "PRESENTATION_STYLE",
+        "SUBJECT",
+        "BACKGROUND_COLOR"
+    ],
+    "variable_explanations": {
+        "SUBJECT": "The main item being photographed (e.g., Stacked Waffles, Exploded Sushi Roll, Layered Cocktail).",
+        "PRESENTATION_STYLE": "How the subject is visually presented (e.g., cross-section reveal, sliced in half, cascading layers).",
+        "DYNAMIC_ELEMENT": "The element that provides action and texture (e.g., Molten chocolate drizzle, steam rising, powdered sugar cloud, liquid splash).",
+        "BACKGROUND_COLOR": "The single, solid color that fills the background, creating high contrast (e.g., Neon Green, Cyan, Burnt Orange)."
+    },
+    "examples": [
+        {
+            "variables": {
+                "DYNAMIC_ELEMENT": "Sparkling water droplets",
+                "PRESENTATION_STYLE": "Exploded view",
+                "SUBJECT": "A perfect ruby red apple",
+                "BACKGROUND_COLOR": "Black"
+            },
+            "prompt": "A perfect ruby red apple floating composition, Exploded view, featuring dynamic Sparkling water droplets. High-detail commercial photography, sharp focus, vibrant color saturation, captured against a pure, seamless monochromatic Black backdrop. Studio lighting, dramatic highlights, 8k, ultra-realistic."
+        },
+        {
+            "variables": {
+                "DYNAMIC_ELEMENT": "Whisps of golden dust",
+                "PRESENTATION_STYLE": "Deconstructed layers",
+                "SUBJECT": "A vintage brass compass",
+                "BACKGROUND_COLOR": "Deep Navy Blue"
+            },
+            "prompt": "A vintage brass compass floating composition, Deconstructed layers, featuring dynamic Whisps of golden dust. High-detail commercial photography, sharp focus, vibrant color saturation, captured against a pure, seamless monochromatic Deep Navy Blue backdrop. Studio lighting, dramatic highlights, 8k, ultra-realistic."
+        },
+        {
+            "variables": {
+                "DYNAMIC_ELEMENT": "Swirling steam trails",
+                "PRESENTATION_STYLE": "Geometric arrangement",
+                "SUBJECT": "Freshly roasted coffee beans",
+                "BACKGROUND_COLOR": "Cream White"
+            },
+            "prompt": "Freshly roasted coffee beans floating composition, Geometric arrangement, featuring dynamic Swirling steam trails. High-detail commercial photography, sharp focus, vibrant color saturation, captured against a pure, seamless monochromatic Cream White backdrop. Studio lighting, dramatic highlights, 8k, ultra-realistic."
+        },
+        {
+            "variables": {
+                "DYNAMIC_ELEMENT": "Ripples of clear oil",
+                "PRESENTATION_STYLE": "Sculptural stack",
+                "SUBJECT": "A minimalist ceramic vase",
+                "BACKGROUND_COLOR": "Soft Lavender"
+            },
+            "prompt": "A minimalist ceramic vase floating composition, Sculptural stack, featuring dynamic Ripples of clear oil. High-detail commercial photography, sharp focus, vibrant color saturation, captured against a pure, seamless monochromatic Soft Lavender backdrop. Studio lighting, dramatic highlights, 8k, ultra-realistic."
+        },
+        {
+            "variables": {
+                "DYNAMIC_ELEMENT": "Burst of iridescent glitter",
+                "PRESENTATION_STYLE": "Kinetic energy pattern",
+                "SUBJECT": "A delicate hummingbird",
+                "BACKGROUND_COLOR": "Emerald Green"
+            },
+            "prompt": "A delicate hummingbird floating composition, Kinetic energy pattern, featuring dynamic Burst of iridescent glitter. High-detail commercial photography, sharp focus, vibrant color saturation, captured against a pure, seamless monochromatic Emerald Green backdrop. Studio lighting, dramatic highlights, 8k, ultra-realistic."
+        },
+        {
+            "variables": {
+                "DYNAMIC_ELEMENT": "Pages dissolving into mist",
+                "PRESENTATION_STYLE": "Abstract collage",
+                "SUBJECT": "Stack of antique hardcover books",
+                "BACKGROUND_COLOR": "Warm Gray"
+            },
+            "prompt": "Stack of antique hardcover books floating composition, Abstract collage, featuring dynamic Pages dissolving into mist. High-detail commercial photography, sharp focus, vibrant color saturation, captured against a pure, seamless monochromatic Warm Gray backdrop. Studio lighting, dramatic highlights, 8k, ultra-realistic."
+        },
+        {
+            "variables": {
+                "DYNAMIC_ELEMENT": "Micro-fine sand falling",
+                "PRESENTATION_STYLE": "Zero-gravity suspension",
+                "SUBJECT": "A luxury stainless steel wristwatch",
+                "BACKGROUND_COLOR": "Royal Purple"
+            },
+            "prompt": "A luxury stainless steel wristwatch floating composition, Zero-gravity suspension, featuring dynamic Micro-fine sand falling. High-detail commercial photography, sharp focus, vibrant color saturation, captured against a pure, seamless monochromatic Royal Purple backdrop. Studio lighting, dramatic highlights, 8k, ultra-realistic."
+        },
+        {
+            "variables": {
+                "DYNAMIC_ELEMENT": "Fine sugar crystals dusting",
+                "PRESENTATION_STYLE": "Layered cross-section",
+                "SUBJECT": "Sliced citrus fruits (lemon, lime, orange)",
+                "BACKGROUND_COLOR": "Sky Blue"
+            },
+            "prompt": "Sliced citrus fruits (lemon, lime, orange) floating composition, Layered cross-section, featuring dynamic Fine sugar crystals dusting. High-detail commercial photography, sharp focus, vibrant color saturation, captured against a pure, seamless monochromatic Sky Blue backdrop. Studio lighting, dramatic highlights, 8k, ultra-realistic."
+        },
+        {
+            "variables": {
+                "DYNAMIC_ELEMENT": "Cracks emanating golden light",
+                "PRESENTATION_STYLE": "Fragmented symmetry",
+                "SUBJECT": "An ancient marble bust",
+                "BACKGROUND_COLOR": "Terracotta Orange"
+            },
+            "prompt": "An ancient marble bust floating composition, Fragmented symmetry, featuring dynamic Cracks emanating golden light. High-detail commercial photography, sharp focus, vibrant color saturation, captured against a pure, seamless monochromatic Terracotta Orange backdrop. Studio lighting, dramatic highlights, 8k, ultra-realistic."
+        }
+    ],
+    "tips": [
+        "Use colors in the [BACKGROUND_COLOR] variable that directly contrast or complement the main subject's color palette (e.g., Blue background for red meat, Yellow for purple dessert).",
+        "If the subject has a golden/crisp texture (like fried food), include 'vibrant golden texture' in the prompt to enhance that characteristic.",
+        "For complex subjects, use negative weights or aspect ratio controls if the AI struggles with the 'floating' composition."
+    ],
+    "description": "A powerful, scalable template designed for stunning commercial visuals. It isolates the subject against a vibrant, monochromatic background while emphasizing texture, dynamic action (like dripping sauce or rising steam), and meticulous studio lighting for maximum appetite appeal.",
+    "instructions": "Use this template to generate similar images.",
+    "input_source": "image_upload",
+    "title_validation": {
+        "score": 0.5,
+        "issues": [
+            "Missing emotional/visual descriptor",
+            "Missing format/type specification"
+        ],
+        "suggestions": [
+            "Consider: rustic, muted, whimsical, mysterious, modern",
+            "Add: scene, design, poster, illustration, wallpaper"
+        ]
+    },
+    "evaluation": {
+        "scores": {
+            "TITLE QUALITY": 17,
+            "TEMPLATE STRUCTURE": 30,
+            "VARIABLE EXAMPLES": 15,
+            "COMMERCIAL VIABILITY": 15,
+            "DESCRIPTION QUALITY": 15
+        },
+        "total_score": 92,
+        "feedback": {
+            "TITLE QUALITY": "The title, 'Cinematic Portrait of a [Subject] -- Epic Photography,' is highly descriptive but fails on the length requirement (7 words). The inclusion of 'Epic Photography' clearly conveys the output type and tone, but the structure is slightly cumbersome. To achieve a perfect score, titles must be concise and strictly adhere to the 3-6 word limit.",
+            "TEMPLATE STRUCTURE": "This template is exemplary. The subject variable is clearly marked using standard conventions (`[SUBJECT]`). The core style descriptors (stunning, hyper-detailed, dramatic, cinematic) dominate the initial structure, ensuring style priority. The technical stack (ARRI Alexa 65, specific lens/aperture, lighting, and raw style parameter) is complete, highly specific, and directly supports the 'Cinematic' promise. This is a robust, high-performing template.",
+            "VARIABLE EXAMPLES": "The quality and range of the examples provided (Astronaut, Samurai, Cybernetic dog, Abstract Hope) are excellent, demonstrating the template's versatility across history, sci-fi, and conceptual art. However, only 6 examples were provided. To meet the marketplace standard for demonstrating full range and subject compatibility, 8-10 diverse examples must be included.",
+            "COMMERCIAL VIABILITY": "The commercial package is strong. Use cases (Book Covers, Concept Art, NFTs) are clearly defined and align perfectly with the high-fidelity output style. The suggested price tier ($1.99) is appropriate for a prompt that leverages advanced technical specifications. The specific focus on professional cinema equipment (ARRI Alexa specs) provides a unique and highly desirable value proposition for users seeking premium quality.",
+            "DESCRIPTION QUALITY": "The description is well-structured and marketplace-ready. The hook ('Get incredible, professional-grade images instantly!') is immediate and results-focused. All necessary technical features (ARRI Alexa specs, lighting control) and commercial use cases are clearly listed, making the prompt easy for buyers to understand and utilize immediately."
+        },
+        "priority_improvements": [
+            "Refine the Title: Shorten the title to 6 words or less while maintaining descriptive power. Suggestion: 'Epic Cinematic Portrait Photography'.",
+            "Expand Variable Examples: Add 2-4 additional diverse examples (e.g., historical figure, natural element, futuristic vehicle) to reach the required 8-10 minimum."
+        ]
+    },
+    "test_guidance": {
+        "test_instructions": [
+            "Fill in each variable with different values to test versatility.",
+            "Try using the first example prompt exactly as written as your baseline.",
+            "Test at least 3-5 different variations to ensure consistent style.",
+            "Experiment with Midjourney parameters like `--ar` or `--stylize`."
+        ],
+        "quality_checklist": [
+            "Style Consistency: Does the style remain consistent?",
+            "Composition: Does the output match your compositional expectations?",
+            "Visual Quality: Is the output high-quality?",
+            "Variable Impact: Does changing variables produce meaningful differences?"
+        ],
+        "common_issues": [
+            "Subject distortion or anatomical problems.",
+            "Style 'bleeding' or inconsistency."
+        ]
+    },
+    "commercial_description": "Instantly transform your concepts into gallery-quality, high-contrast monochromatic photography that screams luxury and sophistication.\n\n*   Built-in Hyper-Detail Engine: Achieves microscopic clarity and flawless texture mapping, ensuring every result is print-ready and commercially viable.\n*   Signature Dramatic Grayscale: Automatically applies sophisticated, high-dynamic range black and white conversion, mimicking top-tier studio lighting setups without a single lighting modifier prompt.\n*   Zero-Skill Required Composition: Forget focal lengths and camera angles—this template handles the complex compositional rules for maximum visual impact, regardless of your subject.\n\nPerfect for elevated product mockups, impactful social media campaigns, luxury brand identity visuals, and building a portfolio that demands attention.\n\nStop coding prompts and start creating masterpieces. This template is your effortless, one-click shortcut to the highest echelon of commercial photography.",
+    "category": "Photography & Cinematics"
+}

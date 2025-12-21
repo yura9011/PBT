@@ -1,0 +1,168 @@
+{
+    "topic": "Hyper-Gore Macro Portraits: Porous Reality",
+    "content_type": "Image",
+    "platform": "Midjourney/DALL-E",
+    "style": "Hyper-Realistic CGI, Grotesque Biopunk, Extreme Macro Close-Up, High Specular Detail",
+    "use_case": "Horror Game or Film Marketing Key Art / Digital Collectibles (NFTs)",
+    "template": "An extreme macro close-up, highly detailed 3D render of a grotesque [SUBJECT] portrait. The entire surface texture is composed of hyper-realistic, porous [PRIMARY_TEXTURE] material, heavily encrusted with wet marine organic matter, tiny barnacles, deep green algae, and fibrous strands. The facial features, including the mouth and teeth, maintain the porous texture. Hyper-realistic, bloodshot human eyes, high specular reflection, shallow depth of field. Cinematic light setup, bright [AMBIENT_LIGHTING] overhead lighting. Expression is [EMOTION].",
+    "variables": [
+        "PRIMARY_TEXTURE",
+        "EMOTION",
+        "SUBJECT",
+        "AMBIENT_LIGHTING"
+    ],
+    "variable_explanations": {
+        "SUBJECT": "The main focus of the image (e.g., a simple geometric shape, a known character, or an anthropomorphic object like 'A Melted Ice Cream Cone').",
+        "PRIMARY_TEXTURE": "The primary porous material forming the structure (e.g., Sea Sponge, Loaf of Bread, Pumice Stone, Aged Swiss Cheese).",
+        "AMBIENT_LIGHTING": "Controls the overall mood and light color (e.g., Golden Hour, Overcast Daylight, Deep Sea Bioluminescence, Neon Red Backlight).",
+        "EMOTION": "The expression the subject is displaying, influencing the mood (e.g., Shocked, Maniacal Laughter, Deeply Sad, Skeptical). "
+    },
+    "examples": [
+        {
+            "variables": {
+                "PRIMARY_TEXTURE": "Volcanic Pumice",
+                "EMOTION": "Stoicism",
+                "SUBJECT": "A Roman God",
+                "AMBIENT_LIGHTING": "Azure Blue"
+            },
+            "prompt": "An extreme macro close-up, highly detailed 3D render of a grotesque A Roman God portrait. The entire surface texture is composed of hyper-realistic, porous Volcanic Pumice material, heavily encrusted with wet marine organic matter, tiny barnacles, deep green algae, and fibrous strands. The facial features, including the mouth and teeth, maintain the porous texture. Hyper-realistic, bloodshot human eyes, high specular reflection, shallow depth of field. Cinematic light setup, bright Azure Blue overhead lighting. Expression is Stoicism."
+        },
+        {
+            "variables": {
+                "PRIMARY_TEXTURE": "Aged Marble",
+                "EMOTION": "Serenity",
+                "SUBJECT": "A Majestic Lion",
+                "AMBIENT_LIGHTING": "Golden Yellow"
+            },
+            "prompt": "An extreme macro close-up, highly detailed 3D render of a grotesque A Majestic Lion portrait. The entire surface texture is composed of hyper-realistic, porous Aged Marble material, heavily encrusted with wet marine organic matter, tiny barnacles, deep green algae, and fibrous strands. The facial features, including the mouth and teeth, maintain the porous texture. Hyper-realistic, bloodshot human eyes, high specular reflection, shallow depth of field. Cinematic light setup, bright Golden Yellow overhead lighting. Expression is Serenity."
+        },
+        {
+            "variables": {
+                "PRIMARY_TEXTURE": "Dried Coral",
+                "EMOTION": "Awe",
+                "SUBJECT": "The Spirit of the Sea",
+                "AMBIENT_LIGHTING": "Ocean Teal"
+            },
+            "prompt": "An extreme macro close-up, highly detailed 3D render of a grotesque The Spirit of the Sea portrait. The entire surface texture is composed of hyper-realistic, porous Dried Coral material, heavily encrusted with wet marine organic matter, tiny barnacles, deep green algae, and fibrous strands. The facial features, including the mouth and teeth, maintain the porous texture. Hyper-realistic, bloodshot human eyes, high specular reflection, shallow depth of field. Cinematic light setup, bright Ocean Teal overhead lighting. Expression is Awe."
+        },
+        {
+            "variables": {
+                "PRIMARY_TEXTURE": "Sandstone",
+                "EMOTION": "Curiosity",
+                "SUBJECT": "A Wise Owl",
+                "AMBIENT_LIGHTING": "Warm White"
+            },
+            "prompt": "An extreme macro close-up, highly detailed 3D render of a grotesque A Wise Owl portrait. The entire surface texture is composed of hyper-realistic, porous Sandstone material, heavily encrusted with wet marine organic matter, tiny barnacles, deep green algae, and fibrous strands. The facial features, including the mouth and teeth, maintain the porous texture. Hyper-realistic, bloodshot human eyes, high specular reflection, shallow depth of field. Cinematic light setup, bright Warm White overhead lighting. Expression is Curiosity."
+        },
+        {
+            "variables": {
+                "PRIMARY_TEXTURE": "Limestone",
+                "EMOTION": "Rage",
+                "SUBJECT": "A Mythical Beast",
+                "AMBIENT_LIGHTING": "Fiery Orange"
+            },
+            "prompt": "An extreme macro close-up, highly detailed 3D render of a grotesque A Mythical Beast portrait. The entire surface texture is composed of hyper-realistic, porous Limestone material, heavily encrusted with wet marine organic matter, tiny barnacles, deep green algae, and fibrous strands. The facial features, including the mouth and teeth, maintain the porous texture. Hyper-realistic, bloodshot human eyes, high specular reflection, shallow depth of field. Cinematic light setup, bright Fiery Orange overhead lighting. Expression is Rage."
+        },
+        {
+            "variables": {
+                "PRIMARY_TEXTURE": "Chalk",
+                "EMOTION": "Melancholy",
+                "SUBJECT": "An Ancient Statue",
+                "AMBIENT_LIGHTING": "Pale Silver"
+            },
+            "prompt": "An extreme macro close-up, highly detailed 3D render of a grotesque An Ancient Statue portrait. The entire surface texture is composed of hyper-realistic, porous Chalk material, heavily encrusted with wet marine organic matter, tiny barnacles, deep green algae, and fibrous strands. The facial features, including the mouth and teeth, maintain the porous texture. Hyper-realistic, bloodshot human eyes, high specular reflection, shallow depth of field. Cinematic light setup, bright Pale Silver overhead lighting. Expression is Melancholy."
+        },
+        {
+            "variables": {
+                "PRIMARY_TEXTURE": "Concrete",
+                "EMOTION": "Confusion",
+                "SUBJECT": "A Deep-Sea Diver",
+                "AMBIENT_LIGHTING": "Deep Violet"
+            },
+            "prompt": "An extreme macro close-up, highly detailed 3D render of a grotesque A Deep-Sea Diver portrait. The entire surface texture is composed of hyper-realistic, porous Concrete material, heavily encrusted with wet marine organic matter, tiny barnacles, deep green algae, and fibrous strands. The facial features, including the mouth and teeth, maintain the porous texture. Hyper-realistic, bloodshot human eyes, high specular reflection, shallow depth of field. Cinematic light setup, bright Deep Violet overhead lighting. Expression is Confusion."
+        },
+        {
+            "variables": {
+                "PRIMARY_TEXTURE": "Terracotta",
+                "EMOTION": "Delight",
+                "SUBJECT": "A Gargoyle",
+                "AMBIENT_LIGHTING": "Emerald Green"
+            },
+            "prompt": "An extreme macro close-up, highly detailed 3D render of a grotesque A Gargoyle portrait. The entire surface texture is composed of hyper-realistic, porous Terracotta material, heavily encrusted with wet marine organic matter, tiny barnacles, deep green algae, and fibrous strands. The facial features, including the mouth and teeth, maintain the porous texture. Hyper-realistic, bloodshot human eyes, high specular reflection, shallow depth of field. Cinematic light setup, bright Emerald Green overhead lighting. Expression is Delight."
+        },
+        {
+            "variables": {
+                "PRIMARY_TEXTURE": "Clay",
+                "EMOTION": "Fear",
+                "SUBJECT": "A Desert Nomad",
+                "AMBIENT_LIGHTING": "Ruby Red"
+            },
+            "prompt": "An extreme macro close-up, highly detailed 3D render of a grotesque A Desert Nomad portrait. The entire surface texture is composed of hyper-realistic, porous Clay material, heavily encrusted with wet marine organic matter, tiny barnacles, deep green algae, and fibrous strands. The facial features, including the mouth and teeth, maintain the porous texture. Hyper-realistic, bloodshot human eyes, high specular reflection, shallow depth of field. Cinematic light setup, bright Ruby Red overhead lighting. Expression is Fear."
+        },
+        "The physical manifestation of existential dread, petrified ash, sulfur yellow, silent, overwhelming terror",
+        "The relentless, heavy weight of forgotten trauma, crystallized salt, bruised purple, aching, desperate resignation"
+    ],
+    "tips": [
+        "Use a vertical aspect ratio (e.g., 9:16 or 2:3) to replicate the portrait, full-frame composition.",
+        "Pair the [SUBJECT] with simple shapes or highly recognizable figures to ensure the grotesque texture remains the focus.",
+        "Utilize Negative Prompts to suppress 'cartoon' or 'low-detail' results, reinforcing the CGI realism (e.g., --no drawing, sketch, low quality, simplified)."
+    ],
+    "description": "Unleash extreme visceral detail with this template, transforming any subject into a hyper-realistic, high-definition macro portrait. The defining feature is the porous, grotesque biopunk texture, complete with unsettling organic growths and hyper-realistic human elements, perfect for jarring, high-impact visuals.",
+    "instructions": "Use this template to generate similar images.",
+    "input_source": "image_upload",
+    "title_validation": {
+        "score": 0.5,
+        "issues": [
+            "Missing emotional/visual descriptor",
+            "Missing format/type specification"
+        ],
+        "suggestions": [
+            "Consider: playful, elegant, bold, mysterious, soft",
+            "Add: design, wallpaper, scene, art, texture"
+        ]
+    },
+    "evaluation": {
+        "scores": {
+            "TITLE QUALITY": 20,
+            "TEMPLATE STRUCTURE": 30,
+            "VARIABLE EXAMPLES": 20,
+            "COMMERCIAL VIABILITY": 15,
+            "DESCRIPTION QUALITY": 15
+        },
+        "total_score": 100,
+        "feedback": {
+            "TITLE QUALITY": "Score: 20/20. The title 'Cinematic Neo-Noir Cityscape Photography' is exemplary. It strictly follows the [Descriptor] + [Subject] + [Type] format, uses evocative language ('Cinematic Neo-Noir'), is perfectly sized (4 words), and unambiguously signals the output format (Photography). This is market-ready.",
+            "TEMPLATE STRUCTURE": "Score: 30/30. The template is highly optimized. The subject variable [SUBJECT] is clearly isolated. Core style descriptors ('high-contrast, moody, deep shadows, dramatic lighting') constitute the bulk of the prompt, ensuring aesthetic consistency. Technical specifications are complete and professional-grade (Kodak Portra 400, 85mm lens, 16k resolution, specific aspect ratio). The template delivers precisely what the title promises.",
+            "VARIABLE EXAMPLES": "Score: 20/20. Eight diverse examples are provided. The selection successfully mixes concrete subjects ('lonely diner'), abstract concepts ('abstract geometric pattern'), and high-fantasy elements ('floating castle'). This range effectively demonstrates the template's versatility, proving it can apply the Neo-Noir aesthetic far beyond typical urban scenes.",
+            "COMMERCIAL VIABILITY": "Score: 15/15. Use cases (Concept Art, Album Covers, Cinematic Storyboards) are high-value and clearly defined, targeting professional artists and game developers. The suggested price ($2.99) is appropriate for a niche, highly technical, and repeatable aesthetic. The unique value proposition—high-fidelity film emulation combined with complex mood control—is strong.",
+            "DESCRIPTION QUALITY": "Score: 15/15. The description is compelling ('Dive into the shadows...'), immediately grabs attention, and lists key technical features ('detailed film stock emulation and cinematic ratios'). It accurately maps out the target audience (artists, game devs) and practical applications, fulfilling all requirements efficiently."
+        },
+        "priority_improvements": [
+            "None. This prompt package is exceptional and fully compliant with all marketplace standards."
+        ]
+    },
+    "test_guidance": {
+        "test_instructions": [
+            "Fill in each variable with different values to test versatility.",
+            "Try using the first example prompt exactly as written as your baseline.",
+            "Test at least 3-5 different variations to ensure consistent style.",
+            "Experiment with Midjourney parameters like `--ar` or `--stylize`."
+        ],
+        "quality_checklist": [
+            "Style Consistency: Does the style remain consistent?",
+            "Composition: Does the output match your compositional expectations?",
+            "Visual Quality: Is the output high-quality?",
+            "Variable Impact: Does changing variables produce meaningful differences?"
+        ],
+        "common_issues": [
+            "Subject distortion or anatomical problems.",
+            "Style 'bleeding' or inconsistency."
+        ]
+    },
+    "commercial_description": "Instantly transform any subject into a breathtaking, visceral macro portrait where reality bleeds through the frame, all without touching a single slider.\n\n*   **Porous Reality Engine:** Guaranteeing the signature 'Porous Reality' texture, extreme detail, and light diffusion across every single render for unparalleled stylistic consistency.\n*   **One-Click Cinematic Detail:** Achieve museum-quality macro focus and professional, multi-source lighting setups instantly—no technical expertise or modifier knowledge required.\n*   **Subject Agnostic:** Simply input your desired character, object, or concept; the template handles the complex stylistic overlay and advanced camera mechanics seamlessly.\n\nPerfect for generating high-impact album art, dark fantasy concept design, horror game assets, and truly unforgettable profile pictures. Forget the hours spent tweaking parameters; this template is your direct, effortless pipeline to professional, high-concept AI art.",
+    "category": "Art & Illustration",
+    "_abstract_injected": 2,
+    "enhancement_log": [
+        "Injected 2 abstract examples"
+    ]
+}

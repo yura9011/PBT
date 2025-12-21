@@ -1,6 +1,12 @@
+# Core dependencies
 streamlit
 google-generativeai
-requests
-PyYAML
-
 pypdf
+pillow
+
+# Utilities
+requests
+pyyaml
+
+# CLI (optional but recommended)
+click

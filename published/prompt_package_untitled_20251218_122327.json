@@ -1,0 +1,179 @@
+{
+    "topic": "Retro Flat Graphic Motivational Poster",
+    "content_type": "Image",
+    "platform": "Midjourney/DALL-E",
+    "style": "Minimalist graphic design, Retro screen print aesthetic, Flat color illustration, Heavy paper grain texture",
+    "use_case": "Apparel Design / Merchandise Graphics (T-Shirts, Stickers)",
+    "template": "A minimalist, centered motivational graphic poster. The main element is a simple, flat-color [SUBJECT] drawn in a playful, doodle-style with a smiling face, connected by a thin stem to a small, outlined container representing restriction. Use a [COLOR_PALETTE] palette (light background, bright subject color, black text). Retro screen printed aesthetic, heavy vintage paper grain texture, bold sans-serif text aligned top and bottom. Text above: \"[MOTIVATIONAL_TEXT_TOP]\". Text below: \"[MOTIVATIONAL_TEXT_BOTTOM]\". Aspect Ratio: [ASPECT_RATIO]",
+    "variables": [
+        "ASPECT_RATIO",
+        "MOTIVATIONAL_TEXT_BOTTOM",
+        "COLOR_PALETTE",
+        "MOTIVATIONAL_TEXT_TOP",
+        "SUBJECT"
+    ],
+    "variable_explanations": {
+        "SUBJECT": "The central object or metaphor (e.g., 'lightbulb', 'small cloud', 'hot air balloon', 'coffee mug').",
+        "COLOR_PALETTE": "Controls the dominant background and subject color scheme (e.g., 'Oatmeal & Neon Yellow', 'Dusty Rose & Crimson', 'Pale Blue & Deep Orange').",
+        "MOTIVATIONAL_TEXT_TOP": "The line of text appearing at the top of the poster (e.g., 'STAY HUNGRY', 'THE TIME IS NOW').",
+        "ASPECT_RATIO": "Controls the orientation (e.g., '3:4', '1:1', '9:16')."
+    },
+    "examples": [
+        {
+            "variables": {
+                "ASPECT_RATIO": "4:5",
+                "MOTIVATIONAL_TEXT_BOTTOM": "The Sky Is Not The Limit",
+                "COLOR_PALETTE": "Sky Blue and Coral",
+                "MOTIVATIONAL_TEXT_TOP": "LOOK UP",
+                "SUBJECT": "A fluffy cloud"
+            },
+            "prompt": "A minimalist, centered motivational graphic poster. The main element is a simple, flat-color A fluffy cloud drawn in a playful, doodle-style with a smiling face, connected by a thin stem to a small, outlined container representing restriction. Use a Sky Blue and Coral palette (light background, bright subject color, black text). Retro screen printed aesthetic, heavy vintage paper grain texture, bold sans-serif text aligned top and bottom. Text above: \"LOOK UP\". Text below: \"The Sky Is Not The Limit\". Aspect Ratio: 4:5"
+        },
+        {
+            "variables": {
+                "ASPECT_RATIO": "1:1",
+                "MOTIVATIONAL_TEXT_BOTTOM": "You Are Planted",
+                "COLOR_PALETTE": "Deep Olive Green and Gold",
+                "MOTIVATIONAL_TEXT_TOP": "GROW WHERE",
+                "SUBJECT": "A blooming sunflower"
+            },
+            "prompt": "A minimalist, centered motivational graphic poster. The main element is a simple, flat-color A blooming sunflower drawn in a playful, doodle-style with a smiling face, connected by a thin stem to a small, outlined container representing restriction. Use a Deep Olive Green and Gold palette (light background, bright subject color, black text). Retro screen printed aesthetic, heavy vintage paper grain texture, bold sans-serif text aligned top and bottom. Text above: \"GROW WHERE\". Text below: \"You Are Planted\". Aspect Ratio: 1:1"
+        },
+        {
+            "variables": {
+                "ASPECT_RATIO": "3:4",
+                "MOTIVATIONAL_TEXT_BOTTOM": "Despite Gravity",
+                "COLOR_PALETTE": "Bright Red and Navy",
+                "MOTIVATIONAL_TEXT_TOP": "LAUNCH",
+                "SUBJECT": "A tiny rocket ship"
+            },
+            "prompt": "A minimalist, centered motivational graphic poster. The main element is a simple, flat-color A tiny rocket ship drawn in a playful, doodle-style with a smiling face, connected by a thin stem to a small, outlined container representing restriction. Use a Bright Red and Navy palette (light background, bright subject color, black text). Retro screen printed aesthetic, heavy vintage paper grain texture, bold sans-serif text aligned top and bottom. Text above: \"LAUNCH\". Text below: \"Despite Gravity\". Aspect Ratio: 3:4"
+        },
+        {
+            "variables": {
+                "ASPECT_RATIO": "5:7",
+                "MOTIVATIONAL_TEXT_BOTTOM": "Creates Value",
+                "COLOR_PALETTE": "Charcoal Gray and Electric Blue",
+                "MOTIVATIONAL_TEXT_TOP": "PRESSURE",
+                "SUBJECT": "A sparkling diamond"
+            },
+            "prompt": "A minimalist, centered motivational graphic poster. The main element is a simple, flat-color A sparkling diamond drawn in a playful, doodle-style with a smiling face, connected by a thin stem to a small, outlined container representing restriction. Use a Charcoal Gray and Electric Blue palette (light background, bright subject color, black text). Retro screen printed aesthetic, heavy vintage paper grain texture, bold sans-serif text aligned top and bottom. Text above: \"PRESSURE\". Text below: \"Creates Value\". Aspect Ratio: 5:7"
+        },
+        {
+            "variables": {
+                "ASPECT_RATIO": "16:9",
+                "MOTIVATIONAL_TEXT_BOTTOM": "Where Others Are Dim",
+                "COLOR_PALETTE": "Royal Purple and Neon Yellow",
+                "MOTIVATIONAL_TEXT_TOP": "SHINE",
+                "SUBJECT": "A single bright star"
+            },
+            "prompt": "A minimalist, centered motivational graphic poster. The main element is a simple, flat-color A single bright star drawn in a playful, doodle-style with a smiling face, connected by a thin stem to a small, outlined container representing restriction. Use a Royal Purple and Neon Yellow palette (light background, bright subject color, black text). Retro screen printed aesthetic, heavy vintage paper grain texture, bold sans-serif text aligned top and bottom. Text above: \"SHINE\". Text below: \"Where Others Are Dim\". Aspect Ratio: 16:9"
+        },
+        {
+            "variables": {
+                "ASPECT_RATIO": "2:3",
+                "MOTIVATIONAL_TEXT_BOTTOM": "Trust The Ascent",
+                "COLOR_PALETTE": "Soft Lavender and Mint Green",
+                "MOTIVATIONAL_TEXT_TOP": "LET GO",
+                "SUBJECT": "A gently floating bubble"
+            },
+            "prompt": "A minimalist, centered motivational graphic poster. The main element is a simple, flat-color A gently floating bubble drawn in a playful, doodle-style with a smiling face, connected by a thin stem to a small, outlined container representing restriction. Use a Soft Lavender and Mint Green palette (light background, bright subject color, black text). Retro screen printed aesthetic, heavy vintage paper grain texture, bold sans-serif text aligned top and bottom. Text above: \"LET GO\". Text below: \"Trust The Ascent\". Aspect Ratio: 2:3"
+        },
+        {
+            "variables": {
+                "ASPECT_RATIO": "1:1",
+                "MOTIVATIONAL_TEXT_BOTTOM": "In The Fog",
+                "COLOR_PALETTE": "Safety Orange and Seafoam",
+                "MOTIVATIONAL_TEXT_TOP": "BE THE LIGHT",
+                "SUBJECT": "A small, sturdy lighthouse"
+            },
+            "prompt": "A minimalist, centered motivational graphic poster. The main element is a simple, flat-color A small, sturdy lighthouse drawn in a playful, doodle-style with a smiling face, connected by a thin stem to a small, outlined container representing restriction. Use a Safety Orange and Seafoam palette (light background, bright subject color, black text). Retro screen printed aesthetic, heavy vintage paper grain texture, bold sans-serif text aligned top and bottom. Text above: \"BE THE LIGHT\". Text below: \"In The Fog\". Aspect Ratio: 1:1"
+        },
+        {
+            "variables": {
+                "ASPECT_RATIO": "4:3",
+                "MOTIVATIONAL_TEXT_BOTTOM": "From Small Beginnings",
+                "COLOR_PALETTE": "Earth Tones and Rust",
+                "MOTIVATIONAL_TEXT_TOP": "GREAT OAKS",
+                "SUBJECT": "A happy little acorn"
+            },
+            "prompt": "A minimalist, centered motivational graphic poster. The main element is a simple, flat-color A happy little acorn drawn in a playful, doodle-style with a smiling face, connected by a thin stem to a small, outlined container representing restriction. Use a Earth Tones and Rust palette (light background, bright subject color, black text). Retro screen printed aesthetic, heavy vintage paper grain texture, bold sans-serif text aligned top and bottom. Text above: \"GREAT OAKS\". Text below: \"From Small Beginnings\". Aspect Ratio: 4:3"
+        },
+        {
+            "variables": {
+                "ASPECT_RATIO": "5:4",
+                "MOTIVATIONAL_TEXT_BOTTOM": "Own Story",
+                "COLOR_PALETTE": "Canary Yellow and Magenta",
+                "MOTIVATIONAL_TEXT_TOP": "WRITE YOUR",
+                "SUBJECT": "A simple pencil"
+            },
+            "prompt": "A minimalist, centered motivational graphic poster. The main element is a simple, flat-color A simple pencil drawn in a playful, doodle-style with a smiling face, connected by a thin stem to a small, outlined container representing restriction. Use a Canary Yellow and Magenta palette (light background, bright subject color, black text). Retro screen printed aesthetic, heavy vintage paper grain texture, bold sans-serif text aligned top and bottom. Text above: \"WRITE YOUR\". Text below: \"Own Story\". Aspect Ratio: 5:4"
+        },
+        "A minimalist, centered motivational graphic poster. The main element is a simple, flat-color **Quiet Resolution** drawn in a playful, doodle-style with a smiling face, connected by a thin stem to a small, outlined container representing restriction. Use a **Dusty Rose and Deep Teal** palette (light background, bright subject color, black text). Retro screen printed aesthetic, heavy vintage paper grain texture, bold sans-serif text aligned top and bottom. Text above: **GROW BEYOND** Text below: **THE FENCES THEY BUILD**. Aspect Ratio: **4:5**",
+        "A minimalist, centered motivational graphic poster. The main element is a simple, flat-color **The Weight of Unspoken Words** drawn in a playful, doodle-style with a smiling face, connected by a thin stem to a small, outlined container representing restriction. Use an **Ultramarine Blue and Sunny Yellow** palette (light background, bright subject color, black text). Retro screen printed aesthetic, heavy vintage paper grain texture, bold sans-serif text aligned top and bottom. Text above: **SAY IT LOUD** Text below: **EVEN IF IT SHAKES YOU**. Aspect Ratio: **1:1**"
+    ],
+    "tips": [
+        "Use simple, common objects for the [SUBJECT] variable to maintain the flat, doodle aesthetic.",
+        "Keep the [COLOR_PALETTE] high-contrast and limited (2-3 colors max) for the authentic screen-print look.",
+        "For best results replicating the original image's look, use '3:4' or '2:3' for the [ASPECT_RATIO]."
+    ],
+    "description": "Capture the nostalgic charm of vintage screen-printed motivational posters. This template utilizes strict minimalism, heavy paper texture, and a centered metaphor to create highly shareable and marketable graphics perfect for merchandise.",
+    "instructions": "Use this template to generate similar images.",
+    "input_source": "image_upload",
+    "title_validation": {
+        "score": 0.75,
+        "issues": [
+            "Missing emotional/visual descriptor"
+        ],
+        "suggestions": [
+            "Consider: muted, surreal, vintage, ethereal, mysterious"
+        ]
+    },
+    "evaluation": {
+        "scores": {
+            "title_quality": 15,
+            "template_structure": 30,
+            "variable_examples": 18,
+            "commercial_viability": 13,
+            "description_quality": 13
+        },
+        "total_score": 89,
+        "feedback": {
+            "title_quality": "The title 'Cinematic Portraits' effectively conveys the output type and includes the necessary descriptor. However, at only two words, it fails to meet the required length specification (3-6 words). While concise, a slightly longer title would allow for greater descriptive power and better search visibility in a marketplace environment. A title like 'Dramatic Cinematic Portrait Generator' would better fulfill all criteria.",
+            "template_structure": "The template structure is excellent. The subject variable is clearly marked and positioned correctly. The core style descriptors, including 'dramatic lighting,' 'high contrast,' 'film grain,' and specific camera/lens details, constitute a strong portion of the prompt, ensuring consistent output quality. Technical specifications (aspect ratio, photorealism) are complete and accurately reflect the title's promise. This section is robust and marketplace-ready.",
+            "variable_examples": "The provided examples demonstrate a good range, moving between specific subjects ('A grizzled cowboy smoking a cigarette') and more abstract concepts ('A moment of intense realization'). However, only seven examples were provided. The requirement for marketplace-ready prompts is 8-10 examples to fully demonstrate the template's versatility and potential range for users. A few additional examples covering different demographics or settings would strengthen this section.",
+            "commercial_viability": "The use cases (social media, concept art, mood boards) are clear and align well with the prompt's aesthetic. The suggested price tier ($2.99-$4.99) is appropriate given the specific niche and high quality. The unique value proposition (UVP) is slightly generic, focusing primarily on 'high quality cinematic images.' While accurate, a stronger UVP would emphasize the consistency of the aesthetic across diverse subjects, differentiating it from other cinematic prompts.",
+            "description_quality": "The description provides a compelling hook ('Create stunning, high-impact cinematic portraits instantly'). However, the technical features and use cases are mentioned briefly rather than being detailed in a clear, bulleted list. The listing should clearly state the features (e.g., 'Consistent high contrast,' 'Film grain simulation,' 'Ideal for 16:9 aspect ratio output') to ensure users understand the prompt's capabilities before purchase."
+        },
+        "priority_improvements": [
+            "Increase the title length to between 3-6 words for better search optimization and descriptive power.",
+            "Add at least one additional variable example to reach the minimum requirement of 8 examples.",
+            "Refine the Unique Value Proposition to emphasize consistent aesthetic generation for diverse inputs.",
+            "Bullet-point the technical features and use cases in the description for improved readability and clarity."
+        ]
+    },
+    "test_guidance": {
+        "test_instructions": [
+            "Fill in each variable with different values to test versatility.",
+            "Try using the first example prompt exactly as written as your baseline.",
+            "Test at least 3-5 different variations to ensure consistent style.",
+            "Experiment with Midjourney parameters like `--ar` or `--stylize`."
+        ],
+        "quality_checklist": [
+            "Style Consistency: Does the style remain consistent?",
+            "Composition: Does the output match your compositional expectations?",
+            "Visual Quality: Is the output high-quality?",
+            "Variable Impact: Does changing variables produce meaningful differences?"
+        ],
+        "common_issues": [
+            "Subject distortion or anatomical problems.",
+            "Style 'bleeding' or inconsistency."
+        ]
+    },
+    "commercial_description": "Unlock the iconic, optimistic aesthetic of mid-century design and create stunning, gallery-worthy motivational posters in seconds.\n\n*   **Flawlessly Flat & Vibrant:** Instantly apply the signature highly saturated, limited-color palette and perfectly flat shading that defines the retro-modern style, eliminating complex color grading.\n*   **The Power of Simplicity:** Engineered to handle any subject—from abstract concepts to specific figures—while maintaining the clean, bold lines and graphic reductionism of a true vintage masterpiece.\n*   **Built-in Inspiration:** Includes specific parameters that mimic the texture and composition of classic screen-printed works, giving your digital creations an authentic, nostalgic finish without any post-processing.\n\nPerfect for branding assets, social media content, print-on-demand products, or instantly elevating your home and office decor.\n\nStop wrestling with layers and filters—just input your core message and watch professional-grade, museum-quality retro graphics materialize effortlessly.",
+    "category": "Graphics & Design",
+    "_abstract_injected": 2,
+    "enhancement_log": [
+        "Injected 2 abstract examples"
+    ]
+}

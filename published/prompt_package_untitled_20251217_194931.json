@@ -1,0 +1,157 @@
+{
+    "topic": "Ethereal Watchers: High-Contrast Vertical Illustration",
+    "content_type": "Image",
+    "platform": "Midjourney/DALL-E",
+    "style": "Stylized Digital Painting, High Saturation, Expressive Brushwork, Dramatic Vertical Composition",
+    "use_case": "Fantasy/Horror Book Cover Art, Vertical Poster Series, Album Art",
+    "template": "A dramatic vertical illustration of a lone [FIGURE_TYPE] silhouette standing centered in a dense [FOREGROUND_ELEMENT] setting, gazing upwards at a gigantic, swirling, ethereal [SUBJECT] entity hovering high above. The scene is lit entirely by the brilliant glow of the subject, creating high-contrast shadows and falling luminescent particles. Stylized digital painting, deep atmosphere, expressive brushstrokes, high saturation, limited monochromatic palette dominated by electric [PRIMARY_COLOR] and deep indigo. Cinematic depth of field, 4k.",
+    "variables": [
+        "FIGURE_TYPE",
+        "SUBJECT",
+        "PRIMARY_COLOR",
+        "FOREGROUND_ELEMENT"
+    ],
+    "variable_explanations": {
+        "SUBJECT": "The large, ethereal entity floating above the figure (e.g., 'Swirling Star Cluster', 'Screaming Void Mouth', 'Nest of Golden Tentacles').",
+        "FIGURE_TYPE": "The small observer silhouette in the foreground (e.g., 'A child in a poncho', 'An astronaut in a damaged suit', 'A knight holding a staff').",
+        "PRIMARY_COLOR": "The dominant, highly saturated color that sets the mood (e.g., 'Electric Teal', 'Crimson Red', 'Neon Green', 'Deep Violet').",
+        "FOREGROUND_ELEMENT": "The material/setting the figure is standing in, which adds texture to the bottom of the composition (e.g., 'Lush Giant Ferns', 'Jagged Crystal Shards', 'Rippling Dark Water', 'Dead Tree Roots')."
+    },
+    "examples": [
+        {
+            "variables": {
+                "FIGURE_TYPE": "Astronaut",
+                "SUBJECT": "Galactic Core",
+                "PRIMARY_COLOR": "Cyan",
+                "FOREGROUND_ELEMENT": "Alien Rock Formations"
+            },
+            "prompt": "A dramatic vertical illustration of a lone Astronaut silhouette standing centered in a dense Alien Rock Formations setting, gazing upwards at a gigantic, swirling, ethereal Galactic Core entity hovering high above. The scene is lit entirely by the brilliant glow of the subject, creating high-contrast shadows and falling luminescent particles. Stylized digital painting, deep atmosphere, expressive brushstrokes, high saturation, limited monochromatic palette dominated by electric Cyan and deep indigo. Cinematic depth of field, 4k."
+        },
+        {
+            "variables": {
+                "FIGURE_TYPE": "Mage",
+                "SUBJECT": "The World Tree's Heart",
+                "PRIMARY_COLOR": "Emerald Green",
+                "FOREGROUND_ELEMENT": "Ancient Mossy Ruins"
+            },
+            "prompt": "A dramatic vertical illustration of a lone Mage silhouette standing centered in a dense Ancient Mossy Ruins setting, gazing upwards at a gigantic, swirling, ethereal The World Tree's Heart entity hovering high above. The scene is lit entirely by the brilliant glow of the subject, creating high-contrast shadows and falling luminescent particles. Stylized digital painting, deep atmosphere, expressive brushstrokes, high saturation, limited monochromatic palette dominated by electric Emerald Green and deep indigo. Cinematic depth of field, 4k."
+        },
+        {
+            "variables": {
+                "FIGURE_TYPE": "Child",
+                "SUBJECT": "Forgotten Laughter",
+                "PRIMARY_COLOR": "Gold",
+                "FOREGROUND_ELEMENT": "Tall Grass"
+            },
+            "prompt": "A dramatic vertical illustration of a lone Child silhouette standing centered in a dense Tall Grass setting, gazing upwards at a gigantic, swirling, ethereal Forgotten Laughter entity hovering high above. The scene is lit entirely by the brilliant glow of the subject, creating high-contrast shadows and falling luminescent particles. Stylized digital painting, deep atmosphere, expressive brushstrokes, high saturation, limited monochromatic palette dominated by electric Gold and deep indigo. Cinematic depth of field, 4k."
+        },
+        {
+            "variables": {
+                "FIGURE_TYPE": "Deep Sea Diver",
+                "SUBJECT": "Bioluminescent Jellyfish Swarm",
+                "PRIMARY_COLOR": "Violet",
+                "FOREGROUND_ELEMENT": "Dense Coral Reef"
+            },
+            "prompt": "A dramatic vertical illustration of a lone Deep Sea Diver silhouette standing centered in a dense Dense Coral Reef setting, gazing upwards at a gigantic, swirling, ethereal Bioluminescent Jellyfish Swarm entity hovering high above. The scene is lit entirely by the brilliant glow of the subject, creating high-contrast shadows and falling luminescent particles. Stylized digital painting, deep atmosphere, expressive brushstrokes, high saturation, limited monochromatic palette dominated by electric Violet and deep indigo. Cinematic depth of field, 4k."
+        },
+        {
+            "variables": {
+                "FIGURE_TYPE": "Cowboy on Horseback",
+                "SUBJECT": "Aurora Borealis",
+                "PRIMARY_COLOR": "Ruby Red",
+                "FOREGROUND_ELEMENT": "Desert Canyons"
+            },
+            "prompt": "A dramatic vertical illustration of a lone Cowboy on Horseback silhouette standing centered in a dense Desert Canyons setting, gazing upwards at a gigantic, swirling, ethereal Aurora Borealis entity hovering high above. The scene is lit entirely by the brilliant glow of the subject, creating high-contrast shadows and falling luminescent particles. Stylized digital painting, deep atmosphere, expressive brushstrokes, high saturation, limited monochromatic palette dominated by electric Ruby Red and deep indigo. Cinematic depth of field, 4k."
+        },
+        {
+            "variables": {
+                "FIGURE_TYPE": "Majestic Wolf",
+                "SUBJECT": "Lunar Deity",
+                "PRIMARY_COLOR": "Silver",
+                "FOREGROUND_ELEMENT": "Snow-covered Pines"
+            },
+            "prompt": "A dramatic vertical illustration of a lone Majestic Wolf silhouette standing centered in a dense Snow-covered Pines setting, gazing upwards at a gigantic, swirling, ethereal Lunar Deity entity hovering high above. The scene is lit entirely by the brilliant glow of the subject, creating high-contrast shadows and falling luminescent particles. Stylized digital painting, deep atmosphere, expressive brushstrokes, high saturation, limited monochromatic palette dominated by electric Silver and deep indigo. Cinematic depth of field, 4k."
+        },
+        {
+            "variables": {
+                "FIGURE_TYPE": "Scavenger",
+                "SUBJECT": "Floating Clockwork Mechanism",
+                "PRIMARY_COLOR": "Burnt Orange",
+                "FOREGROUND_ELEMENT": "Crumbling Skyscrapers"
+            },
+            "prompt": "A dramatic vertical illustration of a lone Scavenger silhouette standing centered in a dense Crumbling Skyscrapers setting, gazing upwards at a gigantic, swirling, ethereal Floating Clockwork Mechanism entity hovering high above. The scene is lit entirely by the brilliant glow of the subject, creating high-contrast shadows and falling luminescent particles. Stylized digital painting, deep atmosphere, expressive brushstrokes, high saturation, limited monochromatic palette dominated by electric Burnt Orange and deep indigo. Cinematic depth of field, 4k."
+        },
+        {
+            "variables": {
+                "FIGURE_TYPE": "Knight in Armor",
+                "SUBJECT": "A Thousand Shattered Stars",
+                "PRIMARY_COLOR": "Electric Blue",
+                "FOREGROUND_ELEMENT": "Field of Obsidian Shards"
+            },
+            "prompt": "A dramatic vertical illustration of a lone Knight in Armor silhouette standing centered in a dense Field of Obsidian Shards setting, gazing upwards at a gigantic, swirling, ethereal A Thousand Shattered Stars entity hovering high above. The scene is lit entirely by the brilliant glow of the subject, creating high-contrast shadows and falling luminescent particles. Stylized digital painting, deep atmosphere, expressive brushstrokes, high saturation, limited monochromatic palette dominated by electric Electric Blue and deep indigo. Cinematic depth of field, 4k."
+        },
+        {
+            "variables": {
+                "FIGURE_TYPE": "Wandering Poet",
+                "SUBJECT": "The Stream of Consciousness",
+                "PRIMARY_COLOR": "Rose Pink",
+                "FOREGROUND_ELEMENT": "Misty Riverbank"
+            },
+            "prompt": "A dramatic vertical illustration of a lone Wandering Poet silhouette standing centered in a dense Misty Riverbank setting, gazing upwards at a gigantic, swirling, ethereal The Stream of Consciousness entity hovering high above. The scene is lit entirely by the brilliant glow of the subject, creating high-contrast shadows and falling luminescent particles. Stylized digital painting, deep atmosphere, expressive brushstrokes, high saturation, limited monochromatic palette dominated by electric Rose Pink and deep indigo. Cinematic depth of field, 4k."
+        }
+    ],
+    "tips": [
+        "Use high aspect ratios (2:3 or 9:16) to leverage the vertical depth inherent in the composition.",
+        "Keep the [PRIMARY_COLOR] descriptor specific (e.g., 'Electric Blue' vs. just 'Blue') to ensure high saturation and glow.",
+        "Ensure the [SUBJECT] is described as 'swirling,' 'ethereal,' or 'misty' to maintain the dark, cloud-like texture of the entity."
+    ],
+    "description": "Capture dark, atmospheric wonder with this highly stylized template. It emphasizes dramatic contrast, saturated monochromatic color schemes, and a powerful vertical composition perfect for high-impact visual narratives.",
+    "instructions": "Use this template to generate similar images.",
+    "input_source": "image_upload",
+    "title_validation": {
+        "score": 1.0,
+        "issues": [],
+        "suggestions": []
+    },
+    "evaluation": {
+        "scores": {
+            "title_quality": 20,
+            "template_structure": 30,
+            "variable_examples": 20,
+            "commercial_viability": 15,
+            "description_quality": 13
+        },
+        "total_score": 98,
+        "feedback": {
+            "title_quality": "The title 'Gritty Noir Portrait Generator' adheres perfectly to all criteria. It follows the [Descriptor] + [Subject] + [Type] pattern, uses strong visual/emotional descriptors ('Gritty,' 'Noir'), maintains a concise length (4 words), and accurately conveys the output type ('Portrait Generator'). This title is highly effective for discoverability.",
+            "template_structure": "The template structure is exemplary. The subject variable `[Subject]` is clearly marked for easy user input. The core style descriptors make up the majority of the prompt, precisely defining the aesthetic (cinematic film noir, chiaroscuro lighting, gritty texture). Technical specifications (`--ar 2:3`, `--style raw`) are included and appropriate for the desired output quality. The template delivers exactly what the title promises.",
+            "variable_examples": "The provided examples are diverse and effectively demonstrate the range of outputs possible within the 'noir portrait' theme. The mix includes specific character descriptions ('A detective smoking a cigarette'), abstract elements ('A close-up of a pair of eyes in shadow'), and scene-based concepts ('A rainy street scene'). The examples successfully cover different perspectives and subjects while maintaining consistent style.",
+            "commercial_viability": "The prompt package offers strong commercial viability. The use cases provided (character concepts, storytelling, stylized profile pictures) are clear and align with market demand. The unique value proposition lies in the specific, high-fidelity aesthetic created by combining elements like 'chiaroscuro lighting' and 'Kodak Tri-X 400 film,' which differentiates it from generic black and white prompts. It justifies a premium price tier.",
+            "description_quality": "The description provides a compelling hook and clearly outlines the use cases. However, it could be slightly improved by explicitly mentioning the technical features included in the template (e.g., 'high-resolution output with specific film grain and aspect ratio') to fully align with the technical specifications criterion. While functional, explicitly listing technical features enhances perceived value for advanced users."
+        },
+        "priority_improvements": [
+            "Refine the description to explicitly list key technical features (aspect ratio, film style simulation) to increase transparency and appeal to technical users."
+        ]
+    },
+    "test_guidance": {
+        "test_instructions": [
+            "Fill in each variable with different values to test versatility.",
+            "Try using the first example prompt exactly as written as your baseline.",
+            "Test at least 3-5 different variations to ensure consistent style.",
+            "Experiment with Midjourney parameters like `--ar` or `--stylize`."
+        ],
+        "quality_checklist": [
+            "Style Consistency: Does the style remain consistent?",
+            "Composition: Does the output match your compositional expectations?",
+            "Visual Quality: Is the output high-quality?",
+            "Variable Impact: Does changing variables produce meaningful differences?"
+        ],
+        "common_issues": [
+            "Subject distortion or anatomical problems.",
+            "Style 'bleeding' or inconsistency."
+        ]
+    },
+    "commercial_description": "Unlock gallery-quality, high-contrast vertical illustrations instantly, without ever touching a slider or a setting.\n\n*   **Cinematic Contrast, Zero Effort:** Achieve breathtaking, dramatic lighting and deep shadows—the hallmark of professional design—with a single click.\n*   **The Ethereal Gaze:** Inject a consistent, mesmerizing sense of mystery and depth into every subject, guaranteeing a cohesive, premium portfolio look.\n*   **Perfectly Framed:** Optimized specifically for stunning vertical formats, ideal for social media stories, mobile wallpapers, and impactful print designs.\n\nPerfect For: Creating viral social media content, designing striking book covers, generating unique print-a-bles, or elevating your personal art projects. Stop struggling with complex parameters and start creating masterpieces today.",
+    "category": "Art & Illustration",
+    "enhancement_log": []
+}

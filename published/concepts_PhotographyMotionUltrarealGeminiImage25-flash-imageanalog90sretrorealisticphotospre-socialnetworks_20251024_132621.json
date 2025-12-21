@@ -1,0 +1,44 @@
+{
+    "concepts": [
+        {
+            "topic": "Disposable Flash Moments: Candid 90s Youth",
+            "description": "Ultra-realistic, high-grain analog photography capturing candid, unposed moments of 90s youth culture (mall hangouts, house parties). Focus on harsh direct flash, red-eye, and imperfect composition typical of disposable cameras.",
+            "content_type": "Image",
+            "style": "Analog Realism / Harsh Flash",
+            "use_case": "Editorial Content, Nostalgia Marketing, Album Art",
+            "unique_angle": "Differs from clean portraiture by emphasizing the technical flaws (red-eye, light bloom, poor focus) and non-curated nature of pre-social network photography, making the images feel genuinely found and authentic."
+        },
+        {
+            "topic": "90s VHS Verite: Urban Decay & Payphones",
+            "description": "Hyper-realistic street photography of overlooked 90s urban infrastructure (bus stops, specific signage, payphones) using the faded color palette and subtle motion blur characteristic of older film stock and early video captures.",
+            "content_type": "Image",
+            "style": "Documentary / Grit",
+            "use_case": "Backgrounds, Game Assets, Stock Photography",
+            "unique_angle": "Moves beyond the stylized Synthwave aesthetic common in 'Retro Cityscapes' by focusing on the mundane, aging infrastructure and the visual artifacts associated with low-fidelity analog recording, providing a grittier, more grounded reality."
+        },
+        {
+            "topic": "Artifacts of the Analog Age: 90s Tech Still Life",
+            "description": "Ultrareal, close-up still life photography of iconic 90s technology (chunky monitors, portable CD players, early video game consoles). Images include realistic dust, minor scratches, and film grain/light leaks for maximum authenticity.",
+            "content_type": "Image",
+            "style": "Still Life / Product Realism",
+            "use_case": "Product Mockups, E-commerce (Nostalgia), Desktop Wallpapers",
+            "unique_angle": "Applies the ultrareal photography category to product mockups, but subverts the standard 'clean studio shot' by deliberately introducing analog imperfections and environmental wear, creating highly niche, nostalgic stock assets."
+        },
+        {
+            "topic": "Cryptid Documentation: Grainy 90s Paranormal",
+            "description": "Mixing the 'Fantasy & Surreal Worlds' category with ultrareal, low-fidelity 90s photography. Generate images of mythical creatures (e.g., Bigfoot, UFOs) captured via poorly focused, high-grain telephoto lenses, mimicking lost documentary or 'found footage' evidence.",
+            "content_type": "Image",
+            "style": "Found Footage / Paranormal Realism",
+            "use_case": "Concept Art, Horror/Mystery Storytelling, Digital Scrapbooking",
+            "unique_angle": "Utilizes the low-fidelity analog look as a mechanism for enhancing mystery, rather than pure aesthetic appeal. It provides a unique bridge between hyper-detailed realism and stylized fantasy, making the surreal element feel historically plausible."
+        },
+        {
+            "topic": "The Beige Machine: Authentic 90s Interior Spaces",
+            "description": "Ultra-realistic interior photography capturing the specific, often dated and cluttered, domestic spaces of the 1990s (laminate kitchens, chunky computer desks, specific color palettes). Focus on realistic ambient lighting and domestic chaos.",
+            "content_type": "Image",
+            "style": "Interior Design / Period Piece Realism",
+            "use_case": "Set Design Mockups, Stock Backgrounds, Historical Reference",
+            "unique_angle": "Instead of idealized 'retro' interiors, this focuses on the functional, often aesthetically challenging design realities of the decade. It serves a niche requiring accurate, non-romanticized historical/period realism for professional creators."
+        }
+    ]
+}

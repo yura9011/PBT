@@ -169,3 +169,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# PBT Custom
+processed/
+dist/
+test_batch_out/
+test_dist/
+*.env
+prompt_library.db
+

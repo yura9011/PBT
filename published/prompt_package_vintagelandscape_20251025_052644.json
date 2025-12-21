@@ -1,0 +1,203 @@
+{
+    "topic": "vintage landscape",
+    "content_type": "Image",
+    "platform": "Midjourney",
+    "style": "",
+    "use_case": "",
+    "template": "[LANDSCAPE_ELEMENT], Early 20th Century Tonalist landscape study, rendered as a vintage Gum Bichromate photographic print, characterized by deep, velvety shadows and a limited, highly controlled analogous palette dominated by [PRIMARY_TONE]. Strong emphasis on sfumato and atmospheric perspective, achieving a profound sense of melancholic tranquility. [COMPOSITION_TYPE] vista captured using a large format view camera (8x10), shallow depth of field to isolate the central plane, fine grain structure visible upon close inspection, printed on heavy matte archival paper. [LIGHTING_CONDITION] illumination. Exhibition-quality archival print, immense tonal fidelity, subtle edge vignetting inherent to the historical printing process, masterwork rendering --ar [ASPECT_RATIO] --style raw",
+    "variables": [
+        "COMPOSITION_TYPE",
+        "PRIMARY_TONE",
+        "LANDSCAPE_ELEMENT",
+        "ASPECT_RATIO",
+        "LIGHTING_CONDITION"
+    ],
+    "variable_explanations": {
+        "LANDSCAPE_ELEMENT": "Defines the core subject matter (e.g., 'Appalachian foothills shrouded in mist', 'A solitary cypress tree on the Tuscan hillside').",
+        "COMPOSITION_TYPE": "Determines the framing and arrangement (e.g., 'Symmetrical framing', 'Golden Ratio placement', 'Diagonal leading lines vista').",
+        "LIGHTING_CONDITION": "Crucial for Tonalism; controls mood and shadow definition (e.g., 'Contre-jour illumination', 'Overcast diffused light', 'Low side-lighting').",
+        "PRIMARY_TONE": "Controls the dominant monochromatic hue, essential for the Gum Bichromate look (e.g., 'Warm Sepia', 'Cool Prussian Blue', 'Neutral Carbon Black', 'Olive Green').",
+        "ASPECT_RATIO": "Sets the final image shape (e.g., 5:4, 3:2, 16:9)."
+    },
+    "examples": [
+        {
+            "variables": {
+                "COMPOSITION_TYPE": "Classic Centered",
+                "PRIMARY_TONE": "Sepia Umber",
+                "LANDSCAPE_ELEMENT": "Isolated Cypress Tree",
+                "ASPECT_RATIO": "4:5",
+                "LIGHTING_CONDITION": "Heavy Overcast"
+            },
+            "prompt": "Isolated Cypress Tree, Early 20th Century Tonalist landscape study, rendered as a vintage Gum Bichromate photographic print, characterized by deep, velvety shadows and a limited, highly controlled analogous palette dominated by Sepia Umber. Strong emphasis on sfumato and atmospheric perspective, achieving a profound sense of melancholic tranquility. Classic Centered vista captured using a large format view camera (8x10), shallow depth of field to isolate the central plane, fine grain structure visible upon close inspection, printed on heavy matte archival paper. Heavy Overcast illumination. Exhibition-quality archival print, immense tonal fidelity, subtle edge vignetting inherent to the historical printing process, masterwork rendering --ar 4:5 --style raw"
+        },
+        {
+            "variables": {
+                "COMPOSITION_TYPE": "Highly Asymmetrical",
+                "PRIMARY_TONE": "Deep Prussian Blue",
+                "LANDSCAPE_ELEMENT": "Distant Industrial Smoke Stack",
+                "ASPECT_RATIO": "16:9",
+                "LIGHTING_CONDITION": "Late Twilight"
+            },
+            "prompt": "Distant Industrial Smoke Stack, Early 20th Century Tonalist landscape study, rendered as a vintage Gum Bichromate photographic print, characterized by deep, velvety shadows and a limited, highly controlled analogous palette dominated by Deep Prussian Blue. Strong emphasis on sfumato and atmospheric perspective, achieving a profound sense of melancholic tranquility. Highly Asymmetrical vista captured using a large format view camera (8x10), shallow depth of field to isolate the central plane, fine grain structure visible upon close inspection, printed on heavy matte archival paper. Late Twilight illumination. Exhibition-quality archival print, immense tonal fidelity, subtle edge vignetting inherent to the historical printing process, masterwork rendering --ar 16:9 --style raw"
+        },
+        {
+            "variables": {
+                "COMPOSITION_TYPE": "Diagonal Leading Lines",
+                "PRIMARY_TONE": "Faded Olive",
+                "LANDSCAPE_ELEMENT": "Fog-shrouded Marsh",
+                "ASPECT_RATIO": "1:1",
+                "LIGHTING_CONDITION": "Dense Fog Diffusion"
+            },
+            "prompt": "Fog-shrouded Marsh, Early 20th Century Tonalist landscape study, rendered as a vintage Gum Bichromate photographic print, characterized by deep, velvety shadows and a limited, highly controlled analogous palette dominated by Faded Olive. Strong emphasis on sfumato and atmospheric perspective, achieving a profound sense of melancholic tranquility. Diagonal Leading Lines vista captured using a large format view camera (8x10), shallow depth of field to isolate the central plane, fine grain structure visible upon close inspection, printed on heavy matte archival paper. Dense Fog Diffusion illumination. Exhibition-quality archival print, immense tonal fidelity, subtle edge vignetting inherent to the historical printing process, masterwork rendering --ar 1:1 --style raw"
+        },
+        {
+            "variables": {
+                "COMPOSITION_TYPE": "Low Horizon Line",
+                "PRIMARY_TONE": "Burnt Sienna",
+                "LANDSCAPE_ELEMENT": "Solitary Farmhouse",
+                "ASPECT_RATIO": "3:2",
+                "LIGHTING_CONDITION": "Shafts of Low Winter Sun"
+            },
+            "prompt": "Solitary Farmhouse, Early 20th Century Tonalist landscape study, rendered as a vintage Gum Bichromate photographic print, characterized by deep, velvety shadows and a limited, highly controlled analogous palette dominated by Burnt Sienna. Strong emphasis on sfumato and atmospheric perspective, achieving a profound sense of melancholic tranquility. Low Horizon Line vista captured using a large format view camera (8x10), shallow depth of field to isolate the central plane, fine grain structure visible upon close inspection, printed on heavy matte archival paper. Shafts of Low Winter Sun illumination. Exhibition-quality archival print, immense tonal fidelity, subtle edge vignetting inherent to the historical printing process, masterwork rendering --ar 3:2 --style raw"
+        },
+        {
+            "variables": {
+                "COMPOSITION_TYPE": "Negative Space Dominant",
+                "PRIMARY_TONE": "Charcoal Grey",
+                "LANDSCAPE_ELEMENT": "Wind-swept Dune",
+                "ASPECT_RATIO": "2:1",
+                "LIGHTING_CONDITION": "Pre-dawn Gloom"
+            },
+            "prompt": "Wind-swept Dune, Early 20th Century Tonalist landscape study, rendered as a vintage Gum Bichromate photographic print, characterized by deep, velvety shadows and a limited, highly controlled analogous palette dominated by Charcoal Grey. Strong emphasis on sfumato and atmospheric perspective, achieving a profound sense of melancholic tranquility. Negative Space Dominant vista captured using a large format view camera (8x10), shallow depth of field to isolate the central plane, fine grain structure visible upon close inspection, printed on heavy matte archival paper. Pre-dawn Gloom illumination. Exhibition-quality archival print, immense tonal fidelity, subtle edge vignetting inherent to the historical printing process, masterwork rendering --ar 2:1 --style raw"
+        },
+        {
+            "variables": {
+                "COMPOSITION_TYPE": "Close-up Intimate",
+                "PRIMARY_TONE": "Warm Taupe",
+                "LANDSCAPE_ELEMENT": "Ruined Stone Wall",
+                "ASPECT_RATIO": "5:4",
+                "LIGHTING_CONDITION": "Diffused Northern Light"
+            },
+            "prompt": "Ruined Stone Wall, Early 20th Century Tonalist landscape study, rendered as a vintage Gum Bichromate photographic print, characterized by deep, velvety shadows and a limited, highly controlled analogous palette dominated by Warm Taupe. Strong emphasis on sfumato and atmospheric perspective, achieving a profound sense of melancholic tranquility. Close-up Intimate vista captured using a large format view camera (8x10), shallow depth of field to isolate the central plane, fine grain structure visible upon close inspection, printed on heavy matte archival paper. Diffused Northern Light illumination. Exhibition-quality archival print, immense tonal fidelity, subtle edge vignetting inherent to the historical printing process, masterwork rendering --ar 5:4 --style raw"
+        },
+        {
+            "variables": {
+                "COMPOSITION_TYPE": "Symmetrical Reflection",
+                "PRIMARY_TONE": "Muted Indigo",
+                "LANDSCAPE_ELEMENT": "Quiet Stream",
+                "ASPECT_RATIO": "7:5",
+                "LIGHTING_CONDITION": "Post-Rain Haze"
+            },
+            "prompt": "Quiet Stream, Early 20th Century Tonalist landscape study, rendered as a vintage Gum Bichromate photographic print, characterized by deep, velvety shadows and a limited, highly controlled analogous palette dominated by Muted Indigo. Strong emphasis on sfumato and atmospheric perspective, achieving a profound sense of melancholic tranquility. Symmetrical Reflection vista captured using a large format view camera (8x10), shallow depth of field to isolate the central plane, fine grain structure visible upon close inspection, printed on heavy matte archival paper. Post-Rain Haze illumination. Exhibition-quality archival print, immense tonal fidelity, subtle edge vignetting inherent to the historical printing process, masterwork rendering --ar 7:5 --style raw"
+        },
+        {
+            "variables": {
+                "COMPOSITION_TYPE": "Strong Rule of Thirds",
+                "PRIMARY_TONE": "Dark Teal",
+                "LANDSCAPE_ELEMENT": "Granite Outcropping",
+                "ASPECT_RATIO": "4:5",
+                "LIGHTING_CONDITION": "Approaching Storm"
+            },
+            "prompt": "Granite Outcropping, Early 20th Century Tonalist landscape study, rendered as a vintage Gum Bichromate photographic print, characterized by deep, velvety shadows and a limited, highly controlled analogous palette dominated by Dark Teal. Strong emphasis on sfumato and atmospheric perspective, achieving a profound sense of melancholic tranquility. Strong Rule of Thirds vista captured using a large format view camera (8x10), shallow depth of field to isolate the central plane, fine grain structure visible upon close inspection, printed on heavy matte archival paper. Approaching Storm illumination. Exhibition-quality archival print, immense tonal fidelity, subtle edge vignetting inherent to the historical printing process, masterwork rendering --ar 4:5 --style raw"
+        },
+        {
+            "variables": {
+                "COMPOSITION_TYPE": "High Angle Overhead",
+                "PRIMARY_TONE": "Payne's Gray",
+                "LANDSCAPE_ELEMENT": "Abandoned Pier",
+                "ASPECT_RATIO": "1:2",
+                "LIGHTING_CONDITION": "Moonlit (Simulated)"
+            },
+            "prompt": "Abandoned Pier, Early 20th Century Tonalist landscape study, rendered as a vintage Gum Bichromate photographic print, characterized by deep, velvety shadows and a limited, highly controlled analogous palette dominated by Payne's Gray. Strong emphasis on sfumato and atmospheric perspective, achieving a profound sense of melancholic tranquility. High Angle Overhead vista captured using a large format view camera (8x10), shallow depth of field to isolate the central plane, fine grain structure visible upon close inspection, printed on heavy matte archival paper. Moonlit (Simulated) illumination. Exhibition-quality archival print, immense tonal fidelity, subtle edge vignetting inherent to the historical printing process, masterwork rendering --ar 1:2 --style raw"
+        }
+    ],
+    "tips": {
+        "checklist": [
+            {
+                "item": "Background treatment specified?",
+                "status": true,
+                "detail": "Implied by 'atmospheric perspective' and 'sfumato' and 'large format view camera'—the background should dissolve into tone."
+            },
+            {
+                "item": "Edge/border handling defined?",
+                "status": true,
+                "detail": "'subtle edge vignetting inherent to the historical printing process' is specified."
+            },
+            {
+                "item": "Color palette guidance included?",
+                "status": true,
+                "detail": "'limited, highly controlled analogous palette dominated by [PRIMARY_TONE]' ensures tonal control."
+            },
+            {
+                "item": "Composition rules stated?",
+                "status": true,
+                "detail": "The [COMPOSITION_TYPE] variable and 'large format view camera (8x10)' guide framing."
+            },
+            {
+                "item": "Detail level calibrated?",
+                "status": true,
+                "detail": "'fine grain structure visible upon close inspection' and 'immense tonal fidelity' calibrate detail focus toward texture and tone, not sharp edges."
+            },
+            {
+                "item": "Output format compatible with stated use cases?",
+                "status": true,
+                "detail": "The use of '--ar [ASPECT_RATIO]' and '--style raw' ensures flexible, high-fidelity output appropriate for an 'archival print' aesthetic."
+            }
+        ],
+        "guidance": "For maximum historical authenticity, keep the palette (PRIMARY_TONE) close to browns, blues, or black. Avoid saturated or modern colors entirely. The 'sfumato' and 'atmospheric perspective' descriptors are key to achieving the desired Tonalist mood."
+    },
+    "description": "A professional-grade prompt template designed to generate images of vintage landscapes using the aesthetic principles of Early 20th Century Tonalism, specifically simulating the rich textural depth and subdued palette of a historical Gum Bichromate photographic print.",
+    "instructions": "Replace the bracketed variables with your desired inputs. Use technical terms for maximum control over the output.",
+    "raw_response": "```json\n{\n  \"description\": \"A professional-grade prompt template designed to generate images of vintage landscapes using the aesthetic principles of Early 20th Century Tonalism, specifically simulating the rich textural depth and subdued palette of a historical Gum Bichromate photographic print.\",\n  \"instructions\": \"Replace the bracketed variables with your desired inputs. Use technical terms for maximum control over the output.\",\n  \"variables_explanation\": {\n    \"LANDSCAPE_ELEMENT\": \"Defines the core subject matter (e.g., 'Appalachian foothills shrouded in mist', 'A solitary cypress tree on the Tuscan hillside').\",\n    \"COMPOSITION_TYPE\": \"Determines the framing and arrangement (e.g., 'Symmetrical framing', 'Golden Ratio placement', 'Diagonal leading lines vista').\",\n    \"LIGHTING_CONDITION\": \"Crucial for Tonalism; controls mood and shadow definition (e.g., 'Contre-jour illumination', 'Overcast diffused light', 'Low side-lighting').\",\n    \"PRIMARY_TONE\": \"Controls the dominant monochromatic hue, essential for the Gum Bichromate look (e.g., 'Warm Sepia', 'Cool Prussian Blue', 'Neutral Carbon Black', 'Olive Green').\",\n    \"ASPECT_RATIO\": \"Sets the final image shape (e.g., 5:4, 3:2, 16:9).\"\n  },\n  \"template\": \"[LANDSCAPE_ELEMENT], Early 20th Century Tonalist landscape study, rendered as a vintage Gum Bichromate photographic print, characterized by deep, velvety shadows and a limited, highly controlled analogous palette dominated by [PRIMARY_TONE]. Strong emphasis on sfumato and atmospheric perspective, achieving a profound sense of melancholic tranquility. [COMPOSITION_TYPE] vista captured using a large format view camera (8x10), shallow depth of field to isolate the central plane, fine grain structure visible upon close inspection, printed on heavy matte archival paper. [LIGHTING_CONDITION] illumination. Exhibition-quality archival print, immense tonal fidelity, subtle edge vignetting inherent to the historical printing process, masterwork rendering --ar [ASPECT_RATIO] --style raw\",\n  \"example_prompts\": [\n    {\n      \"name\": \"Desert Mesa at Sunset\",\n      \"prompt\": \"Monument Valley desert mesa formations, Early 20th Century Tonalist landscape study, rendered as a vintage Gum Bichromate photographic print, characterized by deep, velvety shadows and a limited, highly controlled analogous palette dominated by Warm Sepia. Strong emphasis on sfumato and atmospheric perspective, achieving a profound sense of melancholic tranquility. Rule of Thirds placement vista captured using a large format view camera (8x10), shallow depth of field to isolate the central plane, fine grain structure visible upon close inspection, printed on heavy matte archival paper. Low side-lighting illumination. Exhibition-quality archival print, immense tonal fidelity, subtle edge vignetting inherent to the historical printing process, masterwork rendering --ar 5:4 --style raw\"\n    },\n    {\n      \"name\": \"Coastal Fog Rolling In\",\n      \"prompt\": \"Coastal fog rolling into a dense Pacific Redwood valley, Early 20th Century Tonalist landscape study, rendered as a vintage Gum Bichromate photographic print, characterized by deep, velvety shadows and a limited, highly controlled analogous palette dominated by Cool Prussian Blue. Strong emphasis on sfumato and atmospheric perspective, achieving a profound sense of melancholic tranquility. Symmetrical framing vista captured using a large format view camera (8x10), shallow depth of field to isolate the central plane, fine grain structure visible upon close inspection, printed on heavy matte archival paper. Overcast diffused light illumination. Exhibition-quality archival print, immense tonal fidelity, subtle edge vignetting inherent to the historical printing process, masterwork rendering --ar 3:2 --style raw\"\n    },\n    {\n      \"name\": \"Isolated Farmhouse\",\n      \"prompt\": \"An isolated farmhouse beneath a heavy, dramatic prairie sky, Early 20th Century Tonalist landscape study, rendered as a vintage Gum Bichromate photographic print, characterized by deep, velvety shadows and a limited, highly controlled analogous palette dominated by Neutral Carbon Black. Strong emphasis on sfumato and atmospheric perspective, achieving a profound sense of melancholic tranquility. Diagonal leading lines vista captured using a large format view camera (8x10), shallow depth of field to isolate the central plane, fine grain structure visible upon close inspection, printed on heavy matte archival paper. Split lighting illumination. Exhibition-quality archival print, immense tonal fidelity, subtle edge vignetting inherent to the historical printing process, masterwork rendering --ar 1:1 --style raw\"\n    },\n    {\n      \"name\": \"Mountain Range Twilight\",\n      \"prompt\": \"Distant, snow-capped peaks of the Cascades at twilight, Early 20th Century Tonalist landscape study, rendered as a vintage Gum Bichromate photographic print, characterized by deep, velvety shadows and a limited, highly controlled analogous palette dominated by Slate Gray. Strong emphasis on sfumato and atmospheric perspective, achieving a profound sense of melancholic tranquility. Panoramic horizontal vista captured using a large format view camera (8x10), shallow depth of field to isolate the central plane, fine grain structure visible upon close inspection, printed on heavy matte archival paper. Soft twilight illumination. Exhibition-quality archival print, immense tonal fidelity, subtle edge vignetting inherent to the historical printing process, masterwork rendering --ar 16:9 --style raw\"\n    },\n    {\n      \"name\": \"Gnarled Oak Tree\",\n      \"prompt\": \"A single gnarled oak tree dominating a rolling hill, Early 20th Century Tonalist landscape study, rendered as a vintage Gum Bichromate photographic print, characterized by deep, velvety shadows and a limited, highly controlled analogous palette dominated by Olive Green. Strong emphasis on sfumato and atmospheric perspective, achieving a profound sense of melancholic tranquility. Center-weighted focus vista captured using a large format view camera (8x10), shallow depth of field to isolate the central plane, fine grain structure visible upon close inspection, printed on heavy matte archival paper. Contre-jour illumination. Exhibition-quality archival print, immense tonal fidelity, subtle edge vignetting inherent to the historical printing process, masterwork rendering --ar 4:5 --style raw\"\n    },\n    {\n      \"name\": \"Venetian Canal Scene\",\n      \"prompt\": \"A quiet stretch of a Venetian canal in winter, Early 20th Century Tonalist landscape study, rendered as a vintage Gum Bichromate photographic print, characterized by deep, velvety shadows and a limited, highly controlled analogous palette dominated by Cool Indigo. Strong emphasis on sfumato and atmospheric perspective, achieving a profound sense of melancholic tranquility. Reflective symmetry vista captured using a large format view camera (8x10), shallow depth of field to isolate the central plane, fine grain structure visible upon close inspection, printed on heavy matte archival paper. Mist-filtered sunlight illumination. Exhibition-quality archival print, immense tonal fidelity, subtle edge vignetting inherent to the historical printing process, masterwork rendering --ar 3:4 --style raw\"\n    },\n    {\n      \"name\": \"Industrial Ruins\",\n      \"prompt\": \"The crumbling remains of a Victorian-era factory structure, Early 20th Century Tonalist landscape study, rendered as a vintage Gum Bichromate photographic print, characterized by deep, velvety shadows and a limited, highly controlled analogous palette dominated by Rust Brown. Strong emphasis on sfumato and atmospheric perspective, achieving a profound sense of melancholic tranquility. High horizon line vista captured using a large format view camera (8x10), shallow depth of field to isolate the central plane, fine grain structure visible upon close inspection, printed on heavy matte archival paper. Harsh directional light illumination. Exhibition-quality archival print, immense tonal fidelity, subtle edge vignetting inherent to the historical printing process, masterwork rendering --ar 16:10 --style raw\"\n    },\n    {\n      \"name\": \"Frozen Lake\",\n      \"prompt\": \"Vast frozen lake stretching toward a dark forest line, Early 20th Century Tonalist landscape study, rendered as a vintage Gum Bichromate photographic print, characterized by deep, velvety shadows and a limited, highly controlled analogous palette dominated by Desaturated Umber. Strong emphasis on sfumato and atmospheric perspective, achieving a profound sense of melancholic tranquility. Low-angle perspective vista captured using a large format view camera (8x10), shallow depth of field to isolate the central plane, fine grain structure visible upon close inspection, printed on heavy matte archival paper. Flat atmospheric lighting illumination. Exhibition-quality archival print, immense tonal fidelity, subtle edge vignetting inherent to the historical printing process, masterwork rendering --ar 2:1 --style raw\"\n    }\n  ],\n  \"technical_tips\": {\n    \"checklist\": [\n      {\n        \"item\": \"Background treatment specified?\",\n        \"status\": true,\n        \"detail\": \"Implied by 'atmospheric perspective' and 'sfumato' and 'large format view camera'—the background should dissolve into tone.\"\n      },\n      {\n        \"item\": \"Edge/border handling defined?\",\n        \"status\": true,\n        \"detail\": \"'subtle edge vignetting inherent to the historical printing process' is specified.\"\n      },\n      {\n        \"item\": \"Color palette guidance included?\",\n        \"status\": true,\n        \"detail\": \"'limited, highly controlled analogous palette dominated by [PRIMARY_TONE]' ensures tonal control.\"\n      },\n      {\n        \"item\": \"Composition rules stated?\",\n        \"status\": true,\n        \"detail\": \"The [COMPOSITION_TYPE] variable and 'large format view camera (8x10)' guide framing.\"\n      },\n      {\n        \"item\": \"Detail level calibrated?\",\n        \"status\": true,\n        \"detail\": \"'fine grain structure visible upon close inspection' and 'immense tonal fidelity' calibrate detail focus toward texture and tone, not sharp edges.\"\n      },\n      {\n        \"item\": \"Output format compatible with stated use cases?\",\n        \"status\": true,\n        \"detail\": \"The use of '--ar [ASPECT_RATIO]' and '--style raw' ensures flexible, high-fidelity output appropriate for an 'archival print' aesthetic.\"\n      }\n    ],\n    \"guidance\": \"For maximum historical authenticity, keep the palette (PRIMARY_TONE) close to browns, blues, or black. Avoid saturated or modern colors entirely. The 'sfumato' and 'atmospheric perspective' descriptors are key to achieving the desired Tonalist mood.\"\n  }\n}\n```",
+    "title_validation": {
+        "score": 0.7,
+        "issues": [
+            "Title too short (less than 3 words)"
+        ],
+        "suggestions": [
+            "Add style descriptor or use case"
+        ]
+    },
+    "evaluation": {
+        "scores": {
+            "TITLE QUALITY": 20,
+            "TEMPLATE STRUCTURE": 30,
+            "VARIABLE EXAMPLES": 14,
+            "COMMERCIAL VIABILITY": 15,
+            "DESCRIPTION QUALITY": 11
+        },
+        "total_score": 90,
+        "feedback": {
+            "TITLE QUALITY": "The title, 'Epic Cinematic Hero Portraits,' is flawless. It adheres strictly to the [Descriptor] + [Subject] + [Type] pattern, uses strong visual and emotional language ('Epic,' 'Cinematic'), is perfectly sized (4 words), and clearly defines the output as a 'Portrait.' (20/20)",
+            "TEMPLATE STRUCTURE": "The template is highly optimized and robust. The variable `{subject}` is clearly marked for ease of use. The core style descriptors (volumetric lighting, cinematic color grading, epic atmosphere) constitute over 40% of the prompt, ensuring high stylistic consistency. Technical specifications (8k, photorealistic, Unreal Engine 5) are complete and professional. The template perfectly executes the promise of the title. (30/30)",
+            "VARIABLE EXAMPLES": "While the existing 7 examples demonstrate good range across genres (sci-fi, fantasy), the package falls short of the required 8-10 count. More critically, the examples lean heavily toward specific character types. To maximize utility and demonstrate the prompt's flexibility, more abstract or conceptual variables are needed. (14/20)",
+            "COMMERCIAL VIABILITY": "The use cases identified (TTRPG tokens, concept art, book covers) are specific, high-value, and align perfectly with the output style. The combination of 'Cinematic' aesthetic and 'Unreal Engine' rendering technique establishes a strong, unique value proposition (UVP). The suggested mid-tier price ($4.99) is appropriate for this level of quality and utility. (15/15)",
+            "DESCRIPTION QUALITY": "The description is functional but lacks polish. The hook ('Generate amazing, high-detail hero shots...') is adequate but not compelling enough to maximize marketplace clicks. Crucially, the description fails to explicitly list the powerful technical features (8k Resolution, Unreal Engine 5 implementation) that are present in the template. These features must be highlighted to justify the quality claim. Use cases are clearly specified. (11/15)"
+        },
+        "priority_improvements": [
+            "Increase the number of variable examples from 7 to at least 10.",
+            "Introduce more abstract or categorical examples (e.g., 'The personification of time,' 'A sentient nebula').",
+            "Strengthen the description hook to be more action-oriented and exciting.",
+            "Explicitly list the key technical features (e.g., 'Utilizes 8k rendering and Unreal Engine 5 techniques') in the product description."
+        ]
+    },
+    "test_guidance": {
+        "test_instructions": [
+            "Fill in each variable with different values to test versatility.",
+            "Try using the first example prompt exactly as written as your baseline.",
+            "Test at least 3-5 different variations to ensure consistent style.",
+            "Experiment with Midjourney parameters like `--ar` or `--stylize`."
+        ],
+        "quality_checklist": [
+            "Style Consistency: Does the style remain consistent?",
+            "Composition: Does the output match your compositional expectations?",
+            "Visual Quality: Is the output high-quality?",
+            "Variable Impact: Does changing variables produce meaningful differences?"
+        ],
+        "common_issues": [
+            "Subject distortion or anatomical problems.",
+            "Style 'bleeding' or inconsistency."
+        ]
+    },
+    "commercial_description": "This versatile prompt generates vintage landscape for any subject you can imagine.\n\n✓ Fill-in-the-blank template for maximum flexibility\n✓ Consistent style across all generations\n✓ High-quality output ready for commercial use\n\nIdeal for social media content, print-on-demand products, marketing materials, web design elements, and branding projects.\n\nPerfect for designers, content creators, and anyone looking to create professional visuals quickly."
+}

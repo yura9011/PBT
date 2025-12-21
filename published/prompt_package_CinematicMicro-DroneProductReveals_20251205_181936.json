@@ -1,0 +1,157 @@
+{
+    "topic": "Cinematic Micro-Drone Product Reveals",
+    "content_type": "Image",
+    "platform": "Gemini Nano",
+    "style": "Ultra-HD Macro, Slow Motion, Dynamic Lighting, Product-Focused",
+    "use_case": "E-commerce Product Videos/Ads (Veo/Sora)",
+    "template": "Cinematic product reveal of a [Subject] in [Color] finish, Ultra-HD Macro lens perspective, extreme close-up, floating suspension over a reflective surface, slow-motion dynamic motion blur applied only to background elements, focused product isolation, premium build materials (brushed titanium, carbon fiber weave). Shallow depth of field (f/1.4), telephoto compression, studio split lighting using dramatic chiaroscuro and intense rim lighting, low-angle Dutch tilt composition, volumetric light shafts cutting through dense atmospheric haze, rendered in Cycles engine quality for hyper-real surface texture mapping. Pristine detail, anti-aliasing applied to all edges, high dynamic range (HDR) color grading, professional commercial ad quality, set against a blurred [Mood] [Location] backdrop.",
+    "variables": [
+        "Color",
+        "Mood",
+        "Location",
+        "Subject"
+    ],
+    "variable_explanations": {
+        "Subject": "The specific product being revealed (e.g., 'Folding 4K Quadcopter', 'Stealth Surveillance Octocopter').",
+        "Color": "The primary material or accent color of the product (e.g., 'Obsidian Black', 'Electric Blue', 'Brushed Aluminum').",
+        "Mood": "The emotional tone or atmosphere of the scene (e.g., 'Aggressive', 'Mysterious', 'Serene', 'Futuristic').",
+        "Location": "The implied background environment or texture (e.g., 'Concrete Bunker', 'Polished Marble Slab', 'High-altitude Cloud Layer')."
+    },
+    "examples": [
+        {
+            "variables": {
+                "Color": "Deep Emerald Green",
+                "Mood": "Tranquil",
+                "Location": "Japanese Zen Garden",
+                "Subject": "Luxury Fountain Pen"
+            },
+            "prompt": "Cinematic product reveal of a Luxury Fountain Pen in Deep Emerald Green finish, Ultra-HD Macro lens perspective, extreme close-up, floating suspension over a reflective surface, slow-motion dynamic motion blur applied only to background elements, focused product isolation, premium build materials (brushed titanium, carbon fiber weave). Shallow depth of field (f/1.4), telephoto compression, studio split lighting using dramatic chiaroscuro and intense rim lighting, low-angle Dutch tilt composition, volumetric light shafts cutting through dense atmospheric haze, rendered in Cycles engine quality for hyper-real surface texture mapping. Pristine detail, anti-aliasing applied to all edges, high dynamic range (HDR) color grading, professional commercial ad quality, set against a blurred Tranquil Japanese Zen Garden backdrop."
+        },
+        {
+            "variables": {
+                "Color": "Matte Obsidian Black",
+                "Mood": "Futuristic",
+                "Location": "Neon-lit Tokyo Alleyway",
+                "Subject": "Minimalist Smartwatch"
+            },
+            "prompt": "Cinematic product reveal of a Minimalist Smartwatch in Matte Obsidian Black finish, Ultra-HD Macro lens perspective, extreme close-up, floating suspension over a reflective surface, slow-motion dynamic motion blur applied only to background elements, focused product isolation, premium build materials (brushed titanium, carbon fiber weave). Shallow depth of field (f/1.4), telephoto compression, studio split lighting using dramatic chiaroscuro and intense rim lighting, low-angle Dutch tilt composition, volumetric light shafts cutting through dense atmospheric haze, rendered in Cycles engine quality for hyper-real surface texture mapping. Pristine detail, anti-aliasing applied to all edges, high dynamic range (HDR) color grading, professional commercial ad quality, set against a blurred Futuristic Neon-lit Tokyo Alleyway backdrop."
+        },
+        {
+            "variables": {
+                "Color": "Warm Amber",
+                "Mood": "Nostalgic",
+                "Location": "Crackling Fireplace Hearth",
+                "Subject": "Single Malt Whiskey Glass"
+            },
+            "prompt": "Cinematic product reveal of a Single Malt Whiskey Glass in Warm Amber finish, Ultra-HD Macro lens perspective, extreme close-up, floating suspension over a reflective surface, slow-motion dynamic motion blur applied only to background elements, focused product isolation, premium build materials (brushed titanium, carbon fiber weave). Shallow depth of field (f/1.4), telephoto compression, studio split lighting using dramatic chiaroscuro and intense rim lighting, low-angle Dutch tilt composition, volumetric light shafts cutting through dense atmospheric haze, rendered in Cycles engine quality for hyper-real surface texture mapping. Pristine detail, anti-aliasing applied to all edges, high dynamic range (HDR) color grading, professional commercial ad quality, set against a blurred Nostalgic Crackling Fireplace Hearth backdrop."
+        },
+        {
+            "variables": {
+                "Color": "Pure Glacial White",
+                "Mood": "Serene",
+                "Location": "Snowy Mountain Peak",
+                "Subject": "High-Fidelity Earbuds"
+            },
+            "prompt": "Cinematic product reveal of a High-Fidelity Earbuds in Pure Glacial White finish, Ultra-HD Macro lens perspective, extreme close-up, floating suspension over a reflective surface, slow-motion dynamic motion blur applied only to background elements, focused product isolation, premium build materials (brushed titanium, carbon fiber weave). Shallow depth of field (f/1.4), telephoto compression, studio split lighting using dramatic chiaroscuro and intense rim lighting, low-angle Dutch tilt composition, volumetric light shafts cutting through dense atmospheric haze, rendered in Cycles engine quality for hyper-real surface texture mapping. Pristine detail, anti-aliasing applied to all edges, high dynamic range (HDR) color grading, professional commercial ad quality, set against a blurred Serene Snowy Mountain Peak backdrop."
+        },
+        {
+            "variables": {
+                "Color": "Polished Chrome Silver",
+                "Mood": "Intense",
+                "Location": "Active Volcano Caldera",
+                "Subject": "Professional Chef's Knife"
+            },
+            "prompt": "Cinematic product reveal of a Professional Chef's Knife in Polished Chrome Silver finish, Ultra-HD Macro lens perspective, extreme close-up, floating suspension over a reflective surface, slow-motion dynamic motion blur applied only to background elements, focused product isolation, premium build materials (brushed titanium, carbon fiber weave). Shallow depth of field (f/1.4), telephoto compression, studio split lighting using dramatic chiaroscuro and intense rim lighting, low-angle Dutch tilt composition, volumetric light shafts cutting through dense atmospheric haze, rendered in Cycles engine quality for hyper-real surface texture mapping. Pristine detail, anti-aliasing applied to all edges, high dynamic range (HDR) color grading, professional commercial ad quality, set against a blurred Intense Active Volcano Caldera backdrop."
+        },
+        {
+            "variables": {
+                "Color": "Rich Mahogany Brown",
+                "Mood": "Adventurous",
+                "Location": "Dusty Moroccan Marketplace",
+                "Subject": "Vintage Film Camera"
+            },
+            "prompt": "Cinematic product reveal of a Vintage Film Camera in Rich Mahogany Brown finish, Ultra-HD Macro lens perspective, extreme close-up, floating suspension over a reflective surface, slow-motion dynamic motion blur applied only to background elements, focused product isolation, premium build materials (brushed titanium, carbon fiber weave). Shallow depth of field (f/1.4), telephoto compression, studio split lighting using dramatic chiaroscuro and intense rim lighting, low-angle Dutch tilt composition, volumetric light shafts cutting through dense atmospheric haze, rendered in Cycles engine quality for hyper-real surface texture mapping. Pristine detail, anti-aliasing applied to all edges, high dynamic range (HDR) color grading, professional commercial ad quality, set against a blurred Adventurous Dusty Moroccan Marketplace backdrop."
+        },
+        {
+            "variables": {
+                "Color": "Rose Gold",
+                "Mood": "Elegant",
+                "Location": "Paris Rooftop at Sunset",
+                "Subject": "Sculptural Espresso Tamper"
+            },
+            "prompt": "Cinematic product reveal of a Sculptural Espresso Tamper in Rose Gold finish, Ultra-HD Macro lens perspective, extreme close-up, floating suspension over a reflective surface, slow-motion dynamic motion blur applied only to background elements, focused product isolation, premium build materials (brushed titanium, carbon fiber weave). Shallow depth of field (f/1.4), telephoto compression, studio split lighting using dramatic chiaroscuro and intense rim lighting, low-angle Dutch tilt composition, volumetric light shafts cutting through dense atmospheric haze, rendered in Cycles engine quality for hyper-real surface texture mapping. Pristine detail, anti-aliasing applied to all edges, high dynamic range (HDR) color grading, professional commercial ad quality, set against a blurred Elegant Paris Rooftop at Sunset backdrop."
+        },
+        {
+            "variables": {
+                "Color": "Electric Cobalt Blue",
+                "Mood": "Dynamic",
+                "Location": "Open Ocean Storm",
+                "Subject": "Precision Drone Controller"
+            },
+            "prompt": "Cinematic product reveal of a Precision Drone Controller in Electric Cobalt Blue finish, Ultra-HD Macro lens perspective, extreme close-up, floating suspension over a reflective surface, slow-motion dynamic motion blur applied only to background elements, focused product isolation, premium build materials (brushed titanium, carbon fiber weave). Shallow depth of field (f/1.4), telephoto compression, studio split lighting using dramatic chiaroscuro and intense rim lighting, low-angle Dutch tilt composition, volumetric light shafts cutting through dense atmospheric haze, rendered in Cycles engine quality for hyper-real surface texture mapping. Pristine detail, anti-aliasing applied to all edges, high dynamic range (HDR) color grading, professional commercial ad quality, set against a blurred Dynamic Open Ocean Storm backdrop."
+        },
+        {
+            "variables": {
+                "Color": "Iridescent Pearl",
+                "Mood": "Mysterious",
+                "Location": "Deep Space Nebula",
+                "Subject": "Custom Mechanical Keyboard Keycap"
+            },
+            "prompt": "Cinematic product reveal of a Custom Mechanical Keyboard Keycap in Iridescent Pearl finish, Ultra-HD Macro lens perspective, extreme close-up, floating suspension over a reflective surface, slow-motion dynamic motion blur applied only to background elements, focused product isolation, premium build materials (brushed titanium, carbon fiber weave). Shallow depth of field (f/1.4), telephoto compression, studio split lighting using dramatic chiaroscuro and intense rim lighting, low-angle Dutch tilt composition, volumetric light shafts cutting through dense atmospheric haze, rendered in Cycles engine quality for hyper-real surface texture mapping. Pristine detail, anti-aliasing applied to all edges, high dynamic range (HDR) color grading, professional commercial ad quality, set against a blurred Mysterious Deep Space Nebula backdrop."
+        }
+    ],
+    "tips": "This prompt leverages specific cinematic and photography concepts to achieve its high-fidelity output. The 'magic' is in the fixed technical descriptors:",
+    "description": "This template is designed for generating high-impact, Ultra-HD cinematic product reveal stills suitable for modern e-commerce video advertisements (e.g., Veo or Sora style reveals). It hardcodes advanced photographic techniques (Macro, Chiaroscuro lighting, Telephoto Compression) to ensure a premium, dramatic aesthetic, requiring the user only to define the core content and mood.",
+    "instructions": "Replace the bracketed variables with simple descriptive text. Do not attempt to modify the technical descriptors outside the brackets.",
+    "raw_response": "```json\n{\n  \"description\": \"This template is designed for generating high-impact, Ultra-HD cinematic product reveal stills suitable for modern e-commerce video advertisements (e.g., Veo or Sora style reveals). It hardcodes advanced photographic techniques (Macro, Chiaroscuro lighting, Telephoto Compression) to ensure a premium, dramatic aesthetic, requiring the user only to define the core content and mood.\",\n  \"instructions\": \"Replace the bracketed variables with simple descriptive text. Do not attempt to modify the technical descriptors outside the brackets.\",\n  \"variables_explanation\": {\n    \"Subject\": \"The specific product being revealed (e.g., 'Folding 4K Quadcopter', 'Stealth Surveillance Octocopter').\",\n    \"Color\": \"The primary material or accent color of the product (e.g., 'Obsidian Black', 'Electric Blue', 'Brushed Aluminum').\",\n    \"Mood\": \"The emotional tone or atmosphere of the scene (e.g., 'Aggressive', 'Mysterious', 'Serene', 'Futuristic').\",\n    \"Location\": \"The implied background environment or texture (e.g., 'Concrete Bunker', 'Polished Marble Slab', 'High-altitude Cloud Layer').\"\n  },\n  \"template\": \"Cinematic product reveal of a [Subject] in [Color] finish, Ultra-HD Macro lens perspective, extreme close-up, floating suspension over a reflective surface, slow-motion dynamic motion blur applied only to background elements, focused product isolation, premium build materials (brushed titanium, carbon fiber weave). Shallow depth of field (f/1.4), telephoto compression, studio split lighting using dramatic chiaroscuro and intense rim lighting, low-angle Dutch tilt composition, volumetric light shafts cutting through dense atmospheric haze, rendered in Cycles engine quality for hyper-real surface texture mapping. Pristine detail, anti-aliasing applied to all edges, high dynamic range (HDR) color grading, professional commercial ad quality, set against a blurred [Mood] [Location] backdrop.\",\n  \"example_prompts\": [\n    \"Cinematic product reveal of a High-speed racing drone chassis in Neon Green finish, Ultra-HD Macro lens perspective, extreme close-up, floating suspension over a reflective surface, slow-motion dynamic motion blur applied only to background elements, focused product isolation, premium build materials (brushed titanium, carbon fiber weave). Shallow depth of field (f/1.4), telephoto compression, studio split lighting using dramatic chiaroscuro and intense rim lighting, low-angle Dutch tilt composition, volumetric light shafts cutting through dense atmospheric haze, rendered in Cycles engine quality for hyper-real surface texture mapping. Pristine detail, anti-aliasing applied to all edges, high dynamic range (HDR) color grading, professional commercial ad quality, set against a blurred Aggressive Concrete Bunker backdrop.\",\n    \"Cinematic product reveal of a Silent surveillance octocopter in Matte Black finish, Ultra-HD Macro lens perspective, extreme close-up, floating suspension over a reflective surface, slow-motion dynamic motion blur applied only to background elements, focused product isolation, premium build materials (brushed titanium, carbon fiber weave). Shallow depth of field (f/1.4), telephoto compression, studio split lighting using dramatic chiaroscuro and intense rim lighting, low-angle Dutch tilt composition, volumetric light shafts cutting through dense atmospheric haze, rendered in Cycles engine quality for hyper-real surface texture mapping. Pristine detail, anti-aliasing applied to all edges, high dynamic range (HDR) color grading, professional commercial ad quality, set against a blurred Mysterious Server Rack Array backdrop.\",\n    \"Cinematic product reveal of a Modular bio-sensor quadrotor in Arctic White finish, Ultra-HD Macro lens perspective, extreme close-up, floating suspension over a reflective surface, slow-motion dynamic motion blur applied only to background elements, focused product isolation, premium build materials (brushed titanium, carbon fiber weave). Shallow depth of field (f/1.4), telephoto compression, studio split lighting using dramatic chiaroscuro and intense rim lighting, low-angle Dutch tilt composition, volumetric light shafts cutting through dense atmospheric haze, rendered in Cycles engine quality for hyper-real surface texture mapping. Pristine detail, anti-aliasing applied to all edges, high dynamic range (HDR) color grading, professional commercial ad quality, set against a blurred Serene Polished Marble Slab backdrop.\",\n    \"Cinematic product reveal of a Heavy-duty inspection UAV with claw arm in Rust Red finish, Ultra-HD Macro lens perspective, extreme close-up, floating suspension over a reflective surface, slow-motion dynamic motion blur applied only to background elements, focused product isolation, premium build materials (brushed titanium, carbon fiber weave). Shallow depth of field (f/1.4), telephoto compression, studio split lighting using dramatic chiaroscuro and intense rim lighting, low-angle Dutch tilt composition, volumetric light shafts cutting through dense atmospheric haze, rendered in Cycles engine quality for hyper-real surface texture mapping. Pristine detail, anti-aliasing applied to all edges, high dynamic range (HDR) color grading, professional commercial ad quality, set against a blurred Industrial Steam-filled Factory Floor backdrop.\",\n    \"Cinematic product reveal of a Single-rotor vertical takeoff unit in Iridescent Chrome finish, Ultra-HD Macro lens perspective, extreme close-up, floating suspension over a reflective surface, slow-motion dynamic motion blur applied only to background elements, focused product isolation, premium build materials (brushed titanium, carbon fiber weave). Shallow depth of field (f/1.4), telephoto compression, studio split lighting using dramatic chiaroscuro and intense rim lighting, low-angle Dutch tilt composition, volumetric light shafts cutting through dense atmospheric haze, rendered in Cycles engine quality for hyper-real surface texture mapping. Pristine detail, anti-aliasing applied to all edges, high dynamic range (HDR) color grading, professional commercial ad quality, set against a blurred Futuristic Liquid Nitrogen Pool backdrop.\",\n    \"Cinematic product reveal of a Self-assembling modular drone swarm node in Electric Yellow finish, Ultra-HD Macro lens perspective, extreme close-up, floating suspension over a reflective surface, slow-motion dynamic motion blur applied only to background elements, focused product isolation, premium build materials (brushed titanium, carbon fiber weave). Shallow depth of field (f/1.4), telephoto compression, studio split lighting using dramatic chiaroscuro and intense rim lighting, low-angle Dutch tilt composition, volumetric light shafts cutting through dense atmospheric haze, rendered in Cycles engine quality for hyper-real surface texture mapping. Pristine detail, anti-aliasing applied to all edges, high dynamic range (HDR) color grading, professional commercial ad quality, set against a blurred Dynamic High-altitude Cloud Layer backdrop.\",\n    \"Cinematic product reveal of a Engraved personal flight assistant in Rose Gold finish, Ultra-HD Macro lens perspective, extreme close-up, floating suspension over a reflective surface, slow-motion dynamic motion blur applied only to background elements, focused product isolation, premium build materials (brushed titanium, carbon fiber weave). Shallow depth of field (f/1.4), telephoto compression, studio split lighting using dramatic chiaroscuro and intense rim lighting, low-angle Dutch tilt composition, volumetric light shafts cutting through dense atmospheric haze, rendered in Cycles engine quality for hyper-real surface texture mapping. Pristine detail, anti-aliasing applied to all edges, high dynamic range (HDR) color grading, professional commercial ad quality, set against a blurred Luxurious Velvet Display Case backdrop.\",\n    \"Cinematic product reveal of a Camouflaged terrain mapping drone in Forest Green finish, Ultra-HD Macro lens perspective, extreme close-up, floating suspension over a reflective surface, slow-motion dynamic motion blur applied only to background elements, focused product isolation, premium build materials (brushed titanium, carbon fiber weave). Shallow depth of field (f/1.4), telephoto compression, studio split lighting using dramatic chiaroscuro and intense rim lighting, low-angle Dutch tilt composition, volumetric light shafts cutting through dense atmospheric haze, rendered in Cycles engine quality for hyper-real surface texture mapping. Pristine detail, anti-aliasing applied to all edges, high dynamic range (HDR) color grading, professional commercial ad quality, set against a blurred Stealthy Wet Moss and Stone backdrop.\"\n  ],\n  \"technical_tips\": \"This prompt leverages specific cinematic and photography concepts to achieve its high-fidelity output. The 'magic' is in the fixed technical descriptors:\",\n  \"technical_completeness_checklist\": {\n    \"Background treatment specified?\": \"Yes (Blurred [Mood] [Location] backdrop, atmospheric haze, motion blur on background elements).\",\n    \"Edge/border handling defined?\": \"Yes (Anti-aliasing applied to all edges).\",\n    \"Color palette guidance included?\": \"Yes (HDR color grading, intense rim lighting, Chiaroscuro for high contrast).\",\n    \"Composition rules stated?\": \"Yes (Extreme close-up, low-angle Dutch tilt composition, telephoto compression, floating suspension).\",\n    \"Detail level calibrated?\": \"Yes (Ultra-HD Macro lens perspective, Pristine detail, hyper-real surface texture mapping).\",\n    \"Output format compatible with stated use cases?\": \"Yes (Professional commercial ad quality, suitable for high-end video placeholders like Veo/Sora).\"\n  }\n}\n```",
+    "title_validation": {
+        "score": 0.75,
+        "issues": [
+            "Missing format/type specification"
+        ],
+        "suggestions": [
+            "Add: texture, photo, poster, scene, wallpaper"
+        ]
+    },
+    "evaluation": {
+        "scores": {
+            "TITLE QUALITY": 17,
+            "TEMPLATE STRUCTURE": 29,
+            "VARIABLE EXAMPLES": 12,
+            "COMMERCIAL VIABILITY": 15,
+            "DESCRIPTION QUALITY": 13
+        },
+        "total_score": 86,
+        "feedback": {
+            "TITLE QUALITY": "The title, 'Neo-Victorian Steampunk Portrait Photography,' is descriptive but slightly weak on emotional impact. It adheres to the length requirement (5 words) and clearly conveys the output type ('Photography'). However, the structure is slightly inverted from the strict [Descriptor] + [Subject] + [Type] requirement, reading more like [Style] + [Subject] + [Type]. A minor refinement is suggested for maximum impact.",
+            "TEMPLATE STRUCTURE": "The template is highly structured and professional. The use of `[SUBJECT]` is unambiguous (8/8). The core style descriptors, focusing heavily on aesthetic elements like 'intricate gears and brass elements' and 'deep shadows,' provide excellent control (10/10). Technical specifications are strong (85mm, f/1.4, UHD) but could benefit from specifying a film stock or camera manufacturer (e.g., 'Hasselblad medium format') to achieve full points. Consistency with the title is perfect.",
+            "VARIABLE EXAMPLES": "This is the weakest area of the package. Only 5 examples were provided, critically failing the requirement for 8-10 diverse examples (3/8). While the existing examples ('retired airship captain,' 'young clockwork inventor') demonstrate good thematic range, the submission needs expansion to include abstract concepts, setting variations, or non-character subjects (e.g., 'A complex mechanical heart,' or 'A group of inventors working late'). This lack of variety limits the demonstration of the prompt's full capability.",
+            "COMMERCIAL VIABILITY": "The commercial package is excellent. The niche is well-defined, addressing specific use cases like character design and book covers. The suggested price tier ($2.99) is appropriate for a highly specialized, high-quality portrait generator. The unique value proposition is clearly established through the blending of Neo-Victorian aesthetics with detailed photographic technicals.",
+            "DESCRIPTION QUALITY": "The description starts with a compelling hook ('Capture the romantic grit...'). Use cases are clearly specified. However, the description fails to explicitly list the powerful technical features embedded in the prompt template. Stating 'Utilizes advanced photographic techniques' is vague; it should specify 'Features 85mm f/1.4 framing and volumetric lighting' to fully satisfy the technical listing requirement and increase buyer confidence.",
+            "priority_improvements": [
+                "CRITICAL: Increase the variable example list from 5 to 10, ensuring a mix of character types, abstract concepts, and setting variations.",
+                "Update the Description to explicitly list 2-3 key technical features (e.g., lens type, aspect ratio, lighting style) that are present in the template.",
+                "Consider refining the Title to be more emotionally resonant, perhaps 'Gritty Neo-Victorian Steampunk Portraits.'"
+            ]
+        }
+    },
+    "test_guidance": {
+        "test_instructions": [
+            "Fill in each variable with different values to test versatility.",
+            "Try using the first example prompt exactly as written as your baseline.",
+            "Test at least 3-5 different variations to ensure consistent style."
+        ],
+        "quality_checklist": [
+            "Style Consistency: Does the style remain consistent?",
+            "Composition: Does the output match your compositional expectations?",
+            "Visual Quality: Is the output high-quality?",
+            "Variable Impact: Does changing variables produce meaningful differences?"
+        ],
+        "common_issues": [
+            "Subject distortion or anatomical problems.",
+            "Style 'bleeding' or inconsistency."
+        ]
+    },
+    "commercial_description": "Unlock the high-production value of a multi-million dollar ad agency for your product reveals, instantly.\n\n*   **Director's Cut Lighting:** Automatically applies the dramatic, mood-setting illumination used in blockbuster sci-fi films and luxury commercials—no complex rendering knowledge required.\n*   **Nano-Detail Focus:** Guarantees stunning, hyper-realistic depth of field and texture fidelity, making your product look tangible enough to touch.\n*   **The Drone Perspective:** Generates dynamic, impossible camera angles that only a high-speed, miniaturized drone could capture, adding unparalleled energy and sophistication to your visuals.\n\nPerfect for e-commerce listings, social media campaigns, portfolio showcases, and high-end marketing materials.\n\nStop settling for flat product photos. This is the simplest, most powerful tool available to transform your concepts into breathtaking, cinematic masterpieces with zero technical friction.",
+    "category": "Photography & Cinematics"
+}

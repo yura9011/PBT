@@ -1,0 +1,168 @@
+{
+    "topic": "Moody Grotesque Macro Texture Art",
+    "content_type": "Image",
+    "platform": "Midjourney/DALL-E",
+    "style": "Hyperrealism, Grotesque Realism, Detailed 3D Render, Extreme Macro Photography",
+    "use_case": "Album Art or Horror Video Game Concept Art",
+    "template": "Extreme full-frame macro close-up of a highly detailed, unsettlingly hyperrealistic 3D render of [SUBJECT], with a skin/surface texture of [PRIMARY_TEXTURE] and strong bioluminescent subsurface scattering. The subject's surface is heavily covered in complex organic details like [SECONDARY_DETAIL]. The subject displays a [EXPRESSION]. Shot using a macro lens, intense directional sunlight, deep depth of field, 8K, cinematic volumetric lighting, unsettling realism, high frequency detail.",
+    "variables": [
+        "PRIMARY_TEXTURE",
+        "SUBJECT",
+        "SECONDARY_DETAIL",
+        "EXPRESSION"
+    ],
+    "variable_explanations": {
+        "SUBJECT": "The main focus/character (e.g., a wolf's face, a mythological creature, a fruit).",
+        "PRIMARY_TEXTURE": "The defining material of the subject's skin/surface (e.g., porous sponge, rotting wood, pitted metal, coral reef).",
+        "SECONDARY_DETAIL": "The small, organic, or decaying elements adhering to the surface (e.g., barnacles and algae, moss and mildew, rust and patina, crystalline shards).",
+        "EXPRESSION": "The emotional state or facial gesture of the subject (e.g., Wide-eyed and terrified, terrifying sneer, serene smile, mournful gaze)."
+    },
+    "examples": [
+        {
+            "variables": {
+                "PRIMARY_TEXTURE": "Wet Silk",
+                "SUBJECT": "A Monarch Butterfly Wing",
+                "SECONDARY_DETAIL": "Tiny crystalline growths",
+                "EXPRESSION": "Gentle curiosity"
+            },
+            "prompt": "Extreme full-frame macro close-up of a highly detailed, unsettlingly hyperrealistic 3D render of A Monarch Butterfly Wing, with a skin/surface texture of Wet Silk and strong bioluminescent subsurface scattering. The subject's surface is heavily covered in complex organic details like Tiny crystalline growths. The subject displays a Gentle curiosity. Shot using a macro lens, intense directional sunlight, deep depth of field, 8K, cinematic volumetric lighting, unsettling realism, high frequency detail."
+        },
+        {
+            "variables": {
+                "PRIMARY_TEXTURE": "Cracked Glazed Porcelain",
+                "SUBJECT": "A Sleeping Baby Dragon",
+                "SECONDARY_DETAIL": "Weeping sap droplets",
+                "EXPRESSION": "Serene tranquility"
+            },
+            "prompt": "Extreme full-frame macro close-up of a highly detailed, unsettlingly hyperrealistic 3D render of A Sleeping Baby Dragon, with a skin/surface texture of Cracked Glazed Porcelain and strong bioluminescent subsurface scattering. The subject's surface is heavily covered in complex organic details like Weeping sap droplets. The subject displays a Serene tranquility. Shot using a macro lens, intense directional sunlight, deep depth of field, 8K, cinematic volumetric lighting, unsettling realism, high frequency detail."
+        },
+        {
+            "variables": {
+                "PRIMARY_TEXTURE": "Polished Marble",
+                "SUBJECT": "The Eye of a Golden Retriever",
+                "SECONDARY_DETAIL": "Intricate fractal lichen",
+                "EXPRESSION": "Focused intensity"
+            },
+            "prompt": "Extreme full-frame macro close-up of a highly detailed, unsettlingly hyperrealistic 3D render of The Eye of a Golden Retriever, with a skin/surface texture of Polished Marble and strong bioluminescent subsurface scattering. The subject's surface is heavily covered in complex organic details like Intricate fractal lichen. The subject displays a Focused intensity. Shot using a macro lens, intense directional sunlight, deep depth of field, 8K, cinematic volumetric lighting, unsettling realism, high frequency detail."
+        },
+        {
+            "variables": {
+                "PRIMARY_TEXTURE": "Fine Gold Filigree",
+                "SUBJECT": "A Single Dewdrop",
+                "SECONDARY_DETAIL": "Veins of iridescent oil",
+                "EXPRESSION": "Bursting energy"
+            },
+            "prompt": "Extreme full-frame macro close-up of a highly detailed, unsettlingly hyperrealistic 3D render of A Single Dewdrop, with a skin/surface texture of Fine Gold Filigree and strong bioluminescent subsurface scattering. The subject's surface is heavily covered in complex organic details like Veins of iridescent oil. The subject displays a Bursting energy. Shot using a macro lens, intense directional sunlight, deep depth of field, 8K, cinematic volumetric lighting, unsettling realism, high frequency detail."
+        },
+        {
+            "variables": {
+                "PRIMARY_TEXTURE": "Fresh Velvet Moss",
+                "SUBJECT": "The Surface of a Moon Rock",
+                "SECONDARY_DETAIL": "Microscopic barnacles",
+                "EXPRESSION": "Silent contemplation"
+            },
+            "prompt": "Extreme full-frame macro close-up of a highly detailed, unsettlingly hyperrealistic 3D render of The Surface of a Moon Rock, with a skin/surface texture of Fresh Velvet Moss and strong bioluminescent subsurface scattering. The subject's surface is heavily covered in complex organic details like Microscopic barnacles. The subject displays a Silent contemplation. Shot using a macro lens, intense directional sunlight, deep depth of field, 8K, cinematic volumetric lighting, unsettling realism, high frequency detail."
+        },
+        {
+            "variables": {
+                "PRIMARY_TEXTURE": "Sculpted Ice",
+                "SUBJECT": "A Hummingbird in Flight",
+                "SECONDARY_DETAIL": "Miniature diamond dust",
+                "EXPRESSION": "Dynamic motion blur"
+            },
+            "prompt": "Extreme full-frame macro close-up of a highly detailed, unsettlingly hyperrealistic 3D render of A Hummingbird in Flight, with a skin/surface texture of Sculpted Ice and strong bioluminescent subsurface scattering. The subject's surface is heavily covered in complex organic details like Miniature diamond dust. The subject displays a Dynamic motion blur. Shot using a macro lens, intense directional sunlight, deep depth of field, 8K, cinematic volumetric lighting, unsettling realism, high frequency detail."
+        },
+        {
+            "variables": {
+                "PRIMARY_TEXTURE": "Rusting Copper",
+                "SUBJECT": "An Ancient Oak Tree Knot",
+                "SECONDARY_DETAIL": "Thin layers of opalescent shell",
+                "EXPRESSION": "Deep rooted wisdom"
+            },
+            "prompt": "Extreme full-frame macro close-up of a highly detailed, unsettlingly hyperrealistic 3D render of An Ancient Oak Tree Knot, with a skin/surface texture of Rusting Copper and strong bioluminescent subsurface scattering. The subject's surface is heavily covered in complex organic details like Thin layers of opalescent shell. The subject displays a Deep rooted wisdom. Shot using a macro lens, intense directional sunlight, deep depth of field, 8K, cinematic volumetric lighting, unsettling realism, high frequency detail."
+        },
+        {
+            "variables": {
+                "PRIMARY_TEXTURE": "Liquid Mercury",
+                "SUBJECT": "A Hand Holding a Sapphire",
+                "SECONDARY_DETAIL": "Filaments of spun glass",
+                "EXPRESSION": "Reflective stillness"
+            },
+            "prompt": "Extreme full-frame macro close-up of a highly detailed, unsettlingly hyperrealistic 3D render of A Hand Holding a Sapphire, with a skin/surface texture of Liquid Mercury and strong bioluminescent subsurface scattering. The subject's surface is heavily covered in complex organic details like Filaments of spun glass. The subject displays a Reflective stillness. Shot using a macro lens, intense directional sunlight, deep depth of field, 8K, cinematic volumetric lighting, unsettling realism, high frequency detail."
+        },
+        {
+            "variables": {
+                "PRIMARY_TEXTURE": "Fine Sugar Crystals",
+                "SUBJECT": "A Cluster of Grapes",
+                "SECONDARY_DETAIL": "Delicate spider silk webbing",
+                "EXPRESSION": "Sweet anticipation"
+            },
+            "prompt": "Extreme full-frame macro close-up of a highly detailed, unsettlingly hyperrealistic 3D render of A Cluster of Grapes, with a skin/surface texture of Fine Sugar Crystals and strong bioluminescent subsurface scattering. The subject's surface is heavily covered in complex organic details like Delicate spider silk webbing. The subject displays a Sweet anticipation. Shot using a macro lens, intense directional sunlight, deep depth of field, 8K, cinematic volumetric lighting, unsettling realism, high frequency detail."
+        },
+        "Extreme full-frame macro close-up of a highly detailed, unsettlingly hyperrealistic 3D render of The profound silence of cosmic solitude, with a skin/surface texture of Iridescent, perpetually cooling obsidian and frozen nebula dust and strong bioluminescent subsurface scattering. The subject's surface is heavily covered in complex organic details like Fractal crystalline scars and slowly weeping celestial dew. The subject displays a A gentle, heartbreaking resignation. Shot using a macro lens, intense directional sunlight, deep depth of field, 8K, cinematic volumetric lighting, unsettling realism, high frequency detail.",
+        "Extreme full-frame macro close-up of a highly detailed, unsettlingly hyperrealistic 3D render of The oppressive weight of unspent time and suppressed internal dread, with a skin/surface texture of Fine-grained, perpetually vibrating ferrous rust and brittle, flaking porcelain and strong bioluminescent subsurface scattering. The subject's surface is heavily covered in complex organic details like Deeply bored channels of stress and microscopic, pulsing neurological filaments. The subject displays a A strained, desperate, almost silent anticipation. Shot using a macro lens, intense directional sunlight, deep depth of field, 8K, cinematic volumetric lighting, unsettling realism, high frequency detail."
+    ],
+    "tips": [
+        "Use highly specific and visceral terms for [PRIMARY_TEXTURE] and [SECONDARY_DETAIL] (e.g., 'calcified bone tissue' or 'tar and cracked porcelain') to maximize detail generation.",
+        "Utilize a negative prompt to exclude unwanted styles like 'cartoon', 'anime', or 'flat color'.",
+        "Ensure the aspect ratio is vertical (e.g., 2:3 or 9:16) to maintain the close-up portrait composition."
+    ],
+    "description": "This template captures a highly detailed, unsettling aesthetic characterized by extreme texture and photorealistic 3D rendering. It combines macro composition with natural decay and intense, directional lighting, perfect for creating visually striking and mildly disturbing character portraits.",
+    "instructions": "Use this template to generate similar images.",
+    "input_source": "image_upload",
+    "title_validation": {
+        "score": 0.75,
+        "issues": [
+            "Missing emotional/visual descriptor"
+        ],
+        "suggestions": [
+            "Consider: surreal, ethereal, whimsical, mysterious, muted"
+        ]
+    },
+    "evaluation": {
+        "scores": {
+            "title_quality": 20,
+            "template_structure": 30,
+            "variable_examples": 20,
+            "commercial_viability": 15,
+            "description_quality": 15
+        },
+        "total_score": 100,
+        "feedback": {
+            "title_quality": "The title 'Vibrant Steampunk Cityscape Illustration' adheres perfectly to the required structure. It uses an emotional/visual descriptor ('Vibrant'), clearly identifies the subject ('Steampunk Cityscape'), and specifies the output type ('Illustration'). The length is concise and effective at 4 words.",
+            "template_structure": "The template structure is exemplary. The subject variable [subject variable] is clearly marked and positioned appropriately within the prompt. Core style descriptors ('intricate clockwork mechanisms, and copper piping, cinematic lighting, dramatic angle, concept art style, octane render') constitute approximately 50% of the prompt content, providing robust stylistic guidance. Technical specifications are complete and consistent with the title's promise of a 'Vibrant Steampunk Cityscape Illustration'.",
+            "variable_examples": "The provided example list is diverse and comprehensive. It includes 10 examples, covering specific objects ('flying airship', 'steam-powered robot'), categorical subjects ('bustling market square'), and abstract concepts ('a towering factory's silhouette'). The range effectively demonstrates the prompt's versatility across different visual scales within the steampunk aesthetic.",
+            "commercial_viability": "The commercial strategy is sound. Use cases are explicitly defined for 'concept artists and game developers'. The suggested price tier ($2.99) is appropriate for a high-quality single-prompt package. The unique value proposition of focusing on 'intricate details and vibrant color palettes' successfully differentiates it from more generic offerings.",
+            "description_quality": "The description is well-written and effective. It starts with a compelling hook ('Create stunning steampunk illustrations...'), lists key technical features ('intricate details and vibrant color palettes'), and specifies use cases ('Ideal for concept artists and game developers'). The flow is logical and informative for potential buyers."
+        },
+        "priority_improvements": [
+            "No improvements identified. This package is ready for marketplace launch without revisions."
+        ]
+    },
+    "test_guidance": {
+        "test_instructions": [
+            "Fill in each variable with different values to test versatility.",
+            "Try using the first example prompt exactly as written as your baseline.",
+            "Test at least 3-5 different variations to ensure consistent style.",
+            "Experiment with Midjourney parameters like `--ar` or `--stylize`."
+        ],
+        "quality_checklist": [
+            "Style Consistency: Does the style remain consistent?",
+            "Composition: Does the output match your compositional expectations?",
+            "Visual Quality: Is the output high-quality?",
+            "Variable Impact: Does changing variables produce meaningful differences?"
+        ],
+        "common_issues": [
+            "Subject distortion or anatomical problems.",
+            "Style 'bleeding' or inconsistency."
+        ]
+    },
+    "commercial_description": "Unlock the hidden world beneath the surface and render hyper-realistic, intensely detailed macro textures that demand attention.\n\n*   **Subsurface Scattering Engine:** Instantly applies professional-grade lighting and depth-of- field, ensuring every microscopic ridge and pore catches light like a studio photograph.\n*   **The Grotesque Realism Filter:** Moves beyond simple detail, embedding a visceral, almost unsettling level of authenticity that makes your textures feel alive and tangible.\n*   **Zero-Fuss Consistency:** Achieve the exact same high-fidelity aesthetic across hundreds of different subjects—from rusty metal and decaying wood to alien skin and organic matter—without tweaking a single setting.\n\nPerfect for concept artists, game developers needing high-impact textures, abstract designers, and anyone seeking truly unique, museum-quality visuals. Stop wrestling with complicated parameters; just paste, click, and watch the microscopic magic unfold.",
+    "category": "Photography & Cinematics",
+    "_original_topic": "Grotesque Macro Texture Realism",
+    "_abstract_injected": 2,
+    "enhancement_log": [
+        "Title fixed: Grotesque Macro Texture Realism -> Moody Grotesque Macro Texture Art",
+        "Injected 2 abstract examples"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "popular_categories": [
+        "Art & Illustration",
+        "Posters & Graphics",
+        "Photography (Motion/Ultrareal)",
+        "Fantasy & Surreal Worlds",
+        "Holiday & Seasonal Content",
+        "3D & Games",
+        "Product Mockups"
+    ],
+    "trending_styles": [
+        "Midjourney Art Styles",
+        "Surreal/Bizarre/Dreamlike Aesthetics",
+        "Retro/Synthwave",
+        "Junk Journal/Digital Scrapbooking Kits",
+        "Cityscapes & Urban Themes",
+        "Watercolor & Sketch Art",
+        "Cute/Animal Portraits"
+    ],
+    "dominant_models": [
+        "Midjourney (Overwhelmingly dominant in visual listings)",
+        "ChatGPT Image (GPT-5)",
+        "Gemini Image (2.5-flash-image)",
+        "Veo (Text-to-Video)",
+        "Sora (Text-to-Video)"
+    ],
+    "summary": "The PromptBase marketplace is mature and highly specialized in visual content, dominated by Midjourney prompts, with strong engagement in the $3-$5 price range. Key growth areas include high-concept art styles (Surreal, Retro, Fantasy) and emerging video generation models (Veo, Sora). The platform is actively pushing professional creator tools (PromptBase Pro) and enterprise services (Hire AI Creator) beyond simple prompt purchasing."
+}

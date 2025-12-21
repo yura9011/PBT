@@ -2,8 +2,8 @@
 
 import streamlit as st
 import logging
-from utils import initialize_database, load_config
-from ui import create_ui # Updated import
+from src.utils import initialize_database, load_config
+from src.ui import create_ui
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -37,17 +37,19 @@ def main():
             st.subheader("Model Selection")
             # Model mapping for cleaner UI
             model_mapping = {
-                "models/gemini-flash-latest": "Gemini Flash Latest (v2.5 Preview)",
-                "models/gemini-flash-lite-latest": "Gemini Flash-Lite Latest (v2.5 Lite Preview)",
-                "models/gemini-3-pro-preview": "Gemini 3 Pro Preview",
-                "models/gemini-3-pro-image-preview": "Gemini 3 Pro Image Preview",
-                "models/gemini-2.5-pro": "Gemini 2.5 Pro",
-                "models/gemini-2.5-flash": "Gemini 2.5 Flash",
-                "models/gemini-2.5-flash-lite": "Gemini 2.5 Flash-Lite",
-                "models/gemini-2.5-flash-image": "Gemini 2.5 Flash Image",
-                "models/gemini-2.0-flash": "Gemini 2.0 Flash",
-                "models/gemini-2.0-flash-lite": "Gemini 2.0 Flash-Lite",
-                "models/gemini-robotics-er-1.5-preview": "Gemini Robotics-ER 1.5 Preview",
+                # Gemini 3.0 (newest)
+                "gemini-3-flash-preview": "⚡ Gemini 3 Flash Preview",
+                "gemini-3-pro-preview": "🧠 Gemini 3 Pro Preview",
+                # Gemini 2.5
+                "gemini-2.5-flash": "Gemini 2.5 Flash",
+                "gemini-2.5-flash-lite": "Gemini 2.5 Flash-Lite",
+                "gemini-2.5-pro": "Gemini 2.5 Pro",
+                # Gemini 2.0
+                "gemini-2.0-flash": "Gemini 2.0 Flash",
+                "gemini-2.0-flash-lite": "Gemini 2.0 Flash-Lite",
+                # Latest aliases
+                "gemini-flash-latest": "Flash Latest (→ 2.5)",
+                "gemini-flash-lite-latest": "Flash-Lite Latest (→ 2.5)",
             }
             
             # Ensure the default model from config is in our mapping or list

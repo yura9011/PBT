@@ -1,0 +1,197 @@
+{
+    "topic": "retro dark fantasy",
+    "content_type": "Image",
+    "platform": "Midjourney",
+    "style": "",
+    "use_case": "",
+    "template": "[SUBJECT_ENTITY] in a [ENVIRONMENT_SETTING], infernal baroque horror rendering, heavy airbrush texture reminiscent of 1980s fantasy paperback covers, deep saturated blacks and spectral highlights, low-fidelity print grain, dominated by a split-complementary palette of [PALETTE_GUIDE], cinematic Dutch angle composition, dramatic contre-jour lighting casting sharp silhouettes, rendered with exaggerated depth of field, captured with a medium format lens at [FOCAL_LENGTH] telephoto compression, archival quality digital painting, intricate textural fidelity, polished finish, high dynamic range contrast --ar [AR_RATIO]",
+    "variables": [
+        "ENVIRONMENT_SETTING",
+        "PALETTE_GUIDE",
+        "SUBJECT_ENTITY",
+        "FOCAL_LENGTH",
+        "AR_RATIO"
+    ],
+    "variable_explanations": {
+        "SUBJECT_ENTITY": "The central focus of the image (e.g., A Necromancer King, The Last Titan, A Shadow Blade).",
+        "ENVIRONMENT_SETTING": "The location and atmosphere (e.g., Crumbling obsidian fortress, Subterranean lava flows, Astral void).",
+        "PALETTE_GUIDE": "The dominant color scheme, crucial for the retro feel (e.g., Royal Purple and Acid Green, Sulfur Yellow and Deep Crimson, Burnt Orange and Cobalt Blue).",
+        "FOCAL_LENGTH": "Specific camera lens parameter to control depth and compression (e.g., 85mm, 100mm, 135mm).",
+        "AR_RATIO": "The desired aspect ratio (e.g., 16:9, 4:3, 1:1)."
+    },
+    "examples": [
+        {
+            "variables": {
+                "ENVIRONMENT_SETTING": "Subterranean cathedral",
+                "PALETTE_GUIDE": "Magenta, Cyan, and Gold",
+                "SUBJECT_ENTITY": "A biomechanical seraphim",
+                "FOCAL_LENGTH": "150mm",
+                "AR_RATIO": "16:9"
+            },
+            "prompt": "A biomechanical seraphim in a Subterranean cathedral, infernal baroque horror rendering, heavy airbrush texture reminiscent of 1980s fantasy paperback covers, deep saturated blacks and spectral highlights, low-fidelity print grain, dominated by a split-complementary palette of Magenta, Cyan, and Gold, cinematic Dutch angle composition, dramatic contre-jour lighting casting sharp silhouettes, rendered with exaggerated depth of field, captured with a medium format lens at 150mm telephoto compression, archival quality digital painting, intricate textural fidelity, polished finish, high dynamic range contrast --ar 16:9"
+        },
+        {
+            "variables": {
+                "ENVIRONMENT_SETTING": "Decaying Victorian observatory",
+                "PALETTE_GUIDE": "Viridian, Scarlet, and Deep Violet",
+                "SUBJECT_ENTITY": "The last living gargoyle",
+                "FOCAL_LENGTH": "210mm",
+                "AR_RATIO": "3:2"
+            },
+            "prompt": "The last living gargoyle in a Decaying Victorian observatory, infernal baroque horror rendering, heavy airbrush texture reminiscent of 1980s fantasy paperback covers, deep saturated blacks and spectral highlights, low-fidelity print grain, dominated by a split-complementary palette of Viridian, Scarlet, and Deep Violet, cinematic Dutch angle composition, dramatic contre-jour lighting casting sharp silhouettes, rendered with exaggerated depth of field, captured with a medium format lens at 210mm telephoto compression, archival quality digital painting, intricate textural fidelity, polished finish, high dynamic range contrast --ar 3:2"
+        },
+        {
+            "variables": {
+                "ENVIRONMENT_SETTING": "Floating derelict space station",
+                "PALETTE_GUIDE": "Electric Blue, Blood Red, and Rust",
+                "SUBJECT_ENTITY": "A weeping sentient automaton",
+                "FOCAL_LENGTH": "300mm",
+                "AR_RATIO": "21:9"
+            },
+            "prompt": "A weeping sentient automaton in a Floating derelict space station, infernal baroque horror rendering, heavy airbrush texture reminiscent of 1980s fantasy paperback covers, deep saturated blacks and spectral highlights, low-fidelity print grain, dominated by a split-complementary palette of Electric Blue, Blood Red, and Rust, cinematic Dutch angle composition, dramatic contre-jour lighting casting sharp silhouettes, rendered with exaggerated depth of field, captured with a medium format lens at 300mm telephoto compression, archival quality digital painting, intricate textural fidelity, polished finish, high dynamic range contrast --ar 21:9"
+        },
+        {
+            "variables": {
+                "ENVIRONMENT_SETTING": "Phosphorescent jungle",
+                "PALETTE_GUIDE": "Burnt Orange, Teal, and Pale Yellow",
+                "SUBJECT_ENTITY": "The resurrected executioner",
+                "FOCAL_LENGTH": "90mm",
+                "AR_RATIO": "5:4"
+            },
+            "prompt": "The resurrected executioner in a Phosphorescent jungle, infernal baroque horror rendering, heavy airbrush texture reminiscent of 1980s fantasy paperback covers, deep saturated blacks and spectral highlights, low-fidelity print grain, dominated by a split-complementary palette of Burnt Orange, Teal, and Pale Yellow, cinematic Dutch angle composition, dramatic contre-jour lighting casting sharp silhouettes, rendered with exaggerated depth of field, captured with a medium format lens at 90mm telephoto compression, archival quality digital painting, intricate textural fidelity, polished finish, high dynamic range contrast --ar 5:4"
+        },
+        {
+            "variables": {
+                "ENVIRONMENT_SETTING": "Obsidian labyrinth",
+                "PALETTE_GUIDE": "Ochre, Black, and Neon Pink",
+                "SUBJECT_ENTITY": "A choir of mutated cherubs",
+                "FOCAL_LENGTH": "400mm",
+                "AR_RATIO": "4:3"
+            },
+            "prompt": "A choir of mutated cherubs in a Obsidian labyrinth, infernal baroque horror rendering, heavy airbrush texture reminiscent of 1980s fantasy paperback covers, deep saturated blacks and spectral highlights, low-fidelity print grain, dominated by a split-complementary palette of Ochre, Black, and Neon Pink, cinematic Dutch angle composition, dramatic contre-jour lighting casting sharp silhouettes, rendered with exaggerated depth of field, captured with a medium format lens at 400mm telephoto compression, archival quality digital painting, intricate textural fidelity, polished finish, high dynamic range contrast --ar 4:3"
+        },
+        {
+            "variables": {
+                "ENVIRONMENT_SETTING": "Flooded ballroom",
+                "PALETTE_GUIDE": "Chartreuse, Indigo, and Sepia",
+                "SUBJECT_ENTITY": "A parasitic clockwork knight",
+                "FOCAL_LENGTH": "180mm",
+                "AR_RATIO": "16:9"
+            },
+            "prompt": "A parasitic clockwork knight in a Flooded ballroom, infernal baroque horror rendering, heavy airbrush texture reminiscent of 1980s fantasy paperback covers, deep saturated blacks and spectral highlights, low-fidelity print grain, dominated by a split-complementary palette of Chartreuse, Indigo, and Sepia, cinematic Dutch angle composition, dramatic contre-jour lighting casting sharp silhouettes, rendered with exaggerated depth of field, captured with a medium format lens at 180mm telephoto compression, archival quality digital painting, intricate textural fidelity, polished finish, high dynamic range contrast --ar 16:9"
+        },
+        {
+            "variables": {
+                "ENVIRONMENT_SETTING": "Clockwork dimension",
+                "PALETTE_GUIDE": "Silver, Emerald, and Dark Bronze",
+                "SUBJECT_ENTITY": "The Architect of Rust",
+                "FOCAL_LENGTH": "250mm",
+                "AR_RATIO": "3:2"
+            },
+            "prompt": "The Architect of Rust in a Clockwork dimension, infernal baroque horror rendering, heavy airbrush texture reminiscent of 1980s fantasy paperback covers, deep saturated blacks and spectral highlights, low-fidelity print grain, dominated by a split-complementary palette of Silver, Emerald, and Dark Bronze, cinematic Dutch angle composition, dramatic contre-jour lighting casting sharp silhouettes, rendered with exaggerated depth of field, captured with a medium format lens at 250mm telephoto compression, archival quality digital painting, intricate textural fidelity, polished finish, high dynamic range contrast --ar 3:2"
+        },
+        {
+            "variables": {
+                "ENVIRONMENT_SETTING": "The interior of a colossal, calcified heart",
+                "PALETTE_GUIDE": "Deep Crimson, Bone White, and Acid Green",
+                "SUBJECT_ENTITY": "A crystalline parasitic insect",
+                "FOCAL_LENGTH": "120mm",
+                "AR_RATIO": "7:4"
+            },
+            "prompt": "A crystalline parasitic insect in a The interior of a colossal, calcified heart, infernal baroque horror rendering, heavy airbrush texture reminiscent of 1980s fantasy paperback covers, deep saturated blacks and spectral highlights, low-fidelity print grain, dominated by a split-complementary palette of Deep Crimson, Bone White, and Acid Green, cinematic Dutch angle composition, dramatic contre-jour lighting casting sharp silhouettes, rendered with exaggerated depth of field, captured with a medium format lens at 120mm telephoto compression, archival quality digital painting, intricate textural fidelity, polished finish, high dynamic range contrast --ar 7:4"
+        },
+        {
+            "variables": {
+                "ENVIRONMENT_SETTING": "Toxic swamp under a crimson moon",
+                "PALETTE_GUIDE": "Sulfur Yellow, Muted Purple, and Ash Grey",
+                "SUBJECT_ENTITY": "A spectral inquisitor",
+                "FOCAL_LENGTH": "500mm",
+                "AR_RATIO": "1:1"
+            },
+            "prompt": "A spectral inquisitor in a Toxic swamp under a crimson moon, infernal baroque horror rendering, heavy airbrush texture reminiscent of 1980s fantasy paperback covers, deep saturated blacks and spectral highlights, low-fidelity print grain, dominated by a split-complementary palette of Sulfur Yellow, Muted Purple, and Ash Grey, cinematic Dutch angle composition, dramatic contre-jour lighting casting sharp silhouettes, rendered with exaggerated depth of field, captured with a medium format lens at 500mm telephoto compression, archival quality digital painting, intricate textural fidelity, polished finish, high dynamic range contrast --ar 1:1"
+        }
+    ],
+    "tips": {
+        "completeness_checklist": [
+            {
+                "item": "Background treatment specified?",
+                "status": "Yes (via ENVIRONMENT_SETTING and lighting/texture descriptors)"
+            },
+            {
+                "item": "Edge/border handling defined?",
+                "status": "Implicitly via 'low-fidelity print grain' and 'polished finish' (suggests a framed, non-seamless look)"
+            },
+            {
+                "item": "Color palette guidance included?",
+                "status": "Yes (via PALETTE_GUIDE and 'split-complementary palette' and 'deep saturated blacks')"
+            },
+            {
+                "item": "Composition rules stated?",
+                "status": "Yes ('cinematic Dutch angle composition', 'telephoto compression')"
+            },
+            {
+                "item": "Detail level calibrated?",
+                "status": "Yes ('intricate textural fidelity', 'high dynamic range contrast')"
+            },
+            {
+                "item": "Output format compatible with stated use cases?",
+                "status": "Yes (via AR_RATIO variable)"
+            }
+        ],
+        "lighting_note": "The 'dramatic contre-jour lighting' ensures the subject often appears silhouetted or heavily rim-lit, which is a hallmark of 80s fantasy illustration used to maximize drama."
+    },
+    "description": "A professional template designed to generate highly dramatic, texturally rich images rooted in the visual aesthetic of 1970s and 1980s dark fantasy art (e.g., heavy metal album covers, early D&D modules, Frazetta/Vallejo influences). It emphasizes airbrush rendering, saturated blacks, and cinematic lighting techniques.",
+    "instructions": "For maximum retro grit and dramatic flair, consider using `--style raw` and adjusting the stylize parameter moderately, such as `--s 150` or `--s 250` depending on the desired level of detail interpretation.",
+    "raw_response": "```json\n{\n  \"description\": \"A professional template designed to generate highly dramatic, texturally rich images rooted in the visual aesthetic of 1970s and 1980s dark fantasy art (e.g., heavy metal album covers, early D&D modules, Frazetta/Vallejo influences). It emphasizes airbrush rendering, saturated blacks, and cinematic lighting techniques.\",\n  \"instructions\": \"For maximum retro grit and dramatic flair, consider using `--style raw` and adjusting the stylize parameter moderately, such as `--s 150` or `--s 250` depending on the desired level of detail interpretation.\",\n  \"variables_explanation\": {\n    \"SUBJECT_ENTITY\": \"The central focus of the image (e.g., A Necromancer King, The Last Titan, A Shadow Blade).\",\n    \"ENVIRONMENT_SETTING\": \"The location and atmosphere (e.g., Crumbling obsidian fortress, Subterranean lava flows, Astral void).\",\n    \"PALETTE_GUIDE\": \"The dominant color scheme, crucial for the retro feel (e.g., Royal Purple and Acid Green, Sulfur Yellow and Deep Crimson, Burnt Orange and Cobalt Blue).\",\n    \"FOCAL_LENGTH\": \"Specific camera lens parameter to control depth and compression (e.g., 85mm, 100mm, 135mm).\",\n    \"AR_RATIO\": \"The desired aspect ratio (e.g., 16:9, 4:3, 1:1).\"\n  },\n  \"template\": \"[SUBJECT_ENTITY] in a [ENVIRONMENT_SETTING], infernal baroque horror rendering, heavy airbrush texture reminiscent of 1980s fantasy paperback covers, deep saturated blacks and spectral highlights, low-fidelity print grain, dominated by a split-complementary palette of [PALETTE_GUIDE], cinematic Dutch angle composition, dramatic contre-jour lighting casting sharp silhouettes, rendered with exaggerated depth of field, captured with a medium format lens at [FOCAL_LENGTH] telephoto compression, archival quality digital painting, intricate textural fidelity, polished finish, high dynamic range contrast --ar [AR_RATIO]\",\n  \"example_prompts\": [\n    \"A Warlock clad in flayed leather armor in a Subterranean lava flows, infernal baroque horror rendering, heavy airbrush texture reminiscent of 1980s fantasy paperback covers, deep saturated blacks and spectral highlights, low-fidelity print grain, dominated by a split-complementary palette of Royal Purple and Acid Green, cinematic Dutch angle composition, dramatic contre-jour lighting casting sharp silhouettes, rendered with exaggerated depth of field, captured with a medium format lens at 100mm telephoto compression, archival quality digital painting, intricate textural fidelity, polished finish, high dynamic range contrast --ar 16:9\",\n    \"The Citadel of the Fallen God in a Crumbling obsidian fortress, infernal baroque horror rendering, heavy airbrush texture reminiscent of 1980s fantasy paperback covers, deep saturated blacks and spectral highlights, low-fidelity print grain, dominated by a split-complementary palette of Sulfur Yellow and Deep Crimson, cinematic Dutch angle composition, dramatic contre-jour lighting casting sharp silhouettes, rendered with exaggerated depth of field, captured with a medium format lens at 35mm telephoto compression, archival quality digital painting, intricate textural fidelity, polished finish, high dynamic range contrast --ar 4:3\",\n    \"A monstrous Basilisk emerging from the mist in an Acidic swamp, infernal baroque horror rendering, heavy airbrush texture reminiscent of 1980s fantasy paperback covers, deep saturated blacks and spectral highlights, low-fidelity print grain, dominated by a split-complementary palette of Necrotic Blue and Rust Orange, cinematic Dutch angle composition, dramatic contre-jour lighting casting sharp silhouettes, rendered with exaggerated depth of field, captured with a medium format lens at 135mm telephoto compression, archival quality digital painting, intricate textural fidelity, polished finish, high dynamic range contrast --ar 1:1\",\n    \"The Serpent Rider on a mechanical steed in a Desolate canyon at twilight, infernal baroque horror rendering, heavy airbrush texture reminiscent of 1980s fantasy paperback covers, deep saturated blacks and spectral highlights, low-fidelity print grain, dominated by a split-complementary palette of Magenta and Gold, cinematic Dutch angle composition, dramatic contre-jour lighting casting sharp silhouettes, rendered with exaggerated depth of field, captured with a medium format lens at 85mm telephoto compression, archival quality digital painting, intricate textural fidelity, polished finish, high dynamic range contrast --ar 5:4\",\n    \"A Cursed Runeblade floating above a sacrificial altar in an Ancient stone circle, infernal baroque horror rendering, heavy airbrush texture reminiscent of 1980s fantasy paperback covers, deep saturated blacks and spectral highlights, low-fidelity print grain, dominated by a split-complementary palette of Blood Red and Obsidian, cinematic Dutch angle composition, dramatic contre-jour lighting casting sharp silhouettes, rendered with exaggerated depth of field, captured with a medium format lens at 200mm telephoto compression, archival quality digital painting, intricate textural fidelity, polished finish, high dynamic range contrast --ar 3:2\",\n    \"A Sorceress with illuminated eyes in a Crystal cave network, infernal baroque horror rendering, heavy airbrush texture reminiscent of 1980s fantasy paperback covers, deep saturated blacks and spectral highlights, low-fidelity print grain, dominated by a split-complementary palette of Teal and Bronze, cinematic Dutch angle composition, dramatic contre-jour lighting casting sharp silhouettes, rendered with exaggerated depth of field, captured with a medium format lens at 50mm telephoto compression, archival quality digital painting, intricate textural fidelity, polished finish, high dynamic range contrast --ar 16:9\",\n    \"A battle between winged demons and armored knights in an Astral void, infernal baroque horror rendering, heavy airbrush texture reminiscent of 1980s fantasy paperback covers, deep saturated blacks and spectral highlights, low-fidelity print grain, dominated by a split-complementary palette of Pale Yellow and Vantablack, cinematic Dutch angle composition, dramatic contre-jour lighting casting sharp silhouettes, rendered with exaggerated depth of field, captured with a medium format lens at 24mm telephoto compression, archival quality digital painting, intricate textural fidelity, polished finish, high dynamic range contrast --ar 21:9\",\n    \"The Soul Harvester's Scythe in a Fungal forest, infernal baroque horror rendering, heavy airbrush texture reminiscent of 1980s fantasy paperback covers, deep saturated blacks and spectral highlights, low-fidelity print grain, dominated by a split-complementary palette of Sepia and Electric Blue, cinematic Dutch angle composition, dramatic contre-jour lighting casting sharp silhouettes, rendered with exaggerated depth of field, captured with a medium format lens at 105mm telephoto compression, archival quality digital painting, intricate textural fidelity, polished finish, high dynamic range contrast --ar 1:1\"\n  ],\n  \"technical_tips\": {\n    \"completeness_checklist\": [\n      {\n        \"item\": \"Background treatment specified?\",\n        \"status\": \"Yes (via ENVIRONMENT_SETTING and lighting/texture descriptors)\"\n      },\n      {\n        \"item\": \"Edge/border handling defined?\",\n        \"status\": \"Implicitly via 'low-fidelity print grain' and 'polished finish' (suggests a framed, non-seamless look)\"\n      },\n      {\n        \"item\": \"Color palette guidance included?\",\n        \"status\": \"Yes (via PALETTE_GUIDE and 'split-complementary palette' and 'deep saturated blacks')\"\n      },\n      {\n        \"item\": \"Composition rules stated?\",\n        \"status\": \"Yes ('cinematic Dutch angle composition', 'telephoto compression')\"\n      },\n      {\n        \"item\": \"Detail level calibrated?\",\n        \"status\": \"Yes ('intricate textural fidelity', 'high dynamic range contrast')\"\n      },\n      {\n        \"item\": \"Output format compatible with stated use cases?\",\n        \"status\": \"Yes (via AR_RATIO variable)\"\n      }\n    ],\n    \"lighting_note\": \"The 'dramatic contre-jour lighting' ensures the subject often appears silhouetted or heavily rim-lit, which is a hallmark of 80s fantasy illustration used to maximize drama.\"\n  }\n}\n```",
+    "title_validation": {
+        "score": 0.5,
+        "issues": [
+            "Missing emotional/visual descriptor",
+            "Missing format/type specification"
+        ],
+        "suggestions": [
+            "Consider: whimsical, cinematic, rustic, epic, playful",
+            "Add: texture, illustration, poster, photo, art"
+        ]
+    },
+    "evaluation": {
+        "scores": {
+            "TITLE QUALITY": 20,
+            "TEMPLATE STRUCTURE": 30,
+            "VARIABLE EXAMPLES": 20,
+            "COMMERCIAL VIABILITY": 15,
+            "DESCRIPTION QUALITY": 15
+        },
+        "total_score": 100,
+        "feedback": {
+            "TITLE QUALITY": "The title, 'Gritty Cinematic Character Portraits,' is excellent. It strictly adheres to the required pattern ([Descriptor] + [Subject] + [Type]), uses strong visual descriptors ('Gritty,' 'Cinematic'), is concise (4 words), and clearly defines the output ('Portraits'). This title is highly searchable and compelling.",
+            "TEMPLATE STRUCTURE": "The template is robust and professional. The subject variable is clearly marked and isolated ({subject}). The prompt is heavily weighted towards style (volumetric lighting, deep shadows, cinematic atmosphere), ensuring high artistic consistency. Crucially, the technical specifications (8k resolution, ARRI Alexa 65, 50mm lens) are specific and directly support the 'Cinematic' promise, making this template highly effective and consistent with the title.",
+            "VARIABLE EXAMPLES": "Nine diverse examples were provided, meeting the required quantity. The examples demonstrate excellent range, spanning specific character archetypes (space marine, architect), abstract concepts (mysterious cloaked figure), and non-human subjects (ancient robot, majestic owl). This mix effectively showcases the versatility of the cinematic style across various genres (Sci-Fi, Fantasy, Contemporary).",
+            "COMMERCIAL VIABILITY": "The commercial assessment is strong. Use cases (book covers, game concept art) are clearly defined and align perfectly with the high-fidelity, dramatic output. The suggested price tier ($2.99) is appropriate for a highly technical and niche style prompt. The unique value proposition—delivering a consistent 'ARRI Alexa 65' film look—is a clear differentiator in the marketplace.",
+            "DESCRIPTION QUALITY": "The description is highly effective. It starts with a compelling hook ('Need ultra-realistic, dramatic character art?'). It clearly lists the key technical features (volumetric lighting, specific camera data) that justify the quality. Finally, it specifies relevant commercial use cases, completing a comprehensive and persuasive sales pitch."
+        },
+        "priority_improvements": [
+            "This prompt package is excellent and requires no immediate improvements. It meets or exceeds all marketplace criteria and is ready for immediate deployment."
+        ]
+    },
+    "test_guidance": {
+        "test_instructions": [
+            "Fill in each variable with different values to test versatility.",
+            "Try using the first example prompt exactly as written as your baseline.",
+            "Test at least 3-5 different variations to ensure consistent style.",
+            "Experiment with Midjourney parameters like `--ar` or `--stylize`."
+        ],
+        "quality_checklist": [
+            "Style Consistency: Does the style remain consistent?",
+            "Composition: Does the output match your compositional expectations?",
+            "Visual Quality: Is the output high-quality?",
+            "Variable Impact: Does changing variables produce meaningful differences?"
+        ],
+        "common_issues": [
+            "Subject distortion or anatomical problems.",
+            "Style 'bleeding' or inconsistency."
+        ]
+    },
+    "commercial_description": "This versatile prompt generates retro dark fantasy for any subject you can imagine.\n\n✓ Fill-in-the-blank template for maximum flexibility\n✓ Consistent style across all generations\n✓ High-quality output ready for commercial use\n\nIdeal for social media content, print-on-demand products, marketing materials, web design elements, and branding projects.\n\nPerfect for designers, content creators, and anyone looking to create professional visuals quickly.",
+    "category": "Art & Illustration"
+}

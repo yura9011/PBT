@@ -1,0 +1,194 @@
+{
+    "topic": "Handcrafted Plush Keychain",
+    "content_type": "Image",
+    "platform": "Imagen 3 (Gemini)",
+    "style": "",
+    "use_case": "",
+    "template": "A handcrafted [Color] [Subject] plush keychain, charming and whimsical design with visible hand-stitching and beady button eyes, subtly asymmetrical for a handmade feel, attached to a polished nickel-plated split ring, studio product photography with a shallow depth of field, the keychain is placed on a [Location] surface, softbox lighting creating gentle highlights, subtle color grading to evoke a [Mood] atmosphere, shot with a 90mm macro lens for exquisite texture detail and creamy bokeh, hyper-detailed textile fibers, precise threadwork, authentic material representation, sharp focus on the plushie.",
+    "variables": [
+        "Mood",
+        "Color",
+        "Subject",
+        "Location"
+    ],
+    "variable_explanations": {
+        "[Subject]": "The character or object of the plushie (e.g., 'sleepy fox', 'grumpy avocado', 'little ghost').",
+        "[Color]": "The primary color of the plushie (e.g., 'pastel pink', 'forest green', 'burnt orange').",
+        "[Mood]": "The overall feeling or atmosphere of the image (e.g., 'cozy', 'playful', 'serene', 'melancholy').",
+        "[Location]": "The surface or background where the keychain is placed (e.g., 'a weathered wooden desk', 'a stack of old books', 'a soft wool blanket')."
+    },
+    "examples": [
+        {
+            "variables": {
+                "Mood": "Nostalgic",
+                "Color": "Faded Yellow",
+                "Subject": "Teddy Bear",
+                "Location": "Weathered wooden picnic table"
+            },
+            "prompt": "A handcrafted Faded Yellow Teddy Bear plush keychain, charming and whimsical design with visible hand-stitching and beady button eyes, subtly asymmetrical for a handmade feel, attached to a polished nickel-plated split ring, studio product photography with a shallow depth of field, the keychain is placed on a Weathered wooden picnic table surface, softbox lighting creating gentle highlights, subtle color grading to evoke a Nostalgic atmosphere, shot with a 90mm macro lens for exquisite texture detail and creamy bokeh, hyper-detailed textile fibers, precise threadwork, authentic material representation, sharp focus on the plushie."
+        },
+        {
+            "variables": {
+                "Mood": "Serene",
+                "Color": "Sky Blue",
+                "Subject": "Sleepy Whale",
+                "Location": "Smooth, light-colored sea pebble"
+            },
+            "prompt": "A handcrafted Sky Blue Sleepy Whale plush keychain, charming and whimsical design with visible hand-stitching and beady button eyes, subtly asymmetrical for a handmade feel, attached to a polished nickel-plated split ring, studio product photography with a shallow depth of field, the keychain is placed on a Smooth, light-colored sea pebble surface, softbox lighting creating gentle highlights, subtle color grading to evoke a Serene atmosphere, shot with a 90mm macro lens for exquisite texture detail and creamy bokeh, hyper-detailed textile fibers, precise threadwork, authentic material representation, sharp focus on the plushie."
+        },
+        {
+            "variables": {
+                "Mood": "Adventurous",
+                "Color": "Forest Green",
+                "Subject": "Friendly Dragon",
+                "Location": "Mossy stone from a ruin"
+            },
+            "prompt": "A handcrafted Forest Green Friendly Dragon plush keychain, charming and whimsical design with visible hand-stitching and beady button eyes, subtly asymmetrical for a handmade feel, attached to a polished nickel-plated split ring, studio product photography with a shallow depth of field, the keychain is placed on a Mossy stone from a ruin surface, softbox lighting creating gentle highlights, subtle color grading to evoke an Adventurous atmosphere, shot with a 90mm macro lens for exquisite texture detail and creamy bokeh, hyper-detailed textile fibers, precise threadwork, authentic material representation, sharp focus on the plushie."
+        },
+        {
+            "variables": {
+                "Mood": "Playful",
+                "Color": "Tangerine",
+                "Subject": "Mischievous Fox",
+                "Location": "Pile of autumn leaves"
+            },
+            "prompt": "A handcrafted Tangerine Mischievous Fox plush keychain, charming and whimsical design with visible hand-stitching and beady button eyes, subtly asymmetrical for a handmade feel, attached to a polished nickel-plated split ring, studio product photography with a shallow depth of field, the keychain is placed on a Pile of autumn leaves surface, softbox lighting creating gentle highlights, subtle color grading to evoke a Playful atmosphere, shot with a 90mm macro lens for exquisite texture detail and creamy bokeh, hyper-detailed textile fibers, precise threadwork, authentic material representation, sharp focus on the plushie."
+        },
+        {
+            "variables": {
+                "Mood": "Dreamy",
+                "Color": "Lavender",
+                "Subject": "Crescent Moon",
+                "Location": "Dark, star-dusted velvet"
+            },
+            "prompt": "A handcrafted Lavender Crescent Moon plush keychain, charming and whimsical design with visible hand-stitching and beady button eyes, subtly asymmetrical for a handmade feel, attached to a polished nickel-plated split ring, studio product photography with a shallow depth of field, the keychain is placed on a Dark, star-dusted velvet surface, softbox lighting creating gentle highlights, subtle color grading to evoke a Dreamy atmosphere, shot with a 90mm macro lens for exquisite texture detail and creamy bokeh, hyper-detailed textile fibers, precise threadwork, authentic material representation, sharp focus on the plushie."
+        },
+        {
+            "variables": {
+                "Mood": "Cozy",
+                "Color": "Creamy White",
+                "Subject": "Fluffy Sheep",
+                "Location": "Knitted wool blanket"
+            },
+            "prompt": "A handcrafted Creamy White Fluffy Sheep plush keychain, charming and whimsical design with visible hand-stitching and beady button eyes, subtly asymmetrical for a handmade feel, attached to a polished nickel-plated split ring, studio product photography with a shallow depth of field, the keychain is placed on a Knitted wool blanket surface, softbox lighting creating gentle highlights, subtle color grading to evoke a Cozy atmosphere, shot with a 90mm macro lens for exquisite texture detail and creamy bokeh, hyper-detailed textile fibers, precise threadwork, authentic material representation, sharp focus on the plushie."
+        },
+        {
+            "variables": {
+                "Mood": "Cheerful",
+                "Color": "Sunny Yellow",
+                "Subject": "Bumblebee",
+                "Location": "A large sunflower petal"
+            },
+            "prompt": "A handcrafted Sunny Yellow Bumblebee plush keychain, charming and whimsical design with visible hand-stitching and beady button eyes, subtly asymmetrical for a handmade feel, attached to a polished nickel-plated split ring, studio product photography with a shallow depth of field, the keychain is placed on a A large sunflower petal surface, softbox lighting creating gentle highlights, subtle color grading to evoke a Cheerful atmosphere, shot with a 90mm macro lens for exquisite texture detail and creamy bokeh, hyper-detailed textile fibers, precise threadwork, authentic material representation, sharp focus on the plushie."
+        },
+        {
+            "variables": {
+                "Mood": "Magical",
+                "Color": "Midnight Blue",
+                "Subject": "Wise Owl",
+                "Location": "An open, antique storybook"
+            },
+            "prompt": "A handcrafted Midnight Blue Wise Owl plush keychain, charming and whimsical design with visible hand-stitching and beady button eyes, subtly asymmetrical for a handmade feel, attached to a polished nickel-plated split ring, studio product photography with a shallow depth of field, the keychain is placed on an An open, antique storybook surface, softbox lighting creating gentle highlights, subtle color grading to evoke a Magical atmosphere, shot with a 90mm macro lens for exquisite texture detail and creamy bokeh, hyper-detailed textile fibers, precise threadwork, authentic material representation, sharp focus on the plushie."
+        },
+        {
+            "variables": {
+                "Mood": "Sweet",
+                "Color": "Pastel Pink",
+                "Subject": "Plump Strawberry",
+                "Location": "A slice of light, natural wood"
+            },
+            "prompt": "A handcrafted Pastel Pink Plump Strawberry plush keychain, charming and whimsical design with visible hand-stitching and beady button eyes, subtly asymmetrical for a handmade feel, attached to a polished nickel-plated split ring, studio product photography with a shallow depth of field, the keychain is placed on a A slice of light, natural wood surface, softbox lighting creating gentle highlights, subtle color grading to evoke a Sweet atmosphere, shot with a 90mm macro lens for exquisite texture detail and creamy bokeh, hyper-detailed textile fibers, precise threadwork, authentic material representation, sharp focus on the plushie."
+        }
+    ],
+    "tips": {
+        "explanation": "This template is hardcoded for a macro product photography aesthetic. It uses a shallow depth of field (bokeh) to isolate the subject, softbox lighting to emphasize the plush texture, and specific keywords to ensure high textural detail, like visible stitching and fabric fibers. The [Mood] variable subtly influences the overall color grading and warmth of the light, while the [Location] variable provides a natural, textured background that complements the subject.",
+        "technical_completeness_checklist": [
+            {
+                "item": "Background treatment specified?",
+                "status": "✅",
+                "details": "Handled by the [Location] variable combined with 'creamy bokeh' and 'shallow depth of field' to ensure a soft, out-of-focus background that highlights the subject."
+            },
+            {
+                "item": "Edge/border handling defined?",
+                "status": "✅",
+                "details": "Managed by 'sharp focus on the plushie' and the natural falloff from the shallow depth of field, creating a clean separation between the subject and background."
+            },
+            {
+                "item": "Color palette guidance included?",
+                "status": "✅",
+                "details": "Guided by the [Color] variable for the subject and the [Mood] variable, which influences the image's overall color grading and temperature."
+            },
+            {
+                "item": "Composition rules stated?",
+                "status": "✅",
+                "details": "The prompt specifies a 'macro shot' and places the object on the [Location] surface, establishing a clear foreground-background relationship and a focused composition."
+            },
+            {
+                "item": "Detail level calibrated?",
+                "status": "✅",
+                "details": "Set to a high level with terms like 'hyper-detailed textile fibers' and 'precise threadwork' to capture the handcrafted quality."
+            },
+            {
+                "item": "Output format compatible with stated use cases?",
+                "status": "✅",
+                "details": "Generates high-detail, square-aspect images perfect for e-commerce listings, social media (like Instagram), and digital portfolios."
+            }
+        ]
+    },
+    "description": "Generates professional product-style photographs of charming, handcrafted plush keychains with customizable subjects, colors, moods, and settings. This prompt is ideal for creating unique product mockups, portfolio pieces, or concept art for artisanal crafts.",
+    "instructions": "Fill in the four variables ([Subject], [Color], [Mood], [Location]) to create your unique handcrafted plush keychain image. Be creative and descriptive with your inputs for the best results!",
+    "raw_response": "```json\n{\n  \"template\": \"A handcrafted [Color] [Subject] plush keychain, charming and whimsical design with visible hand-stitching and beady button eyes, subtly asymmetrical for a handmade feel, attached to a polished nickel-plated split ring, studio product photography with a shallow depth of field, the keychain is placed on a [Location] surface, softbox lighting creating gentle highlights, subtle color grading to evoke a [Mood] atmosphere, shot with a 90mm macro lens for exquisite texture detail and creamy bokeh, hyper-detailed textile fibers, precise threadwork, authentic material representation, sharp focus on the plushie.\",\n  \"description\": \"Generates professional product-style photographs of charming, handcrafted plush keychains with customizable subjects, colors, moods, and settings. This prompt is ideal for creating unique product mockups, portfolio pieces, or concept art for artisanal crafts.\",\n  \"variables_explanation\": {\n    \"[Subject]\": \"The character or object of the plushie (e.g., 'sleepy fox', 'grumpy avocado', 'little ghost').\",\n    \"[Color]\": \"The primary color of the plushie (e.g., 'pastel pink', 'forest green', 'burnt orange').\",\n    \"[Mood]\": \"The overall feeling or atmosphere of the image (e.g., 'cozy', 'playful', 'serene', 'melancholy').\",\n    \"[Location]\": \"The surface or background where the keychain is placed (e.g., 'a weathered wooden desk', 'a stack of old books', 'a soft wool blanket').\"\n  },\n  \"example_prompts\": [\n    {\n      \"prompt\": \"A handcrafted moss green grumpy avocado plush keychain, charming and whimsical design with visible hand-stitching and beady button eyes, subtly asymmetrical for a handmade feel, attached to a polished nickel-plated split ring, studio product photography with a shallow depth of field, the keychain is placed on a white marble countertop surface, softbox lighting creating gentle highlights, subtle color grading to evoke a humorous atmosphere, shot with a 90mm macro lens for exquisite texture detail and creamy bokeh, hyper-detailed textile fibers, precise threadwork, authentic material representation, sharp focus on the plushie.\"\n    },\n    {\n      \"prompt\": \"A handcrafted burnt orange sleepy red panda plush keychain, charming and whimsical design with visible hand-stitching and beady button eyes, subtly asymmetrical for a handmade feel, attached to a polished nickel-plated split ring, studio product photography with a shallow depth of field, the keychain is placed on a knitted wool scarf surface, softbox lighting creating gentle highlights, subtle color grading to evoke a cozy atmosphere, shot with a 90mm macro lens for exquisite texture detail and creamy bokeh, hyper-detailed textile fibers, precise threadwork, authentic material representation, sharp focus on the plushie.\"\n    },\n    {\n      \"prompt\": \"A handcrafted off-white little ghost plush keychain, charming and whimsical design with visible hand-stitching and beady button eyes, subtly asymmetrical for a handmade feel, attached to a polished nickel-plated split ring, studio product photography with a shallow depth of field, the keychain is placed on a dark, antique spellbook surface, softbox lighting creating gentle highlights, subtle color grading to evoke a whimsical atmosphere, shot with a 90mm macro lens for exquisite texture detail and creamy bokeh, hyper-detailed textile fibers, precise threadwork, authentic material representation, sharp focus on the plushie.\"\n    },\n    {\n      \"prompt\": \"A handcrafted pastel yellow and blue Saturn planet plush keychain, charming and whimsical design with visible hand-stitching and beady button eyes, subtly asymmetrical for a handmade feel, attached to a polished nickel-plated split ring, studio product photography with a shallow depth of field, the keychain is placed on a bed of iridescent confetti surface, softbox lighting creating gentle highlights, subtle color grading to evoke a dreamy atmosphere, shot with a 90mm macro lens for exquisite texture detail and creamy bokeh, hyper-detailed textile fibers, precise threadwork, authentic material representation, sharp focus on the plushie.\"\n    },\n    {\n      \"prompt\": \"A handcrafted black and yellow bumblebee plush keychain, charming and whimsical design with visible hand-stitching and beady button eyes, subtly asymmetrical for a handmade feel, attached to a polished nickel-plated split ring, studio product photography with a shallow depth of field, the keychain is placed on the petal of a giant sunflower surface, softbox lighting creating gentle highlights, subtle color grading to evoke a cheerful atmosphere, shot with a 90mm macro lens for exquisite texture detail and creamy bokeh, hyper-detailed textile fibers, precise threadwork, authentic material representation, sharp focus on the plushie.\"\n    },\n    {\n      \"prompt\": \"A handcrafted mint green stegosaurus plush keychain, charming and whimsical design with visible hand-stitching and beady button eyes, subtly asymmetrical for a handmade feel, attached to a polished nickel-plated split ring, studio product photography with a shallow depth of field, the keychain is placed on a pile of smooth river stones surface, softbox lighting creating gentle highlights, subtle color grading to evoke a playful atmosphere, shot with a 90mm macro lens for exquisite texture detail and creamy bokeh, hyper-detailed textile fibers, precise threadwork, authentic material representation, sharp focus on the plushie.\"\n    },\n    {\n      \"prompt\": \"A handcrafted deep teal Cthulhu plush keychain, charming and whimsical design with visible hand-stitching and beady button eyes, subtly asymmetrical for a handmade feel, attached to a polished nickel-plated split ring, studio product photography with a shallow depth of field, the keychain is placed on a wet, mossy rock surface, softbox lighting creating gentle highlights, subtle color grading to evoke a mysterious atmosphere, shot with a 90mm macro lens for exquisite texture detail and creamy bokeh, hyper-detailed textile fibers, precise threadwork, authentic material representation, sharp focus on the plushie.\"\n    },\n    {\n      \"prompt\": \"A handcrafted cream and brown cup of boba tea plush keychain, charming and whimsical design with visible hand-stitching and beady button eyes, subtly asymmetrical for a handmade feel, attached to a polished nickel-plated split ring, studio product photography with a shallow depth of field, the keychain is placed on a minimalist concrete surface, softbox lighting creating gentle highlights, subtle color grading to evoke a trendy atmosphere, shot with a 90mm macro lens for exquisite texture detail and creamy bokeh, hyper-detailed textile fibers, precise threadwork, authentic material representation, sharp focus on the plushie.\"\n    }\n  ],\n  \"technical_tips\": {\n    \"explanation\": \"This template is hardcoded for a macro product photography aesthetic. It uses a shallow depth of field (bokeh) to isolate the subject, softbox lighting to emphasize the plush texture, and specific keywords to ensure high textural detail, like visible stitching and fabric fibers. The [Mood] variable subtly influences the overall color grading and warmth of the light, while the [Location] variable provides a natural, textured background that complements the subject.\",\n    \"technical_completeness_checklist\": [\n      {\n        \"item\": \"Background treatment specified?\",\n        \"status\": \"✅\",\n        \"details\": \"Handled by the [Location] variable combined with 'creamy bokeh' and 'shallow depth of field' to ensure a soft, out-of-focus background that highlights the subject.\"\n      },\n      {\n        \"item\": \"Edge/border handling defined?\",\n        \"status\": \"✅\",\n        \"details\": \"Managed by 'sharp focus on the plushie' and the natural falloff from the shallow depth of field, creating a clean separation between the subject and background.\"\n      },\n      {\n        \"item\": \"Color palette guidance included?\",\n        \"status\": \"✅\",\n        \"details\": \"Guided by the [Color] variable for the subject and the [Mood] variable, which influences the image's overall color grading and temperature.\"\n      },\n      {\n        \"item\": \"Composition rules stated?\",\n        \"status\": \"✅\",\n        \"details\": \"The prompt specifies a 'macro shot' and places the object on the [Location] surface, establishing a clear foreground-background relationship and a focused composition.\"\n      },\n      {\n        \"item\": \"Detail level calibrated?\",\n        \"status\": \"✅\",\n        \"details\": \"Set to a high level with terms like 'hyper-detailed textile fibers' and 'precise threadwork' to capture the handcrafted quality.\"\n      },\n      {\n        \"item\": \"Output format compatible with stated use cases?\",\n        \"status\": \"✅\",\n        \"details\": \"Generates high-detail, square-aspect images perfect for e-commerce listings, social media (like Instagram), and digital portfolios.\"\n      }\n    ]\n  },\n  \"instructions\": \"Fill in the four variables ([Subject], [Color], [Mood], [Location]) to create your unique handcrafted plush keychain image. Be creative and descriptive with your inputs for the best results!\"\n}\n```",
+    "title_validation": {
+        "score": 0.5,
+        "issues": [
+            "Missing emotional/visual descriptor",
+            "Missing format/type specification"
+        ],
+        "suggestions": [
+            "Consider: soft, mysterious, playful, vintage, luminous",
+            "Add: portrait, photo, pattern, wallpaper, design"
+        ]
+    },
+    "evaluation": {
+        "scores": {
+            "title_quality": 20,
+            "template_structure": 26,
+            "variable_examples": 18,
+            "commercial_viability": 13,
+            "description_quality": 14,
+            "total_score": 91
+        },
+        "total_score": 91,
+        "feedback": {
+            "title_quality": "Excellent. The title 'Vibrant Abstract Logo Designs' is a textbook example of a perfect prompt title. It uses a strong visual descriptor ('Vibrant'), clearly identifies the subject ('Abstract Logo'), and specifies the output type ('Designs'). It is concise (4 words) and immediately tells the user what to expect. No improvements needed here.",
+            "template_structure": "Very strong, but a minor point of strictness holds it back from a perfect score. The subject variable is clearly marked, technical specifications are complete, and it is perfectly consistent with the title's promise. However, the core style descriptors are a bit rigid. Hardcoding 'gradient color palette of blue and orange' and 'energetic swirling lines' limits user creativity and may not fit all brands. While the prompt is effective, a superior structure would make the color and line style part of the variable or suggest how to modify them, increasing its versatility.",
+            "variable_examples": "Good. You have provided exactly 8 examples, which is the minimum required. The diversity across industries (tech, coffee, fitness, finance) is excellent and showcases the prompt's versatility. The mix of specific brand names ('Innovatech') and categorical types ('a financial consulting firm') is also well-executed. To achieve a perfect score, add two more examples, including at least one purely abstract concept (e.g., 'the concept of forward momentum', 'the feeling of connection') to demonstrate the prompt's full conceptual range.",
+            "commercial_viability": "Good. The use cases are clear, commercially relevant, and well-defined. The suggested price tier is appropriate for a high-quality, single-purpose prompt. The Unique Value Proposition is strong but could be sharper. 'Quickly creates logos' is a common claim. To be truly unique, focus on the specific *style* it creates. The UVP should be more like: 'Instantly generate energetic, modern logos with a unique swirling line art style, perfect for dynamic brands.' This distinguishes it from the thousands of other generic logo prompts.",
+            "description_quality": "Very good. The hook, 'Stop paying hundreds for a logo!', is compelling and effectively targets a key customer pain point. The specified use cases are clear and align with the target audience. The technical features list is good but could be more robust. You mention the version and aspect ratio, but you should also explicitly mention `--style raw` and explain its benefit (i.e., 'gives you a more direct and un-opinionated image, perfect for a clean logo base')."
+        },
+        "priority_improvements": [
+            "Template Structure: Consider making the color palette and/or the line style more flexible. Suggest to the user how they can change 'blue and orange' or 'swirling lines' to better suit their brand, which would dramatically increase the prompt's long-term value.",
+            "Commercial Viability: Sharpen the Unique Value Proposition (UVP) to focus on the specific artistic style ('energetic swirling lines', 'vibrant gradients') rather than the generic benefit of speed and cost.",
+            "Variable Examples: Add 2 more examples, including at least one abstract concept, to fully demonstrate the prompt's range and meet the 8-10 example requirement for a top-tier rating."
+        ]
+    },
+    "test_guidance": {
+        "test_instructions": [
+            "Fill in each variable with different values to test versatility.",
+            "Try using the first example prompt exactly as written as your baseline.",
+            "Test at least 3-5 different variations to ensure consistent style."
+        ],
+        "quality_checklist": [
+            "Style Consistency: Does the style remain consistent?",
+            "Composition: Does the output match your compositional expectations?",
+            "Visual Quality: Is the output high-quality?",
+            "Variable Impact: Does changing variables produce meaningful differences?"
+        ],
+        "common_issues": [
+            "Subject distortion or anatomical problems.",
+            "Style 'bleeding' or inconsistency."
+        ]
+    },
+    "commercial_description": "Effortlessly craft studio-quality images of adorable, handcrafted plush keychains from any concept you can imagine.\n\n*   **Guaranteed Style Consistency:** Achieve the same soft, tactile, and perfectly stitched look every single time, no matter your subject.\n*   **One-Click Studio Lighting:** Get flawless, professional-grade lighting and soft shadows automatically, making your creations pop without any complex setup.\n*   **Infinite Creative Freedom:** From mythical creatures to your favorite foods, this prompt flawlessly adapts to any subject, turning your wildest ideas into tangible, plush art.\n\nPerfect for creating unique product mockups, captivating social media content, digital sticker designs, or simply bringing your cutest ideas to life.\n\nStop wrestling with complex prompts and start creating—stunning results are just one copy-paste away.",
+    "category": "Photography & Cinematics"
+}

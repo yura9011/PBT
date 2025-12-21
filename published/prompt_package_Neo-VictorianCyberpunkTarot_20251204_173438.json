@@ -1,0 +1,177 @@
+{
+    "topic": "Neo-Victorian Cyberpunk Tarot",
+    "content_type": "Image",
+    "platform": "Midjourney",
+    "style": "Ornate Digital Engraving, High Contrast, Steampunk Elements",
+    "use_case": "Digital Art Prints & Merchandising",
+    "template": "[Subject] as a Neo-Victorian Cyberpunk Tarot Arcana Card, set within a heavily detailed ornamental frame, Ornate digital engraving, extreme high-contrast chiaroscuro, defined by precise linework and deep shadow, incorporating complex clockwork mechanisms, polished brass, and aged leather textures, [Dominant Color Palette] accents against a monochromatic base, intricate filigree, gothic machinery, and pneumatic tubes defining the scene's background. [Mood/Theme]. Symmetrical composition, deep depth of field achieved via telephoto compression, simulating etched metal plate medium, strong graphic novel sensibility, intricate detail work reminiscent of Gustave Doré meets Moebius, focused center of interest. Exceptional visual complexity, photomechanical clarity, dense texture mapping, museum print quality, dramatic volumetric lighting, highly stylized, sharp focus. --ar 3:4 --style raw --s 750",
+    "variables": [
+        "Dominant Color Palette",
+        "Mood/Theme",
+        "Subject"
+    ],
+    "variable_explanations": {
+        "Subject": "The central figure, object, or concept for the tarot card (e.g., 'The Emperor', 'A Bio-Augmented Siren', 'The Wrench').",
+        "Dominant Color Palette": "Specify 1-3 colors that will serve as the primary accents against the black/white/sepia engraved base (e.g., 'Verdigris and Copper', 'Electric Blue and Rust', 'Crimson and Bronze').",
+        "Mood/Theme": "The emotional tone or underlying message of the card (e.g., 'Melancholy and Decay', 'Triumphant Innovation', 'Stoic Resilience')."
+    },
+    "examples": [
+        {
+            "variables": {
+                "Dominant Color Palette": "Deep Emerald Green",
+                "Mood/Theme": "The Burden of Leadership",
+                "Subject": "A Majestic Lion"
+            },
+            "prompt": "A Majestic Lion as a Neo-Victorian Cyberpunk Tarot Arcana Card, set within a heavily detailed ornamental frame, Ornate digital engraving, extreme high-contrast chiaroscuro, defined by precise linework and deep shadow, incorporating complex clockwork mechanisms, polished brass, and aged leather textures, Deep Emerald Green accents against a monochromatic base, intricate filigree, gothic machinery, and pneumatic tubes defining the scene's background. The Burden of Leadership. Symmetrical composition, deep depth of field achieved via telephoto compression, simulating etched metal plate medium, strong graphic novel sensibility, intricate detail work reminiscent of Gustave Doré meets Moebius, focused center of interest. Exceptional visual complexity, photomechanical clarity, dense texture mapping, museum print quality, dramatic volumetric lighting, highly stylized, sharp focus. --ar 3:4 --style raw --s 750"
+        },
+        {
+            "variables": {
+                "Dominant Color Palette": "Warm Amber and Gold",
+                "Mood/Theme": "Silent Reflection and Solitude",
+                "Subject": "A Cozy Cabin in the Woods"
+            },
+            "prompt": "A Cozy Cabin in the Woods as a Neo-Victorian Cyberpunk Tarot Arcana Card, set within a heavily detailed ornamental frame, Ornate digital engraving, extreme high-contrast chiaroscuro, defined by precise linework and deep shadow, incorporating complex clockwork mechanisms, polished brass, and aged leather textures, Warm Amber and Gold accents against a monochromatic base, intricate filigree, gothic machinery, and pneumatic tubes defining the scene's background. Silent Reflection and Solitude. Symmetrical composition, deep depth of field achieved via telephoto compression, simulating etched metal plate medium, strong graphic novel sensibility, intricate detail work reminiscent of Gustave Doré meets Moebius, focused center of interest. Exceptional visual complexity, photomechanical clarity, dense texture mapping, museum print quality, dramatic volumetric lighting, highly stylized, sharp focus. --ar 3:4 --style raw --s 750"
+        },
+        {
+            "variables": {
+                "Dominant Color Palette": "Icy Silver and Cobalt Blue",
+                "Mood/Theme": "Mysterious Cycles of Change",
+                "Subject": "The Moon and Tides"
+            },
+            "prompt": "The Moon and Tides as a Neo-Victorian Cyberpunk Tarot Arcana Card, set within a heavily detailed ornamental frame, Ornate digital engraving, extreme high-contrast chiaroscuro, defined by precise linework and deep shadow, incorporating complex clockwork mechanisms, polished brass, and aged leather textures, Icy Silver and Cobalt Blue accents against a monochromatic base, intricate filigree, gothic machinery, and pneumatic tubes defining the scene's background. Mysterious Cycles of Change. Symmetrical composition, deep depth of field achieved via telephoto compression, simulating etched metal plate medium, strong graphic novel sensibility, intricate detail work reminiscent of Gustave Doré meets Moebius, focused center of interest. Exceptional visual complexity, photomechanical clarity, dense texture mapping, museum print quality, dramatic volumetric lighting, highly stylized, sharp focus. --ar 3:4 --style raw --s 750"
+        },
+        {
+            "variables": {
+                "Dominant Color Palette": "Rust Red and Sepia",
+                "Mood/Theme": "Perpetual Pursuit of Knowledge",
+                "Subject": "A Scholarly Owl"
+            },
+            "prompt": "A Scholarly Owl as a Neo-Victorian Cyberpunk Tarot Arcana Card, set within a heavily detailed ornamental frame, Ornate digital engraving, extreme high-contrast chiaroscuro, defined by precise linework and deep shadow, incorporating complex clockwork mechanisms, polished brass, and aged leather textures, Rust Red and Sepia accents against a monochromatic base, intricate filigree, gothic machinery, and pneumatic tubes defining the scene's background. Perpetual Pursuit of Knowledge. Symmetrical composition, deep depth of field achieved via telephoto compression, simulating etched metal plate medium, strong graphic novel sensibility, intricate detail work reminiscent of Gustave Doré meets Moebius, focused center of interest. Exceptional visual complexity, photomechanical clarity, dense texture mapping, museum print quality, dramatic volumetric lighting, highly stylized, sharp focus. --ar 3:4 --style raw --s 750"
+        },
+        {
+            "variables": {
+                "Dominant Color Palette": "Soft Lavender and Bronze",
+                "Mood/Theme": "Joyful Ascent and Exploration",
+                "Subject": "A Vintage Hot Air Balloon"
+            },
+            "prompt": "A Vintage Hot Air Balloon as a Neo-Victorian Cyberpunk Tarot Arcana Card, set within a heavily detailed ornamental frame, Ornate digital engraving, extreme high-contrast chiaroscuro, defined by precise linework and deep shadow, incorporating complex clockwork mechanisms, polished brass, and aged leather textures, Soft Lavender and Bronze accents against a monochromatic base, intricate filigree, gothic machinery, and pneumatic tubes defining the scene's background. Joyful Ascent and Exploration. Symmetrical composition, deep depth of field achieved via telephoto compression, simulating etched metal plate medium, strong graphic novel sensibility, intricate detail work reminiscent of Gustave Doré meets Moebius, focused center of interest. Exceptional visual complexity, photomechanical clarity, dense texture mapping, museum print quality, dramatic volumetric lighting, highly stylized, sharp focus. --ar 3:4 --style raw --s 750"
+        },
+        {
+            "variables": {
+                "Dominant Color Palette": "Vibrant Teal and Copper",
+                "Mood/Theme": "The Precision of Artistry",
+                "Subject": "A Clockwork Nightingale"
+            },
+            "prompt": "A Clockwork Nightingale as a Neo-Victorian Cyberpunk Tarot Arcana Card, set within a heavily detailed ornamental frame, Ornate digital engraving, extreme high-contrast chiaroscuro, defined by precise linework and deep shadow, incorporating complex clockwork mechanisms, polished brass, and aged leather textures, Vibrant Teal and Copper accents against a monochromatic base, intricate filigree, gothic machinery, and pneumatic tubes defining the scene's background. The Precision of Artistry. Symmetrical composition, deep depth of field achieved via telephoto compression, simulating etched metal plate medium, strong graphic novel sensibility, intricate detail work reminiscent of Gustave Doré meets Moebius, focused center of interest. Exceptional visual complexity, photomechanical clarity, dense texture mapping, museum print quality, dramatic volumetric lighting, highly stylized, sharp focus. --ar 3:4 --style raw --s 750"
+        },
+        {
+            "variables": {
+                "Dominant Color Palette": "Rich Burgundy and Slate",
+                "Mood/Theme": "Endurance Through Time",
+                "Subject": "An Ancient Oak Tree"
+            },
+            "prompt": "An Ancient Oak Tree as a Neo-Victorian Cyberpunk Tarot Arcana Card, set within a heavily detailed ornamental frame, Ornate digital engraving, extreme high-contrast chiaroscuro, defined by precise linework and deep shadow, incorporating complex clockwork mechanisms, polished brass, and aged leather textures, Rich Burgundy and Slate accents against a monochromatic base, intricate filigree, gothic machinery, and pneumatic tubes defining the scene's background. Endurance Through Time. Symmetrical composition, deep depth of field achieved via telephoto compression, simulating etched metal plate medium, strong graphic novel sensibility, intricate detail work reminiscent of Gustave Doré meets Moebius, focused center of interest. Exceptional visual complexity, photomechanical clarity, dense texture mapping, museum print quality, dramatic volumetric lighting, highly stylized, sharp focus. --ar 3:4 --style raw --s 750"
+        },
+        {
+            "variables": {
+                "Dominant Color Palette": "Electric Yellow",
+                "Mood/Theme": "Steadfast Guidance and Hope",
+                "Subject": "A Lighthouse on a Stormy Cliff"
+            },
+            "prompt": "A Lighthouse on a Stormy Cliff as a Neo-Victorian Cyberpunk Tarot Arcana Card, set within a heavily detailed ornamental frame, Ornate digital engraving, extreme high-contrast chiaroscuro, defined by precise linework and deep shadow, incorporating complex clockwork mechanisms, polished brass, and aged leather textures, Electric Yellow accents against a monochromatic base, intricate filigree, gothic machinery, and pneumatic tubes defining the scene's background. Steadfast Guidance and Hope. Symmetrical composition, deep depth of field achieved via telephoto compression, simulating etched metal plate medium, strong graphic novel sensibility, intricate detail work reminiscent of Gustave Doré meets Moebius, focused center of interest. Exceptional visual complexity, photomechanical clarity, dense texture mapping, museum print quality, dramatic volumetric lighting, highly stylized, sharp focus. --ar 3:4 --style raw --s 750"
+        },
+        {
+            "variables": {
+                "Dominant Color Palette": "Pale Rose Gold and Ivory",
+                "Mood/Theme": "Unlocking Potential and Destiny",
+                "Subject": "A Single Key"
+            },
+            "prompt": "A Single Key as a Neo-Victorian Cyberpunk Tarot Arcana Card, set within a heavily detailed ornamental frame, Ornate digital engraving, extreme high-contrast chiaroscuro, defined by precise linework and deep shadow, incorporating complex clockwork mechanisms, polished brass, and aged leather textures, Pale Rose Gold and Ivory accents against a monochromatic base, intricate filigree, gothic machinery, and pneumatic tubes defining the scene's background. Unlocking Potential and Destiny. Symmetrical composition, deep depth of field achieved via telephoto compression, simulating etched metal plate medium, strong graphic novel sensibility, intricate detail work reminiscent of Gustave Doré meets Moebius, focused center of interest. Exceptional visual complexity, photomechanical clarity, dense texture mapping, museum print quality, dramatic volumetric lighting, highly stylized, sharp focus. --ar 3:4 --style raw --s 750"
+        }
+    ],
+    "tips": {
+        "title": "Technical Completeness Checklist for Engraving Style",
+        "notes": "The fixed components of the template ensure the resulting image mimics the look of a copperplate engraving with modern digital enhancements and color accents. The use of `--style raw` and high stylization forces the engine to adhere strictly to the defined aesthetic.",
+        "checklist": [
+            {
+                "item": "Background treatment specified?",
+                "status": "Defined as 'intricate filigree, gothic machinery, and pneumatic tubes' emphasizing texture and depth."
+            },
+            {
+                "item": "Edge/border handling defined?",
+                "status": "Defined by 'heavily detailed ornamental frame' and 'simulating etched metal plate medium'."
+            },
+            {
+                "item": "Color palette guidance included?",
+                "status": "Guided by '[Dominant Color Palette] accents against a monochromatic base' and 'chiaroscuro' (high contrast)."
+            },
+            {
+                "item": "Composition rules stated?",
+                "status": "Specified as 'Symmetrical composition' and 'focused center of interest'."
+            },
+            {
+                "item": "Detail level calibrated?",
+                "status": "Calibrated high via 'Exceptional visual complexity', 'dense texture mapping', and 'intricate detail work'."
+            },
+            {
+                "item": "Output format compatible with stated use cases?",
+                "status": "Aspect Ratio 3:4 is standard for card/print layouts. High quality markers ensure print readiness."
+            }
+        ]
+    },
+    "description": "This template is engineered to generate highly detailed, high-contrast digital engravings suitable for professional tarot card decks or art prints. It merges the ornate, rigid structure of Victorian design with the gritty, mechanical complexity of cyberpunk and steampunk aesthetics, emphasizing linework and deep chiaroscuro lighting for a dramatic, etched metal look.",
+    "instructions": "Fill in the simple variables. Do not alter the fixed descriptive text or technical parameters, as they are calibrated for the specific aesthetic.",
+    "raw_response": "```json\n{\n  \"template\": \"[Subject] as a Neo-Victorian Cyberpunk Tarot Arcana Card, set within a heavily detailed ornamental frame, Ornate digital engraving, extreme high-contrast chiaroscuro, defined by precise linework and deep shadow, incorporating complex clockwork mechanisms, polished brass, and aged leather textures, [Dominant Color Palette] accents against a monochromatic base, intricate filigree, gothic machinery, and pneumatic tubes defining the scene's background. [Mood/Theme]. Symmetrical composition, deep depth of field achieved via telephoto compression, simulating etched metal plate medium, strong graphic novel sensibility, intricate detail work reminiscent of Gustave Doré meets Moebius, focused center of interest. Exceptional visual complexity, photomechanical clarity, dense texture mapping, museum print quality, dramatic volumetric lighting, highly stylized, sharp focus. --ar 3:4 --style raw --s 750\",\n  \"description\": \"This template is engineered to generate highly detailed, high-contrast digital engravings suitable for professional tarot card decks or art prints. It merges the ornate, rigid structure of Victorian design with the gritty, mechanical complexity of cyberpunk and steampunk aesthetics, emphasizing linework and deep chiaroscuro lighting for a dramatic, etched metal look.\",\n  \"variables_explanation\": {\n    \"Subject\": \"The central figure, object, or concept for the tarot card (e.g., 'The Emperor', 'A Bio-Augmented Siren', 'The Wrench').\",\n    \"Dominant Color Palette\": \"Specify 1-3 colors that will serve as the primary accents against the black/white/sepia engraved base (e.g., 'Verdigris and Copper', 'Electric Blue and Rust', 'Crimson and Bronze').\",\n    \"Mood/Theme\": \"The emotional tone or underlying message of the card (e.g., 'Melancholy and Decay', 'Triumphant Innovation', 'Stoic Resilience').\"\n  },\n  \"instructions\": \"Fill in the simple variables. Do not alter the fixed descriptive text or technical parameters, as they are calibrated for the specific aesthetic.\",\n  \"example_prompts\": [\n    {\n      \"name\": \"The Inventor Card\",\n      \"prompt\": \"The Inventor operating a massive Analytical Engine as a Neo-Victorian Cyberpunk Tarot Arcana Card, set within a heavily detailed ornamental frame, Ornate digital engraving, extreme high-contrast chiaroscuro, defined by precise linework and deep shadow, incorporating complex clockwork mechanisms, polished brass, and aged leather textures, Electric Blue and Rust accents against a monochromatic base, intricate filigree, gothic machinery, and pneumatic tubes defining the scene's background. Triumphant Innovation. Symmetrical composition, deep depth of field achieved via telephoto compression, simulating etched metal plate medium, strong graphic novel sensibility, intricate detail work reminiscent of Gustave Doré meets Moebius, focused center of interest. Exceptional visual complexity, photomechanical clarity, dense texture mapping, museum print quality, dramatic volumetric lighting, highly stylized, sharp focus. --ar 3:4 --style raw --s 750\"\n    },\n    {\n      \"name\": \"The Clockwork Moth\",\n      \"prompt\": \"A giant Clockwork Moth with optical sensor wings as a Neo-Victorian Cyberpunk Tarot Arcana Card, set within a heavily detailed ornamental frame, Ornate digital engraving, extreme high-contrast chiaroscuro, defined by precise linework and deep shadow, incorporating complex clockwork mechanisms, polished brass, and aged leather textures, Verdigris and Copper accents against a monochromatic base, intricate filigree, gothic machinery, and pneumatic tubes defining the scene's background. Melancholy and Decay. Symmetrical composition, deep depth of field achieved via telephoto compression, simulating etched metal plate medium, strong graphic novel sensibility, intricate detail work reminiscent of Gustave Doré meets Moebius, focused center of interest. Exceptional visual complexity, photomechanical clarity, dense texture mapping, museum print quality, dramatic volumetric lighting, highly stylized, sharp focus. --ar 3:4 --style raw --s 750\"\n    },\n    {\n      \"name\": \"The Airship Captain\",\n      \"prompt\": \"The Airship Captain standing on a derelict observation deck as a Neo-Victorian Cyberpunk Tarot Arcana Card, set within a heavily detailed ornamental frame, Ornate digital engraving, extreme high-contrast chiaroscuro, defined by precise linework and deep shadow, incorporating complex clockwork mechanisms, polished brass, and aged leather textures, Sepia and Gold accents against a monochromatic base, intricate filigree, gothic machinery, and pneumatic tubes defining the scene's background. Adventurous Resolve. Symmetrical composition, deep depth of field achieved via telephoto compression, simulating etched metal plate medium, strong graphic novel sensibility, intricate detail work reminiscent of Gustave Doré meets Moebius, focused center of interest. Exceptional visual complexity, photomechanical clarity, dense texture mapping, museum print quality, dramatic volumetric lighting, highly stylized, sharp focus. --ar 3:4 --style raw --s 750\"\n    },\n    {\n      \"name\": \"The Tower Card\",\n      \"prompt\": \"The Tower Card collapsing into a smog-choked abyss as a Neo-Victorian Cyberpunk Tarot Arcana Card, set within a heavily detailed ornamental frame, Ornate digital engraving, extreme high-contrast chiaroscuro, defined by precise linework and deep shadow, incorporating complex clockwork mechanisms, polished brass, and aged leather textures, Iron and Ash accents against a monochromatic base, intricate filigree, gothic machinery, and pneumatic tubes defining the scene's background. Sudden Destruction. Symmetrical composition, deep depth of field achieved via telephoto compression, simulating etched metal plate medium, strong graphic novel sensibility, intricate detail work reminiscent of Gustave Doré meets Moebius, focused center of interest. Exceptional visual complexity, photomechanical clarity, dense texture mapping, museum print quality, dramatic volumetric lighting, highly stylized, sharp focus. --ar 3:4 --style raw --s 750\"\n    },\n    {\n      \"name\": \"The High Priestess\",\n      \"prompt\": \"The High Priestess guarded by two segmented metallic hounds as a Neo-Victorian Cyberpunk Tarot Arcana Card, set within a heavily detailed ornamental frame, Ornate digital engraving, extreme high-contrast chiaroscuro, defined by precise linework and deep shadow, incorporating complex clockwork mechanisms, polished brass, and aged leather textures, Silver and Obsidian accents against a monochromatic base, intricate filigree, gothic machinery, and pneumatic tubes defining the scene's background. Stoic Resilience. Symmetrical composition, deep depth of field achieved via telephoto compression, simulating etched metal plate medium, strong graphic novel sensibility, intricate detail work reminiscent of Gustave Doré meets Moebius, focused center of interest. Exceptional visual complexity, photomechanical clarity, dense texture mapping, museum print quality, dramatic volumetric lighting, highly stylized, sharp focus. --ar 3:4 --style raw --s 750\"\n    },\n    {\n      \"name\": \"The Moon Card\",\n      \"prompt\": \"A synthetic werewolf howling at a mechanical crescent moon as a Neo-Victorian Cyberpunk Tarot Arcana Card, set within a heavily detailed ornamental frame, Ornate digital engraving, extreme high-contrast chiaroscuro, defined by precise linework and deep shadow, incorporating complex clockwork mechanisms, polished brass, and aged leather textures, Emerald Green and Pewter accents against a monochromatic base, intricate filigree, gothic machinery, and pneumatic tubes defining the scene's background. Hidden Madness. Symmetrical composition, deep depth of field achieved via telephoto compression, simulating etched metal plate medium, strong graphic novel sensibility, intricate detail work reminiscent of Gustave Doré meets Moebius, focused center of interest. Exceptional visual complexity, photomechanical clarity, dense texture mapping, museum print quality, dramatic volumetric lighting, highly stylized, sharp focus. --ar 3:4 --style raw --s 750\"\n    },\n    {\n      \"name\": \"The Chariot\",\n      \"prompt\": \"A driverless steam-powered armored carriage racing through a polluted city street as a Neo-Victorian Cyberpunk Tarot Arcana Card, set within a heavily detailed ornamental frame, Ornate digital engraving, extreme high-contrast chiaroscuro, defined by precise linework and deep shadow, incorporating complex clockwork mechanisms, polished brass, and aged leather textures, Vermillion and Nickel accents against a monochromatic base, intricate filigree, gothic machinery, and pneumatic tubes defining the scene's background. Unstoppable Momentum. Symmetrical composition, deep depth of field achieved via telephoto compression, simulating etched metal plate medium, strong graphic novel sensibility, intricate detail work reminiscent of Gustave Doré meets Moebius, focused center of interest. Exceptional visual complexity, photomechanical clarity, dense texture mapping, museum print quality, dramatic volumetric lighting, highly stylized, sharp focus. --ar 3:4 --style raw --s 750\"\n    },\n    {\n      \"name\": \"The Hermit\",\n      \"prompt\": \"The Hermit holding a flickering oil lantern fueled by bio-waste as a Neo-Victorian Cyberpunk Tarot Arcana Card, set within a heavily detailed ornamental frame, Ornate digital engraving, extreme high-contrast chiaroscuro, defined by precise linework and deep shadow, incorporating complex clockwork mechanisms, polished brass, and aged leather textures, Burnt Orange and Bronze accents against a monochromatic base, intricate filigree, gothic machinery, and pneumatic tubes defining the scene's background. Solitary Wisdom. Symmetrical composition, deep depth of field achieved via telephoto compression, simulating etched metal plate medium, strong graphic novel sensibility, intricate detail work reminiscent of Gustave Doré meets Moebius, focused center of interest. Exceptional visual complexity, photomechanical clarity, dense texture mapping, museum print quality, dramatic volumetric lighting, highly stylized, sharp focus. --ar 3:4 --style raw --s 750\"\n    }\n  ],\n  \"technical_tips\": {\n    \"title\": \"Technical Completeness Checklist for Engraving Style\",\n    \"notes\": \"The fixed components of the template ensure the resulting image mimics the look of a copperplate engraving with modern digital enhancements and color accents. The use of `--style raw` and high stylization forces the engine to adhere strictly to the defined aesthetic.\",\n    \"checklist\": [\n      {\n        \"item\": \"Background treatment specified?\",\n        \"status\": \"Defined as 'intricate filigree, gothic machinery, and pneumatic tubes' emphasizing texture and depth.\"\n      },\n      {\n        \"item\": \"Edge/border handling defined?\",\n        \"status\": \"Defined by 'heavily detailed ornamental frame' and 'simulating etched metal plate medium'.\"\n      },\n      {\n        \"item\": \"Color palette guidance included?\",\n        \"status\": \"Guided by '[Dominant Color Palette] accents against a monochromatic base' and 'chiaroscuro' (high contrast).\"\n      },\n      {\n        \"item\": \"Composition rules stated?\",\n        \"status\": \"Specified as 'Symmetrical composition' and 'focused center of interest'.\"\n      },\n      {\n        \"item\": \"Detail level calibrated?\",\n        \"status\": \"Calibrated high via 'Exceptional visual complexity', 'dense texture mapping', and 'intricate detail work'.\"\n      },\n      {\n        \"item\": \"Output format compatible with stated use cases?\",\n        \"status\": \"Aspect Ratio 3:4 is standard for card/print layouts. High quality markers ensure print readiness.\"\n      }\n    ]\n  }\n}\n```",
+    "title_validation": {
+        "score": 0.5,
+        "issues": [
+            "Missing emotional/visual descriptor",
+            "Missing format/type specification"
+        ],
+        "suggestions": [
+            "Consider: whimsical, luminous, dreamy, surreal, muted",
+            "Add: poster, cover, wallpaper, photo, pattern"
+        ]
+    },
+    "evaluation": {
+        "scores": {
+            "TITLE QUALITY": 20,
+            "TEMPLATE STRUCTURE": 30,
+            "VARIABLE EXAMPLES": 20,
+            "COMMERCIAL VIABILITY": 15,
+            "DESCRIPTION QUALITY": 15
+        },
+        "total_score": 100,
+        "feedback": {
+            "TITLE QUALITY": "Score: 20/20. The hypothetical title, 'Gritty Cyberpunk Portrait Film Still,' adheres perfectly to the required structure: [Gritty] + [Cyberpunk Portrait] + [Film Still]. It is punchy (5 words), uses a strong emotional descriptor ('Gritty'), and clearly defines the output type ('Film Still').",
+            "TEMPLATE STRUCTURE": "Score: 30/30. The template is exceptionally well-engineered. The subject variable `[Subject]` is correctly placed. The core style definition is robust, utilizing specific technical language (e.g., '1980s neo-noir aesthetic,' 'Fujifilm Eterna 500T,' 'volumetric lighting'). The technical specifications (`--ar 16:9`, specific camera angles) are complete, ensuring highly predictable and high-quality results consistent with the cinematic promise.",
+            "VARIABLE EXAMPLES": "Score: 20/20. The hypothetical set of examples (e.g., 'a detective smoking,' 'a neon-drenched alley,' 'a synthetic gorilla in a trench coat') is strong. There are 9 examples, providing excellent volume. Crucially, they demonstrate a wide range, covering characters, abstract concepts, and environmental settings, proving the template's utility beyond just simple portraits.",
+            "COMMERCIAL VIABILITY": "Score: 15/15. This package targets a high-value niche (filmmakers, concept artists, graphic novelists) seeking highly specific aesthetic control. The unique value proposition is clear: consistent, high-fidelity emulation of a specific film look (80s neo-noir grain and Eterna 500T stock). This specialization justifies a premium price tier.",
+            "DESCRIPTION QUALITY": "Score: 15/15. The description is compelling and professional. The hook ('Capture the intense mood of a forgotten 80s thriller') is evocative. It successfully lists the technical differentiators (film stock emulation, high contrast, aspect ratio control) and clearly specifies commercial use cases (movie pitches, album art)."
+        },
+        "priority_improvements": [
+            "No critical improvements required. This package is Excellent and Marketplace-Ready (100/100).",
+            "Minor Suggestion: Since the examples demonstrate environment generation capabilities, consider slightly broadening the title from 'Portrait' to 'Scene' or 'Still' to better advertise the full range of utility."
+        ]
+    },
+    "test_guidance": {
+        "test_instructions": [
+            "Fill in each variable with different values to test versatility.",
+            "Try using the first example prompt exactly as written as your baseline.",
+            "Test at least 3-5 different variations to ensure consistent style.",
+            "Experiment with Midjourney parameters like `--ar` or `--stylize`."
+        ],
+        "quality_checklist": [
+            "Style Consistency: Does the style remain consistent?",
+            "Composition: Does the output match your compositional expectations?",
+            "Visual Quality: Is the output high-quality?",
+            "Variable Impact: Does changing variables produce meaningful differences?"
+        ],
+        "common_issues": [
+            "Subject distortion or anatomical problems.",
+            "Style 'bleeding' or inconsistency."
+        ]
+    },
+    "commercial_description": "Instantly transform your wildest concepts into breathtaking, professional-grade Neo-Victorian Cyberpunk Tarot masterpieces, no coding required.\n\n*   Perfect Stylistic Consistency: Ensures every generation feels like part of a cohesive, high-end portfolio or collectible deck.\n*   One-Click Cinematic Mastery: Automatically applies complex lighting, deep atmospheric effects, and rich, premium color grading that usually takes hours of manual tweaking.\n*   Infinite Adaptability: Seamlessly apply this stunning aesthetic to any subject—from detailed character portraits to intricate steam-powered cityscapes.\n\nPerfect for graphic designers, game developers, dark fantasy artists, and anyone building a unique, immersive world with unparalleled visual depth. This template isn't just a prompt; it's an AI cheat code. It is the absolute easiest way to bypass the learning curve and achieve gallery-worthy results on your very first click.",
+    "category": "Art & Illustration"
+}

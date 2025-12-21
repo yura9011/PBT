@@ -462,55 +462,92 @@ reverse_engineer_image_prompt: |
 
   GOAL: Create a reusable template that would generate images with the same STYLE and COMPOSITION, but allows the user to change the SUBJECT.
 
-  INSTRUCTIONS:
-  1.  **Analyze the Image:** Identify the core subject, art style (e.g., watercolor, 3D render, photo), lighting, color palette, and composition.
-  2.  **Create a Template:** Write a prompt where the SUBJECT is a variable like [SUBJECT].
-  3.  **Identify Variables:** You MUST identify EXACTLY 4 distinct variables (e.g., [SUBJECT], [COLOR], [LOCATION], [MOOD]). NOT 3, NOT 5. EXACTLY 4.
-  4.  **Extract Style:** HARDCODE the style descriptors. The user shouldn't have to guess the style.
-  5.  **Use Case:** Suggest a commercial use case for this style (e.g., "Podcast Cover", "T-Shirt Design").
+  ANALYSIS PHASE (Think step-by-step):
+  1. **Identify Core Subject**: What is the main element? How is it positioned?
+  2. **Decode Art Style**: What medium is this? (watercolor, 3D render, photo, illustration, etc.)
+  3. **Extract Color DNA**: What's the color palette? Temperature? Saturation?
+  4. **Map Composition**: Framing, negative space, focal points
+  5. **Capture Lighting**: Direction, quality, mood it creates
+  6. **Define Mood**: What emotion/atmosphere does this convey?
+  7. **Detect Aspect Ratio**: Is it square (1:1), portrait (3:4, 9:16), or landscape (16:9, 4:3)?
+
+  ADDITIONAL USER CONTEXT (PRIORITIZE THESE INSTRUCTIONS):
+  {additional_context}
+
+  TEMPLATE CONSTRUCTION RULES (CRITICAL):
+  - **VARIABLE COUNT**: You MUST use AT LEAST 4 variables in the 'template' string. THIS IS MANDATORY.
+  - **MANDATORY**: [SUBJECT] is required.
+  - **MANDATORY EXTRAS**: You MUST invent and include at least 3 more variables like [MOOD], [COLOR], [SCENE_TYPE], [LIGHTING] in the template.
+  - **INTEGRATION**: If you list a variable in explanations, IT MUST BE IN THE TEMPLATE text.
+  - **HARDCODE THE MAGIC**: All technical excellence goes into fixed text.
+  - **MANDATORY ASPECT RATIO**: The template MUST end with --ar X:Y.
+  - The template should recreate THIS EXACT STYLE with any subject.
 
   OUTPUT FORMAT:
   Return a single Valid JSON object with these keys:
-  - "topic": A creative title for this style (e.g., "Neon Noir Portraits").
-  - "style": A list of 3-4 style keywords.
-  - "use_case": A specific commercial application.
-  - "template": The prompt template string with [VARIABLES].
-  - "variables_explanation": A dictionary explaining what each variable controls.
-  - "description": A short marketing description.
-  - "technical_tips": A list of 2-3 tips for using this template.
-  - "example_prompts": A list of 4 example prompts (strings) derived from your template (filling in variables).
+  - "topic": A creative title for this style (e.g., "Neon Noir Portraits")
+  - "style": A list of 3-4 style keywords
+  - "use_case": A specific commercial application
+  - "aspect_ratio": The detected/recommended aspect ratio (e.g., "1:1", "16:9", "9:16")
+  - "template": The prompt template string with [4-6 VARIABLES] and ending with --ar X:Y
+  - "variables_explanation": A dictionary explaining what each variable controls
+  - "description": A short marketing description
+  - "technical_tips": A list of 2-3 tips for using this template
+  - "example_prompts": A list of 4 diverse example prompts (filling in variables)
+  - "self_evaluation": {{
+      "style_fidelity": (1-10) How well does template capture original style?,
+      "variable_quality": (1-10) Are variables useful and user-friendly?,
+      "completeness": (1-10) Are all key style elements preserved?,
+      "overall_score": average of above,
+      "improvements_needed": null or string if score < 7
+    }}
+
+  CRITICAL: If self_evaluation.overall_score < 7, you MUST also include an "improved_template" key with a better version.
 
   Ensure your response is ONLY the JSON object.
 
 reverse_engineer_meta_prompt: |
   You are an expert Prompt Engineer.
-  Your task is to REVERSE-ENGINEER the provided prompt template into a standardized prompt package.
+  Your task is to REVERSE-ENGINEER the provided prompt template into a standardized, enhanced prompt package.
 
   INPUT TEMPLATE:
   {template}
 
-  GOAL:
-  Analyze the structure, variables, and style of the input template and organize it into a clean JSON structure.
+  ANALYSIS PHASE (Think step-by-step):
+  1. **Identify Variables**: List all [VARIABLE] patterns found
+  2. **Decode Intent**: What is this template trying to achieve?
+  3. **Extract Style DNA**: What makes this template unique? What's the "magic"?
+  4. **Find Gaps**: What technical elements might be missing?
+  5. **Assess Usability**: Are variables user-friendly or too technical?
 
-  INSTRUCTIONS:
-  1.  **Analyze**: Identify the variables (e.g., [SUBJECT]), the fixed style descriptors, and the intended use case.
-  2.  **Extract Variables**: List all variables found in the template.
-  3.  **Variable Explanations**: Provide a short 1-sentence explanation for what each variable controls.
-  4.  **Style & Tone**: Summarize the artistic style and tone of the prompt.
-  5.  **Use Case**: Define the primary commercial application.
-  6.  **Examples**: Generate 4 diverse examples using the template.
+  TEMPLATE ENHANCEMENT RULES:
+  - **EXACTLY 4 VARIABLES**: If original has more, consolidate; if fewer, identify what's parameterizable
+  - **PRESERVE THE ESSENCE**: The enhanced template must produce same-style outputs
+  - **HARDCODE EXCELLENCE**: Move technical details from variables into fixed text
+  - **SIMPLE VARIABLE NAMES**: [SUBJECT], [MOOD], [STYLE_MODIFIER], [SCENE]
+  - **MANDATORY ASPECT RATIO**: Template MUST include --ar X:Y at the end. Infer from context or default to --ar 1:1
 
   OUTPUT FORMAT:
   Return a single Valid JSON object with these keys:
-  - "topic": A creative title for this prompt concept.
-  - "content_type": Infer from template ("Image", "Text", "Video").
-  - "platform": Infer target platform (e.g., "Midjourney", "ChatGPT") or "General".
-  - "style": A list of style keywords.
-  - "use_case": The primary commercial application.
-  - "variables_explanation": Dictionary of variable explanations.
-  - "description": A short marketing description.
-  - "technical_tips": A list of 2-3 tips for success with this prompt.
-  - "example_prompts": A list of 4 example strings.
+  - "topic": A creative title for this prompt concept
+  - "content_type": Infer from template ("Image", "Text", "Video")
+  - "platform": Infer target platform (e.g., "Midjourney", "ChatGPT") or "General"
+  - "style": A list of style keywords
+  - "use_case": The primary commercial application
+  - "aspect_ratio": The aspect ratio included in template (e.g., "1:1", "16:9")
+  - "template": The ENHANCED template with --ar X:Y at the end
+  - "original_template": The input template unchanged
+  - "variables_explanation": Dictionary of variable explanations
+  - "description": A short marketing description
+  - "technical_tips": A list of 2-3 tips for success with this prompt
+  - "example_prompts": A list of 4 diverse example strings
+  - "self_evaluation": {{
+      "style_fidelity": (1-10) Does enhanced template preserve original intent?,
+      "variable_quality": (1-10) Are variables useful and user-friendly?,
+      "completeness": (1-10) Are all key elements preserved?,
+      "overall_score": average of above,
+      "improvements_made": string describing what was enhanced
+    }}
 
   Ensure your response is ONLY the JSON object.
 
@@ -530,3 +567,19 @@ data_normalization_prompt: |
   OUTPUT FORMAT:
   Return ONLY a valid JSON object with a single key "items".
   "items": A list of objects, where each object represents one item found in the text.
+
+variable_extraction_prompt: |
+  You are a Data Extraction Specialist.
+  Your task is to extract exact values for specific variables from a text string.
+  
+  VARIABLES TO FIND: {variables}
+  TEXT SOURCE: "{text}"
+  
+  INSTRUCTIONS:
+  1. Find the value corresponding to each variable in the text.
+  2. The value is usually enclosed in quotes or is a distinct phrase.
+  3. Return a clean JSON object mapping variable names to their values.
+  4. If a variable is not found, use null.
+  
+  OUTPUT FORMAT:
+  Return ONLY a valid JSON object (e.g., {{"VAR1": "Value1", "VAR2": "Value2"}}).

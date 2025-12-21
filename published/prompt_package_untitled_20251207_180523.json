@@ -1,0 +1,171 @@
+{
+    "topic": "Reality Reveal Composite",
+    "content_type": "Image",
+    "platform": "Midjourney / Stable Diffusion (Advanced)",
+    "style": [
+        "Composite Art",
+        "Mixed Media",
+        "Hyper-realistic",
+        "High Contrast",
+        "Layered Illustration",
+        "Conceptual Art",
+        "8k Resolution"
+    ],
+    "use_case": "Conceptual Digital Illustration and Portfolio Art",
+    "template": "A single cohesive image of [SUBJECT]. The artwork is a composite layer effect: the top layer is a rough [SKETCH STYLE] on [PAPER TEXTURE] which is ripped and torn in specific spots to reveal a hyper-realistic [COLOR STYLE] underneath. Critical: The sketch lines and the colored parts are perfectly aligned and anatomically consistent; they form one single continuous subject. The torn paper edges create a window into the colored reality beneath the sketch. White background, high contrast, 8k resolution, seamless transition.",
+    "variables": [
+        "PAPER TEXTURE",
+        "COLOR STYLE",
+        "SUBJECT",
+        "SKETCH STYLE"
+    ],
+    "variable_explanations": {
+        "[SUBJECT]": "Controls the main focus or object of the artwork (e.g., 'a charging rhino', 'a futuristic skyscraper').",
+        "[SKETCH STYLE]": "Defines the specific technique and roughness of the top layer (e.g., 'charcoal pencil', 'blue ballpoint pen', 'technical blueprint drawing').",
+        "[PAPER TEXTURE]": "Specifies the surface material of the ripped layer, influencing the visual feel of the tear (e.g., 'parchment', 'watercolor paper', 'aged newsprint').",
+        "[COLOR STYLE]": "Determines the aesthetic and realism of the revealed layer underneath the sketch (e.g., 'cinematic lighting photorealism', 'iridescent oil painting', 'neon vaporwave render')."
+    },
+    "examples": [
+        {
+            "variables": {
+                "PAPER TEXTURE": "Aged Parchment",
+                "COLOR STYLE": "Golden Hour Lighting",
+                "SUBJECT": "A Majestic Lion's Head",
+                "SKETCH STYLE": "Graphite Pencil"
+            },
+            "prompt": "A single cohesive image of A Majestic Lion's Head. The artwork is a composite layer effect: the top layer is a rough Graphite Pencil on Aged Parchment which is ripped and torn in specific spots to reveal a hyper-realistic Golden Hour Lighting underneath. Critical: The sketch lines and the colored parts are perfectly aligned and anatomically consistent; they form one single continuous subject. The torn paper edges create a window into the colored reality beneath the sketch. White background, high contrast, 8k resolution, seamless transition."
+        },
+        {
+            "variables": {
+                "PAPER TEXTURE": "Handmade Cotton Paper",
+                "COLOR STYLE": "Japanese Watercolor",
+                "SUBJECT": "A Delicate Cherry Blossom Branch",
+                "SKETCH STYLE": "Loose Charcoal"
+            },
+            "prompt": "A single cohesive image of A Delicate Cherry Blossom Branch. The artwork is a composite layer effect: the top layer is a rough Loose Charcoal on Handmade Cotton Paper which is ripped and torn in specific spots to reveal a hyper-realistic Japanese Watercolor underneath. Critical: The sketch lines and the colored parts are perfectly aligned and anatomically consistent; they form one single continuous subject. The torn paper edges create a window into the colored reality beneath the sketch. White background, high contrast, 8k resolution, seamless transition."
+        },
+        {
+            "variables": {
+                "PAPER TEXTURE": "Vellum Paper",
+                "COLOR STYLE": "Polished Brass and Copper",
+                "SUBJECT": "An Intricate Vintage Clockwork Gear",
+                "SKETCH STYLE": "Technical Blueprint"
+            },
+            "prompt": "A single cohesive image of An Intricate Vintage Clockwork Gear. The artwork is a composite layer effect: the top layer is a rough Technical Blueprint on Vellum Paper which is ripped and torn in specific spots to reveal a hyper-realistic Polished Brass and Copper underneath. Critical: The sketch lines and the colored parts are perfectly aligned and anatomically consistent; they form one single continuous subject. The torn paper edges create a window into the colored reality beneath the sketch. White background, high contrast, 8k resolution, seamless transition."
+        },
+        {
+            "variables": {
+                "PAPER TEXTURE": "Watercolor Block",
+                "COLOR STYLE": "Dewy Magenta and Crimson",
+                "SUBJECT": "A Single Perfect Rose",
+                "SKETCH STYLE": "Fine Point Pen"
+            },
+            "prompt": "A single cohesive image of A Single Perfect Rose. The artwork is a composite layer effect: the top layer is a rough Fine Point Pen on Watercolor Block which is ripped and torn in specific spots to reveal a hyper-realistic Dewy Magenta and Crimson underneath. Critical: The sketch lines and the colored parts are perfectly aligned and anatomically consistent; they form one single continuous subject. The torn paper edges create a window into the colored reality beneath the sketch. White background, high contrast, 8k resolution, seamless transition."
+        },
+        {
+            "variables": {
+                "PAPER TEXTURE": "Brown Bag Paper",
+                "COLOR STYLE": "Pastel Gradient Sunset",
+                "SUBJECT": "A Large Hot Air Balloon Floating Above Clouds",
+                "SKETCH STYLE": "Whimsical Doodle"
+            },
+            "prompt": "A single cohesive image of A Large Hot Air Balloon Floating Above Clouds. The artwork is a composite layer effect: the top layer is a rough Whimsical Doodle on Brown Bag Paper which is ripped and torn in specific spots to reveal a hyper-realistic Pastel Gradient Sunset underneath. Critical: The sketch lines and the colored parts are perfectly aligned and anatomically consistent; they form one single continuous subject. The torn paper edges create a window into the colored reality beneath the sketch. White background, high contrast, 8k resolution, seamless transition."
+        },
+        {
+            "variables": {
+                "PAPER TEXTURE": "Worn Leather",
+                "COLOR STYLE": "Marble and Teal Accents",
+                "SUBJECT": "A Classical Roman Bust",
+                "SKETCH STYLE": "Renaissance Sanguine"
+            },
+            "prompt": "A single cohesive image of A Classical Roman Bust. The artwork is a composite layer effect: the top layer is a rough Renaissance Sanguine on Worn Leather which is ripped and torn in specific spots to reveal a hyper-realistic Marble and Teal Accents underneath. Critical: The sketch lines and the colored parts are perfectly aligned and anatomically consistent; they form one single continuous subject. The torn paper edges create a window into the colored reality beneath the sketch. White background, high contrast, 8k resolution, seamless transition."
+        },
+        {
+            "variables": {
+                "PAPER TEXTURE": "Construction Paper",
+                "COLOR STYLE": "Iridescent Oil Slick",
+                "SUBJECT": "A Hummingbird in Flight",
+                "SKETCH STYLE": "Continuous Line"
+            },
+            "prompt": "A single cohesive image of A Hummingbird in Flight. The artwork is a composite layer effect: the top layer is a rough Continuous Line on Construction Paper which is ripped and torn in specific spots to reveal a hyper-realistic Iridescent Oil Slick underneath. Critical: The sketch lines and the colored parts are perfectly aligned and anatomically consistent; they form one single continuous subject. The torn paper edges create a window into the colored reality beneath the sketch. White background, high contrast, 8k resolution, seamless transition."
+        },
+        {
+            "variables": {
+                "PAPER TEXTURE": "Recycled Cardboard",
+                "COLOR STYLE": "Cinematic HDR",
+                "SUBJECT": "A Cozy Cabin in a Snowy Forest",
+                "SKETCH STYLE": "Crosshatching Ink"
+            },
+            "prompt": "A single cohesive image of A Cozy Cabin in a Snowy Forest. The artwork is a composite layer effect: the top layer is a rough Crosshatching Ink on Recycled Cardboard which is ripped and torn in specific spots to reveal a hyper-realistic Cinematic HDR underneath. Critical: The sketch lines and the colored parts are perfectly aligned and anatomically consistent; they form one single continuous subject. The torn paper edges create a window into the colored reality beneath the sketch. White background, high contrast, 8k resolution, seamless transition."
+        },
+        {
+            "variables": {
+                "PAPER TEXTURE": "Textured Pastel Paper",
+                "COLOR STYLE": "Soft Focus Diffused Light",
+                "SUBJECT": "A Woman's Face with Flowing Hair",
+                "SKETCH STYLE": "Loose Pastel Strokes"
+            },
+            "prompt": "A single cohesive image of A Woman's Face with Flowing Hair. The artwork is a composite layer effect: the top layer is a rough Loose Pastel Strokes on Textured Pastel Paper which is ripped and torn in specific spots to reveal a hyper-realistic Soft Focus Diffused Light underneath. Critical: The sketch lines and the colored parts are perfectly aligned and anatomically consistent; they form one single continuous subject. The torn paper edges create a window into the colored reality beneath the sketch. White background, high contrast, 8k resolution, seamless transition."
+        }
+    ],
+    "tips": [
+        "Use highly specific and contrasting styles for [SKETCH STYLE] and [COLOR STYLE] to maximize the visual impact of the reveal (e.g., 'rough graphite' vs. 'smooth digital matte painting').",
+        "Ensure the [SUBJECT] is complex enough to benefit from the hyper-detailed rendering in the colored layer.",
+        "If using Midjourney, experimenting with high `--stylize` values can sometimes help the AI maintain the structural consistency required for the 'perfectly aligned' constraint."
+    ],
+    "description": "A high-impact prompt designed to create dramatic layered artwork where a rough sketch layer is physically torn away to expose a meticulously detailed, hyper-realistic colored rendering underneath. The prompt emphasizes perfect anatomical alignment and a seamless conceptual transition between the two realities.",
+    "instructions": "",
+    "prompt_metadata": {},
+    "title_validation": {
+        "score": 0.5,
+        "issues": [
+            "Missing emotional/visual descriptor",
+            "Missing format/type specification"
+        ],
+        "suggestions": [
+            "Consider: mysterious, vintage, modern, dreamy, elegant",
+            "Add: scene, wallpaper, art, portrait, texture"
+        ]
+    },
+    "evaluation": {
+        "scores": {
+            "TITLE QUALITY": 19,
+            "TEMPLATE STRUCTURE": 30,
+            "VARIABLE EXAMPLES": 16,
+            "COMMERCIAL VIABILITY": 15,
+            "DESCRIPTION QUALITY": 15
+        },
+        "total_score": 95,
+        "feedback": {
+            "TITLE QUALITY": "The title, 'Epic Cinematic Portrait Generation Guide,' is highly descriptive and includes the required emotional descriptors ('Epic Cinematic'). It meets the word count (5 words) and clearly conveys the output type (Portrait). However, 'Generation Guide' is unnecessary filler. A stricter title like 'Epic Cinematic Portrait' would be punchier and more professional for a marketplace listing, resulting in a minor deduction.",
+            "TEMPLATE STRUCTURE": "The template is exemplary. The subject variable `[SUBJECT]` is clearly marked. The prompt is rich with high-value core style descriptors (volumetric lighting, deep focus, cinematic color grading) which make up well over 40% of the instruction. Technical specifications are complete, including 8k resolution, camera emulation (Arri Alexa), aspect ratio (`--ar 16:9`), and style modifier (`--style raw`). It perfectly aligns with the 'Cinematic Portrait' promise.",
+            "VARIABLE EXAMPLES": "The package provides 7 examples, which is below the required 8-10 minimum. While the diversity is excellent, covering abstract concepts ('joy' personified), specific characters (Viking warrior), and categorized subjects (golden retriever), the quantity must be met to demonstrate full range and robustness. A deduction is applied for the missing examples.",
+            "COMMERCIAL VIABILITY": "The commercial strategy is strong. Clear use cases (Concept art, profile pictures) target high-value user needs. The suggested price ($3.99 - mid-to-high tier) is appropriate given the technical complexity and high-quality output promise. The UVP—delivery of 'Hollywood-level visuals' through specific technical controls—is clearly established.",
+            "DESCRIPTION QUALITY": "The description is concise and effective. It starts with a compelling, pain-point-driven hook ('Tired of flat images?'). It clearly lists the key technical features (Arri Alexa emulation, volumetric light control) and specifies relevant use cases (character design, portfolio building). This segment is marketplace-ready."
+        },
+        "priority_improvements": [
+            "Increase the number of VARIABLE EXAMPLES from 7 to a minimum of 8 (preferably 10) to fully demonstrate the template's versatility across different categories.",
+            "Refine the TITLE to remove extraneous words like 'Generation Guide.' Suggested revision: 'Epic Cinematic Portrait' or 'Volumetric Cinematic Portrait.'"
+        ]
+    },
+    "test_guidance": {
+        "test_instructions": [
+            "Fill in each variable with different values to test versatility.",
+            "Try using the first example prompt exactly as written as your baseline.",
+            "Test at least 3-5 different variations to ensure consistent style.",
+            "Experiment with Midjourney parameters like `--ar` or `--stylize`."
+        ],
+        "quality_checklist": [
+            "Style Consistency: Does the style remain consistent?",
+            "Composition: Does the output match your compositional expectations?",
+            "Visual Quality: Is the output high-quality?",
+            "Variable Impact: Does changing variables produce meaningful differences?"
+        ],
+        "common_issues": [
+            "Subject distortion or anatomical problems.",
+            "Style 'bleeding' or inconsistency."
+        ]
+    },
+    "commercial_description": "Unlock hyper-realistic, emotionally charged imagery that looks straight out of a $10,000 studio shoot, instantly.\n\n*   **Cinematic Depth, Zero Effort:** Our proprietary layering technique automatically applies film-grade color grading and depth of field, giving your subject breathtaking presence without needing complex post-processing commands.\n*   **The \"Reality Reveal\" Effect:** Achieve a signature composite look where textures and details are subtly enhanced and woven into the background, creating images so tangible you feel you could reach out and touch them.\n*   **Universal Subject Adaptation:** Designed to flawlessly interpret any input—from architecture to portraits to abstract concepts—maintaining the premium, consistent aesthetic every single time.\n\nPerfect for designers, marketers, social media creators, and artists who demand museum-quality realism for their portfolios, campaigns, or personal projects.\n\nStop struggling with endless parameter tweaks; this template is your one-click shortcut to images that simply look expensive.",
+    "category": "Art & Illustration"
+}

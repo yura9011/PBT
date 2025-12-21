@@ -1,69 +1,66 @@
-# Agentic PromptBase Generator
+# PBT (PromptBase Tool)
 
-**Generate high-quality, market-ready prompt templates aligned with PromptBase submission guidelines using Gemini AI.**
+A command-line tool to streamline the creation, testing, and packaging of generative AI prompts for PromptBase and other marketplaces.
 
-This Streamlit application is a powerful multi-agent system designed to help you research, ideate, and create professional prompt templates for top AI platforms. It leverages Google's Gemini models to automate the entire workflow, from trend analysis to final prompt generation.
+## Features
 
-## ✨ Key Features
+- **Reverse Engineering**: Extract templates from images.
+- **Batch Processing**: Process folders of images into variable-rich prompt templates.
+- **Automated Packaging**: Generate submission-ready ZIP files with required metadata.
+- **Previews**: Generate verification images using Flux/SDXL (via HuggingFace).
+- **Smart Fix**: Optional LLM-based variable extraction for complex prompts.
 
-*   **📈 Trend Engine:**
-    *   **Market Analysis:** Paste text from articles, blogs, or competitor lists to analyze current market trends.
-    *   **Automated Ideation:** The AI identifies "underserved niches" and suggests high-potential prompt concepts (Topic, Style, Use Case).
-    *   **One-Click Creation:** Instantly turn a trend suggestion into a full prompt package with a single click.
+## Quick Start
 
-*   **🚀 Advanced Template Generation:**
-    *   **Multi-Platform Support:** Optimized for **Midjourney, DALL-E 3, Imagen 3 (Gemini), Gemini Nano, Sora, Stable Diffusion**, and more.
-    *   **User-Friendly Variables:** Automatically enforces simple, high-level variables (e.g., `[Subject]`, `[Mood]`) while hiding technical complexity, ensuring a great end-user experience.
-    *   **Dynamic Descriptions:** Generates unique, persuasive, and SEO-friendly product descriptions for your marketplace listings.
+### Installation
+```bash
+pip install -r requirements.txt
+```
 
-*   **📦 Comprehensive Output:**
-    *   **Prompt Anatomy:** Produces a structured template with fixed technical specs and flexible user variables.
-    *   **Diverse Examples:** Generates 4 distinct, "pleasant," and client-friendly examples to showcase the template's versatility.
-    *   **Quality Evaluation:** Built-in "Reviewer Agent" scores your prompt against PromptBase guidelines and suggests improvements.
+### Configuration
+1. Rename `.env.example` to `.env` (if applicable) or create one.
+2. Add your keys:
+   ```
+   GEMINI_API_KEY=your_key_here
+   HF_API_KEY=your_hf_key_here
+   ```
 
-*   **📚 Local Library:**
-    *   Save, organize, and manage your generated prompts in a local database.
-    *   Export to JSON or Markdown for easy submission.
+## Usage
 
-## 🛠️ Installation
+### 1. Reverse Engineer (Single Image)
+Create a template from a single image.
+```bash
+python cli.py reverse --image "path/to/image.png"
+```
 
-1.  **Clone the repository.**
-2.  **Install Dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    *(Note: Requires `streamlit`, `google-generativeai`, and standard libraries)*
+### 2. Batch Processing
+Process an entire folder of images.
+```bash
+python cli.py batch --folder "docs/images" --output "my_batch"
+```
 
-3.  **Get a Gemini API Key:**
-    *   Get your key from [Google AI Studio](https://aistudio.google.com/).
+### 3. Generate Previews
+Create test images to verify the template works.
+```bash
+python cli.py preview "path/to/file.json" --model flux --count 2
+```
 
-## ▶️ How to Run
+### 4. Package for Submission
+Create a ZIP file containing the JSON, `submission.txt`, previews, and source image.
+```bash
+python cli.py package "path/to/file.json"
+```
 
-1.  Navigate to the project directory.
-2.  Run the application:
-    ```bash
-    streamlit run main.py
-    ```
-3.  Enter your **Gemini API Key** in the sidebar.
+### 5. Manual Creation
+Draft a prompt from scratch based on a topic.
+```bash
+python cli.py create --topic "isometric city" --style "3d render" --platform Midjourney
+```
 
-## 💡 Usage Guide
+## Structure
+- `published/`: Default output for generated JSONs.
+- `dist/`: Output for packaged ZIP files.
+- `prompts.yaml`: Configuration for prompt generation logic.
 
-### 1. The Trend Engine (Recommended Start)
-*   Go to the **"📈 Trend Engine"** tab.
-*   Paste market data (e.g., "Top design trends for 2025") or upload a text file.
-*   Click **"Analyze & Predict Trends"**.
-*   Review the "Predicted Best-Sellers" and click **"✨ Create This"** on any idea you like.
-
-### 2. The Idea Lab (Manual Creation)
-*   Go to the **"🚀 Create"** tab.
-*   Manually enter your **Topic**, **Content Type**, **Platform**, **Style**, and **Use Case**.
-*   Click **"🚀 Generate Full Prompt Package"**.
-
-### 3. Review & Export
-*   Go to the **"📦 Results"** tab to see the generated content.
-*   Check the **Compliance Score** and read the **Usage Tips**.
-*   **Export:** Download as JSON/Markdown or copy the template to your clipboard.
-*   **Save:** Click "💾 Save to Library" to store it locally.
-
-### 4. Library
-*   Go to the **"📚 Library"** tab to browse and manage your saved prompts.
+## License
+MIT

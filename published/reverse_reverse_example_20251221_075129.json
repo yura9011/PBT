@@ -1,0 +1,41 @@
+{
+    "topic": "Whimsical Monster Encounter",
+    "content_type": "Image",
+    "platform": "Midjourney/DALL-E",
+    "style": "Bold illustration, Limited color palette, Textured linework, Minimalist composition",
+    "use_case": "Children's book illustrations, unique graphic design elements, quirky social media content.",
+    "template": "A dramatic illustration of a [SUBJECT], rendered in a bold, graphic style with heavy black linework and a limited [COLOR] palette. The [SUBJECT] is depicted in a dynamic, somewhat menacing pose, with a stark white background. The overall mood is [MOOD], reminiscent of a surreal fable. The composition focuses on the large scale of the [SUBJECT] contrasted with a smaller, vulnerable element within the [SCENE]. --ar 9:16",
+    "variables": [
+        "COLOR",
+        "MOOD",
+        "SUBJECT",
+        "SCENE"
+    ],
+    "variable_explanations": {
+        "[SUBJECT]": "The main character or object to be illustrated. This could be a creature, an animal, or even an abstract form.",
+        "[COLOR]": "The accent color to be used alongside the dominant black and white. Think of colors like 'ochre', 'vibrant red', 'deep teal', or 'electric blue'.",
+        "[MOOD]": "The emotional atmosphere of the image. Examples include 'playful suspense', 'curious', 'ominous yet intriguing', or 'absurd'.",
+        "[SCENE]": "A brief description of the context or setting, even if minimal. Examples: 'in a vast void', 'on a desolate plain', 'emerging from darkness'."
+    },
+    "examples": [
+        "A dramatic illustration of a ravenous dragon, rendered in a bold, graphic style with heavy black linework and a limited ochre palette. The dragon is depicted in a dynamic, somewhat menacing pose, with a stark white background. The overall mood is playful suspense, reminiscent of a surreal fable. The composition focuses on the large scale of the dragon contrasted with a smaller, vulnerable element within the scene. --ar 9:16",
+        "A dramatic illustration of a playful cat, rendered in a bold, graphic style with heavy black linework and a limited vibrant red palette. The cat is depicted in a dynamic, somewhat menacing pose, with a stark white background. The overall mood is curious, reminiscent of a surreal fable. The composition focuses on the large scale of the cat contrasted with a smaller, vulnerable element within the scene. --ar 9:16",
+        "A dramatic illustration of a philosophical robot, rendered in a bold, graphic style with heavy black linework and a limited deep teal palette. The robot is depicted in a dynamic, somewhat menacing pose, with a stark white background. The overall mood is ominous yet intriguing, reminiscent of a surreal fable. The composition focuses on the large scale of the robot contrasted with a smaller, vulnerable element within the scene. --ar 9:16",
+        "A dramatic illustration of a mischievous imp, rendered in a bold, graphic style with heavy black linework and a limited electric blue palette. The imp is depicted in a dynamic, somewhat menacing pose, with a stark white background. The overall mood is absurd, reminiscent of a surreal fable. The composition focuses on the large scale of the imp contrasted with a smaller, vulnerable element within the scene. --ar 9:16"
+    ],
+    "tips": [
+        "Experiment with the [COLOR] variable to evoke different feelings. Bright colors create a more whimsical tone, while darker shades can increase the sense of mystery.",
+        "Be descriptive with your [SUBJECT] to ensure it fits the illustrative style. Simple, strong shapes work best.",
+        "Consider how the [SCENE] can subtly enhance the narrative implied by the [SUBJECT] and [MOOD]."
+    ],
+    "description": "Capture the essence of a storybook's most striking moments with this bold, minimalist illustration style. Perfect for creating impactful visuals with a unique, handcrafted feel. Ideal for making your content stand out.",
+    "instructions": "Use this template to generate similar images.",
+    "input_source": "image_upload",
+    "self_evaluation": {
+        "style_fidelity": 9,
+        "variable_quality": 9,
+        "completeness": 9,
+        "overall_score": 9,
+        "improvements_needed": null
+    }
+}

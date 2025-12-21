@@ -1,0 +1,177 @@
+{
+    "topic": "Dark Whimsical Character Sheet Art",
+    "content_type": "Image",
+    "platform": "Midjourney/DALL-E",
+    "style": "Dark Whimsical Illustration, Rough Ink Outline, Muted Sepia Tones, Conceptual Character Design",
+    "use_case": "Video Game concept art, tabletop RPG monster manual entries, sticker designs, profile pictures.",
+    "template": "A whimsical and sketchy concept art illustration of [SUBJECT], [MOOD], against a blank, warm parchment background. The character features thick, rough ink outlines, crosshatching texture, and flat, simple digital coloring. Dominated by [COLOR]. [SCENE]. Character design sheet quality, dark whimsical, 2D illustration, full body, high negative space --ar 1:1",
+    "variables": [
+        "SUBJECT",
+        "SCENE",
+        "MOOD",
+        "COLOR"
+    ],
+    "variable_explanations": {
+        "[SUBJECT]": "The main focus of the image (e.g., A shy forest spirit, A grumpy cat in a fedora). Must be specific.",
+        "[MOOD]": "The character's expression or current emotional state (e.g., looking suspicious, nervously scratching its head, smiling mischievously).",
+        "[COLOR]": "Allows slight variation in the restricted palette (e.g., earthy browns and pale yellows, accented with a touch of saturated red, muted blues and greys).",
+        "[SCENE]": "A simple contextual element or item to enhance the character (e.g., standing next to a pile of ancient books, carrying a tiny basket, holding a forgotten map)."
+    },
+    "examples": [
+        {
+            "variables": {
+                "SUBJECT": "A wise old owl wearing spectacles",
+                "SCENE": "Sitting on a stack of ancient, forgotten books",
+                "MOOD": "Curious and attentive",
+                "COLOR": "Deep Indigo"
+            },
+            "prompt": "A whimsical and sketchy concept art illustration of A wise old owl wearing spectacles, Curious and attentive, against a blank, warm parchment background. The character features thick, rough ink outlines, crosshatching texture, and flat, simple digital coloring. Dominated by Deep Indigo. Sitting on a stack of ancient, forgotten books. Character design sheet quality, dark whimsical, 2D illustration, full body, high negative space --ar 1:1"
+        },
+        {
+            "variables": {
+                "SUBJECT": "A small, brave mushroom knight",
+                "SCENE": "Standing guard by a dew-covered blade of grass",
+                "MOOD": "Determined and noble",
+                "COLOR": "Forest Green"
+            },
+            "prompt": "A whimsical and sketchy concept art illustration of A small, brave mushroom knight, Determined and noble, against a blank, warm parchment background. The character features thick, rough ink outlines, crosshatching texture, and flat, simple digital coloring. Dominated by Forest Green. Standing guard by a dew-covered blade of grass. Character design sheet quality, dark whimsical, 2D illustration, full body, high negative space --ar 1:1"
+        },
+        {
+            "variables": {
+                "SUBJECT": "A friendly mechanical crow",
+                "SCENE": "Holding a tiny, glowing lantern",
+                "MOOD": "Hopeful and investigative",
+                "COLOR": "Rusty Copper"
+            },
+            "prompt": "A whimsical and sketchy concept art illustration of A friendly mechanical crow, Hopeful and investigative, against a blank, warm parchment background. The character features thick, rough ink outlines, crosshatching texture, and flat, simple digital coloring. Dominated by Rusty Copper. Holding a tiny, glowing lantern. Character design sheet quality, dark whimsical, 2D illustration, full body, high negative space --ar 1:1"
+        },
+        {
+            "variables": {
+                "SUBJECT": "A sleepy, floating island",
+                "SCENE": "Surrounded by swirling, gentle fog",
+                "MOOD": "Serene and distant",
+                "COLOR": "Soft Lavender"
+            },
+            "prompt": "A whimsical and sketchy concept art illustration of A sleepy, floating island, Serene and distant, against a blank, warm parchment background. The character features thick, rough ink outlines, crosshatching texture, and flat, simple digital coloring. Dominated by Soft Lavender. Surrounded by swirling, gentle fog. Character design sheet quality, dark whimsical, 2D illustration, full body, high negative space --ar 1:1"
+        },
+        {
+            "variables": {
+                "SUBJECT": "A clumsy, aspiring wizard apprentice",
+                "SCENE": "Trying to levitate a single pebble",
+                "MOOD": "Frustrated but persistent",
+                "COLOR": "Vibrant Magenta"
+            },
+            "prompt": "A whimsical and sketchy concept art illustration of A clumsy, aspiring wizard apprentice, Frustrated but persistent, against a blank, warm parchment background. The character features thick, rough ink outlines, crosshatching texture, and flat, simple digital coloring. Dominated by Vibrant Magenta. Trying to levitate a single pebble. Character design sheet quality, dark whimsical, 2D illustration, full body, high negative space --ar 1:1"
+        },
+        {
+            "variables": {
+                "SUBJECT": "A giant, gentle sea turtle",
+                "SCENE": "Carrying a miniature lighthouse on its shell",
+                "MOOD": "Ancient and calm",
+                "COLOR": "Ocean Teal"
+            },
+            "prompt": "A whimsical and sketchy concept art illustration of A giant, gentle sea turtle, Ancient and calm, against a blank, warm parchment background. The character features thick, rough ink outlines, crosshatching texture, and flat, simple digital coloring. Dominated by Ocean Teal. Carrying a miniature lighthouse on its shell. Character design sheet quality, dark whimsical, 2D illustration, full body, high negative space --ar 1:1"
+        },
+        {
+            "variables": {
+                "SUBJECT": "A mischievous, winged fox",
+                "SCENE": "Peeking out from behind a colossal sunflower",
+                "MOOD": "Playful and secretive",
+                "COLOR": "Sunny Yellow"
+            },
+            "prompt": "A whimsical and sketchy concept art illustration of A mischievous, winged fox, Playful and secretive, against a blank, warm parchment background. The character features thick, rough ink outlines, crosshatching texture, and flat, simple digital coloring. Dominated by Sunny Yellow. Peeking out from behind a colossal sunflower. Character design sheet quality, dark whimsical, 2D illustration, full body, high negative space --ar 1:1"
+        },
+        {
+            "variables": {
+                "SUBJECT": "A stylized, silent scarecrow",
+                "SCENE": "Standing vigil over an empty field at dusk",
+                "MOOD": "Melancholy and watchful",
+                "COLOR": "Burnt Orange"
+            },
+            "prompt": "A whimsical and sketchy concept art illustration of A stylized, silent scarecrow, Melancholy and watchful, against a blank, warm parchment background. The character features thick, rough ink outlines, crosshatching texture, and flat, simple digital coloring. Dominated by Burnt Orange. Standing vigil over an empty field at dusk. Character design sheet quality, dark whimsical, 2D illustration, full body, high negative space --ar 1:1"
+        },
+        {
+            "variables": {
+                "SUBJECT": "A small, traveling tea kettle golem",
+                "SCENE": "Balancing a single perfect rose",
+                "MOOD": "Delicate and proud",
+                "COLOR": "Pale Gold"
+            },
+            "prompt": "A whimsical and sketchy concept art illustration of A small, traveling tea kettle golem, Delicate and proud, against a blank, warm parchment background. The character features thick, rough ink outlines, crosshatching texture, and flat, simple digital coloring. Dominated by Pale Gold. Balancing a single perfect rose. Character design sheet quality, dark whimsical, 2D illustration, full body, high negative space --ar 1:1"
+        },
+        "A whimsical and sketchy concept art illustration of The heavy silence following an unmade decision, profoundly introspective and slightly haunted, against a blank, warm parchment background. The character features thick, rough ink outlines, crosshatching texture, and flat, simple digital coloring. Dominated by muted Umber. Clutching a fading memory represented by a wisp of smoke. Character design sheet quality, dark whimsical, 2D illustration, full body, high negative space --ar 1:1",
+        "A whimsical and sketchy concept art illustration of A fleeting burst of defiant optimism, fragile yet fiercely independent, against a blank, warm parchment background. The character features thick, rough ink outlines, crosshatching texture, and flat, simple digital coloring. Dominated by Viridian Green. Standing precariously on the edge of utter chaos. Character design sheet quality, dark whimsical, 2D illustration, full body, high negative space --ar 1:1"
+    ],
+    "tips": [
+        "Keep the [SUBJECT] short and focused on a single entity to maintain the composition's clarity.",
+        "Avoid specifying complex backgrounds, as the style relies heavily on the plain, parchment-colored negative space.",
+        "Use low-saturation colors in the [COLOR] variable to preserve the vintage, muted tone."
+    ],
+    "description": "This template replicates the charming, rough-hewn aesthetic of classic 2D character concept art. It uses thick, scratchy ink outlines and a limited, desaturated sepia-toned palette, perfect for creating dark whimsical creatures or indie game character concepts.",
+    "instructions": "Use this template to generate similar images.",
+    "input_source": "image_upload",
+    "self_evaluation": {
+        "style_fidelity": 9,
+        "variable_quality": 9,
+        "completeness": 9,
+        "overall_score": 9,
+        "improvements_needed": null
+    },
+    "title_validation": {
+        "score": 0.75,
+        "issues": [
+            "Missing format/type specification"
+        ],
+        "suggestions": [
+            "Add: scene, cover, portrait, landscape, texture"
+        ]
+    },
+    "evaluation": {
+        "scores": {
+            "title_quality": 20,
+            "template_structure": 26,
+            "variable_examples": 14,
+            "commercial_viability": 15,
+            "description_quality": 11
+        },
+        "total_score": 86,
+        "feedback": {
+            "title_quality": "The title 'Cinematic Character Portrait' adheres perfectly to all criteria. It follows the [Descriptor] + [Subject] + [Type] pattern, uses 'Cinematic' as an effective visual descriptor, meets the 3-6 word length requirement, and clearly identifies the output type as a portrait.",
+            "template_structure": "The template successfully incorporates core style descriptors (dramatic lighting, high detail, cinematic composition) and clearly marks the subject variable. However, the technical specifications are incomplete. While '8K resolution' is included, critical details such as specific rendering engines (e.g., Unreal Engine, Octane) and photographic specifics (e.g., focal length, aperture, specific lighting setup) are absent. This omission prevents a perfect score in a prompt designed for high-end cinematic realism.",
+            "variable_examples": "The provided examples (8 in total) meet the minimum quantity requirement. However, the diversity and range are lacking. The examples primarily focus on similar archetypes (e.g., 'fantasy warrior,' 'sci-fi soldier,' 'steampunk adventurer'). To demonstrate true versatility, the examples must include a broader mix of roles and demographics, such as non-combat roles (e.g., 'elderly wizard,' 'scientist,' 'merchant') or different age ranges and genders. The current selection limits the perceived application range of the prompt.",
+            "commercial_viability": "The commercial viability is high. The use cases (concept art, game assets) are well-defined and align perfectly with the prompt's aesthetic. The suggested price tier (Premium) is appropriate given the specific, high-quality output. The unique value proposition of cinematic realism for character design is clearly articulated.",
+            "description_quality": "The description is functional but lacks a compelling hook. 'Generate stunning cinematic portraits' is a statement of fact rather than a benefit-driven sales pitch. The description also fails to list all technical features present in the prompt template, specifically omitting key lighting and rendering details that would enhance its perceived value. The use cases are clearly specified, which partially compensates for the weaker hook and feature list."
+        },
+        "priority_improvements": [
+            "Expand technical specifications in the prompt template to include rendering engine details, focal length, and specific lighting techniques (e.g., rim lighting, key light ratios).",
+            "Revise variable examples to include a broader range of character archetypes, including non-combat roles, diverse age groups, and different body types, to demonstrate full template versatility.",
+            "Strengthen the marketplace description with a more compelling, benefit-driven hook and ensure all technical features are highlighted."
+        ]
+    },
+    "test_guidance": {
+        "test_instructions": [
+            "Fill in each variable with different values to test versatility.",
+            "Try using the first example prompt exactly as written as your baseline.",
+            "Test at least 3-5 different variations to ensure consistent style.",
+            "Experiment with Midjourney parameters like `--ar` or `--stylize`."
+        ],
+        "quality_checklist": [
+            "Style Consistency: Does the style remain consistent?",
+            "Composition: Does the output match your compositional expectations?",
+            "Visual Quality: Is the output high-quality?",
+            "Variable Impact: Does changing variables produce meaningful differences?"
+        ],
+        "common_issues": [
+            "Subject distortion or anatomical problems.",
+            "Style 'bleeding' or inconsistency."
+        ]
+    },
+    "commercial_description": "Professional AI Prompt Template. Easy to use and high quality.",
+    "category": "Uncategorized",
+    "_original_topic": "Dark Whimsical Character Sheet",
+    "_abstract_injected": 2,
+    "enhancement_log": [
+        "Title fixed: Dark Whimsical Character Sheet -> Dark Whimsical Character Sheet Art",
+        "Injected 2 abstract examples"
+    ]
+}

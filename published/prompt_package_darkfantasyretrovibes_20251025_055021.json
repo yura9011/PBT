@@ -1,0 +1,182 @@
+{
+    "topic": "dark fantasy retro vibes",
+    "content_type": "Image",
+    "platform": "Midjourney",
+    "style": "",
+    "use_case": "",
+    "template": "[SUBJECT_DESCRIPTION], Neo-gothic aesthetic, low-fidelity film emulation, heavy VHS tracking artifacts and subtle screen burn, oppressive chiaroscuro lighting, desaturated split-complementary palette of deep crimson and electric cyan, rendered with aggressive film grain, digital airbrush painting, [COMPOSITION_TYPE] with deep atmospheric perspective, shot with a wide-angle lens to emphasize scale, [LIGHTING_SETUP] using rim lighting and practical effects, textures simulating gesso and oil on board, hyper-detailed texture mapping, calibrated chromatic aberration for analog authenticity, maximum textural richness, museum-quality print finish --ar [ASPECT_RATIO] --s [STYLE_VALUE]",
+    "variables": [
+        "ASPECT_RATIO",
+        "SUBJECT_DESCRIPTION",
+        "COMPOSITION_TYPE",
+        "LIGHTING_SETUP",
+        "STYLE_VALUE"
+    ],
+    "variable_explanations": {
+        "SUBJECT_DESCRIPTION": "The main focus of the image (e.g., 'A lone sentinel guarding a ruined citadel', 'A serpentine dragon emerging from neon mist').",
+        "COMPOSITION_TYPE": "Defines the framing and perspective (e.g., 'Dutch angle', 'Centered rule of thirds', 'Extreme close-up', 'Telephoto compression').",
+        "LIGHTING_SETUP": "Specific techniques to enhance the dark mood (e.g., 'Split lighting with heavy back-fill', 'Contre-jour silhouette', 'Practical effects lighting from a single neon source').",
+        "ASPECT_RATIO": "Standard Midjourney aspect ratio (e.g., '16:9', '4:3', '1:1').",
+        "STYLE_VALUE": "Controls the artistic strength and consistency (e.g., '750' for balanced stylization, '1000' for highly stylized, '50' for low stylization)."
+    },
+    "examples": [
+        {
+            "variables": {
+                "ASPECT_RATIO": "21:9",
+                "SUBJECT_DESCRIPTION": "A crumbling concrete Brutalist cathedral overgrown with black vines",
+                "COMPOSITION_TYPE": "Symmetrical establishing shot",
+                "LIGHTING_SETUP": "Moonlight filtering through broken roof trusses",
+                "STYLE_VALUE": "700"
+            },
+            "prompt": "A crumbling concrete Brutalist cathedral overgrown with black vines, Neo-gothic aesthetic, low-fidelity film emulation, heavy VHS tracking artifacts and subtle screen burn, oppressive chiaroscuro lighting, desaturated split-complementary palette of deep crimson and electric cyan, rendered with aggressive film grain, digital airbrush painting, Symmetrical establishing shot with deep atmospheric perspective, shot with a wide-angle lens to emphasize scale, Moonlight filtering through broken roof trusses using rim lighting and practical effects, textures simulating gesso and oil on board, hyper-detailed texture mapping, calibrated chromatic aberration for analog authenticity, maximum textural richness, museum-quality print finish --ar 21:9 --s 700"
+        },
+        {
+            "variables": {
+                "ASPECT_RATIO": "4:5",
+                "SUBJECT_DESCRIPTION": "The silent scream of a forgotten deity, rendered as cracked porcelain and melting wax",
+                "COMPOSITION_TYPE": "Extreme close-up portrait",
+                "LIGHTING_SETUP": "A single, weak candle flame reflecting in damp eyes",
+                "STYLE_VALUE": "999"
+            },
+            "prompt": "The silent scream of a forgotten deity, rendered as cracked porcelain and melting wax, Neo-gothic aesthetic, low-fidelity film emulation, heavy VHS tracking artifacts and subtle screen burn, oppressive chiaroscuro lighting, desaturated split-complementary palette of deep crimson and electric cyan, rendered with aggressive film grain, digital airbrush painting, Extreme close-up portrait with deep atmospheric perspective, shot with a wide-angle lens to emphasize scale, A single, weak candle flame reflecting in damp eyes using rim lighting and practical effects, textures simulating gesso and oil on board, hyper-detailed texture mapping, calibrated chromatic aberration for analog authenticity, maximum textural richness, museum-quality print finish --ar 4:5 --s 999"
+        },
+        {
+            "variables": {
+                "ASPECT_RATIO": "16:9",
+                "SUBJECT_DESCRIPTION": "A floating holographic skull phasing through a digital lattice of corrupted data",
+                "COMPOSITION_TYPE": "Dutch angle shot",
+                "LIGHTING_SETUP": "Backlit by a malfunctioning CRT monitor",
+                "STYLE_VALUE": "500"
+            },
+            "prompt": "A floating holographic skull phasing through a digital lattice of corrupted data, Neo-gothic aesthetic, low-fidelity film emulation, heavy VHS tracking artifacts and subtle screen burn, oppressive chiaroscuro lighting, desaturated split-complementary palette of deep crimson and electric cyan, rendered with aggressive film grain, digital airbrush painting, Dutch angle shot with deep atmospheric perspective, shot with a wide-angle lens to emphasize scale, Backlit by a malfunctioning CRT monitor using rim lighting and practical effects, textures simulating gesso and oil on board, hyper-detailed texture mapping, calibrated chromatic aberration for analog authenticity, maximum textural richness, museum-quality print finish --ar 16:9 --s 500"
+        },
+        {
+            "variables": {
+                "ASPECT_RATIO": "3:2",
+                "SUBJECT_DESCRIPTION": "A cluster of pulsating, bioluminescent fungi growing on rusted, submerged machinery",
+                "COMPOSITION_TYPE": "Low-angle macro shot",
+                "LIGHTING_SETUP": "Submerged in toxic green sludge light",
+                "STYLE_VALUE": "850"
+            },
+            "prompt": "A cluster of pulsating, bioluminescent fungi growing on rusted, submerged machinery, Neo-gothic aesthetic, low-fidelity film emulation, heavy VHS tracking artifacts and subtle screen burn, oppressive chiaroscuro lighting, desaturated split-complementary palette of deep crimson and electric cyan, rendered with aggressive film grain, digital airbrush painting, Low-angle macro shot with deep atmospheric perspective, shot with a wide-angle lens to emphasize scale, Submerged in toxic green sludge light using rim lighting and practical effects, textures simulating gesso and oil on board, hyper-detailed texture mapping, calibrated chromatic aberration for analog authenticity, maximum textural richness, museum-quality print finish --ar 3:2 --s 850"
+        },
+        {
+            "variables": {
+                "ASPECT_RATIO": "5:4",
+                "SUBJECT_DESCRIPTION": "A Victorian-era automaton weeping oil, dressed in tattered lace and broken clockwork",
+                "COMPOSITION_TYPE": "Full body character study",
+                "LIGHTING_SETUP": "Gaslight illuminating heavy velvet curtains",
+                "STYLE_VALUE": "620"
+            },
+            "prompt": "A Victorian-era automaton weeping oil, dressed in tattered lace and broken clockwork, Neo-gothic aesthetic, low-fidelity film emulation, heavy VHS tracking artifacts and subtle screen burn, oppressive chiaroscuro lighting, desaturated split-complementary palette of deep crimson and electric cyan, rendered with aggressive film grain, digital airbrush painting, Full body character study with deep atmospheric perspective, shot with a wide-angle lens to emphasize scale, Gaslight illuminating heavy velvet curtains using rim lighting and practical effects, textures simulating gesso and oil on board, hyper-detailed texture mapping, calibrated chromatic aberration for analog authenticity, maximum textural richness, museum-quality print finish --ar 5:4 --s 620"
+        },
+        {
+            "variables": {
+                "ASPECT_RATIO": "2.35:1",
+                "SUBJECT_DESCRIPTION": "A colossal, silent orbital defense satellite crashed into a decaying urban sprawl",
+                "COMPOSITION_TYPE": "Aerial view panorama",
+                "LIGHTING_SETUP": "Distant lightning strikes illuminating the wreckage",
+                "STYLE_VALUE": "780"
+            },
+            "prompt": "A colossal, silent orbital defense satellite crashed into a decaying urban sprawl, Neo-gothic aesthetic, low-fidelity film emulation, heavy VHS tracking artifacts and subtle screen burn, oppressive chiaroscuro lighting, desaturated split-complementary palette of deep crimson and electric cyan, rendered with aggressive film grain, digital airbrush painting, Aerial view panorama with deep atmospheric perspective, shot with a wide-angle lens to emphasize scale, Distant lightning strikes illuminating the wreckage using rim lighting and practical effects, textures simulating gesso and oil on board, hyper-detailed texture mapping, calibrated chromatic aberration for analog authenticity, maximum textural richness, museum-quality print finish --ar 2.35:1 --s 780"
+        },
+        {
+            "variables": {
+                "ASPECT_RATIO": "9:16",
+                "SUBJECT_DESCRIPTION": "The weight of an unsaid promise, visualized as a heavy, leaden draped textile on a stone altar",
+                "COMPOSITION_TYPE": "Vertical composition focused on negative space",
+                "LIGHTING_SETUP": "Light filtering through thick layers of dust and cobwebs",
+                "STYLE_VALUE": "900"
+            },
+            "prompt": "The weight of an unsaid promise, visualized as a heavy, leaden draped textile on a stone altar, Neo-gothic aesthetic, low-fidelity film emulation, heavy VHS tracking artifacts and subtle screen burn, oppressive chiaroscuro lighting, desaturated split-complementary palette of deep crimson and electric cyan, rendered with aggressive film grain, digital airbrush painting, Vertical composition focused on negative space with deep atmospheric perspective, shot with a wide-angle lens to emphasize scale, Light filtering through thick layers of dust and cobwebs using rim lighting and practical effects, textures simulating gesso and oil on board, hyper-detailed texture mapping, calibrated chromatic aberration for analog authenticity, maximum textural richness, museum-quality print finish --ar 9:16 --s 900"
+        },
+        {
+            "variables": {
+                "ASPECT_RATIO": "1:1",
+                "SUBJECT_DESCRIPTION": "A single, tarnished silver spoon balanced precariously on wet asphalt, reflecting neon decay",
+                "COMPOSITION_TYPE": "Worm's eye view",
+                "LIGHTING_SETUP": "Headlights of a passing car flashing momentarily",
+                "STYLE_VALUE": "450"
+            },
+            "prompt": "A single, tarnished silver spoon balanced precariously on wet asphalt, reflecting neon decay, Neo-gothic aesthetic, low-fidelity film emulation, heavy VHS tracking artifacts and subtle screen burn, oppressive chiaroscuro lighting, desaturated split-complementary palette of deep crimson and electric cyan, rendered with aggressive film grain, digital airbrush painting, Worm's eye view with deep atmospheric perspective, shot with a wide-angle lens to emphasize scale, Headlights of a passing car flashing momentarily using rim lighting and practical effects, textures simulating gesso and oil on board, hyper-detailed texture mapping, calibrated chromatic aberration for analog authenticity, maximum textural richness, museum-quality print finish --ar 1:1 --s 450"
+        },
+        {
+            "variables": {
+                "ASPECT_RATIO": "16:10",
+                "SUBJECT_DESCRIPTION": "Icarus falling into a digital sea of static and corrupted code, wings made of broken circuit boards",
+                "COMPOSITION_TYPE": "Dynamic, diagonal action shot",
+                "LIGHTING_SETUP": "Internal glow from molten copper circuits",
+                "STYLE_VALUE": "880"
+            },
+            "prompt": "Icarus falling into a digital sea of static and corrupted code, wings made of broken circuit boards, Neo-gothic aesthetic, low-fidelity film emulation, heavy VHS tracking artifacts and subtle screen burn, oppressive chiaroscuro lighting, desaturated split-complementary palette of deep crimson and electric cyan, rendered with aggressive film grain, digital airbrush painting, Dynamic, diagonal action shot with deep atmospheric perspective, shot with a wide-angle lens to emphasize scale, Internal glow from molten copper circuits using rim lighting and practical effects, textures simulating gesso and oil on board, hyper-detailed texture mapping, calibrated chromatic aberration for analog authenticity, maximum textural richness, museum-quality print finish --ar 16:10 --s 880"
+        }
+    ],
+    "tips": {
+        "focus": "The core aesthetic relies heavily on the 'low-fidelity film emulation' and 'VHS tracking artifacts' descriptors. Use high `--s` values (700-1000) to ensure these stylistic elements are dominant.",
+        "lighting": "Prioritize high-contrast lighting setups (Chiaroscuro, Split lighting, Contre-jour) to achieve the 'Dark Fantasy' mood. The retro element is enforced by describing the light sources as 'neon' or 'practical effects.'",
+        "materiality": "The combination of 'digital airbrush painting' and 'textures simulating gesso and oil on board' creates the specific tactile feel of 80s fantasy poster art, rather than clean digital rendering.",
+        "technical_completeness_checklist": [
+            "[X] Background treatment specified? (Oppressive atmosphere, deep atmospheric perspective)",
+            "[X] Edge/border handling defined? (VHS tracking artifacts, screen burn, chromatic aberration)",
+            "[X] Color palette guidance included? (Desaturated split-complementary of crimson and cyan)",
+            "[X] Composition rules stated? (COMPOSITION_TYPE variable, wide-angle lens)",
+            "[X] Detail level calibrated? (Hyper-detailed texture mapping, maximum textural richness)",
+            "[X] Output format compatible with stated use cases? (Yes, standard Midjourney parameters)"
+        ]
+    },
+    "description": "A professional template designed to generate images fusing the grim atmosphere of dark fantasy with the distinctive low-fidelity aesthetics, limited palettes, and visual artifacts of early 1980s retro media (VHS, airbrush poster art, early synthwave visualizers).",
+    "instructions": "Replace the bracketed variables with specific descriptive terms or numerical values. Ensure [SUBJECT_DESCRIPTION] is evocative and fits the Neo-gothic tone. The `--s` value should be adjusted based on how heavily you want the retro artifacts to dominate the image.",
+    "raw_response": "```json\n{\n  \"description\": \"A professional template designed to generate images fusing the grim atmosphere of dark fantasy with the distinctive low-fidelity aesthetics, limited palettes, and visual artifacts of early 1980s retro media (VHS, airbrush poster art, early synthwave visualizers).\",\n  \"template\": \"[SUBJECT_DESCRIPTION], Neo-gothic aesthetic, low-fidelity film emulation, heavy VHS tracking artifacts and subtle screen burn, oppressive chiaroscuro lighting, desaturated split-complementary palette of deep crimson and electric cyan, rendered with aggressive film grain, digital airbrush painting, [COMPOSITION_TYPE] with deep atmospheric perspective, shot with a wide-angle lens to emphasize scale, [LIGHTING_SETUP] using rim lighting and practical effects, textures simulating gesso and oil on board, hyper-detailed texture mapping, calibrated chromatic aberration for analog authenticity, maximum textural richness, museum-quality print finish --ar [ASPECT_RATIO] --s [STYLE_VALUE]\",\n  \"variables_explanation\": {\n    \"SUBJECT_DESCRIPTION\": \"The main focus of the image (e.g., 'A lone sentinel guarding a ruined citadel', 'A serpentine dragon emerging from neon mist').\",\n    \"COMPOSITION_TYPE\": \"Defines the framing and perspective (e.g., 'Dutch angle', 'Centered rule of thirds', 'Extreme close-up', 'Telephoto compression').\",\n    \"LIGHTING_SETUP\": \"Specific techniques to enhance the dark mood (e.g., 'Split lighting with heavy back-fill', 'Contre-jour silhouette', 'Practical effects lighting from a single neon source').\",\n    \"ASPECT_RATIO\": \"Standard Midjourney aspect ratio (e.g., '16:9', '4:3', '1:1').\",\n    \"STYLE_VALUE\": \"Controls the artistic strength and consistency (e.g., '750' for balanced stylization, '1000' for highly stylized, '50' for low stylization).\"\n  },\n  \"example_prompts\": [\n    {\n      \"name\": \"The Cybernetic Knight\",\n      \"prompt\": \"A lone sentinel guarding a ruined citadel, Neo-gothic aesthetic, low-fidelity film emulation, heavy VHS tracking artifacts and subtle screen burn, oppressive chiaroscuro lighting, desaturated split-complementary palette of deep crimson and electric cyan, rendered with aggressive film grain, digital airbrush painting, Dutch angle with deep atmospheric perspective, shot with a wide-angle lens to emphasize scale, Split lighting with heavy back-fill using rim lighting and practical effects, textures simulating gesso and oil on board, hyper-detailed texture mapping, calibrated chromatic aberration for analog authenticity, maximum textural richness, museum-quality print finish --ar 4:3 --s 800\"\n    },\n    {\n      \"name\": \"Subterranean Library\",\n      \"prompt\": \"A vast subterranean library carved into black basalt, filled with glowing data crystals, Neo-gothic aesthetic, low-fidelity film emulation, heavy VHS tracking artifacts and subtle screen burn, oppressive chiaroscuro lighting, desaturated split-complementary palette of deep crimson and electric cyan, rendered with aggressive film grain, digital airbrush painting, Centered rule of thirds composition with deep atmospheric perspective, shot with a wide-angle lens to emphasize scale, Practical effects lighting from a single neon source using rim lighting and practical effects, textures simulating gesso and oil on board, hyper-detailed texture mapping, calibrated chromatic aberration for analog authenticity, maximum textural richness, museum-quality print finish --ar 16:9 --s 750\"\n    },\n    {\n      \"name\": \"Ancient Battle Memory\",\n      \"prompt\": \"The fragmented memory of a lost battle, depicted as ghostly, low-poly wireframe warriors colliding, Neo-gothic aesthetic, low-fidelity film emulation, heavy VHS tracking artifacts and subtle screen burn, oppressive chiaroscuro lighting, desaturated split-complementary palette of deep crimson and electric cyan, rendered with aggressive film grain, digital airbrush painting, Extreme close-up of the central collision with deep atmospheric perspective, shot with a wide-angle lens to emphasize scale, Contre-jour silhouette using rim lighting and practical effects, textures simulating gesso and oil on board, hyper-detailed texture mapping, calibrated chromatic aberration for analog authenticity, maximum textural richness, museum-quality print finish --ar 1:1 --s 900\"\n    },\n    {\n      \"name\": \"The Serpentine Dragon\",\n      \"prompt\": \"A massive serpentine dragon emerging from a cloud of neon mist and static, Neo-gothic aesthetic, low-fidelity film emulation, heavy VHS tracking artifacts and subtle screen burn, oppressive chiaroscuro lighting, desaturated split-complementary palette of deep crimson and electric cyan, rendered with aggressive film grain, digital airbrush painting, Dynamic leading lines composition with deep atmospheric perspective, shot with a wide-angle lens to emphasize scale, Studio loop lighting using rim lighting and practical effects, textures simulating gesso and oil on board, hyper-detailed texture mapping, calibrated chromatic aberration for analog authenticity, maximum textural richness, museum-quality print finish --ar 5:4 --s 650\"\n    },\n    {\n      \"name\": \"Armored Hovercraft\",\n      \"prompt\": \"A brutalist, low-flying armored hovercraft skimming over a ruined cityscape at twilight, Neo-gothic aesthetic, low-fidelity film emulation, heavy VHS tracking artifacts and subtle screen burn, oppressive chiaroscuro lighting, desaturated split-complementary palette of deep crimson and electric cyan, rendered with aggressive film grain, digital airbrush painting, Telephoto compression composition with deep atmospheric perspective, shot with a wide-angle lens to emphasize scale, Underlighting from ground fog using rim lighting and practical effects, textures simulating gesso and oil on board, hyper-detailed texture mapping, calibrated chromatic aberration for analog authenticity, maximum textural richness, museum-quality print finish --ar 21:9 --s 700\"\n    },\n    {\n      \"name\": \"Cyborg Priestess Portrait\",\n      \"prompt\": \"Portrait of a solemn cyborg priestess wearing a heavy velvet cowl and glowing synthetic circuitry, Neo-gothic aesthetic, low-fidelity film emulation, heavy VHS tracking artifacts and subtle screen burn, oppressive chiaroscuro lighting, desaturated split-complementary palette of deep crimson and electric cyan, rendered with aggressive film grain, digital airbrush painting, Medium shot portrait composition with deep atmospheric perspective, shot with a wide-angle lens to emphasize scale, Rembrandt lighting emphasizing facial structure using rim lighting and practical effects, textures simulating gesso and oil on board, hyper-detailed texture mapping, calibrated chromatic aberration for analog authenticity, maximum textural richness, museum-quality print finish --ar 2:3 --s 850\"\n    },\n    {\n      \"name\": \"The Obsidian Portal\",\n      \"prompt\": \"An immense obsidian portal pulsating with electric glyphs on a barren, mountainous plain, Neo-gothic aesthetic, low-fidelity film emulation, heavy VHS tracking artifacts and subtle screen burn, oppressive chiaroscuro lighting, desaturated split-complementary palette of deep crimson and electric cyan, rendered with aggressive film grain, digital airbrush painting, Symmetrical composition with deep atmospheric perspective, shot with a wide-angle lens to emphasize scale, High key backlighting using rim lighting and practical effects, textures simulating gesso and oil on board, hyper-detailed texture mapping, calibrated chromatic aberration for analog authenticity, maximum textural richness, museum-quality print finish --ar 16:9 --s 950\"\n    },\n    {\n      \"name\": \"Street Duel\",\n      \"prompt\": \"A close-up of two antagonists clashing archaic energy swords on a rain-slicked street, Neo-gothic aesthetic, low-fidelity film emulation, heavy VHS tracking artifacts and subtle screen burn, oppressive chiaroscuro lighting, desaturated split-complementary palette of deep crimson and electric cyan, rendered with aggressive film grain, digital airbrush painting, Dynamic diagonal composition with deep atmospheric perspective, shot with a wide-angle lens to emphasize scale, Neon sign glow lighting using rim lighting and practical effects, textures simulating gesso and oil on board, hyper-detailed texture mapping, calibrated chromatic aberration for analog authenticity, maximum textural richness, museum-quality print finish --ar 3:2 --s 780\"\n    }\n  ],\n  \"technical_tips\": {\n    \"focus\": \"The core aesthetic relies heavily on the 'low-fidelity film emulation' and 'VHS tracking artifacts' descriptors. Use high `--s` values (700-1000) to ensure these stylistic elements are dominant.\",\n    \"lighting\": \"Prioritize high-contrast lighting setups (Chiaroscuro, Split lighting, Contre-jour) to achieve the 'Dark Fantasy' mood. The retro element is enforced by describing the light sources as 'neon' or 'practical effects.'\",\n    \"materiality\": \"The combination of 'digital airbrush painting' and 'textures simulating gesso and oil on board' creates the specific tactile feel of 80s fantasy poster art, rather than clean digital rendering.\",\n    \"technical_completeness_checklist\": [\n      \"[X] Background treatment specified? (Oppressive atmosphere, deep atmospheric perspective)\",\n      \"[X] Edge/border handling defined? (VHS tracking artifacts, screen burn, chromatic aberration)\",\n      \"[X] Color palette guidance included? (Desaturated split-complementary of crimson and cyan)\",\n      \"[X] Composition rules stated? (COMPOSITION_TYPE variable, wide-angle lens)\",\n      \"[X] Detail level calibrated? (Hyper-detailed texture mapping, maximum textural richness)\",\n      \"[X] Output format compatible with stated use cases? (Yes, standard Midjourney parameters)\"\n    ]\n  },\n  \"instructions\": \"Replace the bracketed variables with specific descriptive terms or numerical values. Ensure [SUBJECT_DESCRIPTION] is evocative and fits the Neo-gothic tone. The `--s` value should be adjusted based on how heavily you want the retro artifacts to dominate the image.\"\n}\n```",
+    "title_validation": {
+        "score": 0.5,
+        "issues": [
+            "Missing emotional/visual descriptor",
+            "Missing format/type specification"
+        ],
+        "suggestions": [
+            "Consider: whimsical, bold, luminous, elegant, mysterious",
+            "Add: pattern, portrait, photo, landscape, scene"
+        ]
+    },
+    "evaluation": {
+        "scores": {
+            "TITLE QUALITY": 19,
+            "TEMPLATE STRUCTURE": 30,
+            "VARIABLE EXAMPLES": 14,
+            "COMMERCIAL VIABILITY": 15,
+            "DESCRIPTION QUALITY": 15
+        },
+        "total_score": 93,
+        "feedback": {
+            "TITLE QUALITY": "The title 'Vibrant Cinematic Character Portraits' is excellent. It is concise (4 words), highly descriptive, and clearly conveys the output type (Portraits) and the primary aesthetic (Vibrant Cinematic). It adheres almost perfectly to all structural requirements.",
+            "TEMPLATE STRUCTURE": "This section is flawless. The variable '{subject}' is clearly marked. The template dedicates significant real estate to high-quality, actionable style and technical descriptors (8K resolution, volumetric lighting, cinematic color grading). It fully delivers on the promise of a cinematic character portrait.",
+            "VARIABLE EXAMPLES": "While 8 examples are provided, the selection lacks discipline. Examples 3 ('A melting clock') and 6 ('A futuristic cityscape') are *objects* or *scenes*, not *characters*, thereby violating the core promise of the prompt package ('Character Portraits'). This inconsistency suggests the creator did not rigorously test the template against its defined purpose. The abstract example ('joy') is acceptable but less effective than a specific character archetype.",
+            "COMMERCIAL VIABILITY": "Excellent positioning. The use cases (Concept Art, Gaming Assets) are specific and high-value. The mid-tier price of $4.99 is justified by the technical complexity and guaranteed high resolution/lighting quality. The focus on 'volumetric lighting' provides a strong unique selling point.",
+            "DESCRIPTION QUALITY": "The description is compelling and highly effective. It uses a strong hook ('Unleash dramatic visuals!'), clearly lists essential technical features (8K, cinematic lighting), and specifies relevant commercial applications (book covers, profile pictures). It is concise and professional."
+        },
+        "priority_improvements": [
+            "Replace non-character variable examples (e.g., 'A melting clock', 'A futuristic cityscape') with strong, diverse character archetypes (e.g., 'A stoic medieval blacksmith', 'A nervous 1920s jazz singer'). The examples must strictly adhere to the 'Character Portrait' output type.",
+            "Ensure the remaining abstract examples are tested to confirm they resolve into recognizable character forms or visual metaphors suitable for a portrait format."
+        ]
+    },
+    "test_guidance": {
+        "test_instructions": [
+            "Fill in each variable with different values to test versatility.",
+            "Try using the first example prompt exactly as written as your baseline.",
+            "Test at least 3-5 different variations to ensure consistent style.",
+            "Experiment with Midjourney parameters like `--ar` or `--stylize`."
+        ],
+        "quality_checklist": [
+            "Style Consistency: Does the style remain consistent?",
+            "Composition: Does the output match your compositional expectations?",
+            "Visual Quality: Is the output high-quality?",
+            "Variable Impact: Does changing variables produce meaningful differences?"
+        ],
+        "common_issues": [
+            "Subject distortion or anatomical problems.",
+            "Style 'bleeding' or inconsistency."
+        ]
+    },
+    "commercial_description": "This versatile prompt generates dark fantasy retro vibes for any subject you can imagine.\n\n✓ Fill-in-the-blank template for maximum flexibility\n✓ Consistent style across all generations\n✓ High-quality output ready for commercial use\n\nIdeal for social media content, print-on-demand products, marketing materials, web design elements, and branding projects.\n\nPerfect for designers, content creators, and anyone looking to create professional visuals quickly.",
+    "category": "Art & Illustration"
+}

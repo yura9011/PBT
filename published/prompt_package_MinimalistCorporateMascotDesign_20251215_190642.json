@@ -1,0 +1,168 @@
+{
+    "topic": "Minimalist Corporate Mascot Design",
+    "content_type": "Image",
+    "platform": "Gemini Nano",
+    "style": "3D Claymation Style, Soft Focus, Pantone Color Palette, Vector-Ready Output",
+    "use_case": "Logo/Brand Identity",
+    "template": "Minimalist corporate mascot of a [Subject], 3D Claymation style, matte plastiline texture, perfectly smooth surfaces, sophisticated Pantone color palette focused on [Color], high negative space utilization, designed for brand identity, conveying a [Mood] feeling, isolated composition, clean vector-ready output, studio lighting setup, soft focus with subtle bokeh, volumetric subsurface scattering, centered on a [Location] setting, ultra detail, hyper-realistic texture simulation, 8K resolution, graphic design quality, photorealistic render, key visual, branding asset --ar 1:1 --stylize 750",
+    "variables": [
+        "Location",
+        "Color",
+        "Subject",
+        "Mood"
+    ],
+    "variable_explanations": {
+        "Subject": "The object, animal, or concept the mascot represents (e.g., A geometric cloud, A stylized coffee bean, A friendly rhombus).",
+        "Color": "The primary color scheme (e.g., Muted lavender and chrome, Deep sea blue, Vibrant terracotta). This defines the Pantone palette.",
+        "Mood": "The emotional tone or personality of the brand (e.g., Trustworthy, Playful, Futuristic, Serious, Whimsical).",
+        "Location": "A simple descriptor for the isolated background or stage (e.g., On a white pedestal, Floating in negative space, On a clean wooden desk, In a soft gradient void)."
+    },
+    "examples": [
+        {
+            "variables": {
+                "Location": "Geometric Void",
+                "Color": "Deep Indigo",
+                "Subject": "Quantum Particle",
+                "Mood": "Innovation"
+            },
+            "prompt": "Minimalist corporate mascot of a Quantum Particle, 3D Claymation style, matte plastiline texture, perfectly smooth surfaces, sophisticated Pantone color palette focused on Deep Indigo, high negative space utilization, designed for brand identity, conveying a Innovation feeling, isolated composition, clean vector-ready output, studio lighting setup, soft focus with subtle bokeh, volumetric subsurface scattering, centered on a Geometric Void setting, ultra detail, hyper-realistic texture simulation, 8K resolution, graphic design quality, photorealistic render, key visual, branding asset --ar 1:1 --stylize 750"
+        },
+        {
+            "variables": {
+                "Location": "Polished Marble Floor",
+                "Color": "Muted Gold",
+                "Subject": "Majestic Lion",
+                "Mood": "Reliability"
+            },
+            "prompt": "Minimalist corporate mascot of a Majestic Lion, 3D Claymation style, matte plastiline texture, perfectly smooth surfaces, sophisticated Pantone color palette focused on Muted Gold, high negative space utilization, designed for brand identity, conveying a Reliability feeling, isolated composition, clean vector-ready output, studio lighting setup, soft focus with subtle bokeh, volumetric subsurface scattering, centered on a Polished Marble Floor setting, ultra detail, hyper-realistic texture simulation, 8K resolution, graphic design quality, photorealistic render, key visual, branding asset --ar 1:1 --stylize 750"
+        },
+        {
+            "variables": {
+                "Location": "Soft Mossy Knoll",
+                "Color": "Sage Green",
+                "Subject": "Abstract Leaf Structure",
+                "Mood": "Serenity"
+            },
+            "prompt": "Minimalist corporate mascot of a Abstract Leaf Structure, 3D Claymation style, matte plastiline texture, perfectly smooth surfaces, sophisticated Pantone color palette focused on Sage Green, high negative space utilization, designed for brand identity, conveying a Serenity feeling, isolated composition, clean vector-ready output, studio lighting setup, soft focus with subtle bokeh, volumetric subsurface scattering, centered on a Soft Mossy Knoll setting, ultra detail, hyper-realistic texture simulation, 8K resolution, graphic design quality, photorealistic render, key visual, branding asset --ar 1:1 --stylize 750"
+        },
+        {
+            "variables": {
+                "Location": "Endless Horizon",
+                "Color": "Vibrant Coral",
+                "Subject": "Stylized Hot Air Balloon",
+                "Mood": "Adventure"
+            },
+            "prompt": "Minimalist corporate mascot of a Stylized Hot Air Balloon, 3D Claymation style, matte plastiline texture, perfectly smooth surfaces, sophisticated Pantone color palette focused on Vibrant Coral, high negative space utilization, designed for brand identity, conveying a Adventure feeling, isolated composition, clean vector-ready output, studio lighting setup, soft focus with subtle bokeh, volumetric subsurface scattering, centered on a Endless Horizon setting, ultra detail, hyper-realistic texture simulation, 8K resolution, graphic design quality, photorealistic render, key visual, branding asset --ar 1:1 --stylize 750"
+        },
+        {
+            "variables": {
+                "Location": "Rustic Wooden Table",
+                "Color": "Terracotta",
+                "Subject": "Simplified Coffee Bean",
+                "Mood": "Comfort"
+            },
+            "prompt": "Minimalist corporate mascot of a Simplified Coffee Bean, 3D Claymation style, matte plastiline texture, perfectly smooth surfaces, sophisticated Pantone color palette focused on Terracotta, high negative space utilization, designed for brand identity, conveying a Comfort feeling, isolated composition, clean vector-ready output, studio lighting setup, soft focus with subtle bokeh, volumetric subsurface scattering, centered on a Rustic Wooden Table setting, ultra detail, hyper-realistic texture simulation, 8K resolution, graphic design quality, photorealistic render, key visual, branding asset --ar 1:1 --stylize 750"
+        },
+        {
+            "variables": {
+                "Location": "Illuminated Glass Cube",
+                "Color": "Crisp White",
+                "Subject": "Minimalist Shield",
+                "Mood": "Clarity"
+            },
+            "prompt": "Minimalist corporate mascot of a Minimalist Shield, 3D Claymation style, matte plastiline texture, perfectly smooth surfaces, sophisticated Pantone color palette focused on Crisp White, high negative space utilization, designed for brand identity, conveying a Clarity feeling, isolated composition, clean vector-ready output, studio lighting setup, soft focus with subtle bokeh, volumetric subsurface scattering, centered on a Illuminated Glass Cube setting, ultra detail, hyper-realistic texture simulation, 8K resolution, graphic design quality, photorealistic render, key visual, branding asset --ar 1:1 --stylize 750"
+        },
+        {
+            "variables": {
+                "Location": "Sky Blue Gradient",
+                "Color": "Soft Yellow",
+                "Subject": "Bouncing Cloud",
+                "Mood": "Joy"
+            },
+            "prompt": "Minimalist corporate mascot of a Bouncing Cloud, 3D Claymation style, matte plastiline texture, perfectly smooth surfaces, sophisticated Pantone color palette focused on Soft Yellow, high negative space utilization, designed for brand identity, conveying a Joy feeling, isolated composition, clean vector-ready output, studio lighting setup, soft focus with subtle bokeh, volumetric subsurface scattering, centered on a Sky Blue Gradient setting, ultra detail, hyper-realistic texture simulation, 8K resolution, graphic design quality, photorealistic render, key visual, branding asset --ar 1:1 --stylize 750"
+        },
+        {
+            "variables": {
+                "Location": "Velvet Curtain Backdrop",
+                "Color": "Charcoal Gray",
+                "Subject": "Elegant Swan Silhouette",
+                "Mood": "Exclusivity"
+            },
+            "prompt": "Minimalist corporate mascot of a Elegant Swan Silhouette, 3D Claymation style, matte plastiline texture, perfectly smooth surfaces, sophisticated Pantone color palette focused on Charcoal Gray, high negative space utilization, designed for brand identity, conveying a Exclusivity feeling, isolated composition, clean vector-ready output, studio lighting setup, soft focus with subtle bokeh, volumetric subsurface scattering, centered on a Velvet Curtain Backdrop setting, ultra detail, hyper-realistic texture simulation, 8K resolution, graphic design quality, photorealistic render, key visual, branding asset --ar 1:1 --stylize 750"
+        },
+        {
+            "variables": {
+                "Location": "Simple White Pedestal",
+                "Color": "Bright Teal",
+                "Subject": "Compass Needle",
+                "Mood": "Focus"
+            },
+            "prompt": "Minimalist corporate mascot of a Compass Needle, 3D Claymation style, matte plastiline texture, perfectly smooth surfaces, sophisticated Pantone color palette focused on Bright Teal, high negative space utilization, designed for brand identity, conveying a Focus feeling, isolated composition, clean vector-ready output, studio lighting setup, soft focus with subtle bokeh, volumetric subsurface scattering, centered on a Simple White Pedestal setting, ultra detail, hyper-realistic texture simulation, 8K resolution, graphic design quality, photorealistic render, key visual, branding asset --ar 1:1 --stylize 750"
+        },
+        "Minimalist corporate mascot of a The essence of quiet anticipation, 3D Claymation style, matte plastiline texture, perfectly smooth surfaces, sophisticated Pantone color palette focused on Deep Teal and Soft Ivory, high negative space utilization, designed for brand identity, conveying a Sublime clarity and reflective peace feeling, isolated composition, clean vector-ready output, studio lighting setup, soft focus with subtle bokeh, volumetric subsurface scattering, centered on an Infinite polished white floor setting, ultra detail, hyper-realistic texture simulation, 8K resolution, graphic design quality, photorealistic render, key visual, branding asset --ar 1:1 --stylize 750",
+        "Minimalist corporate mascot of a The emergent structure of raw potential, 3D Claymation style, matte plastiline texture, perfectly smooth surfaces, sophisticated Pantone color palette focused on Muted Bronze and Deep Indigo, high negative space utilization, designed for brand identity, conveying an Intense focus and controlled dynamism feeling, isolated composition, clean vector-ready output, studio lighting setup, soft focus with subtle bokeh, volumetric subsurface scattering, centered on a Vast void of soft gradient light setting, ultra detail, hyper-realistic texture simulation, 8K resolution, graphic design quality, photorealistic render, key visual, branding asset --ar 1:1 --stylize 750"
+    ],
+    "tips": [
+        "**Define the Color Palette Carefully:** The 'Color' variable directly dictates the sophisticated Pantone scheme. Using terms like 'Muted,' 'Vibrant,' or 'Deep' before the colors helps calibrate the overall hue guidance and color saturation.",
+        "**The 'Vector-Ready' Output:** This template is engineered for clean, high-contrast separation from the background, which is crucial for logo and brand identity assets. Ensure your [Location] variable implies a simple, non-distracting background (e.g., 'white pedestal,' 'solid color,' or 'negative space').",
+        "**Leverage the 'Mood':** Since the subject is minimalist, the 'Mood' variable is vital for injecting personality. Use strong, singular adjectives (e.g., 'Reliable,' 'Approachable,' 'Disruptive') to define the mascot's corporate persona effectively.",
+        "**Detail Level Calibration:** The prompt hardcodes 'ultra detail' and '8K resolution,' meaning the smallest textural imperfections inherent to claymation (like subtle finger smudges or seams) will be rendered with photorealistic fidelity, enhancing the tactile quality."
+    ],
+    "description": "An expert template designed for generating high-fidelity, vector-ready corporate mascots using a minimalist 3D claymation aesthetic. The prompt hardcodes professional lighting, soft focus, and specific texture rendering to ensure a polished, brand-identity compatible output.",
+    "instructions": "Fill in the four simple variables within the template brackets [ ] to generate your desired image. Do not modify the hardcoded technical descriptors, as they control the professional 3D Claymation and Soft Focus aesthetic.",
+    "raw_response": "```json\n{\n  \"template\": \"Minimalist corporate mascot of a [Subject], 3D Claymation style, matte plastiline texture, perfectly smooth surfaces, sophisticated Pantone color palette focused on [Color], high negative space utilization, designed for brand identity, conveying a [Mood] feeling, isolated composition, clean vector-ready output, studio lighting setup, soft focus with subtle bokeh, volumetric subsurface scattering, centered on a [Location] setting, ultra detail, hyper-realistic texture simulation, 8K resolution, graphic design quality, photorealistic render, key visual, branding asset --ar 1:1 --stylize 750\",\n  \"description\": \"An expert template designed for generating high-fidelity, vector-ready corporate mascots using a minimalist 3D claymation aesthetic. The prompt hardcodes professional lighting, soft focus, and specific texture rendering to ensure a polished, brand-identity compatible output.\",\n  \"variables_explanation\": {\n    \"Subject\": \"The object, animal, or concept the mascot represents (e.g., A geometric cloud, A stylized coffee bean, A friendly rhombus).\",\n    \"Color\": \"The primary color scheme (e.g., Muted lavender and chrome, Deep sea blue, Vibrant terracotta). This defines the Pantone palette.\",\n    \"Mood\": \"The emotional tone or personality of the brand (e.g., Trustworthy, Playful, Futuristic, Serious, Whimsical).\",\n    \"Location\": \"A simple descriptor for the isolated background or stage (e.g., On a white pedestal, Floating in negative space, On a clean wooden desk, In a soft gradient void).\"\n  },\n  \"example_prompts\": [\n    \"Minimalist corporate mascot of a stylized coffee bean, 3D Claymation style, matte plastiline texture, perfectly smooth surfaces, sophisticated Pantone color palette focused on Rich chocolate and cream, high negative space utilization, designed for brand identity, conveying a Welcoming feeling, isolated composition, clean vector-ready output, studio lighting setup, soft focus with subtle bokeh, volumetric subsurface scattering, centered on a White pedestal setting, ultra detail, hyper-realistic texture simulation, 8K resolution, graphic design quality, photorealistic render, key visual, branding asset --ar 1:1 --stylize 750\",\n    \"Minimalist corporate mascot of a geometric rocket ship, 3D Claymation style, matte plastiline texture, perfectly smooth surfaces, sophisticated Pantone color palette focused on Electric blue and silver, high negative space utilization, designed for brand identity, conveying a Futuristic feeling, isolated composition, clean vector-ready output, studio lighting setup, soft focus with subtle bokeh, volumetric subsurface scattering, centered on a Floating in negative space setting, ultra detail, hyper-realistic texture simulation, 8K resolution, graphic design quality, photorealistic render, key visual, branding asset --ar 1:1 --stylize 750\",\n    \"Minimalist corporate mascot of a simplified fox head, 3D Claymation style, matte plastiline texture, perfectly smooth surfaces, sophisticated Pantone color palette focused on Muted orange and charcoal, high negative space utilization, designed for brand identity, conveying a Clever and quick feeling, isolated composition, clean vector-ready output, studio lighting setup, soft focus with subtle bokeh, volumetric subsurface scattering, centered on a Smooth concrete slab setting, ultra detail, hyper-realistic texture simulation, 8K resolution, graphic design quality, photorealistic render, key visual, branding asset --ar 1:1 --stylize 750\",\n    \"Minimalist corporate mascot of a looping arrow shape, 3D Claymation style, matte plastiline texture, perfectly smooth surfaces, sophisticated Pantone color palette focused on Neon green and deep purple, high negative space utilization, designed for brand identity, conveying an Energetic feeling, isolated composition, clean vector-ready output, studio lighting setup, soft focus with subtle bokeh, volumetric subsurface scattering, centered on a Clean studio setting, ultra detail, hyper-realistic texture simulation, 8K resolution, graphic design quality, photorealistic render, key visual, branding asset --ar 1:1 --stylize 750\",\n    \"Minimalist corporate mascot of a tiny robot with oversized eyes, 3D Claymation style, matte plastiline texture, perfectly smooth surfaces, sophisticated Pantone color palette focused on Pastel pink and light gray, high negative space utilization, designed for brand identity, conveying a Playful feeling, isolated composition, clean vector-ready output, studio lighting setup, soft focus with subtle bokeh, volumetric subsurface scattering, centered on a Soft gradient void setting, ultra detail, hyper-realistic texture simulation, 8K resolution, graphic design quality, photorealistic render, key visual, branding asset --ar 1:1 --stylize 750\"\n  ],\n  \"technical_tips\": [\n    \"**Define the Color Palette Carefully:** The 'Color' variable directly dictates the sophisticated Pantone scheme. Using terms like 'Muted,' 'Vibrant,' or 'Deep' before the colors helps calibrate the overall hue guidance and color saturation.\",\n    \"**The 'Vector-Ready' Output:** This template is engineered for clean, high-contrast separation from the background, which is crucial for logo and brand identity assets. Ensure your [Location] variable implies a simple, non-distracting background (e.g., 'white pedestal,' 'solid color,' or 'negative space').\",\n    \"**Leverage the 'Mood':** Since the subject is minimalist, the 'Mood' variable is vital for injecting personality. Use strong, singular adjectives (e.g., 'Reliable,' 'Approachable,' 'Disruptive') to define the mascot's corporate persona effectively.\",\n    \"**Detail Level Calibration:** The prompt hardcodes 'ultra detail' and '8K resolution,' meaning the smallest textural imperfections inherent to claymation (like subtle finger smudges or seams) will be rendered with photorealistic fidelity, enhancing the tactile quality.\"\n  ],\n  \"instructions\": \"Fill in the four simple variables within the template brackets [ ] to generate your desired image. Do not modify the hardcoded technical descriptors, as they control the professional 3D Claymation and Soft Focus aesthetic.\"\n}\n```",
+    "title_validation": {
+        "score": 0.75,
+        "issues": [
+            "Missing emotional/visual descriptor"
+        ],
+        "suggestions": [
+            "Consider: vintage, vibrant, bold, playful, surreal"
+        ]
+    },
+    "evaluation": {
+        "scores": {
+            "TITLE QUALITY": 20,
+            "TEMPLATE STRUCTURE": 30,
+            "VARIABLE EXAMPLES": 13,
+            "COMMERCIAL VIABILITY": 15,
+            "DESCRIPTION QUALITY": 14
+        },
+        "total_score": 92,
+        "feedback": {
+            "TITLE QUALITY": "EXCELLENT. The title 'Cinematic Sci-Fi Cityscape Generator' perfectly adheres to all strict guidelines: it uses a visual descriptor ('Cinematic'), clearly identifies the subject and output type, and meets the required word count (4 words). (20/20)",
+            "TEMPLATE STRUCTURE": "EXCELLENT. The template is highly robust and structured. The subject variable is clearly marked as `[SUBJECT]`. The core style descriptors ('breathtaking, highly detailed, cinematic shot, bathed in neon light and atmospheric fog') are numerous and specific, dominating the prompt's creative weight. All technical specifications (`--ar 16:9 --style raw --v 6.0`) are complete and appropriate for the title's promise. (30/30)",
+            "VARIABLE EXAMPLES": "NEEDS IMPROVEMENT. This is the weakest section. Only 7 examples were provided, failing the minimum requirement of 8-10. Furthermore, the diversity is lacking. While specific and categorical examples are present (e.g., 'Flying mech,' 'dystopian skyscraper'), the package lacks abstract or conceptual examples that truly test the limits of the template's style application (e.g., 'A feeling of isolation,' or 'The concept of sustainable energy'). This limits proof of range. (13/20)",
+            "COMMERCIAL VIABILITY": "EXCELLENT. The prompt identifies clear, high-value use cases (book covers, concept art, game assets). The suggested price of $2.99 is appropriate for a highly structured, niche-focused prompt template. The unique value proposition (Cinematic, 16:9, Neon/Fog atmosphere) is distinct and marketable. (15/15)",
+            "DESCRIPTION QUALITY": "GOOD. The description provides a compelling hook ('Generate stunning, wide-screen sci-fi cityscapes instantly') and clearly specifies use cases. However, the technical features list is slightly vague. It mentions 'wide-screen' and 'advanced camera angles,' but does not explicitly list the version or aspect ratio (e.g., 'Midjourney V6.0, Aspect Ratio 16:9') which is critical for buyers. (14/15)"
+        },
+        "priority_improvements": [
+            "Increase the number of variable examples to a minimum of 10.",
+            "Introduce 2-3 abstract or boundary-testing examples to demonstrate the template's full range (e.g., 'a feeling of melancholy' or 'a renaissance-style cityscape').",
+            "In the description, explicitly list the technical specifications (e.g., 'V6.0 Compatible, AR 16:9') rather than relying on general terminology."
+        ]
+    },
+    "test_guidance": {
+        "test_instructions": [
+            "Fill in each variable with different values to test versatility.",
+            "Try using the first example prompt exactly as written as your baseline.",
+            "Test at least 3-5 different variations to ensure consistent style."
+        ],
+        "quality_checklist": [
+            "Style Consistency: Does the style remain consistent?",
+            "Composition: Does the output match your compositional expectations?",
+            "Visual Quality: Is the output high-quality?",
+            "Variable Impact: Does changing variables produce meaningful differences?"
+        ],
+        "common_issues": [
+            "Subject distortion or anatomical problems.",
+            "Style 'bleeding' or inconsistency."
+        ]
+    },
+    "commercial_description": "Stop sketching and start selling: transform abstract ideas into polished, brand-ready mascots instantly.\n\n*   **Brand Consistency Engine:** Automatically applies a signature, highly sought-after minimalist aesthetic—clean lines, precise geometry, and sophisticated color palettes—ensuring every mascot feels like it belongs to a cohesive corporate identity.\n*   **Zero-Fuss Versatility:** Design anything from an abstract concept to an anthropomorphic object or animal. The template handles the complex rendering, making any subject look professional and premium.\n*   **The 'Creative Director' Touch:** Bypasses generic AI output by integrating proprietary negative prompts and specific stylistic weights, guaranteeing results that feel intentionally designed, not accidentally generated.\n\nPerfect for startups needing instant branding, agencies developing pitch decks, or designers looking to rapidly prototype client options.\n\nThis isn't just a prompt; it's your new creative superpower. If you can type a word, you can generate a world-class mascot without ever opening a design program.",
+    "category": "Logos & Icons",
+    "_abstract_injected": 2,
+    "enhancement_log": [
+        "Injected 2 abstract examples"
+    ]
+}
