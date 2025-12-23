@@ -474,14 +474,17 @@ reverse_engineer_image_prompt: |
   ADDITIONAL USER CONTEXT (PRIORITIZE THESE INSTRUCTIONS):
   {additional_context}
 
-  TEMPLATE CONSTRUCTION RULES (CRITICAL):
-  - **VARIABLE COUNT**: You MUST use AT LEAST 4 variables in the 'template' string. THIS IS MANDATORY.
-  - **MANDATORY**: [SUBJECT] is required.
-  - **MANDATORY EXTRAS**: You MUST invent and include at least 3 more variables like [MOOD], [COLOR], [SCENE_TYPE], [LIGHTING] in the template.
-  - **INTEGRATION**: If you list a variable in explanations, IT MUST BE IN THE TEMPLATE text.
-  - **HARDCODE THE MAGIC**: All technical excellence goes into fixed text.
-  - **MANDATORY ASPECT RATIO**: The template MUST end with --ar X:Y.
-  - The template should recreate THIS EXACT STYLE with any subject.
+  TEMPLATE CONSTRUCTION RULES (CRITICAL - READ CAREFULLY):
+  - **EXACTLY 4 VARIABLES - NO EXCEPTIONS**: The template MUST contain EXACTLY 4 variables. Not 2, not 3, not 5, not 6. EXACTLY 4.
+  - **VARIABLE FORMAT**: Variables must be in [UPPERCASE_WITH_UNDERSCORES] format.
+  - **REQUIRED VARIABLES**: You MUST include these 4 variables in the template:
+    1. [SUBJECT] - The main subject/focus of the image
+    2. [MOOD] - The emotional atmosphere (e.g., eerie, peaceful, mysterious)
+    3. [COLOR_SCHEME] - The color palette variation (e.g., warm earth tones, cool blues)
+    4. [SETTING] - The environment/location detail (e.g., forest clearing, mountain path)
+  - **HARDCODE EVERYTHING ELSE**: All technical/artistic details (style, lighting, composition, aspect ratio) must be FIXED TEXT, not variables.
+  - **MANDATORY ASPECT RATIO**: The template MUST end with --ar X:Y (hardcoded, not a variable).
+  - **VALIDATION**: Before outputting, COUNT your variables. If not exactly 4, REVISE.
 
   OUTPUT FORMAT:
   Return a single Valid JSON object with these keys:
@@ -493,7 +496,7 @@ reverse_engineer_image_prompt: |
   - "variables_explanation": A dictionary explaining what each variable controls
   - "description": A short marketing description
   - "technical_tips": A list of 2-3 tips for using this template
-  - "example_prompts": A list of 4 diverse example prompts (filling in variables)
+  - "example_prompts": A list of 9 diverse example prompts (filling in variables)
   - "self_evaluation": {{
       "style_fidelity": (1-10) How well does template capture original style?,
       "variable_quality": (1-10) Are variables useful and user-friendly?,

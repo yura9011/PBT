@@ -50,7 +50,7 @@ def generate_preview_image(prompt: str, output_path: str, api_key: str = None, m
 
 def _generate_via_requests(prompt, output_path, api_key, model):
     headers = {"Authorization": f"Bearer {api_key}"}
-    api_url = f"https://api-inference.huggingface.co/models/{model}"
+    api_url = f"https://router.huggingface.co/models/{model}"
     
     try:
         response = requests.post(api_url, headers=headers, json={"inputs": prompt})

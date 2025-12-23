@@ -44,6 +44,9 @@ Create test images to verify the template works.
 ```bash
 python cli.py preview "path/to/file.json" --model flux --count 2
 ```
+*Options:*
+- `--model`: Choose between `flux` (default) or `sdxl`.
+- `--count`: Number of previews to generate (default: 1).
 
 ### 4. Package for Submission
 Create a ZIP file containing the JSON, `submission.txt`, previews, and source image.

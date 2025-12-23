@@ -1,0 +1,74 @@
+{
+    "topic": "Desolate Forest Landscape Art",
+    "content_type": "Image",
+    "platform": "Midjourney/DALL-E",
+    "style": "Linocut, Woodblock Print, Graphic Illustration, Monochromatic with accent colors",
+    "use_case": "Book cover illustration for fantasy or horror novels, album art for atmospheric music, editorial illustration for articles on isolation or nature.",
+    "template": "A lone [SUBJECT] stands silhouetted in a stark, barren forest under a pale sky. The foreground features a surreal, undulating landscape of black and white stripes, resembling water or distorted ground, with a small, reflective pool of water. The art style is reminiscent of a linocut or woodblock print, with heavy contrast and graphic detail. The overall [MOOD] is conveyed through a limited [COLOR_SCHEME] of deep blacks, off-whites, and muted blues, evoking a sense of isolation and mystery in this [SETTING]. --ar 9:16",
+    "variables": [
+        "MOOD",
+        "SUBJECT",
+        "SETTING",
+        "COLOR_SCHEME"
+    ],
+    "variable_explanations": {
+        "SUBJECT": "The primary focus or element in the scene (e.g., 'a dilapidated cabin', 'a solitary figure', 'a strange totem').",
+        "MOOD": "The emotional atmosphere the image should evoke (e.g., 'eerie', 'peaceful', 'mysterious', 'melancholy').",
+        "COLOR_SCHEME": "The dominant color palette and its variations (e.g., 'warm earth tones', 'cool blues and grays', 'monochromatic with a single accent color').",
+        "SETTING": "The specific environment or location details (e.g., 'a forest clearing', 'a desolate mountain path', 'a barren tundra')."
+    },
+    "examples": [
+        "A lone a dilapidated cabin stands silhouetted in a stark, barren forest under a pale sky. The foreground features a surreal, undulating landscape of black and white stripes, resembling water or distorted ground, with a small, reflective pool of water. The art style is reminiscent of a linocut or woodblock print, with heavy contrast and graphic detail. The overall eerie is conveyed through a limited monochromatic with a single accent color of muted blues, evoking a sense of isolation and mystery in this a forest clearing. --ar 9:16",
+        "A lone a solitary figure stands silhouetted in a stark, barren forest under a pale sky. The foreground features a surreal, undulating landscape of black and white stripes, resembling water or distorted ground, with a small, reflective pool of water. The art style is reminiscent of a linocut or woodblock print, with heavy contrast and graphic detail. The overall melancholy is conveyed through a limited cool blues and grays, evoking a sense of isolation and mystery in this a desolate mountain path. --ar 9:16",
+        "A lone a strange totem stands silhouetted in a stark, barren forest under a pale sky. The foreground features a surreal, undulating landscape of black and white stripes, resembling water or distorted ground, with a small, reflective pool of water. The art style is reminiscent of a linocut or woodblock print, with heavy contrast and graphic detail. The overall mysterious is conveyed through a limited warm earth tones, evoking a sense of isolation and mystery in this a barren tundra. --ar 9:16",
+        "A lone a twisted tree stands silhouetted in a stark, barren forest under a pale sky. The foreground features a surreal, undulating landscape of black and white stripes, resembling water or distorted ground, with a small, reflective pool of water. The art style is reminiscent of a linocut or woodblock print, with heavy contrast and graphic detail. The overall haunting is conveyed through a limited deep blacks and icy blues, evoking a sense of isolation and mystery in this a shadowed glen. --ar 9:16"
+    ],
+    "tips": [
+        "Experiment with different subjects to create unique narratives within the established style.",
+        "Vary the 'MOOD' and 'COLOR_SCHEME' to subtly alter the emotional impact of the scene.",
+        "Consider using very specific 'SETTING' details to ground the surreal elements."
+    ],
+    "description": "Captures the essence of isolation and atmospheric storytelling through a graphic, linocut-inspired style. Perfect for creating striking visuals that evoke a sense of mystery and stark beauty.",
+    "instructions": "Use this template to generate similar images.",
+    "input_source": "image_upload",
+    "self_evaluation": {
+        "style_fidelity": 9,
+        "variable_quality": 8,
+        "completeness": 9,
+        "overall_score": 8.67,
+        "improvements_needed": null
+    },
+    "quick_copy_examples": [
+        {
+            "MOOD": "eerie",
+            "SUBJECT": "a dilapidated cabin",
+            "SETTING": "a forest clearing"
+        },
+        {
+            "MOOD": "melancholy",
+            "SUBJECT": "a solitary figure",
+            "SETTING": "a desolate mountain path"
+        },
+        {
+            "MOOD": "mysterious",
+            "SUBJECT": "a strange totem",
+            "SETTING": "a barren tundra"
+        },
+        {
+            "MOOD": "haunting",
+            "SUBJECT": "a twisted tree",
+            "SETTING": "a shadowed glen"
+        }
+    ],
+    "promptbase_ready": {
+        "title": "Desolate Forest Landscape Art",
+        "description": "Captures the essence of isolation and atmospheric storytelling through a graphic, linocut-inspired style. Perfect for creating striking visuals that evoke a sense of mystery and stark beauty.",
+        "template": "A lone [SUBJECT] stands silhouetted in a stark, barren forest under a pale sky. The foreground features a surreal, undulating landscape of black and white stripes, resembling water or distorted ground, with a small, reflective pool of water. The art style is reminiscent of a linocut or woodblock print, with heavy contrast and graphic detail. The overall [MOOD] is conveyed through a limited [COLOR_SCHEME] of deep blacks, off-whites, and muted blues, evoking a sense of isolation and mystery in this [SETTING]. --ar 9:16",
+        "example_prompts": [
+            "A lone a dilapidated cabin stands silhouetted in a stark, barren forest under a pale sky. The foreground features a surreal, undulating landscape of black and white stripes, resembling water or distorted ground, with a small, reflective pool of water. The art style is reminiscent of a linocut or woodblock print, with heavy contrast and graphic detail. The overall eerie is conveyed through a limited monochromatic with a single accent color of muted blues, evoking a sense of isolation and mystery in this a forest clearing. --ar 9:16",
+            "A lone a solitary figure stands silhouetted in a stark, barren forest under a pale sky. The foreground features a surreal, undulating landscape of black and white stripes, resembling water or distorted ground, with a small, reflective pool of water. The art style is reminiscent of a linocut or woodblock print, with heavy contrast and graphic detail. The overall melancholy is conveyed through a limited cool blues and grays, evoking a sense of isolation and mystery in this a desolate mountain path. --ar 9:16",
+            "A lone a strange totem stands silhouetted in a stark, barren forest under a pale sky. The foreground features a surreal, undulating landscape of black and white stripes, resembling water or distorted ground, with a small, reflective pool of water. The art style is reminiscent of a linocut or woodblock print, with heavy contrast and graphic detail. The overall mysterious is conveyed through a limited warm earth tones, evoking a sense of isolation and mystery in this a barren tundra. --ar 9:16",
+            "A lone a twisted tree stands silhouetted in a stark, barren forest under a pale sky. The foreground features a surreal, undulating landscape of black and white stripes, resembling water or distorted ground, with a small, reflective pool of water. The art style is reminiscent of a linocut or woodblock print, with heavy contrast and graphic detail. The overall haunting is conveyed through a limited deep blacks and icy blues, evoking a sense of isolation and mystery in this a shadowed glen. --ar 9:16"
+        ]
+    }
+}

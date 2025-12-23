@@ -1,0 +1,107 @@
+{
+    "topic": "Stark Silhouette Narratives",
+    "content_type": "Image",
+    "platform": "Midjourney/DALL-E",
+    "style": "minimalist graphic illustration, high contrast, linocut-inspired, storybook art",
+    "use_case": "Children's book illustrations, striking editorial art, unique brand mascots, digital wall art, storytelling visuals.",
+    "template": "Minimalist graphic illustration, high contrast, bold black shapes, rough linocut texture, flat colors. A large stylized [SUBJECT] head dominates the upper frame, its features outlined in an accent color, with a tiny secondary figure interacting with its body or surroundings below. Ample negative space provides a stark, striking composition. Flat, even lighting, no discernible shadows, creating a graphic, clean look. [MOOD] atmosphere, with a [COLOR_SCHEME] palette featuring a single vibrant accent. In a [SETTING]. --ar 9:16",
+    "variables": [
+        "SUBJECT",
+        "MOOD",
+        "COLOR_SCHEME",
+        "SETTING"
+    ],
+    "variable_explanations": {
+        "[SUBJECT]": "The main large character or object that will dominate the top of the frame (e.g., 'owl', 'dragon', 'ancient tree').",
+        "[MOOD]": "The overall emotional tone or atmosphere of the scene (e.g., 'eerie', 'peaceful', 'mysterious', 'playful').",
+        "[COLOR_SCHEME]": "Describes the primary background and accent color palette, always retaining the high-contrast black/white base (e.g., 'cool blues', 'warm earth tones', 'vibrant neons', 'muted greens').",
+        "[SETTING]": "The subtle environment or context where the scene takes place, often implied rather than explicit (e.g., 'forest clearing', 'mountain path', 'cosmic void', 'urban alleyway')."
+    },
+    "examples": [
+        "Minimalist graphic illustration, high contrast, bold black shapes, rough linocut texture, flat colors. A large stylized owl head dominates the upper frame, its features outlined in an accent color, with a tiny secondary figure interacting with its body or surroundings below. Ample negative space provides a stark, striking composition. Flat, even lighting, no discernible shadows, creating a graphic, clean look. Wise atmosphere, with a cool blues palette featuring a single vibrant accent. In an ancient tree hollow. --ar 9:16",
+        "Minimalist graphic illustration, high contrast, bold black shapes, rough linocut texture, flat colors. A large stylized whale head dominates the upper frame, its features outlined in an accent color, with a tiny secondary figure interacting with its body or surroundings below. Ample negative space provides a stark, striking composition. Flat, even lighting, no discernible shadows, creating a graphic, clean look. Serene atmosphere, with a deep blues palette featuring a single vibrant accent. In the ocean depths. --ar 9:16",
+        "Minimalist graphic illustration, high contrast, bold black shapes, rough linocut texture, flat colors. A large stylized dragon head dominates the upper frame, its features outlined in an accent color, with a tiny secondary figure interacting with its body or surroundings below. Ample negative space provides a stark, striking composition. Flat, even lighting, no discernible shadows, creating a graphic, clean look. Mythical atmosphere, with a fiery reds palette featuring a single vibrant accent. In a volcanic mountain peak. --ar 9:16",
+        "Minimalist graphic illustration, high contrast, bold black shapes, rough linocut texture, flat colors. A large stylized fox head dominates the upper frame, its features outlined in an accent color, with a tiny secondary figure interacting with its body or surroundings below. Ample negative space provides a stark, striking composition. Flat, even lighting, no discernible shadows, creating a graphic, clean look. Playful atmosphere, with an autumnal oranges palette featuring a single vibrant accent. In a snowy field. --ar 9:16",
+        "Minimalist graphic illustration, high contrast, bold black shapes, rough linocut texture, flat colors. A large stylized robot head dominates the upper frame, its features outlined in an accent color, with a tiny secondary figure interacting with its body or surroundings below. Ample negative space provides a stark, striking composition. Flat, even lighting, no discernible shadows, creating a graphic, clean look. Futuristic atmosphere, with an electric purples palette featuring a single vibrant accent. In a cyberpunk cityscape. --ar 9:16",
+        "Minimalist graphic illustration, high contrast, bold black shapes, rough linocut texture, flat colors. A large stylized elephant head dominates the upper frame, its features outlined in an accent color, with a tiny secondary figure interacting with its body or surroundings below. Ample negative space provides a stark, striking composition. Flat, even lighting, no discernible shadows, creating a graphic, clean look. Majestic atmosphere, with a dusty grays palette featuring a single vibrant accent. In an African savanna. --ar 9:16",
+        "Minimalist graphic illustration, high contrast, bold black shapes, rough linocut texture, flat colors. A large stylized crow head dominates the upper frame, its features outlined in an accent color, with a tiny secondary figure interacting with its body or surroundings below. Ample negative space provides a stark, striking composition. Flat, even lighting, no discernible shadows, creating a graphic, clean look. Ominous atmosphere, with a dark emerald palette featuring a single vibrant accent. In a misty graveyard. --ar 9:16",
+        "Minimalist graphic illustration, high contrast, bold black shapes, rough linocut texture, flat colors. A large stylized bear head dominates the upper frame, its features outlined in an accent color, with a tiny secondary figure interacting with its body or surroundings below. Ample negative space provides a stark, striking composition. Flat, even lighting, no discernible shadows, creating a graphic, clean look. Protective atmosphere, with an earthy browns palette featuring a single vibrant accent. In a dense forest. --ar 9:16",
+        "Minimalist graphic illustration, high contrast, bold black shapes, rough linocut texture, flat colors. A large stylized jellyfish dominates the upper frame, its features outlined in an accent color, with a tiny secondary figure interacting with its body or surroundings below. Ample negative space provides a stark, striking composition. Flat, even lighting, no discernible shadows, creating a graphic, clean look. Dreamy atmosphere, with a pastel pinks palette featuring a single vibrant accent. In a bioluminescent cave. --ar 9:16"
+    ],
+    "tips": [
+        "Experiment with the [COLOR_SCHEME] to introduce various accent colors (e.g., 'single deep red accent', 'bright yellow accent', 'subtle teal accent').",
+        "For the [SUBJECT], consider creatures or objects with strong, recognizable silhouettes to maximize the impact of the high-contrast style.",
+        "The 'tiny secondary figure' is a hardcoded compositional element; ensure your [SUBJECT] choice naturally allows for this interaction without becoming too busy."
+    ],
+    "description": "Unlock a world of impactful visual storytelling with this template. Designed for striking simplicity, it captures a unique high-contrast, linocut-inspired style perfect for dramatic and memorable illustrations. Focus on your subject, set the mood, and let the minimalist aesthetics convey powerful narratives.",
+    "instructions": "Use this template to generate similar images.",
+    "input_source": "image_upload",
+    "self_evaluation": {
+        "style_fidelity": 9,
+        "variable_quality": 9,
+        "completeness": 9,
+        "overall_score": 9,
+        "improvements_needed": null
+    },
+    "quick_copy_examples": [
+        {
+            "SUBJECT": "owl",
+            "MOOD": "Wise",
+            "SETTING": "n ancient tree hollow"
+        },
+        {
+            "SUBJECT": "whale",
+            "MOOD": "Serene"
+        },
+        {
+            "SUBJECT": "dragon",
+            "MOOD": "Mythical",
+            "SETTING": "volcanic mountain peak"
+        },
+        {
+            "SUBJECT": "fox",
+            "MOOD": "Playful",
+            "SETTING": "snowy field"
+        },
+        {
+            "SUBJECT": "robot",
+            "MOOD": "Futuristic",
+            "SETTING": "cyberpunk cityscape"
+        },
+        {
+            "SUBJECT": "elephant",
+            "MOOD": "Majestic",
+            "SETTING": "n African savanna"
+        },
+        {
+            "SUBJECT": "crow",
+            "MOOD": "Ominous",
+            "SETTING": "misty graveyard"
+        },
+        {
+            "SUBJECT": "bear",
+            "MOOD": "Protective",
+            "SETTING": "dense forest"
+        },
+        {
+            "MOOD": "Dreamy",
+            "SETTING": "bioluminescent cave"
+        }
+    ],
+    "promptbase_ready": {
+        "title": "Stark Silhouette Narratives",
+        "description": "Unlock a world of impactful visual storytelling with this template. Designed for striking simplicity, it captures a unique high-contrast, linocut-inspired style perfect for dramatic and memorable illustrations. Focus on your subject, set the mood, and let the minimalist aesthetics convey powerful narratives.",
+        "template": "Minimalist graphic illustration, high contrast, bold black shapes, rough linocut texture, flat colors. A large stylized [SUBJECT] head dominates the upper frame, its features outlined in an accent color, with a tiny secondary figure interacting with its body or surroundings below. Ample negative space provides a stark, striking composition. Flat, even lighting, no discernible shadows, creating a graphic, clean look. [MOOD] atmosphere, with a [COLOR_SCHEME] palette featuring a single vibrant accent. In a [SETTING]. --ar 9:16",
+        "example_prompts": [
+            "Minimalist graphic illustration, high contrast, bold black shapes, rough linocut texture, flat colors. A large stylized owl head dominates the upper frame, its features outlined in an accent color, with a tiny secondary figure interacting with its body or surroundings below. Ample negative space provides a stark, striking composition. Flat, even lighting, no discernible shadows, creating a graphic, clean look. Wise atmosphere, with a cool blues palette featuring a single vibrant accent. In an ancient tree hollow. --ar 9:16",
+            "Minimalist graphic illustration, high contrast, bold black shapes, rough linocut texture, flat colors. A large stylized whale head dominates the upper frame, its features outlined in an accent color, with a tiny secondary figure interacting with its body or surroundings below. Ample negative space provides a stark, striking composition. Flat, even lighting, no discernible shadows, creating a graphic, clean look. Serene atmosphere, with a deep blues palette featuring a single vibrant accent. In the ocean depths. --ar 9:16",
+            "Minimalist graphic illustration, high contrast, bold black shapes, rough linocut texture, flat colors. A large stylized dragon head dominates the upper frame, its features outlined in an accent color, with a tiny secondary figure interacting with its body or surroundings below. Ample negative space provides a stark, striking composition. Flat, even lighting, no discernible shadows, creating a graphic, clean look. Mythical atmosphere, with a fiery reds palette featuring a single vibrant accent. In a volcanic mountain peak. --ar 9:16",
+            "Minimalist graphic illustration, high contrast, bold black shapes, rough linocut texture, flat colors. A large stylized fox head dominates the upper frame, its features outlined in an accent color, with a tiny secondary figure interacting with its body or surroundings below. Ample negative space provides a stark, striking composition. Flat, even lighting, no discernible shadows, creating a graphic, clean look. Playful atmosphere, with an autumnal oranges palette featuring a single vibrant accent. In a snowy field. --ar 9:16",
+            "Minimalist graphic illustration, high contrast, bold black shapes, rough linocut texture, flat colors. A large stylized robot head dominates the upper frame, its features outlined in an accent color, with a tiny secondary figure interacting with its body or surroundings below. Ample negative space provides a stark, striking composition. Flat, even lighting, no discernible shadows, creating a graphic, clean look. Futuristic atmosphere, with an electric purples palette featuring a single vibrant accent. In a cyberpunk cityscape. --ar 9:16",
+            "Minimalist graphic illustration, high contrast, bold black shapes, rough linocut texture, flat colors. A large stylized elephant head dominates the upper frame, its features outlined in an accent color, with a tiny secondary figure interacting with its body or surroundings below. Ample negative space provides a stark, striking composition. Flat, even lighting, no discernible shadows, creating a graphic, clean look. Majestic atmosphere, with a dusty grays palette featuring a single vibrant accent. In an African savanna. --ar 9:16",
+            "Minimalist graphic illustration, high contrast, bold black shapes, rough linocut texture, flat colors. A large stylized crow head dominates the upper frame, its features outlined in an accent color, with a tiny secondary figure interacting with its body or surroundings below. Ample negative space provides a stark, striking composition. Flat, even lighting, no discernible shadows, creating a graphic, clean look. Ominous atmosphere, with a dark emerald palette featuring a single vibrant accent. In a misty graveyard. --ar 9:16",
+            "Minimalist graphic illustration, high contrast, bold black shapes, rough linocut texture, flat colors. A large stylized bear head dominates the upper frame, its features outlined in an accent color, with a tiny secondary figure interacting with its body or surroundings below. Ample negative space provides a stark, striking composition. Flat, even lighting, no discernible shadows, creating a graphic, clean look. Protective atmosphere, with an earthy browns palette featuring a single vibrant accent. In a dense forest. --ar 9:16",
+            "Minimalist graphic illustration, high contrast, bold black shapes, rough linocut texture, flat colors. A large stylized jellyfish dominates the upper frame, its features outlined in an accent color, with a tiny secondary figure interacting with its body or surroundings below. Ample negative space provides a stark, striking composition. Flat, even lighting, no discernible shadows, creating a graphic, clean look. Dreamy atmosphere, with a pastel pinks palette featuring a single vibrant accent. In a bioluminescent cave. --ar 9:16"
+        ]
+    }
+}

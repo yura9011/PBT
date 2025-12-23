@@ -1,2 +1,2 @@
 database_name: "prompt_library.db"
-default_model: "gemini-2.5-flash-lite"
+default_model: "gemini-2.5-flash"

@@ -1,0 +1,82 @@
+{
+    "topic": "Monochromatic Woodland Serenity",
+    "content_type": "Image",
+    "platform": "Midjourney/DALL-E",
+    "style": "Linocut, Woodblock Print, Graphic Novel Art, High Contrast",
+    "use_case": "Book cover illustration for folk horror or mystery novels",
+    "template": "[SUBJECT] in a stark, treeless winter forest, a rustic [BUILDING_TYPE] nestled among the desolate trees, with a foreground of abstract, swirling [GROUND_TEXTURE] patterns and a small reflective [WATER_BODY]. The overall atmosphere is [MOOD], with limited, desaturated [COLOR_PALETTE] colors, rendered in a high-contrast linocut style with strong, graphic lines and textures. --ar 4:5",
+    "variables": [
+        "MOOD",
+        "SUBJECT",
+        "BUILDING_TYPE",
+        "WATER_BODY",
+        "COLOR_PALETTE",
+        "GROUND_TEXTURE"
+    ],
+    "variable_explanations": {
+        "[SUBJECT]": "The main focus of the image, typically a figure or a central object.",
+        "[BUILDING_TYPE]": "Specifies the kind of structure, e.g., cabin, shack, ruin, lighthouse.",
+        "[GROUND_TEXTURE]": "Describes the unique pattern or texture of the ground, e.g., swirling water, cracked earth, mossy rocks.",
+        "[WATER_BODY]": "The type of water feature present, e.g., pond, stream, puddle, well.",
+        "[MOOD]": "The emotional tone of the artwork, e.g., eerie, peaceful, lonely, mysterious.",
+        "[COLOR_PALETTE]": "Defines the dominant colors or lack thereof, e.g., desaturated blues and grays, earthy tones, stark black and white."
+    },
+    "examples": [
+        "A solitary [SUBJECT] hiker in a stark, treeless winter forest, a rustic [BUILDING_TYPE] cabin nestled among the desolate trees, with a foreground of abstract, swirling [GROUND_TEXTURE] patterns and a small reflective [WATER_BODY] pond. The overall atmosphere is [MOOD] eerie, with limited, desaturated [COLOR_PALETTE] blues and grays, rendered in a high-contrast linocut style with strong, graphic lines and textures. --ar 4:5",
+        "A lost [SUBJECT] child in a stark, treeless winter forest, a rustic [BUILDING_TYPE] shack nestled among the desolate trees, with a foreground of abstract, swirling [GROUND_TEXTURE] cracked earth patterns and a small reflective [WATER_BODY] puddle. The overall atmosphere is [MOOD] lonely, with limited, desaturated [COLOR_PALETTE] earthy tones, rendered in a high-contrast linocut style with strong, graphic lines and textures. --ar 4:5",
+        "An ancient [SUBJECT] artifact in a stark, treeless winter forest, a rustic [BUILDING_TYPE] ruin nestled among the desolate trees, with a foreground of abstract, swirling [GROUND_TEXTURE] mossy rocks patterns and a small reflective [WATER_BODY] stream. The overall atmosphere is [MOOD] mysterious, with limited, desaturated [COLOR_PALETTE] muted browns, rendered in a high-contrast linocut style with strong, graphic lines and textures. --ar 4:5",
+        "A lone [SUBJECT] wolf in a stark, treeless winter forest, a rustic [BUILDING_TYPE] wooden structure nestled among the desolate trees, with a foreground of abstract, swirling [GROUND_TEXTURE] icy patterns and a small reflective [WATER_BODY] frozen pool. The overall atmosphere is [MOOD] desolate, with limited, desaturated [COLOR_PALETTE] whites and blacks, rendered in a high-contrast linocut style with strong, graphic lines and textures. --ar 4:5"
+    ],
+    "tips": [
+        "Experiment with different [BUILDING_TYPE] and [SUBJECT] to create varied narratives.",
+        "Pay close attention to the descriptions of [GROUND_TEXTURE] and [WATER_BODY] to maintain the abstract, patterned quality.",
+        "The [COLOR_PALETTE] should generally lean towards muted or monochromatic tones to preserve the style."
+    ],
+    "description": "Evokes a sense of stark, graphic beauty with a linocut aesthetic. Perfect for creating atmospheric and intriguing visuals that hint at deeper stories.",
+    "instructions": "Use this template to generate similar images.",
+    "input_source": "image_upload",
+    "self_evaluation": {
+        "style_fidelity": 9,
+        "variable_quality": 9,
+        "completeness": 9,
+        "overall_score": 9,
+        "improvements_needed": null
+    },
+    "quick_copy_examples": [
+        {
+            "SUBJECT": "A solitary [SUBJECT] hiker",
+            "BUILDING_TYPE": "[BUILDING_TYPE] cabin",
+            "WATER_BODY": "[WATER_BODY] pond",
+            "GROUND_TEXTURE": "[GROUND_TEXTURE]"
+        },
+        {
+            "SUBJECT": "A lost [SUBJECT] child",
+            "BUILDING_TYPE": "[BUILDING_TYPE] shack",
+            "WATER_BODY": "[WATER_BODY] puddle",
+            "GROUND_TEXTURE": "[GROUND_TEXTURE] cracked earth"
+        },
+        {
+            "SUBJECT": "An ancient [SUBJECT] artifact",
+            "BUILDING_TYPE": "[BUILDING_TYPE] ruin",
+            "WATER_BODY": "[WATER_BODY] stream",
+            "GROUND_TEXTURE": "[GROUND_TEXTURE] mossy rocks"
+        },
+        {
+            "SUBJECT": "A lone [SUBJECT] wolf",
+            "BUILDING_TYPE": "[BUILDING_TYPE] wooden structure",
+            "WATER_BODY": "[WATER_BODY] frozen pool",
+            "GROUND_TEXTURE": "[GROUND_TEXTURE] icy"
+        }
+    ],
+    "promptbase_ready": {
+        "title": "Monochromatic Woodland Serenity",
+        "description": "Evokes a sense of stark, graphic beauty with a linocut aesthetic. Perfect for creating atmospheric and intriguing visuals that hint at deeper stories.",
+        "template": "[SUBJECT] in a stark, treeless winter forest, a rustic [BUILDING_TYPE] nestled among the desolate trees, with a foreground of abstract, swirling [GROUND_TEXTURE] patterns and a small reflective [WATER_BODY]. The overall atmosphere is [MOOD], with limited, desaturated [COLOR_PALETTE] colors, rendered in a high-contrast linocut style with strong, graphic lines and textures. --ar 4:5",
+        "example_prompts": [
+            "A solitary [SUBJECT] hiker in a stark, treeless winter forest, a rustic [BUILDING_TYPE] cabin nestled among the desolate trees, with a foreground of abstract, swirling [GROUND_TEXTURE] patterns and a small reflective [WATER_BODY] pond. The overall atmosphere is [MOOD] eerie, with limited, desaturated [COLOR_PALETTE] blues and grays, rendered in a high-contrast linocut style with strong, graphic lines and textures. --ar 4:5",
+            "A lost [SUBJECT] child in a stark, treeless winter forest, a rustic [BUILDING_TYPE] shack nestled among the desolate trees, with a foreground of abstract, swirling [GROUND_TEXTURE] cracked earth patterns and a small reflective [WATER_BODY] puddle. The overall atmosphere is [MOOD] lonely, with limited, desaturated [COLOR_PALETTE] earthy tones, rendered in a high-contrast linocut style with strong, graphic lines and textures. --ar 4:5",
+            "An ancient [SUBJECT] artifact in a stark, treeless winter forest, a rustic [BUILDING_TYPE] ruin nestled among the desolate trees, with a foreground of abstract, swirling [GROUND_TEXTURE] mossy rocks patterns and a small reflective [WATER_BODY] stream. The overall atmosphere is [MOOD] mysterious, with limited, desaturated [COLOR_PALETTE] muted browns, rendered in a high-contrast linocut style with strong, graphic lines and textures. --ar 4:5",
+            "A lone [SUBJECT] wolf in a stark, treeless winter forest, a rustic [BUILDING_TYPE] wooden structure nestled among the desolate trees, with a foreground of abstract, swirling [GROUND_TEXTURE] icy patterns and a small reflective [WATER_BODY] frozen pool. The overall atmosphere is [MOOD] desolate, with limited, desaturated [COLOR_PALETTE] whites and blacks, rendered in a high-contrast linocut style with strong, graphic lines and textures. --ar 4:5"
+        ]
+    }
+}

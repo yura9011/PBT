@@ -311,7 +311,8 @@ def enhance(path, overwrite, smart):
 @cli.command()
 @click.argument("json_path", type=click.Path(exists=True))
 @click.option("--count", default=1, help="Number of previews to generate")
-def preview(json_path, count):
+@click.option("--model", default="flux", type=click.Choice(["flux", "sdxl"]), help="Model to use for preview (flux or sdxl)")
+def preview(json_path, count, model):
     """
     Generate preview images for a prompt package using HuggingFace.
     """
@@ -349,7 +350,10 @@ def preview(json_path, count):
             output_path = parent_dir / f"{base_name}_preview_{i+1}.png"
             click.echo(f"  • Generating preview {i+1}...")
             
-            result = generate_preview_image(str(prompt), str(output_path))
+            # Map choice to full model ID
+            model_id = "black-forest-labs/FLUX.1-schnell" if model == "flux" else "stabilityai/stable-diffusion-xl-base-1.0"
+            
+            result = generate_preview_image(str(prompt), str(output_path), model=model_id)
             
             if result.get("success"):
                 click.echo(f"    ✅ Saved to: {output_path}")

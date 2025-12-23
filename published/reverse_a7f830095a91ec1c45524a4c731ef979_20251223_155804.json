@@ -1,0 +1,91 @@
+{
+    "topic": "Celestial Silhouette Mysticism",
+    "content_type": "Image",
+    "platform": "Midjourney/DALL-E",
+    "style": "Symbolist Painting, Gouache Art, Intricate Gold Leaf, Stylized Mysticism",
+    "use_case": "Fantasy book covers, spiritual artwork, album art, unique decorative prints, tarot card illustrations.",
+    "template": "Symbolist gouache painting, intricate gold leaf patterns, stylized art. A [SUBJECT] stands in a [SETTING], silhouetted against an ethereal glowing central celestial orb, which radiates light with geometric patterns. The composition features strong foreground details and deep roots. The overall aesthetic is ancient and mystical, evoking a [MOOD] feeling, rendered in a [COLOR_SCHEME]. --ar 9:16",
+    "variables": [
+        "MOOD",
+        "SETTING",
+        "COLOR_SCHEME",
+        "SUBJECT"
+    ],
+    "variable_explanations": {
+        "[SUBJECT]": "The main focal point or entity in the foreground, creating a striking silhouette (e.g., 'a lone traveler', 'a wise owl', 'a mythical beast', 'an ancient tree').",
+        "[MOOD]": "The emotional atmosphere or feeling the image should convey (e.g., 'serene', 'melancholy', 'hopeful', 'eerie', 'majestic').",
+        "[COLOR_SCHEME]": "The dominant color palette for the overall illustration (e.g., 'deep blues and coppers', 'emerald greens and silver', 'warm earth tones', 'muted purples and gold').",
+        "[SETTING]": "The environment or location where the subject is positioned (e.g., 'a sacred grove', 'an alien desert', 'a hidden temple entrance', 'a mythical swamp')."
+    },
+    "examples": [
+        "Symbolist gouache painting, intricate gold leaf patterns, stylized art. A lone traveler stands in a sacred grove, silhouetted against an ethereal glowing central celestial orb, which radiates light with geometric patterns. The composition features strong foreground details and deep roots. The overall aesthetic is ancient and mystical, evoking a serene feeling, rendered in deep blues and coppers. --ar 9:16",
+        "Symbolist gouache painting, intricate gold leaf patterns, stylized art. A mythical griffin perches on a hidden temple entrance, silhouetted against an ethereal glowing central celestial orb, which radiates light with geometric patterns. The composition features strong foreground details and deep roots. The overall aesthetic is ancient and mystical, evoking a majestic feeling, rendered in emerald greens and silver. --ar 9:16",
+        "Symbolist gouache painting, intricate gold leaf patterns, stylized art. An ancient guardian watches over a cosmic garden, silhouetted against an ethereal glowing central celestial orb, which radiates light with geometric patterns. The composition features strong foreground details and deep roots. The overall aesthetic is ancient and mystical, evoking a watchful feeling, rendered in deep purples and cosmic dust tones. --ar 9:16",
+        "Symbolist gouache painting, intricate gold leaf patterns, stylized art. A meditating figure sits in a tranquil forest clearing, silhouetted against an ethereal glowing central celestial orb, which radiates light with geometric patterns. The composition features strong foreground details and deep roots. The overall aesthetic is ancient and mystical, evoking a peaceful feeling, rendered in soft greens and pale yellows. --ar 9:16",
+        "Symbolist gouache painting, intricate gold leaf patterns, stylized art. A stylized phoenix rises from an enchanted ash pile, silhouetted against an ethereal glowing central celestial orb, which radiates light with geometric patterns. The composition features strong foreground details and deep roots. The overall aesthetic is ancient and mystical, evoking a rebirth feeling, rendered in fiery oranges and deep reds. --ar 9:16",
+        "Symbolist gouache painting, intricate gold leaf patterns, stylized art. A majestic stag stands at the edge of a moonlit lake, silhouetted against an ethereal glowing central celestial orb, which radiates light with geometric patterns. The composition features strong foreground details and deep roots. The overall aesthetic is ancient and mystical, evoking a spiritual feeling, rendered in silver grays and deep blues. --ar 9:16",
+        "Symbolist gouache painting, intricate gold leaf patterns, stylized art. A cluster of ancient ruins rises from a misty valley, silhouetted against an ethereal glowing central celestial orb, which radiates light with geometric patterns. The composition features strong foreground details and deep roots. The overall aesthetic is ancient and mystical, evoking an eerie feeling, rendered in desaturated greens and murky browns. --ar 9:16",
+        "Symbolist gouache painting, intricate gold leaf patterns, stylized art. A fantastical tree with blooming bioluminescent flowers grows in an alien landscape, silhouetted against an ethereal glowing central celestial orb, which radiates light with geometric patterns. The composition features strong foreground details and deep roots. The overall aesthetic is ancient and mystical, evoking a wondrous feeling, rendered in electric blues and neon pinks. --ar 9:16",
+        "Symbolist gouache painting, intricate gold leaf patterns, stylized art. A ghostly galleon sails through a cosmic sea, silhouetted against an ethereal glowing central celestial orb, which radiates light with geometric patterns. The composition features strong foreground details and deep roots. The overall aesthetic is ancient and mystical, evoking a melancholic feeling, rendered in deep indigo and shimmering silver. --ar 9:16"
+    ],
+    "tips": [
+        "Experiment with strong, simple subjects for the [SUBJECT] variable to maximize the silhouette effect.",
+        "For the [COLOR_SCHEME], focus on 2-3 dominant colors, ensuring one provides contrast for the glow (e.g., 'deep blues and warm yellows' for high contrast).",
+        "While the style is hardcoded, subtle additions to [SETTING] or [SUBJECT] can slightly influence texture or detail (e.g., 'a gnarled oak tree with bark patterns')."
+    ],
+    "description": "Unveil ethereal worlds with this prompt template, perfect for generating stunning symbolist art. Immerse your chosen subject in a mystical setting, bathed in the glow of a celestial orb, all rendered with the intricate detail of gouache and gold leaf. Ideal for evoking ancient wisdom and spiritual journeys.",
+    "instructions": "Use this template to generate similar images.",
+    "input_source": "image_upload",
+    "self_evaluation": {
+        "style_fidelity": 9,
+        "variable_quality": 9,
+        "completeness": 9,
+        "overall_score": 9,
+        "improvements_needed": null
+    },
+    "quick_copy_examples": [
+        {
+            "MOOD": "serene"
+        },
+        {
+            "MOOD": "majestic"
+        },
+        {
+            "MOOD": "watchful"
+        },
+        {
+            "MOOD": "peaceful"
+        },
+        {
+            "MOOD": "rebirth"
+        },
+        {
+            "MOOD": "spiritual"
+        },
+        {
+            "MOOD": "n eerie"
+        },
+        {
+            "MOOD": "wondrous"
+        },
+        {
+            "MOOD": "melancholic"
+        }
+    ],
+    "promptbase_ready": {
+        "title": "Celestial Silhouette Mysticism",
+        "description": "Unveil ethereal worlds with this prompt template, perfect for generating stunning symbolist art. Immerse your chosen subject in a mystical setting, bathed in the glow of a celestial orb, all rendered with the intricate detail of gouache and gold leaf. Ideal for evoking ancient wisdom and spiritual journeys.",
+        "template": "Symbolist gouache painting, intricate gold leaf patterns, stylized art. A [SUBJECT] stands in a [SETTING], silhouetted against an ethereal glowing central celestial orb, which radiates light with geometric patterns. The composition features strong foreground details and deep roots. The overall aesthetic is ancient and mystical, evoking a [MOOD] feeling, rendered in a [COLOR_SCHEME]. --ar 9:16",
+        "example_prompts": [
+            "Symbolist gouache painting, intricate gold leaf patterns, stylized art. A lone traveler stands in a sacred grove, silhouetted against an ethereal glowing central celestial orb, which radiates light with geometric patterns. The composition features strong foreground details and deep roots. The overall aesthetic is ancient and mystical, evoking a serene feeling, rendered in deep blues and coppers. --ar 9:16",
+            "Symbolist gouache painting, intricate gold leaf patterns, stylized art. A mythical griffin perches on a hidden temple entrance, silhouetted against an ethereal glowing central celestial orb, which radiates light with geometric patterns. The composition features strong foreground details and deep roots. The overall aesthetic is ancient and mystical, evoking a majestic feeling, rendered in emerald greens and silver. --ar 9:16",
+            "Symbolist gouache painting, intricate gold leaf patterns, stylized art. An ancient guardian watches over a cosmic garden, silhouetted against an ethereal glowing central celestial orb, which radiates light with geometric patterns. The composition features strong foreground details and deep roots. The overall aesthetic is ancient and mystical, evoking a watchful feeling, rendered in deep purples and cosmic dust tones. --ar 9:16",
+            "Symbolist gouache painting, intricate gold leaf patterns, stylized art. A meditating figure sits in a tranquil forest clearing, silhouetted against an ethereal glowing central celestial orb, which radiates light with geometric patterns. The composition features strong foreground details and deep roots. The overall aesthetic is ancient and mystical, evoking a peaceful feeling, rendered in soft greens and pale yellows. --ar 9:16",
+            "Symbolist gouache painting, intricate gold leaf patterns, stylized art. A stylized phoenix rises from an enchanted ash pile, silhouetted against an ethereal glowing central celestial orb, which radiates light with geometric patterns. The composition features strong foreground details and deep roots. The overall aesthetic is ancient and mystical, evoking a rebirth feeling, rendered in fiery oranges and deep reds. --ar 9:16",
+            "Symbolist gouache painting, intricate gold leaf patterns, stylized art. A majestic stag stands at the edge of a moonlit lake, silhouetted against an ethereal glowing central celestial orb, which radiates light with geometric patterns. The composition features strong foreground details and deep roots. The overall aesthetic is ancient and mystical, evoking a spiritual feeling, rendered in silver grays and deep blues. --ar 9:16",
+            "Symbolist gouache painting, intricate gold leaf patterns, stylized art. A cluster of ancient ruins rises from a misty valley, silhouetted against an ethereal glowing central celestial orb, which radiates light with geometric patterns. The composition features strong foreground details and deep roots. The overall aesthetic is ancient and mystical, evoking an eerie feeling, rendered in desaturated greens and murky browns. --ar 9:16",
+            "Symbolist gouache painting, intricate gold leaf patterns, stylized art. A fantastical tree with blooming bioluminescent flowers grows in an alien landscape, silhouetted against an ethereal glowing central celestial orb, which radiates light with geometric patterns. The composition features strong foreground details and deep roots. The overall aesthetic is ancient and mystical, evoking a wondrous feeling, rendered in electric blues and neon pinks. --ar 9:16",
+            "Symbolist gouache painting, intricate gold leaf patterns, stylized art. A ghostly galleon sails through a cosmic sea, silhouetted against an ethereal glowing central celestial orb, which radiates light with geometric patterns. The composition features strong foreground details and deep roots. The overall aesthetic is ancient and mystical, evoking a melancholic feeling, rendered in deep indigo and shimmering silver. --ar 9:16"
+        ]
+    }
+}

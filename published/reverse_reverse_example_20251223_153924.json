@@ -1,0 +1,66 @@
+{
+    "topic": "Monstrous Encounter",
+    "content_type": "Image",
+    "platform": "Midjourney/DALL-E",
+    "style": "Bold illustration, Minimalist, Textural, Graphic",
+    "use_case": "Book cover illustration for fantasy or children's literature",
+    "template": "[SUBJECT] in the jaws of a stylized black creature, with a curious orange element, against a stark white background, conveying a [MOOD] atmosphere, using a limited [COLOR_SCHEME], with the action taking place in a fantastical [SETTING]. --ar 9:16",
+    "variables": [
+        "SUBJECT",
+        "MOOD",
+        "SETTING",
+        "COLOR_SCHEME"
+    ],
+    "variable_explanations": {
+        "[SUBJECT]": "The primary focus character or object of the image.",
+        "[MOOD]": "The emotional tone or atmosphere of the scene (e.g., whimsical, alarming, surreal).",
+        "[COLOR_SCHEME]": "The dominant color palette, allowing for variations (e.g., stark black and white with orange accent, muted earth tones, vibrant primaries).",
+        "[SETTING]": "The environment or conceptual space where the subject and creature are depicted."
+    },
+    "examples": [
+        "A brave knight facing a colossal obsidian dragon, with a single glowing gem, against a stark white background, conveying an alarming atmosphere, using a stark black and white with orange accent color scheme, with the action taking place in a desolate mountain pass. --ar 9:16",
+        "A curious child reaching for a curious cosmic entity, with a swirling nebula, against a stark white background, conveying a whimsical atmosphere, using a vibrant primary color scheme, with the action taking place in an ethereal celestial void. --ar 9:16",
+        "A lone explorer holding a strange artifact, in the grasp of a shadowy abyss, with a faint green light, against a stark white background, conveying a mysterious atmosphere, using a muted earth tones color scheme, with the action taking place in a forgotten underground temple. --ar 9:16",
+        "A whimsical robot offering a flower, to a giant metallic beast, with a buzzing electrical current, against a stark white background, conveying a surreal atmosphere, using a metallic silver and electric blue color scheme, with the action taking place in a futuristic scrapyard. --ar 9:16"
+    ],
+    "tips": [
+        "Experiment with contrasting moods to create dramatic tension.",
+        "Consider how the 'orange element' can be a subtle hint or a strong focal point.",
+        "The 'setting' can be abstract or detailed, but should complement the minimalist style."
+    ],
+    "description": "Capture the raw, graphic energy of an encounter with the extraordinary. This style features bold, textured illustrations with a limited color palette, perfect for creating visually striking covers and impactful graphic art. Adapt the subject, mood, color, and setting to tell your unique story.",
+    "instructions": "Use this template to generate similar images.",
+    "input_source": "image_upload",
+    "self_evaluation": {
+        "style_fidelity": 9,
+        "variable_quality": 10,
+        "completeness": 9,
+        "overall_score": 9.33,
+        "improvements_needed": null
+    },
+    "quick_copy_examples": [
+        {
+            "MOOD": "n alarming"
+        },
+        {
+            "MOOD": "whimsical"
+        },
+        {
+            "MOOD": "mysterious"
+        },
+        {
+            "MOOD": "surreal"
+        }
+    ],
+    "promptbase_ready": {
+        "title": "Monstrous Encounter",
+        "description": "Capture the raw, graphic energy of an encounter with the extraordinary. This style features bold, textured illustrations with a limited color palette, perfect for creating visually striking covers and impactful graphic art. Adapt the subject, mood, color, and setting to tell your unique story.",
+        "template": "[SUBJECT] in the jaws of a stylized black creature, with a curious orange element, against a stark white background, conveying a [MOOD] atmosphere, using a limited [COLOR_SCHEME], with the action taking place in a fantastical [SETTING]. --ar 9:16",
+        "example_prompts": [
+            "A brave knight facing a colossal obsidian dragon, with a single glowing gem, against a stark white background, conveying an alarming atmosphere, using a stark black and white with orange accent color scheme, with the action taking place in a desolate mountain pass. --ar 9:16",
+            "A curious child reaching for a curious cosmic entity, with a swirling nebula, against a stark white background, conveying a whimsical atmosphere, using a vibrant primary color scheme, with the action taking place in an ethereal celestial void. --ar 9:16",
+            "A lone explorer holding a strange artifact, in the grasp of a shadowy abyss, with a faint green light, against a stark white background, conveying a mysterious atmosphere, using a muted earth tones color scheme, with the action taking place in a forgotten underground temple. --ar 9:16",
+            "A whimsical robot offering a flower, to a giant metallic beast, with a buzzing electrical current, against a stark white background, conveying a surreal atmosphere, using a metallic silver and electric blue color scheme, with the action taking place in a futuristic scrapyard. --ar 9:16"
+        ]
+    }
+}

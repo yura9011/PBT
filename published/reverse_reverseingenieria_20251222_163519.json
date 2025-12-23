@@ -1,0 +1,66 @@
+{
+    "topic": "Stylized Woodland Narrative",
+    "content_type": "Image",
+    "platform": "Midjourney/DALL-E",
+    "style": "Woodcut, Linocut, Stylized Illustration, Limited Palette",
+    "use_case": "Book Cover Illustration",
+    "template": "A [SUBJECT] in a desolate, wintry forest, rendered in a bold, graphic woodcut style. The scene features a stark color palette of deep indigos, creamy whites, and pale sky blues, with a strong emphasis on linework and shadow. The overall mood is [MOOD]. --ar 4:5",
+    "variables": [
+        "MOOD",
+        "SUBJECT"
+    ],
+    "variable_explanations": {
+        "[SUBJECT]": "The main element or character to be depicted within the scene. (e.g., 'a lone cabin', 'a mysterious figure', 'a gnarled tree')",
+        "[MOOD]": "The emotional atmosphere of the image. (e.g., 'foreboding', 'serene', 'mysterious', 'haunting')"
+    },
+    "examples": [
+        "A lone cabin in a desolate, wintry forest, rendered in a bold, graphic woodcut style. The scene features a stark color palette of deep indigos, creamy whites, and pale sky blues, with a strong emphasis on linework and shadow. The overall mood is haunting. --ar 4:5",
+        "A mysterious figure in a desolate, wintry forest, rendered in a bold, graphic woodcut style. The scene features a stark color palette of deep indigos, creamy whites, and pale sky blues, with a strong emphasis on linework and shadow. The overall mood is foreboding. --ar 4:5",
+        "A gnarled, ancient tree in a desolate, wintry forest, rendered in a bold, graphic woodcut style. The scene features a stark color palette of deep indigos, creamy whites, and pale sky blues, with a strong emphasis on linework and shadow. The overall mood is serene. --ar 4:5",
+        "A hidden sanctuary in a desolate, wintry forest, rendered in a bold, graphic woodcut style. The scene features a stark color palette of deep indigos, creamy whites, and pale sky blues, with a strong emphasis on linework and shadow. The overall mood is mysterious. --ar 4:5"
+    ],
+    "tips": [
+        "Experiment with different subjects to see how they interact with the stark linework.",
+        "Consider adding very subtle variations to the background elements to add depth without losing the graphic style.",
+        "The limited palette is key; focus on subjects and moods that work well with indigo, cream, and pale blue."
+    ],
+    "description": "Capture the essence of a storybook illustration with this stylized woodcut effect. Perfect for creating atmospheric book covers, editorial illustrations, or visual narratives with a limited color palette and striking linework.",
+    "instructions": "Use this template to generate similar images.",
+    "input_source": "image_upload",
+    "self_evaluation": {
+        "style_fidelity": 9,
+        "variable_quality": 8,
+        "completeness": 9,
+        "overall_score": 8.67,
+        "improvements_needed": null
+    },
+    "quick_copy_examples": [
+        {
+            "MOOD": "haunting",
+            "SUBJECT": "lone cabin"
+        },
+        {
+            "MOOD": "foreboding",
+            "SUBJECT": "mysterious figure"
+        },
+        {
+            "MOOD": "serene",
+            "SUBJECT": "gnarled, ancient tree"
+        },
+        {
+            "MOOD": "mysterious",
+            "SUBJECT": "hidden sanctuary"
+        }
+    ],
+    "promptbase_ready": {
+        "title": "Stylized Woodland Narrative",
+        "description": "Capture the essence of a storybook illustration with this stylized woodcut effect. Perfect for creating atmospheric book covers, editorial illustrations, or visual narratives with a limited color palette and striking linework.",
+        "template": "A [SUBJECT] in a desolate, wintry forest, rendered in a bold, graphic woodcut style. The scene features a stark color palette of deep indigos, creamy whites, and pale sky blues, with a strong emphasis on linework and shadow. The overall mood is [MOOD]. --ar 4:5",
+        "example_prompts": [
+            "A lone cabin in a desolate, wintry forest, rendered in a bold, graphic woodcut style. The scene features a stark color palette of deep indigos, creamy whites, and pale sky blues, with a strong emphasis on linework and shadow. The overall mood is haunting. --ar 4:5",
+            "A mysterious figure in a desolate, wintry forest, rendered in a bold, graphic woodcut style. The scene features a stark color palette of deep indigos, creamy whites, and pale sky blues, with a strong emphasis on linework and shadow. The overall mood is foreboding. --ar 4:5",
+            "A gnarled, ancient tree in a desolate, wintry forest, rendered in a bold, graphic woodcut style. The scene features a stark color palette of deep indigos, creamy whites, and pale sky blues, with a strong emphasis on linework and shadow. The overall mood is serene. --ar 4:5",
+            "A hidden sanctuary in a desolate, wintry forest, rendered in a bold, graphic woodcut style. The scene features a stark color palette of deep indigos, creamy whites, and pale sky blues, with a strong emphasis on linework and shadow. The overall mood is mysterious. --ar 4:5"
+        ]
+    }
+}
